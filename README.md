@@ -67,7 +67,7 @@ Si vous pouvez retarder la mise à jour du patch en plein milieu d'un partie modd
 
 #### &#9888;&#65039; Avertissement : procédure d'installation
 
-###### Les variables nécessaires à l'installation sont lues dans le fichier <em><a ref="https://raw.githubusercontent.com/Auteur/mymod/master/mymod/mymod-config-default.ini">mymod-config-default.ini</a></em>, ou dans le fichier <em><a ref="https://raw.githubusercontent.com/Auteur/mymod/master/mymod/mymod-config.ini">mymod-config.ini</a></em>, si ce dernier existe.
+###### Les variables nécessaires à l'installation sont lues dans le fichier <em><a href="https://raw.githubusercontent.com/Auteur/mymod/master/mymod/mymod-config-default.ini">mymod-config-default.ini</a></em>, ou dans le fichier <em><a href="https://raw.githubusercontent.com/Auteur/mymod/master/mymod/mymod-config.ini">mymod-config.ini</a></em>, si ce dernier existe.
 
 Pour éviter d'interrompre la procédure d'installation par de nombreux messages vous permettant de personnaliser certains composants à votre convenance, ces choix de variables ont été externalisés dans le fichier <a href="https://raw.githubusercontent.com/Auteur/mymod/master/mymod/mymod-config-default.ini">mymod-config-default.ini</a> situé dans le répertoire <strong>mymod</strong>. Ce fichier définit une installation « <em>standard</em> ».
 
@@ -108,12 +108,12 @@ Vous trouverez la liste des variables et leur signification dans le fichier <a h
 	</tr>
 	<tr>
 		<td>mymod_variable4</td>
-		<td>définit le nom que vous souhaitez donner à votre monture</td>
+		<td>Le nom que vous souhaitez donner à votre monture</td>
 		<td>alphanumérique</td>
 		<td>un nom !</td>
 		<td><strong><span style="color: #FFCC33;">Flèche d'argent</span><strong></td>
 	</tr>
-</table><br>
+</table>
 
 
 #### Windows
@@ -177,38 +177,37 @@ Description du composant 2.</br>
 Exemple de composant présentant des tableaux.
 
 <table style="margin-left: 80px" summary="Rebalanced Tazok and Dig-Dag">
-			<tr>
-				<th>Créature</th>
-				<th>Kit</th>
-				<th>Niveau <span style="font-weight: normal">&#160;&#160;&#160;(ex)</span></th>
-				<th>XP <span style="font-weight: normal">&#160;&#160;&#160;(ex)</span></th>
-				<th>PV <span style="font-weight: normal">&#160;&#160;&#160;(ex)</span></th>
-				<th>Force <span style="font-weight: normal">&#160;&#160;&#160;(ex)</span></th>
-				<th>Constitution <span style="font-weight: normal">&#160;&#160;&#160;(ex)</span></th>
-				<th>Compétence martiale</th>
-			</tr>
-			<tr>
-				<td>Tazok</td>
-				<td>--</td>
-				<td><strong>19</strong>&#160;&#160;&#160;(18)</td>
-				<td><strong>12000</strong>&#160;&#160;&#160;(6000)</td>
-				<td><strong>154</strong>&#160;&#160;&#160;(136)</td>
-				<td>--</td>
-				<td>--</td>
-				<td>TWO-HANDED SWORD +++++</td>
-			</tr>
-			<tr>
-				<td>FIRorc01 (DigDag)</td>
-				<td>Berserker</td>
-				<td><strong>13</strong>&#160;&#160;&#160;(12)</td>
-				<td><strong>7000</strong>&#160;&#160;&#160;2000)</td>
-				<td><strong>107</strong>&#160;&#160;&#160;(99)</td>
-				<td><strong>22</strong>&#160;&#160;&#160;(17)</td>
-				<td><strong>22</strong>&#160;&#160;&#160;(9)</td>
-				<td>BASTARD SWORD +++++</td>
-			</tr>
+	<tr>
+		<th>Créature</th>
+		<th>Kit</th>
+		<th>Niveau <span style="font-weight: normal">&#160;&#160;&#160;(ex)</span></th>
+		<th>XP <span style="font-weight: normal">&#160;&#160;&#160;(ex)</span></th>
+		<th>PV <span style="font-weight: normal">&#160;&#160;&#160;(ex)</span></th>
+		<th>Force <span style="font-weight: normal">&#160;&#160;&#160;(ex)</span></th>
+		<th>Constitution <span style="font-weight: normal">&#160;&#160;&#160;(ex)</span></th>
+		<th>Compétence martiale</th>
+	</tr>
+	<tr>
+		<td>Tazok</td>
+		<td>--</td>
+		<td><strong>19</strong>&#160;&#160;&#160;(18)</td>
+		<td><strong>12000</strong>&#160;&#160;&#160;(6000)</td>
+		<td><strong>154</strong>&#160;&#160;&#160;(136)</td>
+		<td>--</td>
+		<td>--</td>
+		<td>TWO-HANDED SWORD +++++</td>
+	</tr>
+	<tr>
+		<td>FIRorc01 (DigDag)</td>
+		<td>Berserker</td>
+		<td><strong>13</strong>&#160;&#160;&#160;(12)</td>
+		<td><strong>7000</strong>&#160;&#160;&#160;2000)</td>
+		<td><strong>107</strong>&#160;&#160;&#160;(99)</td>
+		<td><strong>22</strong>&#160;&#160;&#160;(17)</td>
+		<td><strong>22</strong>&#160;&#160;&#160;(9)</td>
+		<td>BASTARD SWORD +++++</td>
+	</tr>
 </table><br>
-</br></br>
 
 
 

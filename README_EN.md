@@ -52,13 +52,13 @@ The Enhanced Editions are actively supported games. Please note that every patch
 
 #### :warning: Warning : procédure d'installation
 
-###### Variables needed for installation are read from <em><a ref="https://raw.githubusercontent.com/Auteur/mymod/master/mymod/mymod-config-default.ini">mymod-config-default.ini</a></em>file, or <em><a ref="https://raw.githubusercontent.com/Auteur/mymod/master/mymod/mymod-config.ini">mymod-config.ini</a></em> if it exists.
+###### Variables needed for installation are read from <em><a href="https://raw.githubusercontent.com/Auteur/mymod/master/mymod/mymod-config-default.ini">mymod-config-default.ini</a></em>file, or <em><a href="https://raw.githubusercontent.com/Auteur/mymod/master/mymod/mymod-config.ini">mymod-config.ini</a></em> if it exists.
 
 As interrupting installation with plain text prompts allowing players to customise components to their liking, those variables have been moved into <a href="https://raw.githubusercontent.com/Auteur/mymod/master/mymod/mymod-config-default.ini">mymod-config-default.ini</a> file in <strong>mymod</strong> folder. This file provides a '<em>standard</em>' installation.
 
 If you want to define your own customized installation, you have to modify the variables involved in <strong><em>mymod-config-default.ini</em></strong>, then save this file as <strong><em>mymod-config.ini</em></strong>.
 
-The installation process will read both ini files and prioritize user values. If a value is not set or mismatched inmymod-config.ini, any installation failure will be prevented by reverting it back to its default value.</br>
+The installation process will read both ini files and prioritize user values. If a value is not set or mismatched in mymod-config.ini, any installation failure will be prevented by reverting it back to its default value.</br>
 
 Please read the <a href="https://raw.githubusercontent.com/Auteur/mymod/master/mymod/mymod-config-english.txt">mymod-config-language.txt</a> file (with 'language' being the installation language you chose) to check the variables names and their meanings. Here is a chart listing the variables related to the installation process:<br>
 
@@ -98,9 +98,7 @@ Please read the <a href="https://raw.githubusercontent.com/Auteur/mymod/master/m
 		<td>un nom !</td>
 		<td><strong><span style="color: #FFCC33;">Flèche d'argent</span><strong></td>
 	</tr>
-</table><br>
-
-
+</table>
 
 
 #### Windows
@@ -147,11 +145,61 @@ In addition to the methods above for removing individual components, you can com
 The installer includes the following components. The number of each is the component <em>DESIGNATED</em> number which gives it a fixed install position, lets other components detect it and allows automated installers like the BiG World Setup specify component choices.
 
 
-#### 10. 
+#### 10. Composant 1 : blabbla
+
+Description du composant 1.</br>
+
+------------------------
+
+#### 20 Composant 2 : blabbla
+
+Description du composant 2.</br>
+
+------------------------
+
+#### 30 Composant 3 : blabbla
+
+Exemple de composant présentant des tableaux.
+
+<table style="margin-left: 80px" summary="Rebalanced Tazok and Dig-Dag">
+	<tr>
+		<th>Créature</th>
+		<th>Kit</th>
+		<th>Niveau <span style="font-weight: normal">&#160;&#160;&#160;(ex)</span></th>
+		<th>XP <span style="font-weight: normal">&#160;&#160;&#160;(ex)</span></th>
+		<th>PV <span style="font-weight: normal">&#160;&#160;&#160;(ex)</span></th>
+		<th>Force <span style="font-weight: normal">&#160;&#160;&#160;(ex)</span></th>
+		<th>Constitution <span style="font-weight: normal">&#160;&#160;&#160;(ex)</span></th>
+		<th>Compétence martiale</th>
+	</tr>
+	<tr>
+		<td>Tazok</td>
+		<td>--</td>
+		<td><strong>19</strong>&#160;&#160;&#160;(18)</td>
+		<td><strong>12000</strong>&#160;&#160;&#160;(6000)</td>
+		<td><strong>154</strong>&#160;&#160;&#160;(136)</td>
+		<td>--</td>
+		<td>--</td>
+		<td>TWO-HANDED SWORD +++++</td>
+	</tr>
+	<tr>
+		<td>FIRorc01 (DigDag)</td>
+		<td>Berserker</td>
+		<td><strong>13</strong>&#160;&#160;&#160;(12)</td>
+		<td><strong>7000</strong>&#160;&#160;&#160;2000)</td>
+		<td><strong>107</strong>&#160;&#160;&#160;(99)</td>
+		<td><strong>22</strong>&#160;&#160;&#160;(17)</td>
+		<td><strong>22</strong>&#160;&#160;&#160;(9)</td>
+		<td>BASTARD SWORD +++++</td>
+	</tr>
+</table><br>
 
 
 
 ## Screenshots
+
+<img src="images/baldr000.jpg">
+<img src="images/baldr001.jpg"></br>
 
 
 
@@ -221,5 +269,13 @@ Libre à vous de choisir la formule et la présentation qui vous conviennent :
 
 ## Version History
 
-#### Version beta 1.0.0 - jour mois novembre 201x
+#### Version 2.0.0 - Mois jour, 201x
+- modification niveau 1
+  - modification niveau 2
+    - modification niveau 3
+  - modification niveau 2
+- modification niveau 1
+
+
+#### Version beta 1.0.0 - Mois jour, 201x
 - Initial release.

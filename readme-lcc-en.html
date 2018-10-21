@@ -1,0 +1,1069 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta charset="UTF-8">
+	<style type="text/css">
+/*<![CDATA[*/
+	<!-- 
+	body {
+		margin: 0;
+		padding: 0;
+		cursor: default;
+		text-align: center;
+		color: #D1D1D1;
+		background: #000 url('images/bg_lcc2.png');
+	}
+
+/*	En-tête  */
+	#cartouche {
+		text-align: left;
+		margin: 0 auto;
+		margin-top: 20px;
+		width: 88%;
+		font-family: Verdana, Tahoma, Arial, sans-serif;
+		font-size: 12px;
+		color: #D1D1D1;
+/*		background-repeat: repeat-x;
+		background: url("images/degrade_titre.png");
+*/	}
+
+	#header {
+		text-align: center;
+*		background: #303030;
+		background-image: linear-gradient(#666666, #040404);
+		border: 1px solid #FFCC33;
+		border-top: 5px solid #FFCC33;
+		border-bottom: 5px solid #FFCC33;
+		padding: 5px 0 13px 0;
+		height: 310px;
+		border-radius: 3px 4px 3px 3px;
+		box-shadow: 8px 8px 15px black;
+	}
+/*	le décalage horizontal de l'ombre ;
+	le décalage vertical de l'ombre ;
+	l'adoucissement du dégradé ;
+	la couleur de l'ombre.	*/
+
+	#header .about {
+        margin: 7px 0 0 0;
+        padding: 0;
+/*		font-style: italic;
+		color: #555;
+*/		text-decoration: none;
+	}
+	#header .about a:link,
+	#header .about a:visited {
+	}
+	#header .about a:focus,
+	#header .about a:hover {
+		text-decoration: none;
+		color: #deded9;
+		border: 0;
+	}
+
+/*	Menu  */
+	#menu {
+		font-weight: bold;
+		margin: 0;
+		margin-top: 20px;
+		text-align: center;
+		color: #FFCC33;
+		background-repeat: repeat-x;
+		background: url("images/degrade_titre.png");
+		border-radius: 3px 4px 3px 3px;
+*		heigth: 50px;
+		line-height: 400%;
+*		vertical-align:middle;
+	}
+	#menu a:link,
+	#menu a:visited {
+	}
+	#menu a:focus,
+	#menu a:hover {
+		text-decoration: none;
+		color: #deded9;
+		border: 0;
+	}
+
+/*	Sections  */
+	#maindiv {
+		margin: 0 auto;
+		margin-top: -20px;
+		width: 100%;
+	}
+
+	#maindiv .content {
+		color: #deded9;
+		background-color: #5F5F5F;
+		padding: 0 0 25px 0;
+		margin: 50px auto;
+		border-width: 1px 1px 4px 10px;
+		border-style: solid;
+		border-color: #FFBF00;
+/*ou		border: 1px solid #FFCC33;
+		border-left: 10px solid #FFCC33;
+		border-bottom: 4px solid #FFCC33;
+*/		position: relative;
+		border-radius: 4px 4px 4px 5px;
+		box-shadow: 8px 8px 15px black;
+		display: block;
+	}
+
+	#maindiv .important {
+		font-size: 95%;
+		font-family: Verdana;
+		text-align: left;
+*		background-color: #F1F1F1;
+		border-width: 1px 4px 1px 4px;
+		border-style: solid;
+		border-color: #FFBF00;
+/*		border-top: solid 1px #FFBF00;
+		border-bottom: solid 1px #FFBF00;
+		border-left: solid 6px #FFBF00;
+		border-right: solid 6px #FFBF00;
+*/		padding: 10px;
+		margin: 10px auto;
+		width: 80%;
+		line-height: 160%;
+	}
+	#maindiv .important::before {
+		display: none;
+	}
+	#maindiv .important p {
+		width: 100%;
+		font-size: 100%;
+		text-indent: 0px;
+		margin: 5px 0 5px 0;
+		line-height: 180%;
+	}
+	#maindiv .important ol {
+		margin: -10px 0 0 20px;
+	}
+	#maindiv .important ul {
+		margin: -10px 0 0 15px;
+	}
+
+	#maindiv address {
+		font-size: 95%;
+		font-style: normal;
+		font-weight: bold;
+		text-decoration: none;
+		color: #303030;
+		background-color: #FFBF00;
+		padding: 3px 0px 0px;
+		margin: 0px;
+		width: 100%;
+		position: absolute;
+		bottom: -1px;
+		left: 0px;
+		display: block;
+		text-align: right;
+	}
+	#maindiv address a:link,
+	#maindiv address a:visited {
+		font-weight: bold;
+		text-decoration: underline;
+		background-color: transparent;
+		color: #000 !important;
+		padding-right: 5px;
+		padding-left: 6px;
+	}
+	#maindiv address a:focus,
+	#maindiv address a:hover {
+		text-decoration: none;
+		color: #000;
+	}
+
+	/*	Corps de texte  */
+	#maindiv p {
+		text-align: justify;
+		font-size: 110%;
+		font-style: normal;
+		text-decoration: none;
+		line-height: 150%;
+		padding: 0px;
+		margin: 10px auto;
+		width: 90%;
+		display: block;
+	}
+
+	/*	Listes  */
+	#maindiv ul {
+		line-height: 170%;
+		margin-left: 4%;
+		width: 87%;
+	}
+	#maindiv ul li {
+		/*margin-right: 0px;*/
+	}
+	#maindiv ul li ul {
+		margin: 0px;
+		width: 96%;
+	}
+	#maindiv ul li ul li {
+	}
+	#maindiv ul li ul li ul {
+		margin-left: -1%;
+		width: 98%;
+	}
+	#maindiv ul li ul li ul li {
+	}
+
+/* INUTILISE = liste numérique
+	#maindiv ol {
+		margin: 0px 0 0 35px;
+		*margin-left: 70px;
+	}
+	#maindiv ol li {
+		line-height: 170%;
+	}
+*/
+
+	/*	Titre des versions  */
+	#maindiv .version {
+		display: block;
+		width: 90%;
+		background-color: transparent;
+		text-align: left;
+/*		text-indent: 30px; */
+		font-weight: bold;
+		padding-top: 3px;
+		padding-bottom: 3px;
+		border-bottom: solid 1px #FFCC33;
+		border-top: solid 1px #FFCC33;
+	}
+
+	/*	Liens internet  */
+	a:link,
+	a:visited {
+		color: #FFCC33;
+		/*font-weight: bold; */
+		text-decoration: none;
+	}
+	a:focus,
+	a:hover {
+		text-decoration: underline;
+		*color: #deded9;
+	}
+
+	h1 {
+		line-height: 170%;
+		font-size: 225%;
+		color: #FFCC33; *5F5F5F
+		padding: 5px 0 5px 0;
+		margin: 0;
+		width: 100%;
+	}
+	/*	Titre de section (160 %)  */
+	h2 {
+		line-height: 170%;
+		display: block;
+		font-family: Verdana, Trebuchet MS, Arial, serif;
+		text-align: left;
+		text-indent: 30px;
+		padding: 0px;
+		margin: 20px 0 0 0;
+		border-bottom: dotted 2px #d0d0d0;
+		background: #303030;
+		font-size: 160%;
+	}
+	h2::first-letter {
+		color: #FFCC33;
+		background-color: transparent;
+	}
+
+	/*	Titres  */
+	h3, h4, h5, h6 {
+		line-height: 170%;
+		margin: 10px auto;
+		width: 90%;
+		padding: 0;
+	}
+	h3 {
+		font-size: 140%;
+	}
+	h4 {
+		font-size: 125%;
+		/*font-style: italic;*/
+	}
+
+	h5 {
+		/*margin: 10px auto;*/
+        font-size: 110%;
+	}
+/*	h5 {
+        font-size: 100%;
+	}*/
+	h6 {
+		font-size: 125%;
+		font-style: italic;
+	}
+
+	/*	Ligne dorée  */
+	hr {
+		/*margin: 10px 10 10px 10;*/
+		margin-top: 20px;
+		margin-bottom: 20px;
+		width: 90%;
+		/*padding: 0; */
+		height: 1px;
+		border: 0;
+		color: #FFCC33;
+		background-color: #FFCC33;
+	}
+
+	/*	Image d'en-tête */
+	img.image_left {
+		float: left;
+		padding:0px 5px 0px 70px;
+		overflow: auto;
+	}
+
+
+	/*	Tableaux */
+	table {
+		/*text-align: center;*/
+		width: 90%;
+		padding: 10px;
+		border-collapse: collapse;
+		/*margin-left: 70px;*/
+		/*padding: 20px 25px;*/
+		/*position: relative;*/
+	}
+	td, th {
+		font-size: 12px;
+		text-align: center;
+		*vertical-align: baseline;
+		padding-top: 4px;
+		padding-bottom: 4px;
+*		border: 1px outset #eee;
+		border: 1px solid #aaa;
+	}
+	th {
+		background-color: #303030; *#000099;
+		*color: #fff;
+		font-weight: bold;
+*		border:none;
+	}
+*	tr {)
+
+	.leftalign, table.leftalign tr th, table.leftalign tr td (
+		text-align: left;
+	}
+
+	-->
+/*]]>*/
+
+	</style>
+	<title>
+		MYMOD - La Couronne de Cuivre
+	</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+
+<body>
+  <div id="cartouche">
+	<a name="top" id="top"></a>
+	<div id="header">
+		<h1>
+			MYMOD
+			<a href="readme-lcc-fr.html">
+				<img src="images/FR-flag-32.png" alt="version française" style="float:right;width:32px;height:16px;margin-right:20px;margin-top:15px;">
+			</a>
+		</h1>
+
+		<strong>A <a href="https://www.baldursgateworld.fr">La Couronne de Cuivre</a> mod for Baldur's Gate II: <acronym title="Throne of Bhaal">ToB</acronym>, Baldur's Gate Trilogy, <acronym title="Baldur's Gate 'To Two'">Tutu</acronym> and <acronym title="Baldur's Gate II Enhanced Edition">BG2:EE</acronym></strong>
+
+<hr>
+		<img src="images/logo_lcc.png" title="La Couronne de Cuivre" alt="La Couronne de Cuivre" class="image_left" />
+		<br><br><br>
+		<p class="about" style="text-align: left;margin-left: 70%">
+			<strong>Author:</strong> <a href="https://www.baldursgateworld.fr/lacouronne/Auteur.html">bibi</a>
+		</p>
+		<p class="about" style="text-align: left;margin-left: 70%">
+			<strong>Version:</strong> n.n.n
+		</p>
+		<p class="about" style="text-align: left;margin-left: 70%">
+			<strong>Languages:</strong> French, English
+		</p>
+		<p class="about" style="text-align: left;margin-left: 70%">
+			<strong>Platforms:</strong> Windows, Mac <acronym title="Operating System 10">OS X</acronym> and Linux
+		</p>
+		<p class="about" style="text-align: left;margin-left: 70%">
+			<a href="https://www.baldursgateworld.fr/lacouronne/mymod/">Mod Website</a> &#8226; <a href="https://www.baldursgateworld.fr/lacouronne/mymod/">Mod Forum</a> &#8226; <a href="https://www.baldursgateworld.fr/lacouronne/mymod.php">Download</a> &#8226; <a href="https://github.com/Auteur/Mymod">GitHub</a>
+		</p>
+
+	</div>
+
+	<div id="menu">
+		<a href="#intro">Introduction</a> &#8226; <a href="#compat">Compatibility</a> &#8226; <a href="#installation">Installation</a> &#8226; <a href="#compon">Components</a> &#8226; <a href="#trouble">Troubleshooting</a> &#8226; <a href="#images">Screenshots</a> &#8226; <a href="#credits">Credits and Acknowledgements</a> &#8226; <a href="#versions">Version History</a>
+	</div>
+
+	<div id="maindiv">
+	<!-- ================== I n t r o d u c t i o n ================== -->
+	  <a name="intro" id="intro"></a>
+		<div class="content">
+		<h2>
+			Introduction
+		</h2><br>
+
+		<p>
+			Courte description du mod : Ce mod...... ou L'objet de ce mod......
+		</p>
+		<p>
+			Il s'agit d'un modèle de fichier readme destiné aux mods développés et/ou publiés sur la Couronne de Cuivre. Je me suis efforcé de conserver les codes couleurs utilisés par le forum, même si ce n'est pas toujours évident.
+		</p><br>
+		<p>
+			Pour chaque section, j'ai repris, chaque fois que c'était possible, des éléments de traductions déjà publiées (par les d'Oghms ou par bibi) afin de conserver un semblant d'homogénéité dans les termes employés. Il suffit alors de conserver celles dont on a besoin (liste des jeux compatibles, procédures d'installation selon la plateforme, liste des outils utilisés...) et, pour le reste, de remplacer MYMOD et Auteur par le nom du mod et de son auteur, de modifier les liens et de remplir les textes adéquats. Pour certaines sections, j'ai été le plus exhaustif possible : il vous suffit de choisir les paragraphes qui vous intéressent et de supprimer les autres. &#128521;
+		</p><br>
+		<p>
+			Codes de caractères spéciaux : mid dot [&middot;] - > [&gt;] - espace insécable [&#160;] - &nbsp; - &#8258
+		<p>
+			Codes de smileys : &#128578; [:)] - &#128521; [;)] - &#128541; [:p] - &#128526; [] - &#x26A0; et &#9888; [:warning:] - &#x26A0;&#xFE0F; ou &#9888;&#65039; [warning en jaune]
+		</p>
+		<p>
+			Codes de listes supplémentaires :
+		</p>
+		<ul style="list-style-type:none">
+			<li>&#x25A1; carré vide</li>
+			<li>&#x2B28; diamant vide</li>
+			<li>&#x2B26; petit losange vide</li>
+			<li>&#x25C7; losange moyen vide</li>
+			<li>&#x25B7; demi-flèche vide</li>
+			<li>&#8226; rond plein de séparation</li>
+			<li>&#x2B27; diamant plein</li>
+			<li>&#x2B25; petit losange plein</li>
+			<li>&#x25C6; losange moyen plein</li>
+			<li>&#x25B6; demi-flèche pleine</li>
+			<li>&#x25BA; demi-flèche élancée pleine</li>
+		</ul><br>
+
+		<h3>
+			Titre (h3)
+		</h3>
+		<h4>
+			Titre (h4)
+		</h4>
+		<h5>
+			Titre (h5)
+		</h5>
+		<h6>
+			Titre (h6)
+		</h6><br>
+
+
+			<address>
+				<span class="footer">MYMOD &gt; Introduction</span> &#8226; <a href="#top">BACK TO TOP</a>
+			</address>
+		</div>
+
+	<!-- ================= C o m p a t i b i l i t y ================= -->
+	  <a name="compat" id="compat"></a>
+		<div class="content">
+		<h2>
+			Compatibility
+		</h2><br>
+
+		<p>
+			This mod is designed to work on all Infinity Engine games. This includes
+		</p>
+		<ul>
+			<li>The series of Enhanced Editions published by Beamdog, which at present includes Baldur's Gate: Enhanced Edition (BGEE), Baldur's Gate II: Enhanced Edition (BG2EE), Icewind Dale: Enhanced Edition (IWDEE), and Planescape: Torment: Enhanced Edition (PsTEE). The BGEE Siege of Dragonspear expansion (SoD) is supported as well. All of the Enhanced Edition games include the original expansion packs, e.g. IWDEE includes Heart of Winter and Trials of the Luremaster.</li>
+			<li>The original Baldur's Gate (BG), with or without the Tales of the Sword Coast (TotSC) expansion.</li>
+			<li>The original Baldur's Gate II (BG2, or just SoA), with or without the Throne of Bhaal (ToB) expansion.</li>
+			<li>The conversion projects Baldur's Gate Trilogy (BGT), Baldur's Gate Tutu (Tutu), Icewind Dale-in-Baldur's Gate II (IWD-in-BG2), and Enhanced Edition Trilogy (EET).</li>
+			<li>The original Icewind Dale (IWD) with or without either of its expansions, Heart of Winter (HoW) and Trials of the Luremaster (TotLM).</li>
+			<li>Icewind Dale II (IWD2).</li>
+			<li>Planescape: Torment (PsT).</li>
+		</ul>
+
+<hr>
+		<p>
+			MYMOD is a <acronym title="Weimer Dialogue Utility">WeiDU</acronym> mod, and therefore should be compatible with all WeiDU mods. [facultatif : It has been tested on several different installations, and has so far worked perfectly.] However, we cannot test every single one. [Choisir une formule parmi les suivantes :] If you do encounter any bugs, please contact <a href="https://www.baldursgateworld.fr/lacouronne/Auteur.html">AUTEUR</a> or alternatively post on the forums. If you encounter any bugs, please report them on the forum!
+		</p>
+		<p>
+			Though I am striving to make MYMOD compatible with as many other mods as possible, there is always a chance that incompatibilities will arise. Below are the ones discovered thus far:
+		</p>
+		<ul>
+			<li>
+			</li>
+			<li>
+			</li>
+		</ul>
+
+<hr>
+		<p>
+			[Choisir une formule parmi les suivantes : ]Although it is not required for MYMOD to function properly, it is always a good idea install the latest version of the <a href="http://www.gibberlings3.net/bg2fixpack/">BG2 Fixpack</a>. You are strongly recommended to also download and install the <a href="http://www.gibberlings3.net/bg2fixpack/">BG2 Fixpack</a> before proceeding with the installation of this mod.
+		</p><br>
+
+
+			<address>
+				<span class="footer">MYMOD &gt; Compatibility</span> &#8226; <a href="#top">BACK TO TOP</a>
+			</address>
+		</div>
+
+	<!-- ================== I n s t a l l a t i o n ================== -->
+	  <a name="installation" id="installation"></a>
+		<div class="content">
+		<h2>
+			Installation
+		</h2><br>
+
+		<h3>
+			Notes
+		</h3>
+		<p><em>
+			If you've previously installed the mod, remove it before extracting the new version. To do this, run <strong>setup-mymod.exe</strong> (or .command with OS X), uninstall all previously installed components and delete the <strong>mymod folder</strong>.</em>
+		</p>
+		<p><em>
+			When installing or uninstalling, <strong>do not close the <acronym title="Disk Operating System">DOS</acronym> window</strong> by clicking on the <strong>X</strong> button! Instead, press the <strong>Enter</strong> key whenever instructed to do so.</em>
+		</p>
+		<p><em>
+			<strong>Disable any antivirus</strong> or other memory-resident software before installing this or any other mod. Some (particularly avast and Norton!) have a tendency to report false positives with mod activity, resulting in failed installs.</em>
+		</p><br>
+
+		<h3>
+			Special Note for Siege of Dragonspear from Steam/GOG
+		</h3>
+		<p>
+			Good Old Games (GOG) and Steam both package the additional content for Siege of Dragonspear in a method that <acronym title="Weimer Dialogue Utility">WeiDU</acronym>, the tool used to install this mod, cannot access. You must run a program called <a href="https://forums.beamdog.com/discussion/50441/modmerge-merge-your-steam-gog-zip-based-dlc-into-something-weidu-nearinfinity-dltcep-can-use/p1">Modmerge</a> on your SoD installation before you can install this or any other WeiDU-based mod.
+		</p><br>
+
+		<h3>
+			Enhanced Editions Note
+		</h3>
+		<p>
+			The Enhanced Editions are actively supported games. Please note that every patch update will wipe your current mod setup! If in the middle of a modded game you might want to delay the patch update (if possible) as even after reinstalling the mods, you might not be able to continue with your old savegames. Alternatively, copy the whole game's folder into a new one that can be modded and will stay untouched by game patches. It is important that you install the mod to the language version you are playing the game in. Otherwise, the dialogues of the mod will not show but give error messages.
+		</p><br>
+
+<hr>
+		<h3>
+			&#9888;&#65039; Warning: installation process
+		</h3>
+		<p>
+		<p>
+			<strong><span style="font-variant:small-caps;font-size: 12px;margin-left: 30px;">Variables needed for installation are read from <a href="mymod-config-default.ini"><em>mymod-config-default.ini</em></a> file, or <a href="mymod-config.ini"><em>mymod-config.ini</em></a> if it exists.</span></strong>
+		</p><br>
+		<p>
+			As interrupting installation with plain text prompts allowing players to customise components to their liking, those variables have been moved into <a href="mymod-config-default.ini">mymod-config-default.ini</a> file in <strong>mymod</strong> folder. This file provides a '<em>standard</em>' installation.
+		</p>
+		<p>
+			If you want to define your own customized installation, you have to modify the variables involved in <strong><span style="font-variant:small-caps;font-size: 12px;"><em>mymod-config-default.ini</em></span></strong>, then save this file as <strong><span style="font-variant:small-caps;font-size: 12px;"><em>mymod-config.ini</em></span></strong>.
+		</p>
+		<p>
+			The installation process will read both ini files and prioritize user values. If a value is not set or mismatched in mymod-config.ini, any installation failure will be prevented by reverting it back to its default value.
+		</p>
+		<p>
+			Please read the <a href="mymod-config-english.txt">mymod-config-language.txt</a> file (with 'language' being the installation language you chose) to check the variables names and their meanings. Here is a chart listing the variables related to the installation process:
+		</p><br>
+
+		<table style="margin-left: 80px" summary="Installation variables listing">
+			<tr>
+				<th>Variables</th>
+				<th>Signification</th>
+				<th>Type</th>
+				<th>Scope values</th>
+				<th>Default value</th>
+			</tr>
+			<tr>
+				<td>mymod_variable1</td>
+				<td>defines blabla</td>
+				<td>integer</td>
+				<td>1 or 2</td>
+				<td><strong><span style="color: #FFCC33;">1</span><strong></td>
+			</tr>
+			<tr>
+				<td>mymod_variable2</td>
+				<td>defines blabla</td>
+				<td>integer</td>
+				<td>1, 2, 3 or 4</td>
+				<td><strong><span style="color: #FFCC33;">2</span><strong></td>
+			</tr>
+			<tr>
+				<td>mymod_variable3</td>
+				<td>defines blabla</td>
+				<td>string</td>
+				<td>one character: A, B or C</td>
+				<td><strong><span style="color: #FFCC33;">A</span><strong></td>
+			</tr>
+			<tr>
+				<td>mymod_variable4</td>
+				<td>The name of your mount</td>
+				<td>string</td>
+				<td>a name!</td>
+				<td><strong><span style="color: #FFCC33;">Silver Star</span><strong></td>
+			</tr>
+		</table><br>
+
+<hr>
+		<h3>
+			Windows
+		</h3>
+		<p>
+			MYMOD for Windows is distributed as an extractable compressed archive and includes a <acronym title="Weimer Dialogue Utility">WeiDU</acronym> installer.
+		</p>
+		<p>
+			Extract the contents of the mod archive into the folder of the game you wish to modify, using <a href="http://www.7-zip.org/download.html">7zip</a>, <a href="http://www.rarlab.com/download.htm">WinRAR</a>, or another file compression utility that handles .zip files. When properly extracted, your game directory will contain <strong>setup-mymod.exe</strong> and the folder <strong>mymod</strong>. To install, double-click <strong>setup-mymod.exe</strong> and follow the instructions on screen.
+		</p>
+		<p>
+			You can run <strong>setup-mymod.exe</strong> in your game folder to reinstall, uninstall or otherwise change components.
+		</p>
+
+		<p>
+			[<strong>(Pour une version exe, remplacez les 2 deux premières lignes par les suivantes :)</strong>MYMOD for Windows is distributed as a self-extracting archive and includes a <acronym title="Weimer Dialogue Utility">WeiDU</acronym> installer. To install, simply double-click the archive and follow the instructions on screen.
+		</p>
+		<p>
+			Alternatively, the files can be extracted into your game directory using <a href="http://www.7-zip.org/download.html">7zip</a> or <a href="http://www.rarlab.com/download.htm">WinRAR</a>. When properly extracted, your game directory will contain <strong>setup-mymod.exe</strong> and the folder <strong>mymod</strong>. To install, double-click <strong>setup-mymod.exe</strong> and follow the instructions on screen.]
+		</p>
+
+<hr>
+		<h3>
+			Mac OS X
+		</h3>
+		<p>
+			MYMOD for Mac OS X is distributed as a compressed tarball and includes a <acronym title="Weimer Dialogue Utility">WeiDU</acronym> installer.
+		</p>
+		<p>
+			First, extract the files from the tarball into your game directory. When properly extracted, your game directory will contain <strong>setup-mymod</strong>, <strong>setup-mymod.command</strong>, and the folder<strong>mymod</strong>. To install, double-click <strong>setup-mymod.command</strong> and follow the instructions on screen.
+		</p>
+		<p>
+			You can run <strong>setup-mymod.command</strong> in your game folder to reinstall, uninstall or otherwise change components.
+		</p>
+
+<hr>
+		<h3>
+			Linux
+		</h3>
+		<p>
+			MYMOD for Linux is distributed as a compressed tarball and does not include a <acronym title="Weimer Dialogue Utility">WeiDU</acronym> installer.
+		</p>
+		<p>
+			Extract the contents of the mod to the folder of the game you wish to modify.
+		</p>
+		<p>
+			Download the latest version of WeiDU for Linux from <a href="http://www.weidu.org/%7Ethebigg/">WeiDU.org</a> and copy WeiDU and WeInstall to /usr/bin. Following that, open a terminal, <strong>cd</strong> to your game installation directory, run tolower and answer 'Y' to both queries. You can avoid running the second option (linux.ini) if you've already ran it once in the same directory. To save time, the archive is already tolowered, so there's no need to run the first option (lowercasing file names) either if you've extracted only this mod since the last time you lowercased file names. If you're unsure, running tolower and choosing both options is the safe bet.
+		</p>
+		<p>
+			To install, run <strong>WeInstall setup-mymod</strong> in your game folder. Then run wine <strong>BGMain.exe</strong> and start playing.
+		</p>
+
+<hr>
+		<h3>
+			Note for Complete Uninstallation
+		</h3>
+		<p>
+			In addition to the methods above for removing individual components, you can completely uninstall the mod using <strong>setup-mymod --uninstall</strong> at the command line to remove all components without wading through prompts.
+		</p><br>
+
+
+			<address>
+				<span class="footer">MYMOD &gt; Installation</span> &#8226; <a href="#top">BACK TO TOP</a>
+			</address>
+		</div>
+
+	<!-- =================== C o m p o n e n t s ==================== -->
+	  <a name="compon" id="compon"></a>
+		<div class="content">
+		<h2>
+			Components
+		</h2><br>
+
+		<p>
+			The installer includes the following components. The number of each is the component <em>DESIGNATED</em> number which gives it a fixed install position, lets other components and mods detect it and allows automated installers like the BiG World Setup specify component choices.
+		</p><br />
+
+		<h3>
+			10 Component 1 : blabbla
+		</h3>
+		<p>
+			Description du composant 1.
+		</p><br>
+
+<hr>
+		<h3>
+			20 Component 2 : blabbla
+		</h3>
+		<p>
+			Description du composant 2
+		</p><br>
+
+<hr>
+		<h3>
+			30 Component 3 : blabbla
+		</h3>
+		<p>
+			Exemple de composant présentant des tableaux.
+		</p><br>
+
+		<table style="margin-left: 80px" summary="Nom du tableau">
+			<tr>
+				<th>Créature</th>
+				<th>Kit</th>
+				<th>Niveau <span style="font-weight: normal">(ex)</span></th>
+				<th>XP <span style="font-weight: normal">(ex)</span></th>
+				<th>PV <span style="font-weight: normal">(ex)</span></th>
+				<th>Force <span style="font-weight: normal">(ex)</span></th>
+				<th>Constitution <span style="font-weight: normal">(ex)</span></th>
+				<th>Compétence martiale</th>
+			</tr>
+			<tr>
+				<td>Tazok</td>
+				<td>Barbare</td>
+				<td>19 (18)</td>
+				<td>12000 (6000)</td>
+				<td>154 (136)</td>
+				<td>--</td>
+				<td>--</td>
+				<td>2HS ++</td>
+			</tr>
+			<tr>
+				<td>FIRorc01 (DigDag)</td>
+				<td>Berserker</td>
+				<td>13 (12)</td>
+				<td>7000 (2000)</td>
+				<td>107 (99)</td>
+				<td>22 (17)</td>
+				<td>22 (9)</td>
+				<td>BASTARD SWORD ++++</td>
+			</tr>
+		</table><br><br>
+
+
+			<address>
+				<span class="footer">MYMOD &gt; Components</span> &#8226; <a href="#top">BACK TO TOP</a>
+			</address>
+		</div>
+
+	<!-- ============== T r o u b l e s h o o t i n g =============== -->
+	  <a name="trouble" id="trouble"></a>
+		<div class="content">
+		<h2>
+			Troubleshooting and Bug Reporting
+		</h2><br>
+
+		<p>
+			If you should encounter any bugs, please report them to the authors at the <a href="https://www.baldursgateworld.fr/lacouronne/mymod.php">MYMOD</a> forum. In addition, MYMOD is <a href="https://github.com/Auteur/Mymod">available on GitHub</a>, so fixes and changes can be submitted by the community.
+		</p><br>
+
+		<p>
+			These are some general tips if you have problems getting the game working, with or without this or other mods. Many times, errors have to do with the game engine itself or the manner of installation or gameplay. The game recommends deleting all files out of the /cache, /temp and /tempsave subfolders in your game folder to see if that resolves the problem before any further troubleshooting.
+		</p>
+
+<hr>
+		<p>
+			<strong>Symptom: Game freezes or crashes to desktop (CTDs)</strong>
+		</p>
+ 		<p>
+			Sometimes the game displays an 'assertion error' in a pop-up window when this happens, but often times it doesn't. To enable the full error message, open the file <strong>baldur.ini</strong> in your game folder with a text editor (such as Notepad). If you find you can't edit it or save changes in Windows Vista or 7, see <a href="http://forums.bioware.com/viewtopic.html?topic=662080&forum=10"> this topic</a> for assistance.
+		</p>
+ 		<p>
+			Under the [Program Options] section in the file, type <strong> Logging On=1</strong> (unless it's already there). While you're there, you may also want to make sure <strong>Debug Mode=1</strong> is there to enable the <a href="https://gibberlings3.github.io/iesdp/appendices/clua/bg2.htm">CLUA Console</a> for debugging and testing. Save the file and exit. Now go back into the game and try to reproduce the crash. Then look in your game folder again for the <strong>Baldur.err</strong> file and open it with a text editor to analyse its contents.
+		</p>
+
+<hr>
+ 		<p>
+			<strong>Symptom:</strong>
+		</p>
+           <div class="important" style="background-color: black;color: #deded9;">
+            <p style="font-family: Courier New;font-size: 100%;">ERROR: error copying [infinityanimations/content/somefile.bam]<br />
+			ERROR: [SOMEFILE.CRE] -> [override/SOMEFILE.CRE] Patching failed (COPY)<br />
+			Stopping installation because of error.<br /></p>
+			<p>(with no other error message)<br /></p>
+          </div>
+ 		<p>
+			Less-than-informative messages like these may indicate you're installing to a hard drive with a low data transfer rate or an antivirus program is active during installation (which can also affect data transfer). Try installing to an internal drive with antivirus protection disabled during the install. If unsure, disconnect from the Internet (either unplug your network cable or disable your wireless adaptor) and turn off <strong>all</strong> memory-resident programs during the install. To get a list of these, go to Start > Run and type <strong>msconfig</strong> where it says "Open:" then click OK. When the System Configuration Utility appears, click on the Startup tab. The only really necessary programs that need to be loaded in memory at startup are those related to your graphics chip (typically ATI or NVIDIA). Uncheck everything else, reboot and try installing the mod again. There are well-documented issues with installing mods while Avast antivirus is running, so make absolutely sure all components of Avast are completely disabled.
+		</p>
+
+<hr>
+		<p>
+			<strong>Other issues</strong>
+		</p>
+ 		<p>
+			If you have more than one large mod installed, please refer to the <a href="http://www.shsforums.net/index.php?showtopic=41036">Megamod FAQ</a> for more troubleshooting tips.
+		</p>
+
+<hr>
+ 		<p>
+			If none of this resolves your issue, or you have mod-specific issues, please report the problem in the mod's <a href="https://www.baldursgateworld.fr/lacouronne/mymod.php">forum</a>. Include the contents of your <acronym title="Weimer Dialogue Utility">WeiDU</acronym>.log file in the post, or attach it if it's large.
+		</p><br>
+
+
+			<address>
+				<span class="footer">MYMOD &gt; Troubleshooting</span> &#8226; <a href="#top">BACK TO TOP</a>
+			</address>
+		</div>
+
+	<!-- =================== I m a g e s ==================== -->
+	  <a name="images" id="images"></a>
+		<div class="content">
+		<h2>
+			Screenshots
+		</h2><br>
+
+		<p>
+			<strong>Exemples de fichiers images que l'on peut afficher (tirés du mod BuTcHeRy).</strong>
+		</p>
+		<p>
+			<center><img src="images/baldr000.jpg" title="nom ou descriptif de l'image" />Image centrée.</center>
+		</p><br>
+
+		<p>
+			<img src="images/baldr001.jpg" title="nom ou descriptif de l'image" />Image non centrée.
+		</p><br>
+
+
+			<address>
+				<span class="footer">MYMOD &gt; Screenshots</span> &#8226; <a href="#top">BACK TO TOP</a>
+			</address>
+		</div>
+
+	<!-- ======================= C r e d i t s ====================== -->
+	  <a name="credits" id="credits"></a>
+		<div class="content">
+		<h2>
+			Credits and Acknowledgements
+		</h2><br>
+
+		<h4>
+			  Author: <a href="https://www.baldursgateworld.fr/lacouronne/Auteur.php">bibi</a>
+		</h4>
+
+<hr>
+		<h3>
+			Special Acknowledgements to:
+		</h3>
+
+ 		<ul>
+			<li>
+			  <a href="https://www.baldursgateworld.fr"><acronym title="Copper Coronet">La Couronne de Cuivre</acronym></a> team for hosting the mod.
+ 			</li>
+			<li>
+			  The creators of the Baldur's Gate series: <a href="http://www.bioware.com/">Bioware</a> and <a href="http://www.obsidian.net/">Black Isle Studios</a>.
+ 			</li>
+			<li>
+			  machin for permission to use blabla.
+			</li>
+			<li>
+			  dugland for coding help.
+			</li>
+			<li>
+			  trucmuche for coding help and suggestions.
+			</li>
+			<li>
+			  bidule for dialogue help.
+			</li>
+			<li>
+			  xxx for the French translation.
+			</li>
+			<li>
+			  yyy for proofreading.
+ 			</li>
+			<li>
+			  Thanks to artists from <a href="https://www.pinterest.fr/">Pinterest</a> for their portraits.
+ 			</li>
+			<li>
+			  Everyone else from the <a href="https://www.baldursgateworld.fr">La Couronne de Cuivre</a>, <a href="http://gibberlings3.net/forums/">The Gibberlings Three</a>, <a href="http://www.shsforums.net/">Spellhold Studios</a> forums, and the other Infinity Engine gaming and modding communities who offered their help and support.
+			</li>
+			<li>etc.
+ 			</li>
+		</ul><br>
+
+<hr>
+		<h3>
+			Programs/tools used in creation:
+		</h3>
+
+		<ul>
+			<li>
+			  <a href="http://www.weidu.org/%7Ethebigg/"><acronym title="Weimer Dialogue Utility">WeiDU</acronym></a>, by Wes Weimer, the bigg and Wisp.
+			</li>
+			<li>
+			  <a href="http://forums.pocketplane.net/index.php/topic,25153.msg314249.html#msg314249">Near Infinity</a>, by Jon Olav Hauglid, FredSRichardson, and Argent77.
+			</li>
+			<li>
+			  <a href="http://www.shsforums.net/topic/31285-infinity-explorer-v085/">Infinity Explorer</a>, by Dmitry Jemerov / bigmoshi.
+			</li>
+			<li>
+			  <a href="http://www.gibberlings3.net/tools/dltcep.php"><acronym title="Dragonlance Total Conversion Editor Pro">DLTCEP</acronym></a>, by Avenger.
+			</li>
+			<li>
+			  <a href="http://www.baldursgatemods.com/forums/index.php?action=downloads;sa=view;down=85">CreMaker_v3.1.9</a>.
+			</li>
+			<li>
+			  <a href="https://gibberlings3.github.io/iesdp/"><acronym title="Infinity Engine Structures Description Project">IESDP</acronym></a>, maintained by igi and lynx.
+ 			</li>
+			<li>
+			  <a href="http://www.gibberlings3.net/debug/">G3 Debugging Suite</a>, by CamDawg.
+			</li>
+
+			<li>
+			  <a href="http://www.teambg.eu/?page=tools&amp;cat=32">BAM Workshop</a>, by Glenn Flansburg.
+			</li>
+			<li>
+			  <a href="http://www.shsforums.net/topic/57564-bamworkshop/">BAMWorkshop 2</a>, by Andrew Bridges.
+			</li>
+			<li>
+			  <a href="http://www.shsforums.net/index.php?showtopic=42359">BAM Batcher</a>, by Miloch.
+			</li>
+			<li>
+			  <a href="https://www.adobe.com/products/photoshop.html">Adobe Photoshop</a>
+			</li>
+			<li>
+			  <a href="http://www.gimp.org/"><acronym title="GNU Image Manipulation Program">GIMP</acronym></a>, by the GIMP team.
+			</li>
+			<li>
+			  <a href="http://www.gamani.com/">GIF Movie Gear</a>
+			</li>
+			<li>
+			  <a href="https://www.blender.org/">Blender</a>, by the Blender Foundation.
+			</li>
+			<li>
+			  <a href="https://www.autodesk.com/products/3ds-max/overview">3ds Max</a>
+ 			</li>
+
+			<li>
+			  <a href="http://notepad-plus-plus.org/">Notepad++</a>, by the Notepad++ team, Don Ho, and the spellcheck plug-in.
+ 			</li>
+			<li>
+			  <a href="http://www.shsforums.net/files/file/1048-weidu-highlighter-for-notepad/">WeiDU Notepad++ Highlighters </a>, by Argent77.
+			</li>
+			<li>
+			  <a href="http://www.context.cx/">ConTEXT Text Editor</a>, by Eden Kirin.
+			</li>
+			<li>
+			  <a href="http://www.gibberlings3.net/tools/weidu.php">WeiDU ConTEXT Highlighters </a>, by Idobek, updated by cmorgan.
+ 			</li>
+			<li>
+			  <a href="http://www.editpadpro.com/editpadclassic.html">EditPad Classic</a>, by Jan Goyvaerts.
+			</li>
+			<li>
+			  <a href="http://www.pspad.com/en/">PSPad</a>, by Jan Fiala.
+			</li>
+			<li>
+			  <a href="http://www.bulkrenameutility.co.uk/">Bulk Rename Utility</a>, by TGRMN Software.
+			</li>
+		</ul><br>
+
+<hr>
+		<h3>
+			Copyrights Information
+		</h3>
+
+		<p>
+			Libre à vous de choisir la formule et la présentation qui vous conviennent :
+		</p>
+
+		  <div class="important">
+			<p>MYMOD is not developed, supported, or endorsed by BioWare&trade; or Interplay/BlackIsle, Overhaul, Beamdog or the Wizards of the Coast. It was developed by AUTEUR, based on material from the game Baldur's Gate II and its expansion.</p>
+			<p>All mod content is &copy;AUTEUR.</p>
+			<p>Baldur's Gate II: Shadows of Amn and Baldur's Gate II: Throne of Bhaal &copy; TSR, Inc. The BioWare Infinity Engine is &copy; BioWare Corp. All other trademarks and copyrights are property of their respective owners.</p>
+<br>
+			<p>This mod was created to be freely enjoyed by all Baldur's Gate II players, and its content is free of rights. However, it should not be sold, published, compiled or redistributed in any form without the consent of the author.</p>
+			<p>Please note that any and all redistribution and/or hosting of this mod is prohibited without permission from the author.</p>
+<br>
+			<p>If there are any copyright issues or this statement needs revision, then please contact me and advise me what to do about it. Most notably, if you see any artwork in this mod that might conflict with Copyright rules, please let me know as soon as possible, and I will remove the conflicting content immediately.</p>
+		  </div><br>
+		  <div class="important" style="color: #303030; background-color: #999999;">
+			<p>MYMOD is not developed, supported, or endorsed by BioWare&trade; or Interplay/BlackIsle, Overhaul, Beamdog or the Wizards of the Coast. It was developed by AUTEUR, based on material from the game Baldur's Gate II and its expansion.</p>
+			<p>All mod content is &copy;AUTHOR.</p>
+			<p>Baldur's Gate II: Shadows of Amn and Baldur's Gate II: Throne of Bhaal &copy; TSR, Inc. The BioWare Infinity Engine is &copy; BioWare Corp. All other trademarks and copyrights are property of their respective owners.</p>
+<br>
+			<p>This mod was created to be freely enjoyed by all Baldur's Gate II players, and its content is free of rights.  However, it should not be sold, published, compiled or redistributed in any form without the consent of the author.</p>
+			<p>Please note that any and all redistribution and/or hosting of this mod is prohibited without permission from the author.</p>
+<br>
+			<p>If there are any copyright issues or this statement needs revision, then please contact me and advise me what to do about it. Most notably, if you see any artwork in this mod that might conflict with Copyright rules, please let me know as soon as possible, and I will remove the conflicting content immediately.</p>
+		  </div><br>
+		<p>
+			The modding community for the Infinity Engine has been going strong for more than 10 years now, and is the culmination of thousands of unpaid modding hours by fellow fans of the game. Modders produce their best work and players get the best, well-supported mods when we all work together.
+		</p>
+		<p>
+			There are two big ways to upset this harmony. One is to claim someone else's work as your own. The second is to host and redistribute a mod without permission from the author(s).
+		</p>
+		<p>
+			Be kind to your fellow players and modders. Don't do either.
+		</p><br>
+
+
+			<address>
+				<span class="footer">MYMOD &gt; Credits and Acknowledgements</span> &#8226; <a href="#top">BACK TO TOP</a>
+			</address>
+		</div>
+
+	<!-- ======================= V e r s i o n s ====================== -->
+	  <a name="versions" id="versions"></a>
+		<div class="content">
+		<h2>
+			Version History
+		</h2><br>
+
+		<p class="version">
+			Version 3 - date
+		</p>
+
+		<ul style="text-align:justify;">
+			<li>modification niveau 1
+			  <ul>
+				<li>modification niveau 2
+				  <ul>
+					<li>modification niveau 3
+					  <ul>
+						<li>modification niveau 4 standard</li>
+					  </ul>
+					</li>
+					<li>modification niveau 3
+					  <ul style="list-style-type:circle">
+						<li>modification niveau 4 forcée</li>
+					  </ul>
+					</li>
+					<li>modification niveau 3
+					  <ul style="list-style-type:none">
+						<li>&#x25A1;&#160;modification niveau 4 personnalisée : carré vide</li>
+						<li>&#x2B28;&#160;modification niveau 4 personnalisée : diamant vide</li>
+						<li>&#x2B26;&#160;modification niveau 4 personnalisée : petit losange vide</li>
+						<li>&#x25C7;&#160;modification niveau 4 personnalisée : losange moyen vide</li>
+						<li>&#x25B7;&#160;modification niveau 4 personnalisée : demi-flèche vide</li>
+						<li>&#8226;&#160;modification niveau 4 personnalisée : rond plein de séparation</li>
+						<li>&#x2B27;&#160;modification niveau 4 personnalisée : diamant plein</li>
+						<li>&#x2B25;&#160;modification niveau 4 personnalisée : petit losange plein</li>
+						<li>&#x25C6;&#160;modification niveau 4 personnalisée : losange moyen plein</li>
+						<li>&#x25B6;&#160;modification niveau 4 personnalisée : demi-flèche pleine</li>
+						<li>&#x25BA;&#160;modification niveau 4 personnalisée : demi-flèche élancée pleine</li>
+					  </ul>
+					</li>
+				 </ul>
+				</li>
+				<li>modification niveau 2</li>
+			  </ul>
+			</li>
+			<li>Updated installer <acronym title="Weimer Dialogue Utility">WeiDU</acronym> to v246.</li>
+		</ul>
+
+		<p class="version">
+			Version 2 - date
+		</p>
+
+		<ul>
+			<li></li>
+		</ul>
+
+		<p class="version">
+			Version 1 - date (format : Mois jour, année)
+		</p>
+
+		<ul>
+			<li>Initial release.</li>
+		</ul>
+
+
+			<address>
+				<span class="footer">MYMOD &gt; Version History</span> &#8226; <a href="#top">BACK TO TOP</a>
+			</address>
+		</div>
+
+	</div>
+  </div>
+</body>
+</html>
+
