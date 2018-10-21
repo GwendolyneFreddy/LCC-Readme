@@ -65,15 +65,55 @@ Les Éditions améliorées sont des jeux que le développeur fait encore évoluer, no
 Si vous pouvez retarder la mise à jour du patch en plein milieu d'un partie moddée (si vous en avez la possibilité, notamment chez Beamdog et Good Old Games), n'oubliez pas que même après avoir réinstallé les mods sur un nouveau patch, vous ne pourrez peut-être pas continuer le jeu avec vos anciennes sauvegardes, en particulier à cause de noms de personnages, de lieux, etc, qui pourraient être incorrects. Pour y remédier, copiez tout le dossier du jeu dans un nouveau dossier dans lequel vous installerez vos mods, et qui ne sera pas modifié par les patches de mise à jour. Il est important que vous installiez le mod dans la version linguistique dans laquelle vous jouez. Sinon, les dialogues du mod ne s'afficheront pas et provoqueront des messages d'erreur.</br>
 
 
-#### :warning: Avertissement : procédure d'installation
+#### &#9888;&#65039; Avertissement : procédure d'installation
 
 ###### Les variables nécessaires à l'installation sont lues dans le fichier <em><a ref="https://raw.githubusercontent.com/Auteur/mymod/master/mymod/mymod-config-default.ini">mymod-config-default.ini</a></em>, ou dans le fichier <em><a ref="https://raw.githubusercontent.com/Auteur/mymod/master/mymod/mymod-config.ini">mymod-config.ini</a></em>, si ce dernier existe.
 
 Pour éviter d'interrompre la procédure d'installation par de nombreux messages vous permettant de personnaliser certains composants à votre convenance, ces choix de variables ont été externalisés dans le fichier <a href="https://raw.githubusercontent.com/Auteur/mymod/master/mymod/mymod-config-default.ini">mymod-config-default.ini</a> situé dans le répertoire <strong>mymod</strong>. Ce fichier définit une installation « <em>standard</em> ».
 
-Si vous souhaitez choisir d'autres options d'installation, il vous suffit de modifier les variables souhaitées dans le fichier <span style="font-variant:small-caps;font-size: 16px;color: #FFCC33;"><em>mymod-config-default.ini</em></span>, puis de sauvegarder ce dernier sous le nom <span style="font-variant:small-caps;font-size: 16px;color: #FFCC33;"><em>mymod-config.ini</em></span>.
+Si vous souhaitez choisir d'autres options d'installation, il vous suffit de modifier les variables souhaitées dans le fichier <strong><em>mymod-config-default.ini</em></strong>, puis de sauvegarder ce dernier sous le nom <strong><em>mymod-config.ini</em></strong>.
 
 Le programme d'installation lira les valeurs des variables dans les deux fichiers ini et donnera la priorité aux vôtres. Si le fichier mymod-config.ini contient une variable non conforme, ou si une variable est manquante, il la remplacera par sa valeur par défaut (celle correspondant à l'installation « <em>standard</em> »).</br>
+
+Vous trouverez la liste des variables et leur signification dans le fichier <a href="https://raw.githubusercontent.com/Auteur/mymod/master/mymod/mymod-config-french.txt">mymod-config-language.txt</a> (« language » correspondant à la langue d'installation du mod). Voici le tableau des variables concernées :<br>
+
+<table style="margin-left: 80px" summary="Liste des variables d'installation">
+	<tr>
+		<th>Variables</th>
+		<th>Signification</th>
+		<th>Type</th>
+		<th>Valeurs possibles</th>
+		<th>Défaut</th>
+	</tr>
+	<tr>
+		<td>mymod_variable1</td>
+		<td>définit blabla</td>
+		<td>numérique</td>
+		<td>1 ou 2</td>
+		<td><strong><span style="color: #FFCC33;">1</span><strong></td>
+	</tr>
+	<tr>
+		<td>mymod_variable2</td>
+		<td>définit blabla</td>
+		<td>numérique</td>
+		<td>1, 2, 3 ou 4</td>
+		<td><strong><span style="color: #FFCC33;">2</span><strong></td>
+	</tr>
+	<tr>
+		<td>mymod_variable3</td>
+		<td>définit blabla</td>
+		<td>alphanumérique</td>
+		<td>une lettre : A, B ou C</td>
+		<td><strong><span style="color: #FFCC33;">A</span><strong></td>
+	</tr>
+	<tr>
+		<td>mymod_variable4</td>
+		<td>définit le nom que vous souhaitez donner à votre monture</td>
+		<td>alphanumérique</td>
+		<td>un nom !</td>
+		<td><strong><span style="color: #FFCC33;">Flèche d'argent</span><strong></td>
+	</tr>
+</table><br>
 
 
 #### Windows
@@ -120,27 +160,141 @@ En plus des méthodes détaillées plus haut pour supprimer des composants, il est 
 Le programme d'installation comprend les composants suivants. Chacun possède un numéro distinct et pré-défini qui lui attribue une position déterminée (mot-clé <em>DESIGNATED</em> en langage WeiDU) ; ce qui permet aux autres composants de le détecter et aux utilitaires d'installation automatiques comme le BiG World Setup de préciser quels composants installer.
 
 
-#### 10. 
+#### 10. Composant 1 : blabbla
+
+Description du composant 1.</br>
+
+------------------------
+
+#### 20 Composant 2 : blabbla
+
+Description du composant 2.</br>
+
+------------------------
+
+#### 30 Composant 3 : blabbla
+
+Exemple de composant présentant des tableaux.
+
+<table style="margin-left: 80px" summary="Rebalanced Tazok and Dig-Dag">
+			<tr>
+				<th>Créature</th>
+				<th>Kit</th>
+				<th>Niveau <span style="font-weight: normal">&#160;&#160;&#160;(ex)</span></th>
+				<th>XP <span style="font-weight: normal">&#160;&#160;&#160;(ex)</span></th>
+				<th>PV <span style="font-weight: normal">&#160;&#160;&#160;(ex)</span></th>
+				<th>Force <span style="font-weight: normal">&#160;&#160;&#160;(ex)</span></th>
+				<th>Constitution <span style="font-weight: normal">&#160;&#160;&#160;(ex)</span></th>
+				<th>Compétence martiale</th>
+			</tr>
+			<tr>
+				<td>Tazok</td>
+				<td>--</td>
+				<td><strong>19</strong>&#160;&#160;&#160;(18)</td>
+				<td><strong>12000</strong>&#160;&#160;&#160;(6000)</td>
+				<td><strong>154</strong>&#160;&#160;&#160;(136)</td>
+				<td>--</td>
+				<td>--</td>
+				<td>TWO-HANDED SWORD +++++</td>
+			</tr>
+			<tr>
+				<td>FIRorc01 (DigDag)</td>
+				<td>Berserker</td>
+				<td><strong>13</strong>&#160;&#160;&#160;(12)</td>
+				<td><strong>7000</strong>&#160;&#160;&#160;2000)</td>
+				<td><strong>107</strong>&#160;&#160;&#160;(99)</td>
+				<td><strong>22</strong>&#160;&#160;&#160;(17)</td>
+				<td><strong>22</strong>&#160;&#160;&#160;(9)</td>
+				<td>BASTARD SWORD +++++</td>
+			</tr>
+</table><br>
 </br></br>
+
 
 
 ## <a name="screenshots" id="screenshots"></a>Captures d'écran
-</br></br>
+
+<img src="images/baldr000.jpg">
+<img src="images/baldr001.jpg"></br>
+
 
 
 ## <a name="credits" id="credits"></a>Crédits et remerciements
 
-#### Auteur : <a href="https://www.baldursgateworld.fr/lacouronne/members/freddy_gwendo.html">Freddy_Gwendo</a>
+#### Auteur(e) : <a href="https://www.baldursgateworld.fr/lacouronne/members/auteur.html">Auteur</a>
+
 
 #### Remerciements particuliers à :
 
+- L'équipe de <a href="https://www.baldursgateworld.fr">La Couronne de Cuivre</a> pour l'hébergement de ce mod.
+- Les créateurs de la série Baldur's Gate : <a href="http://www.bioware.com/">Bioware</a> et <a href="http://www.obsidian.net/">Black Isle Studios</a>.
+- machin pour m'avoir donner la permission d'utiliser blabla.
+- dugland pour m'avoir aidé à coder.
+- trucmuche pour son aide dans le codage et ses suggestions.
+- bidule pour son aide dans la rédaction des dialogues.
+- xxx pour la traduction française.
+- yyy pour la relecture.
+- Merci aux artistes de portraits du site <a href="https://www.pinterest.fr/">Pinterest</a>.
+- Merci à toutes les personnes des forums de <a href="https://www.baldursgateworld.fr">La Couronne de Cuivre</a>, <a href="http://gibberlings3.net/forums/">The Gibberlings Three</a>, <a href="http://www.shsforums.net/">Spellhold Studios</a>, et des autres communautés de joueurs et de moddeurs IE qui m'ont offert leur aide.
+- etc.
+
+
 #### Logiciels et outils utilisés pour la réalisation de ce mod :
 
+- <a href="http://www.weidu.org/%7Ethebigg/"><acronym title="Weimer Dialogue Utility">WeiDU</acronym></a> de Wes Weimer, the bigg et Wisp.
+- <a href="http://forums.pocketplane.net/index.php/topic,25153.msg314249.html#msg314249">Near Infinity</a> de Jon Olav Hauglid, FredSRichardson et Argent77.
+- <a href="http://www.shsforums.net/topic/31285-infinity-explorer-v085/">Infinity Explorer</a> de Dmitry Jemerov / bigmoshi.
+- <a href="http://www.gibberlings3.net/tools/dltcep.php"><acronym title="Dragonlance Total Conversion Editor Pro">DLTCEP</acronym></a> de Avenger.
+- <a href="http://www.baldursgatemods.com/forums/index.php?action=downloads;sa=view;down=85">CreMaker_v3.1.9</a>.
+- <a href="https://gibberlings3.github.io/iesdp/"><acronym title="Infinity Engine Structures Description Project">IESDP</acronym></a> maintenu par igi et lynx.
+- <a href="http://www.gibberlings3.net/debug/">G3 Debugging Suite</a> de CamDawg.
+- <a href="http://www.teambg.eu/?page=tools&amp;cat=32">BAM Workshop</a> de Glenn Flansburg.
+- <a href="http://www.shsforums.net/topic/57564-bamworkshop/">BAMWorkshop 2</a> de Andrew Bridges.
+- <a href="http://www.shsforums.net/index.php?showtopic=42359">BAM Batcher</a> de Miloch.
+- <a href="https://www.adobe.com/products/photoshop.html">Adobe Photoshop</a>
+- <a href="http://www.gimp.org/"><acronym title="GNU Image Manipulation Program">GIMP</acronym></a> par l'équipe de the GIMP.
+- <a href="http://www.gamani.com/">GIF Movie Gear</a>
+- <a href="https://www.blender.org/">Blender</a> par la Fondation Blender.
+- <a href="https://www.autodesk.com/products/3ds-max/overview">3ds Max</a>
+- <a href="http://notepad-plus-plus.org/">Notepad++</a> par l'équipe de Notepad++, Don Ho, et le plug-in de correction orthographique.
+- <a href="http://www.shsforums.net/files/file/1048-weidu-highlighter-for-notepad/">WeiDU Notepad++ Highlighters </a> de Argent77.
+- <a href="http://www.context.cx/">ConTEXT Text Editor</a> de Eden Kirin.
+- <a href="http://www.gibberlings3.net/tools/weidu.php">WeiDU ConTEXT Highlighters </a> de Idobek, mis à jour par cmorgan.
+- <a href="http://www.editpadpro.com/editpadclassic.html">EditPad Classic</a> de Jan Goyvaerts.
+- <a href="http://www.pspad.com/en/">PSPad</a> de Jan Fiala.
+- <a href="http://www.bulkrenameutility.co.uk/">Bulk Rename Utility</a> de TGRMN Software.
+
+
 #### Information sur les droits d'auteur
-</br></br>
+
+Libre à vous de choisir la formule et la présentation qui vous conviennent :
+
+###### MYMOD n'est pas développé, supporté ni approuvé par BioWare&trade; ou Interplay/Black Isle, Overhaul, Beamdog ou Wizards of the Coast. Il a été développé par AUTEUR, et est basé sur le jeu Baldur's Gate II et son extension.
+###### Tout le contenu du mod appartient à &copy;AUTEUR.
+###### Baldur's Gate II : Les Ombres d'Amn et Baldur's Gate II : Trône de Bhaal appartiennent à &copy; TSR, Inc. Le moteur Infinity Engine appartient à &copy; BioWare Corp. Toutes les autres marques et droits d'auteur appartiennent à leurs propriétaires respectifs.
+
+###### Ce mod a été créé pour être librement apprécié par tous les joueurs de Baldur's Gate II. Cependant, il ne doit pas être vendu, publié, compilé ou redistribué sous une forme quelconque sans le consentement de son auteur.
+###### Veuillez noter que tout partage ou hébergement de ce mod est interdit sans la permission de l'auteur.
+
+###### S'il existe des problèmes de droits d'auteur ou si cette déclaration nécessite une révision, veuillez me contacter et conseillez-moi sur ce qu'il faut faire à ce sujet. Plus particulièrement, si vous trouvez dans ce mod des illustrations susceptibles d'être en conflit avec les règles de droit d'auteur, merci de bien vouloir me le faire savoir dès que possible et je supprimerai immédiatement le contenu en conflit.
+
+###### La communauté de modding sur le moteur Infinity Engine a été très active depuis plus de quinze ans maintenant, et a produit des milliers d'heures de travail non rémunérées effectuées par des fans du jeu. Les moddeurs s'efforcent de publier le meilleur de leur travail, et les joueurs bénéficient des mods les plus performants et les mieux maintenus, à condition que nous travaillions tous dans le même sens.
+###### Mais cette harmonie peut malheureusement être perturbée, principalement par deux comportements. Le premier, c'est de revendiquer le travail de quelqu'un d'autre. Le second consiste à héberger et à redistribuer un mod sans la permission de son(es) auteur(s).
+###### Soyez assez sympa avec vos collègues joueurs et moddeurs. Ne le faites pas.</br></br>
+
 
 
 ## Historique des versions
+
+<p>	Note du traducteur : l'historique n'est volontairement pas traduit afin de faciliter la mise à jour par l'auteur.</p>
+
+#### Version 2.0.0 - jour mois 201x
+- modification niveau 1
+  - modification niveau 2
+    - modification niveau 3
+  - modification niveau 2
+- modification niveau 1
+
 
 #### Version beta 1.0.0 - jour mois 201x
 - Sortie initiale.
