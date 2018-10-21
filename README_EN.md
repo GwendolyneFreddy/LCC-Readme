@@ -1,11 +1,11 @@
-# Menace sur le Royaume de Diamant Éternel
+# MYMOD
 
 <p><strong>Author:</strong> <a href="https://www.baldursgateworld.fr/lacouronne/Auteur.html">bibi</a><br />
 <strong>Version:</strong> n.n.n<br />
 <strong>Languages:</strong> <a href="README.md">French</a>, English<br />
 <strong>Plaeforms:</strong> Windows, Mac OS X et Linux</p>
 
-<strong>Mod forum:</strong> <a href="https://www.baldursgateworld.fr/lacouronne/menace-sur-le-royaume-de-diamant-eternel/">Menace sur le Royaume de Diamant Éternel</a>
+<strong>Forum du mod :</strong> <a href="https://www.baldursgateworld.fr/lacouronne/mymod/">Mymod</a>
 </br></br>
 
 
@@ -52,7 +52,7 @@ The Enhanced Editions are actively supported games. Please note that every patch
 
 #### :warning: Warning : procédure d'installation
 
-##### Les variables nécessaires à l'installation sont lues dans le fichier diamant-config-default.ini, ou dans le fichier diamant-config.ini, si ce dernier existe.
+###### Les variables nécessaires à l'installation sont lues dans le fichier diamant-config-default.ini, ou dans le fichier diamant-config.ini, si ce dernier existe.
 
 Avec les versions prédécentes, pendant la procédure d'installation, de nombreux messages vous permettaient de personnaliser les composants à votre convenance (en fonction de votre jeu IE et des composants que vous aviez installés). Tous ces choix de variables déterminés pendant l'installation du mod ont été externalisés dans le fichier **_diamant-config-default.ini_** situé dans le répertoire mymod. Ce fichier établit une installation « _standard_ ».
 

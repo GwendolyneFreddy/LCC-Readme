@@ -5,7 +5,7 @@
 <strong>Langues :</strong> français, <a href="README_EN.md">anglais</a><br />
 <strong>Plateformes :</strong> Windows, Mac OS X et Linux</p>
 
-<strong>Forum du mod :</strong> <a href="https://www.baldursgateworld.fr/lacouronne/mymod/">Menace sur le Royaume de Diamant Éternel</a>
+<strong>Forum du mod :</strong> <a href="https://www.baldursgateworld.fr/lacouronne/mymod/">Mymod</a>
 </br></br>
 
 
@@ -41,6 +41,7 @@ MYMOD est un mod <acronym title="Weimer Dialogue Utility">WeiDU</acronym> et dev
 <p>[Choisir une formule parmi les suivantes : ]Bien qu'il ne soit pas requis pour faire correctement tourner MYMOD, il est toujours utile d'avoir installé la dernière version du <a href="http://www.gibberlings3.net/bg2fixpack/">BG2 Fixpack</a>. Je vous recommande fortement d'installer la dernière version du <a href="http://www.gibberlings3.net/bg2fixpack/">BG2 Fixpack</a> avant d'installer ce mod.</p><br>
 
 
+
 ## <a name="installation" id="installation"></a>Installation
 
 #### Mise en garde
@@ -68,9 +69,9 @@ Si vous pouvez retarder la mise à jour du patch en plein milieu d'un partie modd
 
 ###### Les variables nécessaires à l'installation sont lues dans le fichier <em><a ref="https://raw.githubusercontent.com/Auteur/mymod/master/mymod/mymod-config-default.ini">mymod-config-default.ini</a></em>, ou dans le fichier <em><a ref="https://raw.githubusercontent.com/Auteur/mymod/master/mymod/mymod-config.ini">mymod-config.ini</a></em>, si ce dernier existe.
 
-Pour éviter d'interrompre la procédure d'installation par de nombreux messages vous permettant de personnaliser certains composants à votre convenance, ces choix de variables ont été externalisés dans le fichier <a href="">mymod-config-default.ini</a> situé dans le répertoire <strong>mymod</strong>. Ce fichier définit une installation « <em>standard</em> ».
+Pour éviter d'interrompre la procédure d'installation par de nombreux messages vous permettant de personnaliser certains composants à votre convenance, ces choix de variables ont été externalisés dans le fichier <a href="https://raw.githubusercontent.com/Auteur/mymod/master/mymod/mymod-config-default.ini">mymod-config-default.ini</a> situé dans le répertoire <strong>mymod</strong>. Ce fichier définit une installation « <em>standard</em> ».
 
-Si vous souhaitez choisir d'autres options d'installation, il vous suffit de modifier les variables souhaitées dans le fichier <em>mymod-config-default.ini</em>, puis de sauvegarder ce dernier sous le nom <em>mymod-config.ini</em>.
+Si vous souhaitez choisir d'autres options d'installation, il vous suffit de modifier les variables souhaitées dans le fichier <span style="font-variant:small-caps;font-size: 16px;color: #FFCC33;"><em>mymod-config-default.ini</em></span>, puis de sauvegarder ce dernier sous le nom <span style="font-variant:small-caps;font-size: 16px;color: #FFCC33;"><em>mymod-config.ini</em></span>.
 
 Le programme d'installation lira les valeurs des variables dans les deux fichiers ini et donnera la priorité aux vôtres. Si le fichier mymod-config.ini contient une variable non conforme, ou si une variable est manquante, il la remplacera par sa valeur par défaut (celle correspondant à l'installation « <em>standard</em> »).</br>
 
