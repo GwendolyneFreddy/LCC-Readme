@@ -1,4 +1,4 @@
-# MYMOD
+# <a name="top" id="top"></a><center>MYMOD
 
 <p><strong>Author:</strong> <a href="https://www.baldursgateworld.fr/lacouronne/Auteur.html">bibi</a><br />
 <strong>Version:</strong> n.n.n<br />
@@ -8,9 +8,12 @@
 <strong>Forum du mod :</strong> <a href="https://www.baldursgateworld.fr/lacouronne/mymod/">Mymod</a>
 </br></br>
 
+<a href="#intro">Overview</a> &#8226; <a href="#compat">Compatibility</a> &#8226; <a href="#installation">Installation</a> &#8226; <a href="#compon">Components</a> &#8226; <a href="#images">Screenshots</a> &#8226; <a href="#credits">Credits and Acknowledgements</a> &#8226; <a href="#versions">Version History</a></br></br>
+
+<hr>
 
 
-## Overview
+## <a name="intro" id="intro"></a>Overview
 
 <p>Courte description du mod : Ce mod...... ou L'objet de ce mod......</p>
 
@@ -21,15 +24,32 @@
 
 <p>Malheureusement, le rendu d'un fichier .md n'est véritablement effective que dans GitHuB, ce qui ne vous permet pas de visualiser votre mise en page dans Notepad++. Il existe cependant plusieurs utilitaires vous permettant de les éditer et de visualiser partiellement vos modifications. Parcellement parce que certaines balises comme [br (break line)] apparaissent à l'écran MÊME si elles resteront invisibles dans GitHub. Personnellement, j'ai opté pour <a href=https://typora.io/">Typora</a>, mais il en existe d'autres.</p><br>
 
+<details><summary>CLICK ME</summary>
+<p>
+
+#### yes, an hidden code block!
+
+</p>
+</details>
+<div style="text-align:right"><a href="#top">Back to top</a></div>
 
 
-## Compatibility
+<hr>
+
+
+## <a name="compat" id="compat"></a>Compatibility
 
 This mod is designed to work on all Infinity Engine games. This includes: Baldur's Gate: Enhanced Edition (BGEE), Baldur's Gate II: Enhanced Edition (BG2EE), Icewind Dale: Enhanced Edition (IWDEE), Planescape: Torment: Enhanced Edition (PsTEE), and the BGEE Siege of Dragonspear expansion (SoD) ; the original Baldur's Gate (BG), with or without the Tales of the Sword Coast (TotSC) expansion, the original Baldur's Gate II (BG2, or just SoA), with or without the Throne of Bhaal (ToB) expansion ; the conversion projects Baldur's Gate Trilogy (BGT), Baldur's Gate Tutu (Tutu), Icewind Dale-in-Baldur's Gate II (IWD-in-BG2), and Enhanced Edition Trilogy (EET) ; the original Icewind Dale (IWD) with or without either of its expansions, Heart of Winter (HoW) and Trials of the Luremaster (TotLM), Icewind Dale II (IWD2), the original Planescape: Torment (PsT).
 
 
+<p>You are strongly recommended to also download and install the <a href="http://www.gibberlings3.net/bg2fixpack/">BG2 Fixpack</a> before proceeding with the installation of this mod.</p><br>
+<div style="text-align:right"><a href="#top">Back to top</a></div>
 
-## Installation
+
+<hr>
+
+
+## <a name="installation" id="installation"></a>Installation
 
 #### Notes
 
@@ -37,7 +57,7 @@ This mod is designed to work on all Infinity Engine games. This includes: Baldur
 
 <em>When installing or uninstalling, <strong>do not close the <acronym title="Disk Operating System">DOS</acronym> window</strong> by clicking on the <strong>X</strong> button! Instead, press the <strong>Enter</strong> key whenever instructed to do so.</em>
 
-<em><strong>Disable any antivirus</strong> or other memory-resident software before installing this or any other mod. Some (particularly avast and Norton!) have a tendency to report false positives with mod activity, resulting in failed installs.</em>
+<em><strong>Disable any antivirus</strong> or other memory-resident software before installing this or any other mod. Some (particularly avast and Norton!) have a tendency to report false positives with mod activity, resulting in failed installs.</em></br>
 
 
 #### Special Note for Siege of Dragonspear from Steam/GOG
@@ -49,6 +69,7 @@ Good Old Games (GOG) and Steam both package the additional content for Siege of 
 
 The Enhanced Editions are actively supported games. Please note that every patch update will wipe your current mod setup! If in the middle of a modded game you might want to delay the patch update (if possible) as even after reinstalling the mods, you might not be able to continue with your old savegames. Alternatively, copy the whole game's folder into a new one that can be modded and will stay untouched by game patches. It is important that you install the mod to the language version you are playing the game in. Otherwise, the dialogues of the mod will not show but give error messages.
 
+## 
 
 #### :warning: Warning : procédure d'installation
 
@@ -75,31 +96,32 @@ Please read the <a href="https://raw.githubusercontent.com/Auteur/mymod/master/m
 		<td>définit blabla</td>
 		<td>numérique</td>
 		<td>1 ou 2</td>
-		<td><strong><span style="color: #FFCC33;">1</span><strong></td>
+		<td><strong><span style="color: #FFCC33;">1</span></strong></td>
 	</tr>
 	<tr>
 		<td>mymod_variable2</td>
 		<td>définit blabla</td>
 		<td>numérique</td>
 		<td>1, 2, 3 ou 4</td>
-		<td><strong><span style="color: #FFCC33;">2</span><strong></td>
+		<td><strong><span style="color: #FFCC33;">2</span></strong></td>
 	</tr>
 	<tr>
 		<td>mymod_variable3</td>
 		<td>définit blabla</td>
 		<td>alphanumérique</td>
 		<td>une lettre : A, B ou C</td>
-		<td><strong><span style="color: #FFCC33;">A</span><strong></td>
+		<td><strong><span style="color: #FFCC33;">A</span></strong></td>
 	</tr>
 	<tr>
 		<td>mymod_variable4</td>
 		<td>définit le nom que vous souhaitez donner à votre monture</td>
 		<td>alphanumérique</td>
 		<td>un nom !</td>
-		<td><strong><span style="color: #FFCC33;">Flèche d'argent</span><strong></td>
+		<td><strong><span style="color: #FFCC33;">Flèche d'argent</span></strong></td>
 	</tr>
 </table>
 
+## 
 
 #### Windows
 
@@ -113,6 +135,7 @@ You can run <strong>setup-mymod.exe</strong> in your game folder to reinstall, u
 
 Alternatively, the files can be extracted into your game directory using <a href="http://www.7-zip.org/download.html">7zip</a> or <a href="http://www.rarlab.com/download.htm">WinRAR</a>. When properly extracted, your game directory will contain <strong>setup-mymod.exe</strong> and the folder <strong>mymod</strong>. To install, double-click <strong>setup-mymod.exe</strong> and follow the instructions on screen.]
 
+## 
 
 #### Mac OS X
 
@@ -122,6 +145,7 @@ First, extract the files from the tarball into your game directory. When properl
 
 You can run <strong>setup-mymod.command</strong> in your game folder to reinstall, uninstall or otherwise change components.
 
+## 
 
 #### Linux
 
@@ -133,11 +157,15 @@ Download the latest version of WeiDU for Linux from <a href="http://www.weidu.or
 
 To install, run <strong>WeInstall setup-mymod</strong> in your game folder. Then run wine <strong>BGMain.exe</strong> and start playing.
 
+## 
 
 #### Note for Complete Uninstallation
 
 In addition to the methods above for removing individual components, you can completely uninstall the mod using <strong>setup-mymod --uninstall</strong> at the command line to remove all components without wading through prompts.</br></br>
+<div style="text-align:right"><a href="#top">Back to top</a></div>
 
+
+<hr>
 
 
 ## <a name="components" id="components"></a>Components
@@ -149,13 +177,13 @@ The installer includes the following components. The number of each is the compo
 
 Description du composant 1.</br>
 
-------------------------
+## 
 
 #### 20 Composant 2 : blabbla
 
 Description du composant 2.</br>
 
-------------------------
+## 
 
 #### 30 Composant 3 : blabbla
 
@@ -193,17 +221,23 @@ Exemple de composant présentant des tableaux.
 		<td>BASTARD SWORD +++++</td>
 	</tr>
 </table><br>
+<div style="text-align:right"><a href="#top">Back to top</a></div>
 
 
+<hr>
 
-## Screenshots
+
+## <a name="images" id="images"></a>Screenshots
 
 <img src="images/baldr000.jpg">
 <img src="images/baldr001.jpg"></br>
+<div style="text-align:right"><a href="#top">Back to top</a></div>
 
 
+<hr>
 
-## Credits and Acknowledgements
+
+## <a name="credits" id="credits"></a>Credits and Acknowledgements
 
 #### Author: <a href="https://www.baldursgateworld.fr/lacouronne/members/freddy_gwendo.html">Gwendolyne</a>
 
@@ -212,6 +246,7 @@ Exemple de composant présentant des tableaux.
 
 - <a href="https://www.baldursgateworld.fr"><acronym title="Copper Coronet">La Couronne de Cuivre</acronym></a> team for hosting the mod.
 - The creators of the Baldur's Gate series: <a href="http://www.bioware.com/">Bioware</a> and <a href="http://www.obsidian.net/">Black Isle Studios</a>.
+- machin for permission to use blabla.
 - dugland for coding help.
 - trucmuche for coding help and suggestions.
 - bidule for dialogue help.
@@ -221,6 +256,7 @@ Exemple de composant présentant des tableaux.
 - Everyone else from the <a href="https://www.baldursgateworld.fr">La Couronne de Cuivre</a>, <a href="http://gibberlings3.net/forums/">The Gibberlings Three</a>, <a href="http://www.shsforums.net/">Spellhold Studios</a> forums, and the other Infinity Engine gaming and modding communities who offered their help and support.
 - etc.
 
+## 
 
 #### Programs/tools used in creation:
 
@@ -247,6 +283,7 @@ Exemple de composant présentant des tableaux.
 - <a href="http://www.pspad.com/en/">PSPad</a>, by Jan Fiala.
 - <a href="http://www.bulkrenameutility.co.uk/">Bulk Rename Utility</a>, by TGRMN Software.
 
+## 
 
 #### Copyright Information
 
@@ -264,10 +301,13 @@ Libre à vous de choisir la formule et la présentation qui vous conviennent :
 ###### The modding community for the Infinity Engine has been going strong for more than 10 years now, and is the culmination of thousands of unpaid modding hours by fellow fans of the game. Modders produce their best work and players get the best, well-supported mods when we all work together.
 ###### There are two big ways to upset this harmony. One is to claim someone else's work as your own. The second is to host and redistribute a mod without permission from the author(s).
 ###### Be kind to your fellow players and modders. Don't do either.</br></br>
+<div style="text-align:right"><a href="#top">Back to top</a></div>
 
 
+<hr>
 
-## Version History
+
+## <a name="versions" id="versions"></a>Version History
 
 #### Version 2.0.0 - Mois jour, 201x
 - modification niveau 1
@@ -279,3 +319,4 @@ Libre à vous de choisir la formule et la présentation qui vous conviennent :
 
 #### Version beta 1.0.0 - Mois jour, 201x
 - Initial release.
+<div style="text-align:right"><a href="#top">Back to top</a></div>

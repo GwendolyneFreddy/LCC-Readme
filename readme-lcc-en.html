@@ -3,10 +3,10 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
-	<meta charset="UTF-8">
-	<style type="text/css">
+  <meta charset="UTF-8">
+  <style type="text/css">
 /*<![CDATA[*/
-	<!-- 
+<!-- 
 	body {
 		margin: 0;
 		padding: 0;
@@ -189,6 +189,14 @@
 		display: block;
 	}
 
+	#maindiv p.boxed {
+		border-style: solid;
+		border-width: 1px;
+		border-color: #FFCC33;
+		margin-top: 32px;
+		padding: 6px;
+	}
+
 	/*	Listes  */
 	#maindiv ul {
 		line-height: 170%;
@@ -256,7 +264,7 @@
 		margin: 0;
 		width: 100%;
 	}
-	/*	Titre de section (160 %)  */
+	/*	Titres de section (160 %)  */
 	h2 {
 		line-height: 170%;
 		display: block;
@@ -356,14 +364,61 @@
 	-->
 /*]]>*/
 
-	</style>
+  </style>
 	<title>
 		MYMOD - La Couronne de Cuivre
 	</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<script>
+		var LANG_FR = "fr";
+
+		var hintTable = [];
+		hintTable[LANG_FR] = 
+		[
+		"Une douzaine de quêtes secondaires à jouer.",
+		"Un bestiaire inspiré des éditions papier et proposant de nouvelles créatures dans l'univers de BG2.",
+		"Plus d'une centaine de cartes, dont des nouvelles.",
+		"De nouvelles animations de créatures : licornes, chevaux, démons, gargouilles...",
+		"De nouveaux sortilèges divins et profanes.",
+		"Des dragons métalliques, cristallins, planaires...",
+		"Des démons et des diables qui profitent du chaos semé dans le Royaume de Diamant Éternel pour y exporter leur Guerre Sanglante.",
+		"Une horde de vampires qui feraient passer Bodhi pour une fillette capricieuse.",
+		"Des chevaliers morts-vivants au comportement toujours aussi rigide dans l'Au-delà."
+		];
+
+		var hintIdx = 0;
+
+		function showNextHint(lang, textId) {
+			var hints = hintTable[lang];
+			if (hints.length > 0) {
+			var elem = document.getElementById(textId);
+			if ('textContent' in elem) {
+				elem.textContent = hints[hintIdx];
+			} else {
+				elem.innerText = hints[hintIdx];
+			}
+			hintIdx = (hintIdx + 1) % hints.length;
+			}
+		}
+
+		function showHints(boxId, lang, textId) {
+			document.getElementById(boxId).style.display = "block";
+			showNextHint(lang, textId);
+		}
+
+		function showSpoiler(obj)
+		{
+		var inner = obj.parentNode.getElementsByTagName("div")[0];
+		if (inner.style.display == "none")
+		inner.style.display = "";
+		else
+		inner.style.display = "none";
+		}
+
+	</script>
 </head>
 
-<body>
+<body onload="showHints('hintbox', 'fr', 'hint')">
   <div id="cartouche">
 	<a name="top" id="top"></a>
 	<div id="header">
@@ -398,15 +453,15 @@
 	</div>
 
 	<div id="menu">
-		<a href="#intro">Introduction</a> &#8226; <a href="#compat">Compatibility</a> &#8226; <a href="#installation">Installation</a> &#8226; <a href="#compon">Components</a> &#8226; <a href="#trouble">Troubleshooting</a> &#8226; <a href="#images">Screenshots</a> &#8226; <a href="#credits">Credits and Acknowledgements</a> &#8226; <a href="#versions">Version History</a>
+		<a href="#intro">Overview</a> &#8226; <a href="#compat">Compatibility</a> &#8226; <a href="#installation">Installation</a> &#8226; <a href="#compon">Components</a> &#8226; <a href="#trouble">Troubleshooting</a> &#8226; <a href="#images">Screenshots</a> &#8226; <a href="#credits">Credits and Acknowledgements</a> &#8226; <a href="#versions">Version History</a>
 	</div>
 
 	<div id="maindiv">
-	<!-- ================== I n t r o d u c t i o n ================== -->
+<!-- ================== I n t r o d u c t i o n ================== -->
 	  <a name="intro" id="intro"></a>
 		<div class="content">
 		<h2>
-			Introduction
+			Overview
 		</h2><br>
 
 		<p>
@@ -420,6 +475,7 @@
 		</p><br>
 		<p>
 			Codes de caractères spéciaux : mid dot [&middot;] - > [&gt;] - espace insécable [&#160;] - &nbsp; - &#8258
+		</p>
 		<p>
 			Codes de smileys : &#128578; [:)] - &#128521; [;)] - &#128541; [:p] - &#128526; [] - &#x26A0; et &#9888; [:warning:] - &#x26A0;&#xFE0F; ou &#9888;&#65039; [warning en jaune]
 		</p>
@@ -441,11 +497,58 @@
 		</ul><br>
 
 		<h3>
-			Titre (h3)
+			Exemple d'informations à afficher (h3)
 		</h3>
+
+		<p id="hintbox" class="boxed" style="display: none">
+			<strong>En savoir un peu plus</strong><input type="submit" value="C'est tout ?" onclick="showNextHint('fr', 'hint')" style="background:#FFBF00;margin-left: 10px"></input>
+			<br /><br><span style="margin-left: 15px">&#x25BA; 
+			<span id="hint">...</span></span><br><br>
+		</p><br><br>
+
 		<h4>
-			Titre (h4)
+			Codes pour afficher un bouton spoiler (h4)
 		</h4>
+
+		<div class="spoiler" style="margin: 10px auto;width: 90%; border-style: solid; border-width: 1px; border-color: #FFCC33; margin-top: 32px; padding: 6px;"><br>
+		<input onclick="showSpoiler(this);" value="Afficher / Cacher" type="button" style="background:#FFBF00;margin-left: 10px">
+			<div class="inner" style="display: none;margin-left: 15px"><br>TEXTE À AFFICHER SPOILER 1 !
+			</div>
+			<br><br>
+		</div>
+
+		<div style="margin: 10px auto;width: 90%; border-style: solid; border-width: 1px; border-color: #FFCC33; margin-top: 32px; padding: 6px;">
+			<div class="quotetitle">
+				<b>Spoiler 2 avec bouton d'affichage :</b>
+				<input value="Afficher" style="margin: 0px; padding: 0px; width: 50px; background:#FFBF00;"
+				onclick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; this.innerText = ''; this.value = 'Cacher'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = 'Afficher'; }" type="button" >
+			</div>
+			<div class="quotecontent">
+				<div style="display: none;">
+					<br>TEXTE À AFFICHER SPOILER 2<br><br>
+				</div>
+			</div>
+		</div> 
+
+		<div style="margin: 10px auto;width: 90%; border-style: solid; border-width: 1px; border-color: #FFCC33; margin-top: 32px; padding: 6px;">
+			<div class="c1" onclick="javascript:montrer_spoiler('spoiler3')">
+				<strong>Spoiler 3 sans bouton d'affichage : cliquer sur le titre</strong>
+				<script type="text/javascript"> function montrer_spoiler(value){var actual=document.getElementById(value).style.visibility;if (actual=='visible'){document.getElementById(value).style.visibility='hidden';}else{document.getElementById(value).style.visibility='visible';}} </script>
+				<dl style="visibility: hidden;" id="spoiler3">
+					<dd>TEXTE À AFFICHER SPOILER 3<br></dd>
+				</dl>
+			</div>
+		</div>
+
+		<div style="margin: 10px auto;width: 90%; border-style: solid; border-width: 1px; border-color: #FFCC33; margin-top: 32px; padding: 6px;">
+			<div class="c1" onclick="pchild=this.getElementsByTagName('p'); if(pchild[0].style.visibility!='hidden'){pchild[0].style.visibility='hidden'; pchild[0].style.height='0';}else{pchild[0].style.visibility=''; pchild[0].style.height=''}">
+				<strong>Spoiler 4 : texte à cacher (cliquer sur le texte)</strong>
+				<p>
+					TEXTE À CACHER SPOILER 4<br>
+				</p>
+			</div>
+		</div>
+
 		<h5>
 			Titre (h5)
 		</h5>
@@ -459,7 +562,7 @@
 			</address>
 		</div>
 
-	<!-- ================= C o m p a t i b i l i t y ================= -->
+<!-- ================= C o m p a t i b i l i t y ================= -->
 	  <a name="compat" id="compat"></a>
 		<div class="content">
 		<h2>
@@ -504,7 +607,7 @@
 			</address>
 		</div>
 
-	<!-- ================== I n s t a l l a t i o n ================== -->
+<!-- ================== I n s t a l l a t i o n ================== -->
 	  <a name="installation" id="installation"></a>
 		<div class="content">
 		<h2>
@@ -543,7 +646,6 @@
 			&#9888;&#65039; Warning: installation process
 		</h3>
 		<p>
-		<p>
 			<strong><span style="font-variant:small-caps;font-size: 12px;margin-left: 30px;">Variables needed for installation are read from <a href="mymod-config-default.ini"><em>mymod-config-default.ini</em></a> file, or <a href="mymod-config.ini"><em>mymod-config.ini</em></a> if it exists.</span></strong>
 		</p><br>
 		<p>
@@ -572,28 +674,28 @@
 				<td>defines blabla</td>
 				<td>integer</td>
 				<td>1 or 2</td>
-				<td><strong><span style="color: #FFCC33;">1</span><strong></td>
+				<td><strong><span style="color: #FFCC33;">1</span></strong></td>
 			</tr>
 			<tr>
 				<td>mymod_variable2</td>
 				<td>defines blabla</td>
 				<td>integer</td>
 				<td>1, 2, 3 or 4</td>
-				<td><strong><span style="color: #FFCC33;">2</span><strong></td>
+				<td><strong><span style="color: #FFCC33;">2</span></strong></td>
 			</tr>
 			<tr>
 				<td>mymod_variable3</td>
 				<td>defines blabla</td>
 				<td>string</td>
 				<td>one character: A, B or C</td>
-				<td><strong><span style="color: #FFCC33;">A</span><strong></td>
+				<td><strong><span style="color: #FFCC33;">A</span></strong></td>
 			</tr>
 			<tr>
 				<td>mymod_variable4</td>
 				<td>The name of your mount</td>
 				<td>string</td>
 				<td>a name!</td>
-				<td><strong><span style="color: #FFCC33;">Silver Star</span><strong></td>
+				<td><strong><span style="color: #FFCC33;">Silver Star</span></strong></td>
 			</tr>
 		</table><br>
 
@@ -663,7 +765,7 @@
 			</address>
 		</div>
 
-	<!-- =================== C o m p o n e n t s ==================== -->
+<!-- =================== C o m p o n e n t s ==================== -->
 	  <a name="compon" id="compon"></a>
 		<div class="content">
 		<h2>
@@ -736,7 +838,7 @@
 			</address>
 		</div>
 
-	<!-- ============== T r o u b l e s h o o t i n g =============== -->
+<!-- ============== T r o u b l e s h o o t i n g =============== -->
 	  <a name="trouble" id="trouble"></a>
 		<div class="content">
 		<h2>
@@ -795,7 +897,7 @@
 			</address>
 		</div>
 
-	<!-- =================== I m a g e s ==================== -->
+<!-- =================== I m a g e s ==================== -->
 	  <a name="images" id="images"></a>
 		<div class="content">
 		<h2>
@@ -819,7 +921,7 @@
 			</address>
 		</div>
 
-	<!-- ======================= C r e d i t s ====================== -->
+<!-- ======================= C r e d i t s ====================== -->
 	  <a name="credits" id="credits"></a>
 		<div class="content">
 		<h2>
@@ -991,7 +1093,7 @@
 			</address>
 		</div>
 
-	<!-- ======================= V e r s i o n s ====================== -->
+<!-- ======================= V e r s i o n s ====================== -->
 	  <a name="versions" id="versions"></a>
 		<div class="content">
 		<h2>

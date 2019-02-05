@@ -1,4 +1,4 @@
-# MYMOD
+# <a name="top" id="top"></a><center>MYMOD
 
 <p><strong>Auteur :</strong> <a href="https://www.baldursgateworld.fr/lacouronne/Auteur.html">bibi</a><br />
 <strong>Version :</strong> n.n.n<br />
@@ -8,9 +8,13 @@
 <strong>Forum du mod :</strong> <a href="https://www.baldursgateworld.fr/lacouronne/mymod/">Mymod</a>
 </br></br>
 
+<a href="#intro">Présentation</a> &#8226; <a href="#compat">Compatibilité</a> &#8226; <a href="#installation">Installation</a> &#8226; <a href="#compon">Composants</a> &#8226; <a href="#images">Captures d'écran</a> &#8226; <a href="#credits">Crédits et remerciements</a> &#8226; <a href="#versions">Historique des versions</a></br></br>
 
 
-## Présentation
+<hr>
+
+
+## <a name="intro" id="intro"></a>Présentation
 
 <p>Courte description du mod : Ce mod...... ou L'objet de ce mod......</p>
 
@@ -21,9 +25,20 @@
 
 <p>Malheureusement, le rendu d'un fichier .md n'est véritablement effective que dans GitHuB, ce qui ne vous permet pas de visualiser votre mise en page dans Notepad++. Il existe cependant plusieurs utilitaires vous permettant de les éditer et de visualiser partiellement vos modifications. Parcellement parce que certaines balises comme [br (break line)] apparaissent à l'écran MÊME si elles resteront invisibles dans GitHub. Personnellement, j'ai opté pour <a href=https://typora.io/">Typora</a>, mais il en existe d'autres.</p><br>
 
+<details><summary>CLIQUER</summary>
+<p>
+
+#### hé hé, un bloc spoiler !
+
+</p>
+</details>
+<div style="text-align:right"><a href="#top">Retour en haut de page</a></div>
 
 
-## Compatibilité
+<hr>
+
+
+## <a name="compat" id="compat"></a>Compatibilité
 
 Ce mod est conçu pour fonctionner sur les jeux Infinity Engine suivants : Baldur's Gate: Enhanced Edition (BGEE), Baldur's Gate II: Enhanced Edition (BG2EE), Icewind Dale: Enhanced Edition (IWDEE), Planescape: Torment: Enhanced Edition (PsTEE), ainsi que l'extension de BGEE, Siege of Dragonspear (SoD) ; le jeu original Baldur's Gate (BG), avec ou sans son extension La légende de l'île perdue (Tales of the Sword Coast : TotSC), le jeu original Baldur's Gate II (Les Ombres d'Amn : BG2-SoA), avec ou sans son extension Trône de Bhaal (Throne of Bhaal : ToB) ; les mods de conversion Baldur's Gate Trilogy (BGT), Baldur's Gate Tutu (Tutu), Icewind Dale-in-Baldur's Gate II (IWD-in-BG2), et Enhanced Edition Trilogy (EET) ; le jeu original Icewind Dale (IWD), avec ou sans ses extensions Heart of Winter (HoW) et Trials of the Luremaster (TotLM), Icewind Dale II (IWD2), le jeu original Planescape: Torment (PsT).
 
@@ -39,6 +54,7 @@ MYMOD est un mod <acronym title="Weimer Dialogue Utility">WeiDU</acronym> et dev
 #### Mods pré-requis
 
 <p>[Choisir une formule parmi les suivantes : ]Bien qu'il ne soit pas requis pour faire correctement tourner MYMOD, il est toujours utile d'avoir installé la dernière version du <a href="http://www.gibberlings3.net/bg2fixpack/">BG2 Fixpack</a>. Je vous recommande fortement d'installer la dernière version du <a href="http://www.gibberlings3.net/bg2fixpack/">BG2 Fixpack</a> avant d'installer ce mod.</p><br>
+<div style="text-align:right"><a href="#top">Retour en haut de page</a></div>
 
 
 
@@ -50,7 +66,7 @@ MYMOD est un mod <acronym title="Weimer Dialogue Utility">WeiDU</acronym> et dev
 
 <em>Lorsque vous installez ou désinstallez, <strong>ne fermez pas la fenêtre <acronym title="Disk Operating System">DOS</acronym></strong> en cliquant sur le bouton <strong>X</strong> ! Au lieu de cela, appuyez sur la touche <strong>Entrée</strong> lorsque l'invite de commandes vous le demande.</em>
 
-<em>Par précaution, <strong>Désactivez les antivirus</strong> ou tout logiciel résidant en mémoire avant d'installer ce mod, ou tout autre mod. Certains (en particulier avast et Norton !) ont une fâcheuse tendance à déclarer les exécutables des mods comme des faux positifs, provoquant ainsi l'échec de la procédure d'installation.</em></br>
+<em>Par précaution, <strong>désactivez les antivirus</strong> ou tout logiciel résidant en mémoire avant d'installer ce mod, ou tout autre mod. Certains (en particulier avast et Norton !) ont une fâcheuse tendance à déclarer les exécutables des mods comme des faux positifs, provoquant ainsi l'échec de la procédure d'installation.</em></br>
 
 
 #### Note spéciale pour Siege of Dragonspear fourni par Steam/GOG
@@ -64,6 +80,7 @@ Les Éditions améliorées sont des jeux que le développeur fait encore évoluer, no
 
 Si vous pouvez retarder la mise à jour du patch en plein milieu d'un partie moddée (si vous en avez la possibilité, notamment chez Beamdog et Good Old Games), n'oubliez pas que même après avoir réinstallé les mods sur un nouveau patch, vous ne pourrez peut-être pas continuer le jeu avec vos anciennes sauvegardes, en particulier à cause de noms de personnages, de lieux, etc, qui pourraient être incorrects. Pour y remédier, copiez tout le dossier du jeu dans un nouveau dossier dans lequel vous installerez vos mods, et qui ne sera pas modifié par les patches de mise à jour. Il est important que vous installiez le mod dans la version linguistique dans laquelle vous jouez. Sinon, les dialogues du mod ne s'afficheront pas et provoqueront des messages d'erreur.</br>
 
+## 
 
 #### &#9888;&#65039; Avertissement : procédure d'installation
 
@@ -90,35 +107,36 @@ Vous trouverez la liste des variables et leur signification dans le fichier <a h
 		<td>définit blabla</td>
 		<td>numérique</td>
 		<td>1 ou 2</td>
-		<td><strong><span style="color: #FFCC33;">1</span><strong></td>
+		<td><strong><span style="color: #FFCC33;">1</span></strong></td>
 	</tr>
 	<tr>
 		<td>mymod_variable2</td>
 		<td>définit blabla</td>
 		<td>numérique</td>
 		<td>1, 2, 3 ou 4</td>
-		<td><strong><span style="color: #FFCC33;">2</span><strong></td>
+		<td><strong><span style="color: #FFCC33;">2</span></strong></td>
 	</tr>
 	<tr>
 		<td>mymod_variable3</td>
 		<td>définit blabla</td>
 		<td>alphanumérique</td>
 		<td>une lettre : A, B ou C</td>
-		<td><strong><span style="color: #FFCC33;">A</span><strong></td>
+		<td><strong><span style="color: #FFCC33;">A</span></strong></td>
 	</tr>
 	<tr>
 		<td>mymod_variable4</td>
 		<td>Le nom que vous souhaitez donner à votre monture</td>
 		<td>alphanumérique</td>
 		<td>un nom !</td>
-		<td><strong><span style="color: #FFCC33;">Flèche d'argent</span><strong></td>
+		<td><strong><span style="color: #FFCC33;">Flèche d'argent</span></strong></td>
 	</tr>
 </table>
 
+## 
 
 #### Windows
 
-Menace sur le Royaume de Diamant Éternel for Windows is distributed as an extractable compressed archive and includes a <acronym title="Weimer Dialogue Utility">WeiDU</acronym> installer.
+MYMOD pour Windows est livré et installé avec <acronym title="Weimer Dialogue Utility">WeiDU</acronym>, et est diffusé sous forme d'archive.
 
 Vous devez extraire les fichiers de l'archive dans votre répertoire de jeu (<em>le dossier qui contient le fichier CHITIN.KEY</em>) à l'aide de <a href="http://www.7-zip.org/download.html">7zip</a> ou de <a href="http://www.rarlab.com/download.htm">WinRAR</a>. Une fois l'archive extraite correctement, vous devriez trouver le répertoire <strong>mymod</strong> et le fichier <strong>setup-mymod.exe</strong> dans votre répertoire de jeu. Pour installer le mod, il suffit de double-cliquer sur <strong>setup-mymod.exe</strong> et de suivre les instructions affichées à l'écran.</br>
 
@@ -128,6 +146,7 @@ Vous pouvez lancer <strong>setup-mymod.exe</strong> dans votre répertoire de jeu
 
 Autrement, vous pouvez extraire les fichiers de l'archive dans votre répertoire de jeu (<em>le dossier qui contient le fichier CHITIN.KEY</em>) à l'aide de <a href="http://www.7-zip.org/download.html">7zip</a> ou de <a href="http://www.rarlab.com/download.htm">WinRAR</a>. Une fois l'archive extraite correctement, vous devriez trouver le répertoire <strong>mymod</strong> et le fichier <strong>setup-mymod.exe</strong> dans votre répertoire de jeu. Pour installer le mod, il suffit de double-cliquer sur <strong>setup-mymod.exe</strong> et de suivre les instructions affichées à l'écran.]
 
+## 
 
 #### Mac OS X
 
@@ -137,6 +156,7 @@ Extrayez le contenu du tarball dans votre répertoire de jeu. Après une extractio
 
 Vous pouvez lancer <strong>setup-mymod.command</strong> dans votre répertoire de jeu pour réinstaller, désinstaller ou changer des composants.
 
+## 
 
 #### Linux
 
@@ -148,11 +168,14 @@ Téléchargez la version la plus récente de WeiDU pour Linux sur <a href="http://w
 
 Lancez <strong>WeInstall setup-mymod</strong> depuis le dossier de votre jeu pour installer le mod. Puis, lancez <strong>wine BGMain.exe</strong> et commencez à jouer.
 
+## 
 
 #### Note pour effectuer une désinstallation complète
 
 En plus des méthodes détaillées plus haut pour supprimer des composants, il est possible de désinstaller complètement le mod en tapant <strong>setup-mymod --uninstall</strong> dans une ligne de commandes, ce qui supprimera tous les composants sans devoir ingurgiter tous les messages.</br></br>
 
+
+<hr>
 
 
 ## <a name="components" id="components"></a>Composants
@@ -164,13 +187,13 @@ Le programme d'installation comprend les composants suivants. Chacun possède un 
 
 Description du composant 1.</br>
 
-------------------------
+## 
 
 #### 20 Composant 2 : blabbla
 
 Description du composant 2.</br>
 
-------------------------
+## 
 
 #### 30 Composant 3 : blabbla
 
@@ -208,14 +231,20 @@ Exemple de composant présentant des tableaux.
 		<td>BASTARD SWORD +++++</td>
 	</tr>
 </table><br>
+<div style="text-align:right"><a href="#top">Retour en haut de page</a></div>
 
 
+<hr>
 
-## <a name="screenshots" id="screenshots"></a>Captures d'écran
+
+## <a name="images" id="images"></a>Captures d'écran
 
 <img src="images/baldr000.jpg">
 <img src="images/baldr001.jpg"></br>
+<div style="text-align:right"><a href="#top">Retour en haut de page</a></div>
 
+
+<hr>
 
 
 ## <a name="credits" id="credits"></a>Crédits et remerciements
@@ -237,6 +266,7 @@ Exemple de composant présentant des tableaux.
 - Merci à toutes les personnes des forums de <a href="https://www.baldursgateworld.fr">La Couronne de Cuivre</a>, <a href="http://gibberlings3.net/forums/">The Gibberlings Three</a>, <a href="http://www.shsforums.net/">Spellhold Studios</a>, et des autres communautés de joueurs et de moddeurs IE qui m'ont offert leur aide.
 - etc.
 
+## 
 
 #### Logiciels et outils utilisés pour la réalisation de ce mod :
 
@@ -263,6 +293,7 @@ Exemple de composant présentant des tableaux.
 - <a href="http://www.pspad.com/en/">PSPad</a> de Jan Fiala.
 - <a href="http://www.bulkrenameutility.co.uk/">Bulk Rename Utility</a> de TGRMN Software.
 
+## 
 
 #### Information sur les droits d'auteur
 
@@ -280,10 +311,13 @@ Libre à vous de choisir la formule et la présentation qui vous conviennent :
 ###### La communauté de modding sur le moteur Infinity Engine a été très active depuis plus de quinze ans maintenant, et a produit des milliers d'heures de travail non rémunérées effectuées par des fans du jeu. Les moddeurs s'efforcent de publier le meilleur de leur travail, et les joueurs bénéficient des mods les plus performants et les mieux maintenus, à condition que nous travaillions tous dans le même sens.
 ###### Mais cette harmonie peut malheureusement être perturbée, principalement par deux comportements. Le premier, c'est de revendiquer le travail de quelqu'un d'autre. Le second consiste à héberger et à redistribuer un mod sans la permission de son(es) auteur(s).
 ###### Soyez assez sympa avec vos collègues joueurs et moddeurs. Ne le faites pas.</br></br>
+<div style="text-align:right"><a href="#top">Retour en haut de page</a></div>
 
 
+<hr>
 
-## Historique des versions
+
+## <a name="versions" id="versions"></a>Historique des versions
 
 <p>	Note du traducteur : l'historique n'est volontairement pas traduit afin de faciliter la mise à jour par l'auteur.</p>
 
@@ -297,3 +331,4 @@ Libre à vous de choisir la formule et la présentation qui vous conviennent :
 
 #### Version beta 1.0.0 - jour mois 201x
 - Sortie initiale.
+<div style="text-align:right"><a href="#top">Retour en haut de page</a></div>
