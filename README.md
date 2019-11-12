@@ -1,15 +1,23 @@
-# <a name="top" id="top"></a><center>MYMOD
 
-<p><strong>Auteur :</strong> <a href="https://www.baldursgateworld.fr/lacouronne/Auteur.html">bibi</a><br />
-<strong>Version :</strong> n.n.n<br />
-<strong>Langues :</strong> français, <a href="README_EN.md">anglais</a><br />
-<strong>Plateformes :</strong> Windows, Mac OS X et Linux</p>
+![Latest Release](https://img.shields.io/github/v/release/gwendolynefreddy/lcc-readme?include_prereleases&color=#ffdc6b)<a name="top" id="top">
+![Platform](https://img.shields.io/static/v1?label=plateforme&message=windows&color=informational)
+![Language](https://img.shields.io/static/v1?label=langues&message=Anglais%20%7C%20Fr%20&color=limegreen)
 
-<strong>Forum du mod :</strong> <a href="https://www.baldursgateworld.fr/lacouronne/mymod/">Mymod</a>
-</br></br>
+<div align="center"><h1></a>MYMOD</h1>
 
-<a href="#intro">Présentation</a> &#8226; <a href="#compat">Compatibilité</a> &#8226; <a href="#installation">Installation</a> &#8226; <a href="#components">Composants</a> &#8226; <a href="#images">Captures d'écran</a> &#8226; <a href="#credits">Crédits et remerciements</a> &#8226; <a href="#versions">Historique des versions</a></br></br>
+<h3>Un mod développé sur <a href="https://www.baldursgateworld.fr">La Couronne de Cuivre</a> pour Baldur's Gate II: ToB, Baldur's Gate Trilogy, BG2:EE et EET<h3>
 
+</div><br />
+
+
+**Auteur :** <a href="https://www.baldursgateworld.fr/lacouronne/Auteur.html">bibi</a>  
+**Langues :** français, <a href="README_EN.md">anglais</a>  
+**Forum du mod :** <a href="https://www.baldursgateworld.fr/lacouronne/mymod/">Mymod</a>  
+
+
+<div align="center">
+<a href="#intro">Présentation</a> &#8226; <a href="#compat">Compatibilité</a> &#8226; <a href="#installation">Installation</a> &#8226; <a href="#components">Composants</a> &#8226; <a href="#images">Captures d'écran</a> &#8226; <a href="#credits">Crédits et remerciements</a> &#8226; <a href="#versions">Historique des versions</a></br>
+</div>
 
 <hr>
 
@@ -23,7 +31,7 @@
 <p>Pour chaque section, j'ai repris, chaque fois que c'était possible, des éléments de traductions déjà publiées (par les d'Oghms ou par bibi) afin de conserver un semblant d'homogénéité dans les termes employés. Il suffit alors de conserver celles dont on a besoin (liste des jeux compatibles, procédures d'installation selon la plateforme, liste des outils utilisés...) et, pour le reste, de remplacer MYMOD et Auteur par le nom du mod et de son auteur, de modifier les liens et de remplir les textes adéquats. Pour certaines sections, j'ai été le plus exhaustif possible : il vous suffit de choisir les paragraphes qui vous intéressent et de supprimer les autres. &#128521;</p>
 
 
-<p>Malheureusement, le rendu d'un fichier .md n'est véritablement effective que dans GitHuB, ce qui ne vous permet pas de visualiser votre mise en page dans Notepad++. Il existe cependant plusieurs utilitaires vous permettant de les éditer et de visualiser partiellement vos modifications. Parcellement parce que certaines balises comme [br (break line)] apparaissent à l'écran MÊME si elles resteront invisibles dans GitHub. Personnellement, j'ai opté pour <a href=https://typora.io/">Typora</a>, mais il en existe d'autres.</p><br>
+<p>Malheureusement, le rendu d'un fichier .md n'est véritablement effectif que dans GitHuB, ce qui ne vous permet pas de visualiser votre mise en page dans Notepad++. Il existe cependant plusieurs utilitaires vous permettant de les éditer et de visualiser partiellement vos modifications. Partiellement parce que certaines balises comme [br (break line)] apparaissent à l'écran MÊME si elles resteront invisibles dans GitHub. Personnellement, j'ai opté pour <a href=https://typora.io/">Typora</a>, mais il en existe d'autres.</p><br>
 
 <details><summary>CLIQUER</summary>
 <p>
@@ -32,7 +40,7 @@
 
 </p><br>
 </details>
-<div style="text-align:right"><a href="#top">Retour en haut de page</a></div>
+<div align="right"><a href="#top">Retour en haut de page</a></div>
 
 
 <hr>
@@ -54,7 +62,7 @@ MYMOD est un mod <acronym title="Weimer Dialogue Utility">WeiDU</acronym> et dev
 #### Mods pré-requis
 
 <p>[Choisir une formule parmi les suivantes : ]Bien qu'il ne soit pas requis pour faire correctement tourner MYMOD, il est toujours utile d'avoir installé la dernière version du <a href="http://www.gibberlings3.net/bg2fixpack/">BG2 Fixpack</a>. Je vous recommande fortement d'installer la dernière version du <a href="http://www.gibberlings3.net/bg2fixpack/">BG2 Fixpack</a> avant d'installer ce mod.</p><br>
-<div style="text-align:right"><a href="#top">Retour en haut de page</a></div>
+<div align="right"><a href="#top">Retour en haut de page</a></div>
 
 
 
@@ -173,6 +181,7 @@ Lancez <strong>WeInstall setup-mymod</strong> depuis le dossier de votre jeu pou
 #### Note pour effectuer une désinstallation complète
 
 En plus des méthodes détaillées plus haut pour supprimer des composants, il est possible de désinstaller complètement le mod en tapant <strong>setup-mymod --uninstall</strong> dans une ligne de commandes, ce qui supprimera tous les composants sans devoir ingurgiter tous les messages.</br></br>
+<div align="right"><a href="#top">Retour en haut de page</a></div>
 
 
 <hr>
@@ -231,7 +240,7 @@ Exemple de composant présentant des tableaux.
 		<td>BASTARD SWORD +++++</td>
 	</tr>
 </table><br>
-<div style="text-align:right"><a href="#top">Retour en haut de page</a></div>
+<div align="right"><a href="#top">Retour en haut de page</a></div>
 
 
 <hr>
@@ -241,7 +250,7 @@ Exemple de composant présentant des tableaux.
 
 <img src="images/baldr000.jpg">
 <img src="images/baldr001.jpg"></br>
-<div style="text-align:right"><a href="#top">Retour en haut de page</a></div>
+<div align="right"><a href="#top">Retour en haut de page</a></div>
 
 
 <hr>
@@ -311,7 +320,7 @@ Libre à vous de choisir la formule et la présentation qui vous conviennent :
 ###### La communauté de modding sur le moteur Infinity Engine a été très active depuis plus de quinze ans maintenant, et a produit des milliers d'heures de travail non rémunérées effectuées par des fans du jeu. Les moddeurs s'efforcent de publier le meilleur de leur travail, et les joueurs bénéficient des mods les plus performants et les mieux maintenus, à condition que nous travaillions tous dans le même sens.
 ###### Mais cette harmonie peut malheureusement être perturbée, principalement par deux comportements. Le premier, c'est de revendiquer le travail de quelqu'un d'autre. Le second consiste à héberger et à redistribuer un mod sans la permission de son(es) auteur(s).
 ###### Soyez assez sympa avec vos collègues joueurs et moddeurs. Ne le faites pas.</br></br>
-<div style="text-align:right"><a href="#top">Retour en haut de page</a></div>
+<div align="right"><a href="#top">Retour en haut de page</a></div>
 
 
 <hr>
@@ -321,14 +330,33 @@ Libre à vous de choisir la formule et la présentation qui vous conviennent :
 
 <p>	Note du traducteur : l'historique n'est volontairement pas traduit afin de faciliter la mise à jour par l'auteur.</p>
 
+#### Version 4.0.0 - jour mois 2019
+
+- readme-lcc.html
+
+- readme.md
+  - Alignement à droite du retour en haut de page.
+  - Ajout de badges en en-tête.
+  - Centrage du nom du mod en en-tête.
+  - Correction de typos.
+
+## 
+
+#### Version 3.0.0 - jour mois 201x
+
+## 
+
 #### Version 2.0.0 - jour mois 201x
+
 - modification niveau 1
   - modification niveau 2
     - modification niveau 3
   - modification niveau 2
 - modification niveau 1
 
+## 
 
 #### Version beta 1.0.0 - jour mois 201x
+
 - Sortie initiale.
-<div style="text-align:right"><a href="#top">Retour en haut de page</a></div>
+<div align="right"><a href="#top">Retour en haut de page</a></div>

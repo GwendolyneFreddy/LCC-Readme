@@ -1,14 +1,23 @@
-# <a name="top" id="top"></a><center>MYMOD
 
-<p><strong>Author:</strong> <a href="https://www.baldursgateworld.fr/lacouronne/Auteur.html">bibi</a><br />
-<strong>Version:</strong> n.n.n<br />
-<strong>Languages:</strong> <a href="README.md">French</a>, English<br />
-<strong>Plaeforms:</strong> Windows, Mac OS X et Linux</p>
+![Latest Release](https://img.shields.io/github/v/release/gwendolynefreddy/lcc-readme?include_prereleases&color=#ffdc6b)<a name="top" id="top">
+![Platform](https://img.shields.io/static/v1?label=platform&message=windows&color=informational)
+![Language](https://img.shields.io/static/v1?label=language&message=English%20%7C%20French%20&color=limegreen)
 
-<strong>Forum du mod :</strong> <a href="https://www.baldursgateworld.fr/lacouronne/mymod/">Mymod</a>
-</br></br>
+<div align="center"><h1></a>MYMOD</h1>
 
-<a href="#intro">Overview</a> &#8226; <a href="#compat">Compatibility</a> &#8226; <a href="#installation">Installation</a> &#8226; <a href="#components">Components</a> &#8226; <a href="#images">Screenshots</a> &#8226; <a href="#credits">Credits and Acknowledgements</a> &#8226; <a href="#versions">Version History</a></br></br>
+<h3>A <a href="https://www.baldursgateworld.fr">La Couronne de Cuivre</a> mod for Baldur's Gate II:ToB, Baldur's Gate Trilogy, BG2:EE et EET<h3>
+
+</div><br />
+
+
+**Author:** <a href="https://www.baldursgateworld.fr/lacouronne/Auteur.html">bibi</a>  
+**Languages:** <a href="README.md">French</a>, English  
+**Mod Website and Forum:** <a href="https://www.baldursgateworld.fr/lacouronne/mymod/">Mymod</a>  
+
+
+<div align="center">
+<a href="#intro">Overview</a> &#8226; <a href="#compat">Compatibility</a> &#8226; <a href="#installation">Installation</a> &#8226; <a href="#components">Components</a> &#8226; <a href="#images">Screenshots</a> &#8226; <a href="#credits">Credits and Acknowledgements</a> &#8226; <a href="#versions">Version History</a></br>
+</div>
 
 <hr>
 
@@ -31,7 +40,7 @@
 
 </p>
 </details><br>
-<div style="text-align:right"><a href="#top">Back to top</a></div>
+<div align="right"><a href="#top">Back to top</a></div>
 
 
 <hr>
@@ -43,7 +52,7 @@ This mod is designed to work on all Infinity Engine games. This includes: Baldur
 
 
 <p>You are strongly recommended to also download and install the <a href="http://www.gibberlings3.net/bg2fixpack/">BG2 Fixpack</a> before proceeding with the installation of this mod.</p><br>
-<div style="text-align:right"><a href="#top">Back to top</a></div>
+<div align="right"><a href="#top">Back to top</a></div>
 
 
 <hr>
@@ -162,7 +171,7 @@ To install, run <strong>WeInstall setup-mymod</strong> in your game folder. Then
 #### Note for Complete Uninstallation
 
 In addition to the methods above for removing individual components, you can completely uninstall the mod using <strong>setup-mymod --uninstall</strong> at the command line to remove all components without wading through prompts.</br></br>
-<div style="text-align:right"><a href="#top">Back to top</a></div>
+<div align="right"><a href="#top">Back to top</a></div>
 
 
 <hr>
@@ -221,7 +230,7 @@ Exemple de composant présentant des tableaux.
 		<td>BASTARD SWORD +++++</td>
 	</tr>
 </table><br>
-<div style="text-align:right"><a href="#top">Back to top</a></div>
+<div align="right"><a href="#top">Back to top</a></div>
 
 
 <hr>
@@ -231,7 +240,7 @@ Exemple de composant présentant des tableaux.
 
 <img src="images/baldr000.jpg">
 <img src="images/baldr001.jpg"></br>
-<div style="text-align:right"><a href="#top">Back to top</a></div>
+<div align="right"><a href="#top">Back to top</a></div>
 
 
 <hr>
@@ -301,7 +310,7 @@ Libre à vous de choisir la formule et la présentation qui vous conviennent :
 ###### The modding community for the Infinity Engine has been going strong for more than 10 years now, and is the culmination of thousands of unpaid modding hours by fellow fans of the game. Modders produce their best work and players get the best, well-supported mods when we all work together.
 ###### There are two big ways to upset this harmony. One is to claim someone else's work as your own. The second is to host and redistribute a mod without permission from the author(s).
 ###### Be kind to your fellow players and modders. Don't do either.</br></br>
-<div style="text-align:right"><a href="#top">Back to top</a></div>
+<div align="right"><a href="#top">Back to top</a></div>
 
 
 <hr>
@@ -310,13 +319,16 @@ Libre à vous de choisir la formule et la présentation qui vous conviennent :
 ## <a name="versions" id="versions"></a>Version History
 
 #### Version 2.0.0 - Mois jour, 201x
+
 - modification niveau 1
   - modification niveau 2
     - modification niveau 3
   - modification niveau 2
 - modification niveau 1
 
+## 
 
 #### Version beta 1.0.0 - Mois jour, 201x
+
 - Initial release.
-<div style="text-align:right"><a href="#top">Back to top</a></div>
+<div align="right"><a href="#top">Back to top</a></div>
