@@ -3,7 +3,7 @@
 ![Platform](https://img.shields.io/static/v1?label=platform&message=windows&color=informational)
 ![Language](https://img.shields.io/static/v1?label=language&message=English%20%7C%20French%20&color=limegreen)
 
-<div align="center"><h1></a>MYMOD</h1>
+<div align="center"><h1>MYMOD</h1>
 
 <h3>A <a href="https://www.baldursgateworld.fr">La Couronne de Cuivre</a> mod for Baldur's Gate II:ToB, Baldur's Gate Trilogy, BG2:EE et EET<h3>
 
@@ -12,7 +12,7 @@
 
 **Author:** <a href="https://www.baldursgateworld.fr/lacouronne/Auteur.html">bibi</a>  
 **Languages:** <a href="README.md">French</a>, English  
-**Mod Website and Forum:** <a href="https://www.baldursgateworld.fr/lacouronne/mymod/">Mymod</a>  
+**Mod Website and Forum:** <a href="https://www.baldursgateworld.fr/lacouronne/mymod/">Mymod</a><br /><br />
 
 
 <div align="center">
@@ -31,7 +31,7 @@
 <p>Pour chaque section, j'ai repris, chaque fois que c'était possible, des éléments de traductions déjà publiées (par les d'Oghms ou par bibi) afin de conserver un semblant d'homogénéité dans les termes employés. Il suffit alors de conserver celles dont on a besoin (liste des jeux compatibles, procédures d'installation selon la plateforme, liste des outils utilisés...) et, pour le reste, de remplacer MYMOD et Auteur par le nom du mod et de son auteur, de modifier les liens et de remplir les textes adéquats. Pour certaines sections, j'ai été le plus exhaustif possible : il vous suffit de choisir les paragraphes qui vous intéressent et de supprimer les autres. &#128521;</p>
 
 
-<p>Malheureusement, le rendu d'un fichier .md n'est véritablement effective que dans GitHuB, ce qui ne vous permet pas de visualiser votre mise en page dans Notepad++. Il existe cependant plusieurs utilitaires vous permettant de les éditer et de visualiser partiellement vos modifications. Parcellement parce que certaines balises comme [br (break line)] apparaissent à l'écran MÊME si elles resteront invisibles dans GitHub. Personnellement, j'ai opté pour <a href=https://typora.io/">Typora</a>, mais il en existe d'autres.</p><br>
+<p>Malheureusement, le rendu d'un fichier .md n'est véritablement effective que dans GitHuB, ce qui ne vous permet pas de visualiser votre mise en page dans Notepad++. Il existe cependant plusieurs utilitaires vous permettant de les éditer et de visualiser partiellement vos modifications. Partiellement parce que certaines balises comme [br (break line)] apparaissent à l'écran MÊME si elles resteront invisibles dans GitHub. Personnellement, j'ai opté pour <a href=https://typora.io/">Typora</a>, mais il en existe d'autres.</p><br>
 
 <details><summary>CLICK ME</summary>
 <p>
@@ -51,7 +51,15 @@
 This mod is designed to work on all Infinity Engine games. This includes: Baldur's Gate: Enhanced Edition (BGEE), Baldur's Gate II: Enhanced Edition (BG2EE), Icewind Dale: Enhanced Edition (IWDEE), Planescape: Torment: Enhanced Edition (PsTEE), and the BGEE Siege of Dragonspear expansion (SoD) ; the original Baldur's Gate (BG), with or without the Tales of the Sword Coast (TotSC) expansion, the original Baldur's Gate II (BG2, or just SoA), with or without the Throne of Bhaal (ToB) expansion ; the conversion projects Baldur's Gate Trilogy (BGT), Baldur's Gate Tutu (Tutu), Icewind Dale-in-Baldur's Gate II (IWD-in-BG2), and Enhanced Edition Trilogy (EET) ; the original Icewind Dale (IWD) with or without either of its expansions, Heart of Winter (HoW) and Trials of the Luremaster (TotLM), Icewind Dale II (IWD2), the original Planescape: Torment (PsT).
 
 
-<p>You are strongly recommended to also download and install the <a href="http://www.gibberlings3.net/bg2fixpack/">BG2 Fixpack</a> before proceeding with the installation of this mod.</p><br>
+MYMOD is a <acronym title="Weimer Dialogue Utility">WeiDU</acronym> mod, and therefore should be compatible with all WeiDU mods. [facultatif : It has been tested on several different installations, and has so far worked perfectly.] However, we cannot test every single one. [Choisir une formule parmi les suivantes :] If you do encounter any bugs, please contact <a href="https://www.baldursgateworld.fr/lacouronne/Auteur.html">AUTHOR</a> or alternatively post on the forums. If you encounter any bugs, please report them on the forum!
+
+<p>Though I am striving to make MYMOD compatible with as many other mods as possible, there is always a chance that incompatibilities will arise. Below are the ones discovered thus far:</p>
+- mod 1
+- mod 2
+- ...
+
+
+You are strongly recommended to also download and install the <a href="http://www.gibberlings3.net/bg2fixpack/">BG2 Fixpack</a> before proceeding with the installation of this mod.<br>
 <div align="right"><a href="#top">Back to top</a></div>
 
 
@@ -62,17 +70,19 @@ This mod is designed to work on all Infinity Engine games. This includes: Baldur
 
 #### Notes
 
-<em>If you've previously installed the mod, remove it before extracting the new version. To do this, run <strong>setup-mymod.exe</strong>, uninstall all previously installed components and delete the <strong>mymod</strong> folder.</em>
+*If you've previously installed the mod, remove it before extracting the new version. To do this, run **setup-mymod.exe**, uninstall all previously installed components and delete the :file_folder: **mymod** folder.*
 
-<em>When installing or uninstalling, <strong>do not close the <acronym title="Disk Operating System">DOS</acronym> window</strong> by clicking on the <strong>X</strong> button! Instead, press the <strong>Enter</strong> key whenever instructed to do so.</em>
+*When installing or uninstalling, **do not close the DOS window** by clicking on the **X** button! Instead, press the **Enter** key whenever instructed to do so.*
 
-<em><strong>Disable any antivirus</strong> or other memory-resident software before installing this or any other mod. Some (particularly avast and Norton!) have a tendency to report false positives with mod activity, resulting in failed installs.</em></br>
+*__Disable any antivirus__ or other memory-resident software before installing this or any other mod. Some (particularly avast and Norton!) have a tendency to report false positives with mod activity, resulting in failed installs.*
 
+## 
 
 #### Special Note for Siege of Dragonspear from Steam/GOG
 
-Good Old Games (GOG) and Steam both package the additional content for Siege of Dragonspear in a method that <acronym title="Weimer Dialogue Utility">WeiDU</acronym>, the tool used to install this mod, cannot access. You must run a program called <a href="https://forums.beamdog.com/discussion/50441/modmerge-merge-your-steam-gog-zip-based-dlc-into-something-weidu-nearinfinity-dltcep-can-use/p1">Modmerge</a> on your SoD installation before you can install this or any other WeiDU-based mod.
+Good Old Games (GOG) and Steam both package the additional content for Siege of Dragonspear in a method that WeiDU, the tool used to install this mod, cannot access. You must run a program called <a href="https://forums.beamdog.com/discussion/50441/modmerge-merge-your-steam-gog-zip-based-dlc-into-something-weidu-nearinfinity-dltcep-can-use/p1">Modmerge</a> on your SoD installation before you can install this or any other WeiDU-based mod.
 
+## 
 
 #### Enhanced Editions Note
 
@@ -82,95 +92,66 @@ The Enhanced Editions are actively supported games. Please note that every patch
 
 #### :warning: Warning : procédure d'installation
 
-###### Variables needed for installation are read from <em><a href="https://raw.githubusercontent.com/Auteur/mymod/master/mymod/mymod-config-default.ini">mymod-config-default.ini</a></em>file, or <em><a href="https://raw.githubusercontent.com/Auteur/mymod/master/mymod/mymod-config.ini">mymod-config.ini</a></em> if it exists.
+###### Options needed for installation are read from *<a href="https://raw.githubusercontent.com/Auteur/mymod/master/mymod/mymod.ini">mymod.ini</a>*file, or *<a href="https://raw.githubusercontent.com/Auteur/mymod/master/mymod/mymod-user.ini">mymod-user.ini</a>* if it exists.
 
-As interrupting installation with plain text prompts allowing players to customise components to their liking, those variables have been moved into <a href="https://raw.githubusercontent.com/Auteur/mymod/master/mymod/mymod-config-default.ini">mymod-config-default.ini</a> file in <strong>mymod</strong> folder. This file provides a '<em>standard</em>' installation.
+As interrupting installation with plain text prompts allowing players to customise components to their liking, those options have been moved into <a href="https://raw.githubusercontent.com/Auteur/mymod/master/mymod/mymod.ini">mymod.ini</a> file in :file_folder: **mymod** folder. This file provides a '*standard*' installation.
 
-If you want to define your own customized installation, you have to modify the variables involved in <strong><em>mymod-config-default.ini</em></strong>, then save this file as <strong><em>mymod-config.ini</em></strong>.
+If you want to define your own customized installation, you have to edit the **<em>[Mod_content]</em>** section of *__mymod.ini__* with Notepad or another text editor, then save this file as *__mymod-user.ini__*.
 
-The installation process will read both ini files and prioritize user values. If a value is not set or mismatched in mymod-config.ini, any installation failure will be prevented by reverting it back to its default value.</br>
+Each line consists of a configuration option, then '=', then a number or an alphanumeric character string. The only thing you should edit is the number or the string.
 
-Please read the <a href="https://raw.githubusercontent.com/Auteur/mymod/master/mymod/mymod-config-english.txt">mymod-config-language.txt</a> file (with 'language' being the installation language you chose) to check the variables names and their meanings. Here is a chart listing the variables related to the installation process:<br>
+The installation process will read both ini files and prioritize user's options values. If a value is not set or mismatched in mymod-user.ini, any installation failure will be prevented by reverting it back to its default value.</br>
 
-<table style="margin-left: 80px" summary="Installation variables listing">
-	<tr>
-		<th>Variables</th>
-		<th>Signification</th>
-		<th>Type</th>
-		<th>Valeurs possibles</th>
-		<th>Défaut</th>
-	</tr>
-	<tr>
-		<td>mymod_variable1</td>
-		<td>définit blabla</td>
-		<td>numérique</td>
-		<td>1 ou 2</td>
-		<td><strong><span style="color: #FFCC33;">1</span></strong></td>
-	</tr>
-	<tr>
-		<td>mymod_variable2</td>
-		<td>définit blabla</td>
-		<td>numérique</td>
-		<td>1, 2, 3 ou 4</td>
-		<td><strong><span style="color: #FFCC33;">2</span></strong></td>
-	</tr>
-	<tr>
-		<td>mymod_variable3</td>
-		<td>définit blabla</td>
-		<td>alphanumérique</td>
-		<td>une lettre : A, B ou C</td>
-		<td><strong><span style="color: #FFCC33;">A</span></strong></td>
-	</tr>
-	<tr>
-		<td>mymod_variable4</td>
-		<td>définit le nom que vous souhaitez donner à votre monture</td>
-		<td>alphanumérique</td>
-		<td>un nom !</td>
-		<td><strong><span style="color: #FFCC33;">Flèche d'argent</span></strong></td>
-	</tr>
-</table>
+Here is a chart listing options related to the installation process (Don't change anything not listed; these are part of the testing framework.):<br>
+
+| Option | Install Option Description | Type | Values | Default |
+| :---: | --- | :---: | :---: | :---: |
+| mymod_variable1 | blabla<br>1 = first value description (recommended).<br>2 = second value description.<br> | integer | 1 or 2 | <strong>1<strong> |
+| mymod_variable2 | blabla<br>1 = first value description (recommended).<br>2 = second value description.<br>3 = third value description.<br> | integer | 1, 2 or 3 | <strong>1<strong> |
+| mymod_variable3 | blabla<br> | string | one character | <strong>A<strong> |
+| mymod_variable4 | blabla<br> | string | a name! | <strong>Hello<strong> |
 
 ## 
 
 #### Windows
 
-MYMOD for Windows is distributed as an extractable compressed archive and includes a <acronym title="Weimer Dialogue Utility">WeiDU</acronym> installer.
+MYMOD for Windows is distributed as an extractable compressed archive and includes a WeiDU installer.
 
-Extract the contents of the mod archive into the folder of the game you wish to modify, using <a href="http://www.7-zip.org/download.html">7zip</a>, <a href="http://www.rarlab.com/download.htm">WinRAR</a>, or another file compression utility that handles .zip files. When properly extracted, your game directory will contain <strong>setup-mymod.exe</strong> and the folder <strong>mymod</strong>. To install, double-click <strong>setup-mymod.exe</strong> and follow the instructions on screen.
+Extract the contents of the mod archive into the folder of the game you wish to modify (*the folder which contains the "CHITIN.KEY" file*), using <a href="http://www.7-zip.org/download.html">7zip</a>, <a href="http://www.rarlab.com/download.htm">WinRAR</a>, or another file compression utility that handles .zip files. On successful extraction, there should be a :file_folder: mymod and a setup-mymod.exe file in your game folder. To install, simply double-click **`setup-mymod.exe`** and follow the instructions on screen.
 
-You can run <strong>setup-mymod.exe</strong> in your game folder to reinstall, uninstall or otherwise change components.
+Run **`setup-mymod.exe`** in your game folder to reinstall, uninstall or otherwise change the components settings.
 
-[<strong>(Pour une version exe, remplacez les 2 deux premières lignes par les suivantes :)</strong>MYMOD for Windows is distributed as a self-extracting archive and includes a <acronym title="Weimer Dialogue Utility">WeiDU</acronym> installer. To install, simply double-click the archive and follow the instructions on screen.
+[**(Pour une version exe, remplacez les 2 deux premières lignes par les suivantes :)**MYMOD for Windows is distributed as a self-extracting archive and includes a <acronym title="Weimer Dialogue Utility">WeiDU</acronym> installer. To install, simply double-click the archive and follow the instructions on screen.
 
-Alternatively, the files can be extracted into your game directory using <a href="http://www.7-zip.org/download.html">7zip</a> or <a href="http://www.rarlab.com/download.htm">WinRAR</a>. When properly extracted, your game directory will contain <strong>setup-mymod.exe</strong> and the folder <strong>mymod</strong>. To install, double-click <strong>setup-mymod.exe</strong> and follow the instructions on screen.]
+Alternatively, the files can be extracted into your game directory using <a href="http://www.7-zip.org/download.html">7zip</a> or <a href="http://www.rarlab.com/download.htm">WinRAR</a>. When properly extracted, your game directory will contain **setup-mymod.exe** and the folder **mymod**. To install, double-click **setup-mymod.exe** and follow the instructions on screen.]
 
 ## 
 
 #### Mac OS X
 
-MYMOD for Mac OS X is distributed as a compressed tarball and includes a <acronym title="Weimer Dialogue Utility">WeiDU</acronym> installer.
+MYMOD for Mac OS X is distributed as a compressed tarball and includes a WeiDU installer.
 
-First, extract the files from the tarball into your game directory. When properly extracted, your game directory will contain <strong>setup-mymod</strong>, <strong>setup-mymod.command</strong>, and the folder<strong>mymod</strong>. To install, double-click <strong>setup-mymod.command</strong> and follow the instructions on screen.
+First, extract the files from the tarball into your game directory. On successful extraction, there should be a :file_folder: mymod folder, setup-mymod and setup-mymod.command files in your game folder. To install, simply double-click **`setup-mymod.command`** and follow the instructions on screen.
 
-You can run <strong>setup-mymod.command</strong> in your game folder to reinstall, uninstall or otherwise change components.
+Run **`setup-mymod.command`** in your game folder to reinstall, uninstall or otherwise change the components settings.
 
 ## 
 
 #### Linux
 
-MYMOD for Linux is distributed as a compressed tarball and does not include a <acronym title="Weimer Dialogue Utility">WeiDU</acronym> installer.
+MYMOD for Linux is distributed as a compressed tarball and does not include a WeiDU installer.
 
 Extract the contents of the mod to the folder of the game you wish to modify.
 
-Download the latest version of WeiDU for Linux from <a href="http://www.weidu.org/%7Ethebigg/">WeiDU.org</a> and copy WeiDU and WeInstall to /usr/bin. Following that, open a terminal, <strong>cd</strong> to your game installation directory, run tolower and answer 'Y' to both queries. You can avoid running the second option (linux.ini) if you've already ran it once in the same directory. To save time, the archive is already tolowered, so there's no need to run the first option (lowercasing file names) either if you've extracted only this mod since the last time you lowercased file names. If you're unsure, running tolower and choosing both options is the safe bet.
+Download the latest version of WeiDU for Linux from <a href="http://www.weidu.org/%7Ethebigg/">WeiDU.org</a> and copy WeiDU and WeInstall to /usr/bin. Following that, open a terminal, **cd** to your game installation directory, run tolower and answer 'Y' to both queries. You can avoid running the second option (linux.ini) if you've already ran it once in the same directory. To save time, the archive is already tolowered, so there's no need to run the first option (lowercasing file names) either if you've extracted only this mod since the last time you lowercased file names. If you're unsure, running tolower and choosing both options is the safe bet.
 
-To install, run <strong>WeInstall setup-mymod</strong> in your game folder. Then run wine <strong>BGMain.exe</strong> and start playing.
+To install, run **`WeInstall setup-mymod`** in your game folder. Then run **`wine BGMain.exe`** and start playing.
 
 ## 
 
-#### Note for Complete Uninstallation
+#### Note for Complete Un-installation
 
-In addition to the methods above for removing individual components, you can completely uninstall the mod using <strong>setup-mymod --uninstall</strong> at the command line to remove all components without wading through prompts.</br></br>
+In addition to the methods above for removing individual components, you can completely uninstall the mod using **`setup-mymod --uninstall`** at the command line to remove all components without wading through prompts.</br>
 <div align="right"><a href="#top">Back to top</a></div>
 
 
@@ -179,7 +160,7 @@ In addition to the methods above for removing individual components, you can com
 
 ## <a name="components" id="components"></a>Components
 
-The installer includes the following components. The number of each is the component <em>DESIGNATED</em> number which gives it a fixed install position, lets other components detect it and allows automated installers like the BiG World Setup specify component choices.
+The installer includes the following components. The number of each is the component *DESIGNATED* number which gives it a fixed install position and allows automated installers to specify component choices.<br /><br />
 
 
 #### 10. Composant 1 : blabbla
@@ -200,21 +181,21 @@ Exemple de composant présentant des tableaux.
 
 <table style="margin-left: 80px" summary="Rebalanced Tazok and Dig-Dag">
 	<tr>
-		<th>Créature</th>
+		<th>Creature</th>
 		<th>Kit</th>
-		<th>Niveau <span style="font-weight: normal">&#160;&#160;&#160;(ex)</span></th>
+		<th>Level <span style="font-weight: normal">&#160;&#160;&#160;(ex)</span></th>
 		<th>XP <span style="font-weight: normal">&#160;&#160;&#160;(ex)</span></th>
-		<th>PV <span style="font-weight: normal">&#160;&#160;&#160;(ex)</span></th>
-		<th>Force <span style="font-weight: normal">&#160;&#160;&#160;(ex)</span></th>
+		<th>HP <span style="font-weight: normal">&#160;&#160;&#160;(ex)</span></th>
+		<th>Strength <span style="font-weight: normal">&#160;&#160;&#160;(ex)</span></th>
 		<th>Constitution <span style="font-weight: normal">&#160;&#160;&#160;(ex)</span></th>
-		<th>Compétence martiale</th>
+		<th>Proficiency</th>
 	</tr>
 	<tr>
 		<td>Tazok</td>
 		<td>--</td>
-		<td><strong>19</strong>&#160;&#160;&#160;(18)</td>
-		<td><strong>12000</strong>&#160;&#160;&#160;(6000)</td>
-		<td><strong>154</strong>&#160;&#160;&#160;(136)</td>
+		<td>**19**&#160;&#160;&#160;(18)</td>
+		<td>**12000**&#160;&#160;&#160;(6000)</td>
+		<td>**154**&#160;&#160;&#160;(136)</td>
 		<td>--</td>
 		<td>--</td>
 		<td>TWO-HANDED SWORD +++++</td>
@@ -222,11 +203,11 @@ Exemple de composant présentant des tableaux.
 	<tr>
 		<td>FIRorc01 (DigDag)</td>
 		<td>Berserker</td>
-		<td><strong>13</strong>&#160;&#160;&#160;(12)</td>
-		<td><strong>7000</strong>&#160;&#160;&#160;2000)</td>
-		<td><strong>107</strong>&#160;&#160;&#160;(99)</td>
-		<td><strong>22</strong>&#160;&#160;&#160;(17)</td>
-		<td><strong>22</strong>&#160;&#160;&#160;(9)</td>
+		<td>**13**&#160;&#160;&#160;(12)</td>
+		<td>**7000**&#160;&#160;&#160;2000)</td>
+		<td>**107**&#160;&#160;&#160;(99)</td>
+		<td>**22**&#160;&#160;&#160;(17)</td>
+		<td>**22**&#160;&#160;&#160;(9)</td>
 		<td>BASTARD SWORD +++++</td>
 	</tr>
 </table><br>
