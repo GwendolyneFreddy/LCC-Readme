@@ -1,5 +1,6 @@
 
 ![Latest Release](https://img.shields.io/github/v/release/gwendolynefreddy/lcc-readme?include_prereleases&color=gold)<a name="top" id="top">
+![Latest Release](https://img.shields.io/static/v1?label=release&message=v29.0.0&color=darkred)
 ![Platform](https://img.shields.io/static/v1?label=plateforme&message=windows&color=informational)
 ![Language](https://img.shields.io/static/v1?label=langues&message=Anglais%20%7C%20Français%20&color=limegreen)
 
@@ -53,7 +54,7 @@ Ce mod est conçu pour fonctionner sur les jeux Infinity Engine suivants : Baldur
 
 MYMOD est un mod <acronym title="Weimer Dialogue Utility">WeiDU</acronym> et devrait par conséquent être compatible avec n'importe quel mod WeiDU. [facultatif : Il a été testé sur plusieurs installations et a fonctionné parfaitement jusqu'à présent.] Je ne peux cependant pas tous les tester. [Choisir une formule parmi les suivantes :] Si vous faites face à des bugs, veuillez contactez <a href="https://www.baldursgateworld.fr/lacouronne/Auteur.html">AUTEUR</a> ou bien poster dans les forums. Si vous faites face à des bugs, veuillez les signaler dans le forum, s'il vous plaît.
 
-<p>Bien que je m'efforce de rendre MYMOD compatible avec le plus grand nombre possible de mods, des incompatibilités risquent toujours de se produire. Voici la liste de celles recensées jusqu'à présent :</p>
+Bien que je m'efforce de rendre MYMOD compatible avec le plus grand nombre possible de mods, des incompatibilités risquent toujours de se produire. Voici la liste de celles recensées jusqu'à présent :
 - mod 1
 - mod 2
 - ...
@@ -147,7 +148,7 @@ MYMOD pour Linux est diffusé sous forme d'archive compressée (tarball) sans l'in
 
 Extrayez le contenu du mod dans le répertoire du jeu que vous voulez moder.
 
-Téléchargez la version la plus récente de WeiDU pour Linux sur <a href="http://www.weidu.org/%7Ethebigg/">WeiDU.org</a> et copiez WeiDU et WeInstall dans /usr/bin. Ouvrez ensuite un terminal et allez (**cd**) dans le répertoire d'installation de votre jeu, lancez « tolower » et répondez « Y » aux deux questions. Vous pouvez éviter d'exécuter la seconde option (Linux.ini) si vous l'avez déjà lancée une fois dans le même dossier. Pour gagner du temps, l'archive est déjà passée en minuscules, aussi il n'est pas non plus nécessaire d'exécuter la première option (passer les noms de fichiers en minuscules) si vous n'avez extrait que ce mod depuis la dernière fois que vous avez passé les noms de fichiers en minuscules. Si vous avez un doute, il vaut mieux exécuter tolower et accepter les deux options.
+Téléchargez la version la plus récente de WeiDU pour Linux sur <a href="https://github.com/WeiDUorg/weidu/releases">WeiDU.org</a> et copiez WeiDU et WeInstall dans /usr/bin. Ouvrez ensuite un terminal et allez (**cd**) dans le répertoire d'installation de votre jeu, lancez « tolower » et répondez « Y » aux deux questions. Vous pouvez éviter d'exécuter la seconde option (Linux.ini) si vous l'avez déjà lancée une fois dans le même dossier. Pour gagner du temps, l'archive est déjà passée en minuscules, aussi il n'est pas non plus nécessaire d'exécuter la première option (passer les noms de fichiers en minuscules) si vous n'avez extrait que ce mod depuis la dernière fois que vous avez passé les noms de fichiers en minuscules. Si vous avez un doute, il vaut mieux exécuter tolower et accepter les deux options.
 
 Lancez **`WeInstall setup-mymod`** depuis le dossier de votre jeu pour installer le mod. Puis, lancez **`wine BGMain.exe`** et commencez à jouer.
 
@@ -254,8 +255,8 @@ Exemple de composant présentant des tableaux.
 
 #### Logiciels et outils utilisés pour la réalisation de ce mod :
 
-- <a href="http://www.weidu.org/%7Ethebigg/"><acronym title="Weimer Dialogue Utility">WeiDU</acronym></a> de Wes Weimer, the bigg et Wisp.
-- <a href="http://forums.pocketplane.net/index.php/topic,25153.msg314249.html#msg314249">Near Infinity</a> de Jon Olav Hauglid, FredSRichardson et Argent77.
+- <a href="https://github.com/WeiDUorg/weidu/releases"><acronym title="Weimer Dialogue Utility">WeiDU</acronym></a> de Wes Weimer, the bigg et Wisp.
+- <a href="https://github.com/Argent77/NearInfinity/releases">Near Infinity</a> de Jon Olav Hauglid, FredSRichardson et Argent77.
 - <a href="http://www.shsforums.net/topic/31285-infinity-explorer-v085/">Infinity Explorer</a> de Dmitry Jemerov / bigmoshi.
 - <a href="http://www.gibberlings3.net/tools/dltcep.php"><acronym title="Dragonlance Total Conversion Editor Pro">DLTCEP</acronym></a> de Avenger.
 - <a href="http://www.baldursgatemods.com/forums/index.php?action=downloads;sa=view;down=85">CreMaker_v3.1.9</a>.
@@ -303,12 +304,13 @@ Libre à vous de choisir la formule et la présentation qui vous conviennent :
 
 ## <a name="versions" id="versions"></a>Historique des versions
 
-<p>	Note du traducteur : l'historique n'est volontairement pas traduit afin de faciliter la mise à jour par l'auteur.</p>
+<p>Note du traducteur : l'historique n'est volontairement pas traduit afin de faciliter la mise à jour par l'auteur.</p>
 
 #### Version 4.0.0 (13 novembre 2019)
 
-- Modifications générales (fichiers .html et .md :
+- Modifications générales (fichiers .html et .md) :
   - Correction de typos.
+  - Ajouts de lignes de séparations manquantes.
   - Section Installation :
 	- Réécriture de la procédure.
 	- Modification du nom des fichiers ini.
@@ -316,6 +318,8 @@ Libre à vous de choisir la formule et la présentation qui vous conviennent :
   - Section Composants :
 	- Suppression de la référence au BiG World Setup, obsolète et plus maintenu.
 	- Traduction en anglais du tableau.
+  - Section Crédits et remerciements :
+    - Mise à jour des liens GitHub pour WeiDU et NearInfinity.
 
 - readme-lcc.html
   - Reformatage (notamment introduction du code Dos).

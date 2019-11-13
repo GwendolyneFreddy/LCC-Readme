@@ -5,7 +5,7 @@
 
 <div align="center"><h1>MYMOD</h1>
 
-<h3>A <a href="https://www.baldursgateworld.fr">La Couronne de Cuivre</a> mod for Baldur's Gate II:ToB, Baldur's Gate Trilogy, BG2:EE et EET<h3>
+<h3>A <a href="https://www.baldursgateworld.fr">La Couronne de Cuivre</a> mod for Baldur's Gate II:ToB, Baldur's Gate Trilogy, BG2:EE and EET<h3>
 
 </div><br />
 
@@ -53,7 +53,7 @@ This mod is designed to work on all Infinity Engine games. This includes: Baldur
 
 MYMOD is a <acronym title="Weimer Dialogue Utility">WeiDU</acronym> mod, and therefore should be compatible with all WeiDU mods. [facultatif : It has been tested on several different installations, and has so far worked perfectly.] However, we cannot test every single one. [Choisir une formule parmi les suivantes :] If you do encounter any bugs, please contact <a href="https://www.baldursgateworld.fr/lacouronne/Auteur.html">AUTHOR</a> or alternatively post on the forums. If you encounter any bugs, please report them on the forum!
 
-<p>Though I am striving to make MYMOD compatible with as many other mods as possible, there is always a chance that incompatibilities will arise. Below are the ones discovered thus far:</p>
+Though I am striving to make MYMOD compatible with as many other mods as possible, there is always a chance that incompatibilities will arise. Below are the ones discovered thus far:
 - mod 1
 - mod 2
 - ...
@@ -92,7 +92,7 @@ The Enhanced Editions are actively supported games. Please note that every patch
 
 #### :warning: Warning : procédure d'installation
 
-###### Options needed for installation are read from *<a href="https://raw.githubusercontent.com/Auteur/mymod/master/mymod/mymod.ini">mymod.ini</a>*file, or *<a href="https://raw.githubusercontent.com/Auteur/mymod/master/mymod/mymod-user.ini">mymod-user.ini</a>* if it exists.
+###### Options needed for installation are read from *<a href="https://raw.githubusercontent.com/Auteur/mymod/master/mymod/mymod.ini">mymod.ini</a>* file, or *<a href="https://raw.githubusercontent.com/Auteur/mymod/master/mymod/mymod-user.ini">mymod-user.ini</a>* if it exists.
 
 As interrupting installation with plain text prompts allowing players to customise components to their liking, those options have been moved into <a href="https://raw.githubusercontent.com/Auteur/mymod/master/mymod/mymod.ini">mymod.ini</a> file in :file_folder: **mymod** folder. This file provides a '*standard*' installation.
 
@@ -143,7 +143,7 @@ MYMOD for Linux is distributed as a compressed tarball and does not include a We
 
 Extract the contents of the mod to the folder of the game you wish to modify.
 
-Download the latest version of WeiDU for Linux from <a href="http://www.weidu.org/%7Ethebigg/">WeiDU.org</a> and copy WeiDU and WeInstall to /usr/bin. Following that, open a terminal, **cd** to your game installation directory, run tolower and answer 'Y' to both queries. You can avoid running the second option (linux.ini) if you've already ran it once in the same directory. To save time, the archive is already tolowered, so there's no need to run the first option (lowercasing file names) either if you've extracted only this mod since the last time you lowercased file names. If you're unsure, running tolower and choosing both options is the safe bet.
+Download the latest version of WeiDU for Linux from <a href="https://github.com/WeiDUorg/weidu/releases">WeiDU.org</a> and copy WeiDU and WeInstall to /usr/bin. Following that, open a terminal, **cd** to your game installation directory, run tolower and answer 'Y' to both queries. You can avoid running the second option (linux.ini) if you've already ran it once in the same directory. To save time, the archive is already tolowered, so there's no need to run the first option (lowercasing file names) either if you've extracted only this mod since the last time you lowercased file names. If you're unsure, running tolower and choosing both options is the safe bet.
 
 To install, run **`WeInstall setup-mymod`** in your game folder. Then run **`wine BGMain.exe`** and start playing.
 
@@ -250,8 +250,8 @@ Exemple de composant présentant des tableaux.
 
 #### Programs/tools used in creation:
 
-- <a href="http://www.weidu.org/%7Ethebigg/"><acronym title="Weimer Dialogue Utility">WeiDU</acronym></a>, by Wes Weimer, the bigg and Wisp.
-- <a href="http://forums.pocketplane.net/index.php/topic,25153.msg314249.html#msg314249">Near Infinity</a>, by Jon Olav Hauglid, FredSRichardson, and Argent77.
+- <a href=https://github.com/WeiDUorg/weidu/releases"><acronym title="Weimer Dialogue Utility">WeiDU</acronym></a>, by Wes Weimer, the bigg and Wisp.
+- <a href="https://github.com/Argent77/NearInfinity/releases">Near Infinity</a>, by Jon Olav Hauglid, FredSRichardson, and Argent77.
 - <a href="http://www.shsforums.net/topic/31285-infinity-explorer-v085/">Infinity Explorer</a>, by Dmitry Jemerov / bigmoshi.
 - <a href="http://www.gibberlings3.net/tools/dltcep.php"><acronym title="Dragonlance Total Conversion Editor Pro">DLTCEP</acronym></a>, by Avenger.
 - <a href="http://www.baldursgatemods.com/forums/index.php?action=downloads;sa=view;down=85">CreMaker_v3.1.9</a>.
