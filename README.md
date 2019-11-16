@@ -1,6 +1,6 @@
 
 ![Latest Release](https://img.shields.io/github/v/release/gwendolynefreddy/lcc-readme?include_prereleases&color=gold)<a name="top" id="top">
-![Latest Release](https://img.shields.io/static/v1?label=release&message=v29.0.0&color=darkred)
+![Latest Release](https://img.shields.io/static/v1?label=version&message=v4.0.0&color=gold)
 ![Platform](https://img.shields.io/static/v1?label=plateforme&message=windows&color=informational)
 ![Language](https://img.shields.io/static/v1?label=langues&message=Anglais%20%7C%20Français%20&color=limegreen)
 
@@ -17,7 +17,7 @@
 
 
 <div align="center">
-<a href="#intro">Présentation</a> &#8226; <a href="#compat">Compatibilité</a> &#8226; <a href="#installation">Installation</a> &#8226; <a href="#components">Composants</a> &#8226; <a href="#images">Captures d'écran</a> &#8226; <a href="#credits">Crédits et remerciements</a> &#8226; <a href="#versions">Historique des versions</a></br>
+<a href="#intro">Présentation</a> &#8226; <a href="#compat">Compatibilité</a> &#8226; <a href="#installation">Installation</a> &#8226; <a href="#components">Composants</a> &#8226; <a href="#componentslist">Composants (présentation alternative</a> &#8226; <a href="#images">Captures d'écran</a> &#8226; <a href="#credits">Crédits et remerciements</a> &#8226; <a href="#versions">Historique des versions</a></br>
 </div>
 
 <hr>
@@ -25,19 +25,25 @@
 
 ## <a name="intro" id="intro"></a>Présentation
 
-<p>Courte description du mod : Ce mod...... ou L'objet de ce mod......</p>
+Courte description du mod : Ce mod...... ou L'objet de ce mod......
 
-<p>Il s'agit d'un modèle de fichier readme pour GitHub destiné aux mods développés et/ou publiés sur la Couronne de Cuivre. Il est écrit en langage Markdown. Bien qu'il soit assez proche du langage HTML, certains formatages ne sont pas pris en compte par GitHub, comme l'affichage des couleurs.</p>
+Il s'agit d'un modèle de fichier readme pour GitHub destiné aux mods développés et/ou publiés sur la Couronne de Cuivre. Il est écrit en langage Markdown. Bien qu'il soit assez proche du langage HTML, certains formatages ne sont pas pris en compte par GitHub, comme l'affichage des couleurs.
 
-<p>Pour chaque section, j'ai repris, chaque fois que c'était possible, des éléments de traductions déjà publiées (par les d'Oghms ou par bibi) afin de conserver un semblant d'homogénéité dans les termes employés. Il suffit alors de conserver celles dont on a besoin (liste des jeux compatibles, procédures d'installation selon la plateforme, liste des outils utilisés...) et, pour le reste, de remplacer MYMOD et Auteur par le nom du mod et de son auteur, de modifier les liens et de remplir les textes adéquats. Pour certaines sections, j'ai été le plus exhaustif possible : il vous suffit de choisir les paragraphes qui vous intéressent et de supprimer les autres. &#128521;</p>
+Pour chaque section, j'ai repris, chaque fois que c'était possible, des éléments de traductions déjà publiées (par les d'Oghms ou par bibi) afin de conserver un semblant d'homogénéité dans les termes employés. Il suffit alors de conserver celles dont on a besoin (liste des jeux compatibles, procédures d'installation selon la plateforme, liste des outils utilisés...) et, pour le reste, de remplacer MYMOD et Auteur par le nom du mod et de son auteur, de modifier les liens et de remplir les textes adéquats. Pour certaines sections, j'ai été le plus exhaustif possible : il vous suffit de choisir les paragraphes qui vous intéressent et de supprimer les autres. &#128521;
 
 
-<p>Malheureusement, le rendu d'un fichier .md n'est véritablement effectif que dans GitHuB, ce qui ne vous permet pas de visualiser votre mise en page dans Notepad++. Il existe cependant plusieurs utilitaires vous permettant de les éditer et de visualiser partiellement vos modifications. Partiellement parce que certaines balises comme [br (break line)] apparaissent à l'écran MÊME si elles resteront invisibles dans GitHub. Personnellement, j'ai opté pour <a href=https://typora.io/">Typora</a>, mais il en existe d'autres.</p><br>
+Malheureusement, le rendu d'un fichier .md n'est véritablement effectif que dans GitHuB, ce qui ne vous permet pas de visualiser votre mise en page dans Notepad++. Il existe cependant plusieurs utilitaires vous permettant de les éditer et de visualiser partiellement vos modifications. Partiellement parce que certaines balises comme [br (break line)] apparaissent à l'écran MÊME si elles resteront invisibles dans GitHub. Personnellement, j'ai opté pour <a href=https://typora.io/">Typora</a>, mais il en existe d'autres.<br>
 
 <details><summary>CLIQUER</summary>
 <p>
 
 #### hé hé, un bloc spoiler !
+
+Deux listes de codes de smileys et d'emoji utilisables par markdown :
+- <a href="https://gist.github.com/rxaviers/7360908">Complete list of github markdown emoji markup</a>.
+- <a href="https://github.com/StylishThemes/GitHub-Dark/wiki/Emoji">GitHub-Dark Emoji (All GitHub Emoji)</a>.
+
+<ins>Voici comment souligner un texte</ins>
 
 </p><br>
 </details>
@@ -73,7 +79,7 @@ Bien que je m'efforce de rendre MYMOD compatible avec le plus grand nombre possi
 
 #### Mise en garde
 
-*Si une ancienne version de ce mod est déjà installée, il est nécessaire de la désinstaller d'abord. Pour cela, lancez **setup-mymod.exe**, et désinstallez tous les composants précédemment installés. Une fois la désinstallation achevée, supprimez le :file_folder: répertoire **mymod** et le fichier **setup-mymod.exe** (version Windows) avant d'extraire la nouvelle version du mod.*
+*Si une ancienne version de ce mod est déjà installée, il est nécessaire de la désinstaller d'abord. Pour cela, lancez **`setup-mymod.exe`**, et désinstallez tous les composants précédemment installés. Une fois la désinstallation achevée, supprimez le :file_folder: répertoire **mymod** et le fichier **setup-mymod.exe** (version Windows) avant d'extraire la nouvelle version du mod.*
 
 *Lorsque vous installez ou désinstallez, **ne fermez pas la fenêtre DOS** en cliquant sur le bouton **X** ! Au lieu de cela, appuyez sur la touche **Entrée** lorsque l'invite de commandes vous le demande.*
 
@@ -168,19 +174,19 @@ En plus des méthodes détaillées plus haut pour supprimer des composants, il est 
 Le programme d'installation comprend les composants suivants. Chacun possède un numéro distinct et pré-défini qui lui attribue une position déterminée (mot-clé *DESIGNATED* en langage WeiDU) ; ce qui permet aux autres composants de le détecter et aux utilitaires d'installation automatiques de préciser quels composants installer.<br /><br />
 
 
-#### 10. Composant 1 : blabbla
+#### 10. Composant 10 (composant principal)
 
-Description du composant 1.</br>
-
-## 
-
-#### 20 Composant 2 : blabbla
-
-Description du composant 2.</br>
+Description du composant principal.</br>
 
 ## 
 
-#### 30 Composant 3 : blabbla
+#### 20 Composant 20 : blabbla
+
+Description du composant 20.</br>
+
+## 
+
+#### 30 Composant 30 : blabbla
 
 Exemple de composant présentant des tableaux.
 
@@ -217,6 +223,42 @@ Exemple de composant présentant des tableaux.
 	</tr>
 </table><br>
 <div align="right"><a href="#top">Retour en haut de page</a></div>
+
+
+<hr>
+
+
+## <a name="componentslist" id="componentslist"></a>Composants (présentation alternative si vous avez beaucoup de composants)
+
+
+Le programme d'installation comprend les composants suivants. Chacun possède un numéro distinct et pré-défini qui lui attribue une position déterminée (mot-clé *DESIGNATED* en langage WeiDU) ; ce qui permet aux autres composants de le détecter et aux utilitaires d'installation automatiques de préciser quels composants installer.<br /><br />
+
+><span style="margin-left: 50px;"><a href="#10">[10] Composant 10 (composant principal)</a></span></br>
+><span style="margin-left: 50px;"><a href="#20">[20] Composant 20</a></span></br>
+><span style="margin-left: 50px;"><a href="#50">[30] Composant 30</a></span></br>
+><span style="margin-left: 50px;"><a href="#40">[30] ...</a></span></br>
+
+
+## 
+
+<a name="10" id="10"></a>**10. Composant 10 (composant principal)**<br />
+
+Description du composant principal.</br>
+<div align="right"><a href="#componentslist">Back to components list</a></div>
+
+## 
+
+<a name="10" id="20"></a>**20 Composant 20**<br />
+
+Description du composant 20.</br>
+<div align="right"><a href="#componentslist">Back to components list</a></div>
+
+## 
+
+<a name="30" id="10"></a>**30 Composant 30**<br />
+
+Description du composant 30.</br>
+<div align="right"><a href="#componentslist">Back to components list</a></div>
 
 
 <hr>
@@ -318,6 +360,7 @@ Libre à vous de choisir la formule et la présentation qui vous conviennent :
   - Section Composants :
 	- Suppression de la référence au BiG World Setup, obsolète et plus maintenu.
 	- Traduction en anglais du tableau.
+	- Ajout d'une présentation alternative si le mod comprend au moins une dizaine de composants.
   - Section Crédits et remerciements :
     - Mise à jour des liens GitHub pour WeiDU et NearInfinity.
 
@@ -330,6 +373,8 @@ Libre à vous de choisir la formule et la présentation qui vous conviennent :
 	- Centrage du nom du mod en en-tête.
 	- Utilisation des codes de formatage markdown.
 	- Alignement à droite du retour en haut de page.
+	- Ajout de liens vers deux listes de codes de smileys et d'emoji utilisables par markdown.
+	- Ajout du "truc" pour souligner un texte.
   - Section Compatibilité :
 	- Ajout des lignes manquantes en anglais.
 

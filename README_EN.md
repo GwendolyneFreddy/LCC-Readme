@@ -1,5 +1,6 @@
 
-![Latest Release](https://img.shields.io/github/v/release/gwendolynefreddy/lcc-readme?include_prereleases&color=#ffdc6b)<a name="top" id="top">
+![Latest Release](https://img.shields.io/github/v/release/gwendolynefreddy/lcc-readme?include_prereleases&color=gold)<a name="top" id="top">
+![Latest Release](https://img.shields.io/static/v1?label=version&message=v4.0.0&color=gold)
 ![Platform](https://img.shields.io/static/v1?label=platform&message=windows&color=informational)
 ![Language](https://img.shields.io/static/v1?label=language&message=English%20%7C%20French%20&color=limegreen)
 
@@ -24,22 +25,28 @@
 
 ## <a name="intro" id="intro"></a>Overview
 
-<p>Courte description du mod : Ce mod...... ou L'objet de ce mod......</p>
+>Courte description du mod : Ce mod...... ou L'objet de ce mod......</p>
 
-<p>Il s'agit d'un modèle de fichier readme pour GitHub destiné aux mods développés et/ou publiés sur la Couronne de Cuivre. Il est écrit en langage Markdown. Bien qu'il soit assez proche du langage HTML, certains formatages ne sont pas pris en compte par GitHub, comme l'affichage des couleurs.</p>
+Il s'agit d'un modèle de fichier readme pour GitHub destiné aux mods développés et/ou publiés sur la Couronne de Cuivre. Il est écrit en langage Markdown. Bien qu'il soit assez proche du langage HTML, certains formatages ne sont pas pris en compte par GitHub, comme l'affichage des couleurs.
 
-<p>Pour chaque section, j'ai repris, chaque fois que c'était possible, des éléments de traductions déjà publiées (par les d'Oghms ou par bibi) afin de conserver un semblant d'homogénéité dans les termes employés. Il suffit alors de conserver celles dont on a besoin (liste des jeux compatibles, procédures d'installation selon la plateforme, liste des outils utilisés...) et, pour le reste, de remplacer MYMOD et Auteur par le nom du mod et de son auteur, de modifier les liens et de remplir les textes adéquats. Pour certaines sections, j'ai été le plus exhaustif possible : il vous suffit de choisir les paragraphes qui vous intéressent et de supprimer les autres. &#128521;</p>
+Pour chaque section, j'ai repris, chaque fois que c'était possible, des éléments de traductions déjà publiées (par les d'Oghms ou par bibi) afin de conserver un semblant d'homogénéité dans les termes employés. Il suffit alors de conserver celles dont on a besoin (liste des jeux compatibles, procédures d'installation selon la plateforme, liste des outils utilisés...) et, pour le reste, de remplacer MYMOD et Auteur par le nom du mod et de son auteur, de modifier les liens et de remplir les textes adéquats. Pour certaines sections, j'ai été le plus exhaustif possible : il vous suffit de choisir les paragraphes qui vous intéressent et de supprimer les autres. &#128521;
 
 
-<p>Malheureusement, le rendu d'un fichier .md n'est véritablement effective que dans GitHuB, ce qui ne vous permet pas de visualiser votre mise en page dans Notepad++. Il existe cependant plusieurs utilitaires vous permettant de les éditer et de visualiser partiellement vos modifications. Partiellement parce que certaines balises comme [br (break line)] apparaissent à l'écran MÊME si elles resteront invisibles dans GitHub. Personnellement, j'ai opté pour <a href=https://typora.io/">Typora</a>, mais il en existe d'autres.</p><br>
+Malheureusement, le rendu d'un fichier .md n'est véritablement effective que dans GitHuB, ce qui ne vous permet pas de visualiser votre mise en page dans Notepad++. Il existe cependant plusieurs utilitaires vous permettant de les éditer et de visualiser partiellement vos modifications. Partiellement parce que certaines balises comme [br (break line)] apparaissent à l'écran MÊME si elles resteront invisibles dans GitHub. Personnellement, j'ai opté pour <a href=https://typora.io/">Typora</a>, mais il en existe d'autres.<br>
 
 <details><summary>CLICK ME</summary>
 <p>
 
 #### yes, an hidden code block!
 
-</p>
-</details><br>
+Deux listes de codes de smileys et d'emoji utilisables par markdown :
+- <a href="https://gist.github.com/rxaviers/7360908">Complete list of github markdown emoji markup</a>.
+- <a href="https://github.com/StylishThemes/GitHub-Dark/wiki/Emoji">GitHub-Dark Emoji (All GitHub Emoji)</a>.
+
+<ins>Voici comment souligner un texte</ins>
+
+</p><br>
+</details>
 <div align="right"><a href="#top">Back to top</a></div>
 
 
@@ -70,7 +77,7 @@ You are strongly recommended to also download and install the <a href="http://ww
 
 #### Notes
 
-*If you've previously installed the mod, remove it before extracting the new version. To do this, run **setup-mymod.exe**, uninstall all previously installed components and delete the :file_folder: **mymod** folder.*
+*If you've previously installed the mod, remove it before extracting the new version. To do this, run **`setup-mymod.exe`**, uninstall all previously installed components and delete the :file_folder: **mymod** folder.*
 
 *When installing or uninstalling, **do not close the DOS window** by clicking on the **X** button! Instead, press the **Enter** key whenever instructed to do so.*
 
@@ -163,19 +170,19 @@ In addition to the methods above for removing individual components, you can com
 The installer includes the following components. The number of each is the component *DESIGNATED* number which gives it a fixed install position and allows automated installers to specify component choices.<br /><br />
 
 
-#### 10. Composant 1 : blabbla
+#### 10. Component 10 : main component
 
-Description du composant 1.</br>
-
-## 
-
-#### 20 Composant 2 : blabbla
-
-Description du composant 2.</br>
+Description du composant 10.</br>
 
 ## 
 
-#### 30 Composant 3 : blabbla
+#### 20 Component 20 : blabbla
+
+Description du composant 20.</br>
+
+## 
+
+#### 30 Component 30 : blabbla
 
 Exemple de composant présentant des tableaux.
 
@@ -212,6 +219,43 @@ Exemple de composant présentant des tableaux.
 	</tr>
 </table><br>
 <div align="right"><a href="#top">Back to top</a></div>
+
+
+<hr>
+
+
+## <a name="componentslist" id="componentslist"></a>Components (alternative presentation for lots of components)
+
+To be used with a huge number of components. 
+
+The installer includes the following components. The number of each is the component *DESIGNATED* number which gives it a fixed install position and allows automated installers to specify component choices.<br /><br />
+
+><span style="margin-left: 50px;"><a href="#10">[10] Component 10 (main component)</a></span></br>
+><span style="margin-left: 50px;"><a href="#20">[20] Component 20</a></span></br>
+><span style="margin-left: 50px;"><a href="#30">[30] Component 30</a></span></br>
+><span style="margin-left: 50px;"><a href="#40">[30] ...</a></span></br>
+
+
+## 
+
+<a name="10" id="10"></a>**10. Component 10 (main component)**<br />
+
+Main component description.</br>
+<div align="right"><a href="#componentslist">Back to components list</a></div>
+
+## 
+
+<a name="10" id="20"></a>**20 Component 20**<br />
+
+Component 20 description.</br>
+<div align="right"><a href="#componentslist">Back to components list</a></div>
+
+## 
+
+<a name="30" id="10"></a>**30 Component 30**<br />
+
+Component 30 description.</br>
+<div align="right"><a href="#componentslist">Back to components list</a></div>
 
 
 <hr>
