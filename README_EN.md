@@ -233,7 +233,7 @@ The installer includes the following components. The number of each is the compo
 ><span style="margin-left: 50px;"><a href="#10">[10] Component 10 (main component)</a></span></br>
 ><span style="margin-left: 50px;"><a href="#20">[20] Component 20</a></span></br>
 ><span style="margin-left: 50px;"><a href="#30">[30] Component 30</a></span></br>
-><span style="margin-left: 50px;"><a href="#40">[30] ...</a></span></br>
+><span style="margin-left: 50px;"><a href="#40">[40] ...</a></span></br>
 
 
 ## 
@@ -343,7 +343,7 @@ Libre à vous de choisir la formule et la présentation qui vous conviennent :
 
 ## <a name="versions" id="versions"></a>Version History
 
-#### Version 2.0.0 - Mois jour, 201x
+#### Version 2.0.0 (Mois jour, 201x)
 
 - modification niveau 1
   - modification niveau 2
@@ -353,7 +353,7 @@ Libre à vous de choisir la formule et la présentation qui vous conviennent :
 
 ## 
 
-#### Version beta 1.0.0 - Mois jour, 201x
+#### Version beta 1.0.0 (Mois jour, 201x)
 
 - Initial release.
 <div align="right"><a href="#top">Back to top</a></div>

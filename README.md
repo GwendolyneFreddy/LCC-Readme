@@ -236,7 +236,7 @@ Le programme d'installation comprend les composants suivants. Chacun possède un 
 ><span style="margin-left: 50px;"><a href="#10">[10] Composant 10 (composant principal)</a></span></br>
 ><span style="margin-left: 50px;"><a href="#20">[20] Composant 20</a></span></br>
 ><span style="margin-left: 50px;"><a href="#50">[30] Composant 30</a></span></br>
-><span style="margin-left: 50px;"><a href="#40">[30] ...</a></span></br>
+><span style="margin-left: 50px;"><a href="#40">[40] ...</a></span></br>
 
 
 ## 
@@ -348,7 +348,7 @@ Libre à vous de choisir la formule et la présentation qui vous conviennent :
 
 <p>Note du traducteur : l'historique n'est volontairement pas traduit afin de faciliter la mise à jour par l'auteur.</p>
 
-#### Version 4.0.0 (13 novembre 2019)
+#### Version 4.0.0 (16 novembre 2019)
 
 - Modifications générales (fichiers .html et .md) :
   - Correction de typos.
@@ -380,21 +380,31 @@ Libre à vous de choisir la formule et la présentation qui vous conviennent :
 
 ## 
 
-#### Version 3.0.0 - jour mois 201x
+#### Version 3.0.0 (5 février 2019)
+
+- Ajout de balises spoilers dans les fichiers html et md.
+- Ajout d'un petit bonus dans la section Présentation du fichier html.
+- Corrections mineures diverses.
 
 ## 
 
-#### Version 2.0.0 - jour mois 201x
+#### Version 2.0.0 (21 octobre 2018)
 
-- modification niveau 1
-  - modification niveau 2
-    - modification niveau 3
-  - modification niveau 2
-- modification niveau 1
+- Correction de liens erronés, de typos, et ajout de Blender dans les outils.
+- Ajout de la proposition d'Isaya pour gérer les listes à plusieurs niveaux. Je l'ai modifiée pour ajouter un niveau supplémentaire de liste.
+- Ajout de la procédure de lecture des fichiers ini qui sera utilisée par les prochains outils d'installation automatique.
+- Ajout des fichiers .md pour les dépôts github.
+- Ajout de plusieurs drapeaux étrangers.
 
 ## 
 
-#### Version beta 1.0.0 - jour mois 201x
+#### Version 1.1 (15 octobre 2018)
+
+- Un drapeau permet de passer du readme français à l'anglais, et lycée de Versailles.
+
+## 
+
+#### Version beta 1.0 (13 octobre 2018)
 
 - Sortie initiale.
 <div align="right"><a href="#top">Retour en haut de page</a></div>
