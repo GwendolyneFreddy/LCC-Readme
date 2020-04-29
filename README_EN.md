@@ -188,8 +188,8 @@ Exemple de composant présentant des tableaux.
 
 | Creature | Kit | Level&#160;&#160;&#160;(ex) | XP&#160;&#160;&#160;(ex) | HP&#160;&#160;&#160;(ex) | Strength&#160;&#160;&#160;(ex) | Constitution&#160;&#160;&#160;(ex) | Weapon Proficiency |
 | :---: | --- | :---: | :---: | :---: | :---: | :---: | :---: |
-| Tazok | -- | <strong>19<strong>&#160;&#160;&#160;(18) | <strong>12000<strong>&#160;&#160;&#160;(6000) | <strong>154<strong>&#160;&#160;&#160;(136) | -- | -- | TWO-HANDED SWORD +++++ |
-| FIRorc01 (DigDag) | Berserker | <strong>13<strong>&#160;&#160;&#160;(12) | <strong>7000<strong>&#160;&#160;&#160;(2000) | <strong>107<strong>&#160;&#160;&#160;(99) | <strong>22<strong>&#160;&#160;&#160;(17)) | <strong>22<strong>&#160;&#160;&#160;(9) | BASTARD SWORD +++++ |
+| Tazok | -- | <strong>19</strong>&#160;&#160;&#160;(18) | <strong>12000</strong>&#160;&#160;&#160;(6000) | <strong>154</strong>&#160;&#160;&#160;(136) | -- | -- | TWO-HANDED SWORD +++++ |
+| FIRorc01 (DigDag) | Berserker | <strong>13</strong>&#160;&#160;&#160;(12) | <strong>7000</strong>&#160;&#160;&#160;(2000) | <strong>107</strong>&#160;&#160;&#160;(99) | <strong>22</strong>&#160;&#160;&#160;(17)) | <strong>22</strong>&#160;&#160;&#160;(9) | BASTARD SWORD +++++ |
 <br>
 <div align="right"><a href="#top">Back to top</a></div>
 
