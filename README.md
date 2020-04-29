@@ -190,38 +190,11 @@ Description du composant 20.</br>
 
 Exemple de composant présentant des tableaux.
 
-<table style="margin-left: 80px" summary="Rebalanced Tazok and Dig-Dag">
-	<tr>
-		<th>Créature</th>
-		<th>Profil</th>
-		<th>Niveau <span style="font-weight: normal">&#160;&#160;&#160;(ex)</span></th>
-		<th>XP <span style="font-weight: normal">&#160;&#160;&#160;(ex)</span></th>
-		<th>PV <span style="font-weight: normal">&#160;&#160;&#160;(ex)</span></th>
-		<th>Force <span style="font-weight: normal">&#160;&#160;&#160;(ex)</span></th>
-		<th>Constitution <span style="font-weight: normal">&#160;&#160;&#160;(ex)</span></th>
-		<th>Compétence martiale</th>
-	</tr>
-	<tr>
-		<td>Tazok</td>
-		<td>--</td>
-		<td>**19**&#160;&#160;&#160;(18)</td>
-		<td>**12000**&#160;&#160;&#160;(6000)</td>
-		<td>**154**&#160;&#160;&#160;(136)</td>
-		<td>--</td>
-		<td>--</td>
-		<td>TWO-HANDED SWORD +++++</td>
-	</tr>
-	<tr>
-		<td>FIRorc01 (DigDag)</td>
-		<td>Berserker</td>
-		<td>**13**&#160;&#160;&#160;(12)</td>
-		<td>**7000**&#160;&#160;&#160;2000)</td>
-		<td>**107**&#160;&#160;&#160;(99)</td>
-		<td>**22**&#160;&#160;&#160;(17)</td>
-		<td>**22**&#160;&#160;&#160;(9)</td>
-		<td>BASTARD SWORD +++++</td>
-	</tr>
-</table><br>
+| Créature | Profil | Niveau&#160;&#160;&#160;(ex) | XP&#160;&#160;&#160;(ex) | PV&#160;&#160;&#160;(ex) | Force&#160;&#160;&#160;(ex) | Constitution&#160;&#160;&#160;(ex) | Compétence martiale |
+| :---: | --- | :---: | :---: | :---: | :---: | :---: | :---: |
+| Tazok | -- | <strong>19<strong>&#160;&#160;&#160;(18) | <strong>12000<strong>&#160;&#160;&#160;(6000) | <strong>154<strong>&#160;&#160;&#160;(136) | -- | -- | TWO-HANDED SWORD +++++ |
+| FIRorc01 (DigDag) | Berserker | <strong>13<strong>&#160;&#160;&#160;(12) | <strong>7000<strong>&#160;&#160;&#160;(2000) | <strong>107<strong>&#160;&#160;&#160;(99) | <strong>22<strong>&#160;&#160;&#160;(17)) | <strong>22<strong>&#160;&#160;&#160;(9) | BASTARD SWORD +++++ |
+<br>
 <div align="right"><a href="#top">Retour en haut de page</a></div>
 
 
@@ -351,7 +324,7 @@ Libre à vous de choisir la formule et la présentation qui vous conviennent :
 
 <p>Note du traducteur : l'historique n'est volontairement pas traduit afin de faciliter la mise à jour par l'auteur.</p>
 
-#### Version 5.0.0 ( avril 2020)
+#### Version 5.0.0 (29 avril 2020)
 
 - Modifications générales (fichiers .html et .md) :
   - Correction des derniers typos (enfin, je l'espère).
