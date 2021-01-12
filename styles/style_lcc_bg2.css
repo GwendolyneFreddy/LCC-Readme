@@ -140,6 +140,22 @@ body {
 	margin: -10px 0 0 15px;
 }
 
+#maindiv .important_tuto {
+	font-size: 100%;
+	font-family: Verdana;
+	text-align: left;
+	background-color: #F1F1F1;
+	color: black;
+	border-top: solid 1px #aaa;
+	border-bottom: solid 1px #aaa;
+	border-left: solid 1px #aaa;
+	border-right: solid 1px #aaa;
+	padding: 10px;
+	margin: 20px auto;
+	width: 80%;
+	line-height: 160%;
+}
+
 #maindiv address {
 	font-size: 95%;
 	font-style: normal;

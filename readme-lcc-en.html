@@ -81,7 +81,7 @@
 			Il s'agit d'un modèle de fichier readme destiné aux mods développés et/ou publiés sur la Couronne de Cuivre. Je me suis efforcé de conserver les codes couleurs utilisés par le forum, même si ce n'est pas toujours évident.
 		</p><br>
 		<p>
-			Pour chaque section, j'ai repris, chaque fois que c'était possible, des éléments de traductions déjà publiées (par les d'Oghms ou par bibi) afin de conserver un semblant d'homogénéité dans les termes employés. Il suffit alors de conserver celles dont on a besoin (liste des jeux compatibles, procédures d'installation selon la plateforme, liste des outils utilisés...) et, pour le reste, de remplacer MYMOD et Auteur par le nom du mod et de son auteur, de modifier les liens et de remplir les textes adéquats. Pour certaines sections, j'ai été le plus exhaustif possible : il vous suffit de choisir les paragraphes qui vous intéressent et de supprimer les autres. &#128521;
+			Pour chaque section, j'ai repris, chaque fois que c'était possible, des éléments de traductions déjà publiées (par les d'Oghms ou par bibi) afin de conserver un semblant d'homogénéité dans les termes employés. Il suffit alors de conserver celles dont on a besoin (liste des jeux compatibles, procédures d'installation selon la plateforme, liste des outils utilisés...) et, pour le reste, de remplacer Mymod et Auteur par le nom du mod et de son auteur, de modifier les liens et de remplir les textes adéquats. Pour certaines sections, j'ai été le plus exhaustif possible : il vous suffit de choisir les paragraphes qui vous intéressent et de supprimer les autres. &#128521;
 		</p><br>
 
 		<p>
@@ -141,7 +141,7 @@
 		</h4>
 
 		<div class="spoiler" style="margin: 10px auto;width: 90%; border-style: solid; border-width: 1px; border-color: #FFCC33; margin-top: 32px; padding: 6px;"><br>
-		<input onclick="showSpoiler(this);" value="Afficher / Hide" type="button" style="background:#FFBF00;margin-left: 10px">
+		<input onclick="showSpoiler(this);" value="Show / Hide" type="button" style="background:#FFBF00;margin-left: 10px">
 			<div class="inner" style="display: none;margin-left: 15px"><br>TEXTE À AFFICHER SPOILER 1 !
 			</div>
 			<br><br>
@@ -150,8 +150,8 @@
 		<div style="margin: 10px auto;width: 90%; border-style: solid; border-width: 1px; border-color: #FFCC33; margin-top: 32px; padding: 6px;">
 			<div class="quotetitle">
 				<b>Spoiler 2 avec bouton d'affichage :&#160;&#160;</b>
-				<input value="Afficher" style="margin: 0px; padding: 0px; width: 50px; background:#FFBF00;"
-				onclick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; this.innerText = ''; this.value = 'Hide'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = 'Afficher'; }" type="button" >
+				<input value="Show" style="margin: 0px; padding: 0px; width: 50px; background:#FFBF00;"
+				onclick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; this.innerText = ''; this.value = 'Hide'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = 'Show'; }" type="button" >
 			</div>
 			<div class="quotecontent">
 				<div style="display: none;">
@@ -162,7 +162,7 @@
 
 		<div style="margin: 10px auto;width: 90%; border-style: solid; border-width: 1px; border-color: #FFCC33; margin-top: 32px; padding: 6px;">
 			<div class="c1" onclick="javascript:montrer_spoiler('spoiler3')">
-				<strong>Spoiler 3 sans bouton d'affichage : cliquer sur le titre</strong>
+				<strong>Spoiler 3 sans bouton d'affichage : click here</strong>
 				<script type="text/javascript"> function montrer_spoiler(value){var actual=document.getElementById(value).style.visibility;if (actual=='visible'){document.getElementById(value).style.visibility='hidden';}else{document.getElementById(value).style.visibility='visible';}} </script>
 				<dl style="visibility: hidden;" id="spoiler3">
 					<dd>TEXTE À AFFICHER SPOILER 3<br></dd>
@@ -172,7 +172,7 @@
 
 		<div style="margin: 10px auto;width: 90%; border-style: solid; border-width: 1px; border-color: #FFCC33; margin-top: 32px; padding: 6px;">
 			<div class="c1" onclick="pchild=this.getElementsByTagName('p'); if(pchild[0].style.visibility!='hidden'){pchild[0].style.visibility='hidden'; pchild[0].style.height='0';}else{pchild[0].style.visibility=''; pchild[0].style.height=''}">
-				<strong>Spoiler 4 : texte à cacher (cliquer sur le texte)</strong>
+				<strong>Spoiler 4 : texte à cacher (click the text)</strong>
 				<p>
 					TEXTE À CACHER SPOILER 4<br>
 				</p>
@@ -188,19 +188,23 @@
 
 
 			<address>
-				<span class="footer">MYMOD &gt; Introduction</span> &#8226; <a href="#top">BACK TO TOP</a>
+				<span class="footer">Mymod &gt; Introduction</span> &#8226; <a href="#top">BACK TO TOP</a>
 			</address>
 	  </div>
 
 <!-- ================= C o m p a t i b i l i t y ================= -->
-		<a name="compat" id="compat"></a>
-		<div class="content">
+	  <a name="compat" id="compat"></a>
+	  <div class="content">
 
 		<h2>
 			Compatibility
 		</h2><br>
 
-		<p>
+		<h3>
+			Games supported
+		</h3>
+
+		<p style="margin-top:1%;">
 			This mod is designed to work on all Infinity Engine games. This includes
 		</p>
 		<ul>
@@ -213,30 +217,130 @@
 			<li>Planescape: Torment (PsT).</li>
 		</ul><br>
 
-<hr><br>
-		<p>
-			MYMOD is a <acronym title="Weimer Dialogue Utility">WeiDU</acronym> mod, and therefore should be compatible with all WeiDU mods. [facultatif : It has been tested on several different installations, and has so far worked perfectly.] However, we cannot test every single one. [Choisir une formule parmi les suivantes :] If you do encounter any bugs, please contact <a href="https://www.baldursgateworld.fr/lacouronne/Auteur.html">AUTHOR</a> or alternatively post on the forums. If you encounter any bugs, please report them on the forum!
+		<hr><br>
+
+		<h3>
+			Other mods Compatibility
+		</h3>
+
+		<p style="margin-top:1%;">
+			Mymod is a <acronym title="Weimer Dialogue Utility">WeiDU</acronym> mod, and therefore should be compatible with all WeiDU mods. [facultatif : It has been tested on several different installations, and has so far worked perfectly.] However, we cannot test every single one. [Choisir une formule parmi les suivantes :] If you do encounter any bugs, please contact <a href="https://www.baldursgateworld.fr/lacouronne/Auteur.html">AUTHOR</a> or alternatively post on the forums. If you encounter any bugs, please report them on the forum!
 		</p>
 		<p>
-			Though I am striving to make MYMOD compatible with as many other mods as possible, there is always a chance that incompatibilities will arise. Below are the ones discovered thus far:
+			Though I am striving to make Mymod compatible with as many other mods as possible, there is always a chance that incompatibilities will arise. Below are the ones discovered thus far:
 		</p>
 		<ul>
-			<li>
-			</li>
-			<li>
-			</li>
+			<li>mod 1</li>
+			<li>mod 2</li>
+			<li>...</li>
 		</ul><br>
 
-<hr><br>
+		<hr><br>
+
+		<h3>
+			Installation Order
+		</h3>
+
+		<p style="margin-top:1%;">
+			[Choisir une formule parmi les suivantes : ]<br>
+			&#10173; Although it is not required for Mymod to function properly, it is always a good idea install the latest version of the <a href="http://www.gibberlings3.net/bg2fixpack/">BG2 Fixpack</a>.<br>
+			&#10173; You are strongly recommended to also download and install the <a href="http://www.gibberlings3.net/bg2fixpack/">BG2 Fixpack</a> before proceeding with the installation of this mod.
+		</p><br>
+		<ul>
+			<li>Please install Mymod before mod A.</li>
+			<li>Please install Mymod after mod B.</li>
+			<li>...</li>
+		</ul><br>
+
 		<p>
-			[Choisir une formule parmi les suivantes : ]Although it is not required for MYMOD to function properly, it is always a good idea install the latest version of the <a href="http://www.gibberlings3.net/bg2fixpack/">BG2 Fixpack</a>. You are strongly recommended to also download and install the <a href="http://www.gibberlings3.net/bg2fixpack/">BG2 Fixpack</a> before proceeding with the installation of this mod.
+			&#10173; &#9888;&#65039; Don't forget that there are mods managers that strive to make the players life easier. So don't forget to fill the <a href="../mymod.ini"><em>mymod.ini</em></a> file in &#x1F4C1; <strong>mymod</strong> folder.
+		</p>
+
+		<div class="spoiler" style="margin: 10px auto; width: 90%; border-style: solid; border-width: 1px; border-color: #FFCC33; margin-top: 32px; padding: 6px;"><br>
+		<input onclick="showSpoiler(this);" value="Show / Hide" type="button" style="background:#FFBF00; margin-left: 10px">
+			<div class="inner" style="display: none;">
+				<div class="important_tuto" style="width: 90%">
+					<p><pre>
+# File encoding: preferred UTF8 (no BOM) if unicode characters are present, it can be ANSI for English-only
+# File format: ini as default and then HJSON/JSON5/JSONC/JSON (JSON doesn't allow comments) for advanced modders who want to use benefits of those file formats  
+# File name: it must be the same as tp2 name: MyMod.tp2 => MyMod.ini (.hjson/.json5/.jsonc/.json)  
+# File location: the same folder where .tp2 file is present  
+# File content: every key=value pair is optional, key names are case insensitive  
+
+
+# ini section header is required to avoid false detection
+[Metadata]
+
+# Full name of the mod, without version number
+Name = name of your mod
+
+# Author name or nick, don't use email address
+Author = you
+
+# Short description of the mod, main goals, features etc
+Description = small description of your mod content.
+
+# Web address of mod readme file (filename is case-sensitive!)
+Readme = https://myrepo.github.io/readmes/mymod-readme-french, https://myrepo.github.io/readmes/mymod-readme-english
+
+# Web address of mod dedicated forum or forum thread 
+Forum = https://www.baldursgateworld.fr/lacouronne/mymod/
+
+# Web address of mod personal Homepage, no need to duplicate with mod dedicated forum
+#Homepage = https://www.baldursgateworld.fr/lacouronne/mymod/
+
+# if you use Github.com (preferred hosting site), simply use github.com/AccountOrOrgName/RepositoryName    
+# If you use other hosting sites, please check requirements and put direct download link  
+Download = https://github.com/yourpersonalaccount/yourmodrepo
+
+# Requirements for other hosting sites:
+# - forum attachments won't work because the download links will be changed every time when you update mod package
+# - mod package should be downloaded using 'wget' commandline tool: wget.exe --no-check-certificate 'link'
+# - it's possible to preform file size check using 'wget' commandline tool: wget.exe --no-check-certificate --spider 'link'
+# - links do not expire after 30 or more days without download (speeedyshare, mediafire etc has forced expiration dates)
+# - hosting site won't require user interaction or captcha (googledrive, mediafire etc require user interaction)
+# - hosting site don't advertise any kind of adware/crapware etc
+
+# Dynamic Install Order Category. Pick one category from Overwrite, Fixes, Quests, NPC, Items, Spells, Kits, Tweaks, AI, Sounds, Portraits, UI, Late
+Type = 
+
+# This mod should be installed *before* the mods listed after the keyword
+Before = EET_end
+
+# This mod should be installed *after* the mods listed after the keyword
+After = bg2fixpack, EET
+
+# The listed mods are required to be installed *before* this mod
+# Require-Earlier =
+
+# The listed mods are required to be installed *after* this mod
+# Require-Later =</pre>
+					</p>
+				</div>
+			</div>
+			<br><br>
+		</div><br>
+
+		<p>
+			It is very easy. Let's take a Mymod / Divine Remix installation order. All you have to do is fill the following line in mymod.ini:
+		</p>
+
+		<div class="important_tuto">
+			<p><pre>
+# This mod should be installed *after* the mods listed after the keyword
+After = bg2fixpack, EET, divine_remix</pre>
+			</p>
+		</div><br>
+
+		<p>
+			And that's it! Players will NEVER install those mods using a bad installation order. &#128521;
 		</p><br>
 
 
 			<address>
-				<span class="footer">MYMOD &gt; Compatibility</span> &#8226; <a href="#top">BACK TO TOP</a>
+				<span class="footer">Mymod &gt; Compatibility</span> &#8226; <a href="#top">BACK TO TOP</a>
 			</address>
-		</div>
+	  </div>
 
 <!-- ================== I n s t a l l a t i o n ================== -->
 		<a name="installation" id="installation"></a>
@@ -343,7 +447,7 @@
 			Windows
 		</h3>
 		<p style="margin-top:1%;">
-			MYMOD for Windows is distributed as an extractable compressed archive and includes a <acronym title="Weimer Dialogue Utility">WeiDU</acronym> installer.
+			Mymod for Windows is distributed as an extractable compressed archive and includes a <acronym title="Weimer Dialogue Utility">WeiDU</acronym> installer.
 		</p>
 		<p>
 			Extract the contents of the mod archive into the folder of the game you wish to modify (<em>the folder which contains the "CHITIN.KEY" file</em>), using <a href="http://www.7-zip.org/download.html">7zip</a>, <a href="http://www.rarlab.com/download.htm">WinRAR</a>, or another file compression utility that handles .zip files. On successful extraction, there should be a <strong>mymod</strong> folder and a <em><strong>setup-mymod.exe</strong></em> file in your game folder. To install, double-click <strong><span class="weidu">&nbsp;setup-mymod.exe&nbsp;</span></strong> and follow the instructions on screen.
@@ -353,7 +457,7 @@
 		</p>
 
 		<p>
-			[<strong>(Pour une version exe, remplacez les 2 deux premières lignes par les suivantes :)</strong>MYMOD for Windows is distributed as a self-extracting archive and includes a <acronym title="Weimer Dialogue Utility">WeiDU</acronym> installer. To install, simply double-click the archive and follow the instructions on screen.
+			[<strong>(Pour une version exe, remplacez les 2 deux premières lignes par les suivantes :)</strong>Mymod for Windows is distributed as a self-extracting archive and includes a <acronym title="Weimer Dialogue Utility">WeiDU</acronym> installer. To install, simply double-click the archive and follow the instructions on screen.
 		</p>
 		<p>
 			Alternatively, the files can be extracted into your game directory using <a href="http://www.7-zip.org/download.html">7zip</a> or <a href="http://www.rarlab.com/download.htm">WinRAR</a>. When properly extracted, your game directory will contain <strong>setup-mymod.exe</strong> and the folder <strong>mymod</strong>. To install, double-click <strong><span class="weidu">&nbsp;setup-mymod.exe&nbsp;</span></strong> and follow the instructions on screen.]
@@ -364,7 +468,7 @@
 			Mac OS X
 		</h3>
 		<p style="margin-top:1%;">
-			MYMOD for Mac OS X is distributed as a compressed tarball and includes a <acronym title="Weimer Dialogue Utility">WeiDU</acronym> installer.
+			Mymod for Mac OS X is distributed as a compressed tarball and includes a <acronym title="Weimer Dialogue Utility">WeiDU</acronym> installer.
 		</p>
 		<p>
 			First, extract the files from the tarball into your game directory. On successful extraction, there should be a <strong>mymod</strong> folder, <em><strong>setup-mymod</strong></em> and <em><strong>setup-mymod.command</strong></em> files in your game folder. To install, double-click <strong><span class="weidu">&nbsp;setup-mymod.command&nbsp;</span></strong> and follow the instructions on screen.
@@ -378,7 +482,7 @@
 			Linux
 		</h3>
 		<p style="margin-top:1%;">
-			MYMOD for Linux is distributed as a compressed tarball and does not include a <acronym title="Weimer Dialogue Utility">WeiDU</acronym> installer.
+			Mymod for Linux is distributed as a compressed tarball and does not include a <acronym title="Weimer Dialogue Utility">WeiDU</acronym> installer.
 		</p>
 		<p>
 			Extract the contents of the mod to the folder of the game you wish to modify.
@@ -400,7 +504,7 @@
 
 
 			<address>
-				<span class="footer">MYMOD &gt; Installation</span> &#8226; <a href="#top">BACK TO TOP</a>
+				<span class="footer">Mymod &gt; Installation</span> &#8226; <a href="#top">BACK TO TOP</a>
 			</address>
 		</div>
 
@@ -475,7 +579,7 @@
 
 
 			<address>
-				<span class="footer">MYMOD &gt; Components</span> &#8226; <a href="#top">BACK TO TOP</a>
+				<span class="footer">Mymod &gt; Components</span> &#8226; <a href="#top">BACK TO TOP</a>
 			</address>
 		</div>
 
@@ -595,7 +699,7 @@
 
 
 			<address>
-				<span class="footer">MYMOD &gt; Components</span> &#8226; <a href="#top">BACK TO TOP</a>
+				<span class="footer">Mymod &gt; Components</span> &#8226; <a href="#top">BACK TO TOP</a>
 			</address>
 		</div>
 
@@ -631,7 +735,7 @@
 
 
 			<address>
-				<span class="footer">MYMOD &gt; Screenshots</span> &#8226; <a href="#top">BACK TO TOP</a>
+				<span class="footer">Mymod &gt; Screenshots</span> &#8226; <a href="#top">BACK TO TOP</a>
 			</address>
 		</div>
 
@@ -644,7 +748,7 @@
 		</h2><br>
 
 		<p>
-			If you should encounter any bugs, please report them to the authors at the <a href="https://www.baldursgateworld.fr/lacouronne/mymod.php">MYMOD</a> forum. In addition, MYMOD is <a href="https://github.com/Auteur/Mymod">available on GitHub</a>, so fixes and changes can be submitted by the community.
+			If you should encounter any bugs, please report them to the authors at the <a href="https://www.baldursgateworld.fr/lacouronne/mymod.php">Mymod</a> forum. In addition, Mymod is <a href="https://github.com/Auteur/Mymod">available on GitHub</a>, so fixes and changes can be submitted by the community.
 		</p><br>
 
 		<p>
@@ -691,7 +795,7 @@
 
 
 			<address>
-				<span class="footer">MYMOD &gt; Troubleshooting</span> &#8226; <a href="#top">BACK TO TOP</a>
+				<span class="footer">Mymod &gt; Troubleshooting</span> &#8226; <a href="#top">BACK TO TOP</a>
 			</address>
 		</div>
 
@@ -833,7 +937,7 @@
 		</p>
 
 		  <div class="important">
-			<p>MYMOD is not developed, supported, or endorsed by BioWare&trade; or Interplay/BlackIsle, Overhaul, Beamdog or the Wizards of the Coast. It was developed by AUTEUR, based on material from the game Baldur's Gate II and its expansion.</p>
+			<p>Mymod is not developed, supported, or endorsed by BioWare&trade; or Interplay/BlackIsle, Overhaul, Beamdog or the Wizards of the Coast. It was developed by AUTEUR, based on material from the game Baldur's Gate II and its expansion.</p>
 			<p>All mod content is &copy;AUTEUR.</p>
 			<p>Baldur's Gate II: Shadows of Amn and Baldur's Gate II: Throne of Bhaal &copy; TSR, Inc. The BioWare Infinity Engine is &copy; BioWare Corp. All other trademarks and copyrights are property of their respective owners.</p>
 <br>
@@ -843,7 +947,7 @@
 			<p>If there are any copyright issues or this statement needs revision, then please contact me and advise me what to do about it. Most notably, if you see any artwork in this mod that might conflict with Copyright rules, please let me know as soon as possible, and I will remove the conflicting content immediately.</p>
 		  </div><br>
 		  <div class="important" style="color: #303030; background-color: #999999;">
-			<p>MYMOD is not developed, supported, or endorsed by BioWare&trade; or Interplay/BlackIsle, Overhaul, Beamdog or the Wizards of the Coast. It was developed by AUTEUR, based on material from the game Baldur's Gate II and its expansion.</p>
+			<p>Mymod is not developed, supported, or endorsed by BioWare&trade; or Interplay/BlackIsle, Overhaul, Beamdog or the Wizards of the Coast. It was developed by AUTEUR, based on material from the game Baldur's Gate II and its expansion.</p>
 			<p>All mod content is &copy;AUTEUR.</p>
 			<p>Baldur's Gate II: Shadows of Amn and Baldur's Gate II: Throne of Bhaal &copy; TSR, Inc. The BioWare Infinity Engine is &copy; BioWare Corp. All other trademarks and copyrights are property of their respective owners.</p>
 <br>
@@ -870,7 +974,7 @@
 
 
 			<address>
-				<span class="footer">MYMOD &gt; Credits and Acknowledgements</span> &#8226; <a href="#top">BACK TO TOP</a>
+				<span class="footer">Mymod &gt; Credits and Acknowledgements</span> &#8226; <a href="#top">BACK TO TOP</a>
 			</address>
 		</div>
 
@@ -941,7 +1045,7 @@
 
 
 			<address>
-				<span class="footer">MYMOD &gt; Version History</span> &#8226; <a href="#top">BACK TO TOP</a>
+				<span class="footer">Mymod &gt; Version History</span> &#8226; <a href="#top">BACK TO TOP</a>
 			</address>
 		</div>
 
