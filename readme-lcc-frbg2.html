@@ -343,8 +343,8 @@ After = bg2fixpack, EET, divine_remix</pre>
 	  </div>
 
 <!-- ================== I n s t a l l a t i o n ================== -->
-		<a name="installation" id="installation"></a>
-		<div class="content">
+	  <a name="installation" id="installation"></a>
+	  <div class="content">
 
 		<h2 class = "background">
 			Installation
@@ -353,8 +353,9 @@ After = bg2fixpack, EET, divine_remix</pre>
 		<h3>
 			Mise en garde
 		</h3>
-		<p style="margin-top:1%;"><em>
-			Si une ancienne version de ce mod est déjà installée, il est nécessaire de la désinstaller d'abord. Pour cela, lancez <strong><span class="weidu">&nbsp;setup-mymod.exe&nbsp;</span></strong> (ou .command si vous êtes sous OS X) et désinstallez tous les composants précédemment installés. Une fois la désinstallation achevée, supprimez le répertoire <strong>mymod</strong> et le fichier <strong>setup-mymod.exe</strong> (version Windows) avant d'extraire la nouvelle version du mod.</em>
+
+		<p style="margin-top:2%;"><em>
+			Si une ancienne version de ce mod est déjà installée, il est nécessaire de la désinstaller d'abord. Pour cela, lancez <strong><span class="weidu">&nbsp;setup-mymod.exe&nbsp;</span></strong> (ou .command si vous êtes sous <a href="#" class="infobulle" aria-label="Operating System 10">OS X</a>) et désinstallez tous les composants précédemment installés. Une fois la désinstallation achevée, supprimez le répertoire &#x1F4C1; <strong>mymod</strong> et le fichier <strong>setup-mymod.exe</strong> (version Windows) avant d'extraire la nouvelle version du mod.</em>
 		</p>
 		<p><em>
 			Lorsque vous installez ou désinstallez, <strong>ne fermez pas la fenêtre <a href="#" class="infobulle" aria-label="Disk Operating System">DOS</a></strong> en cliquant sur le bouton <strong>X</strong> ! Au lieu de cela, appuyez sur la touche <strong>Entrée</strong> lorsque l'invite de commandes vous le demande.</em>
@@ -363,152 +364,168 @@ After = bg2fixpack, EET, divine_remix</pre>
 			Par précaution, <strong>désactivez les antivirus</strong> ou tout logiciel résidant en mémoire avant d'installer ce mod, ou tout autre mod. Certains (en particulier avast et Norton !) ont une fâcheuse tendance à déclarer les exécutables des mods comme des faux positifs, provoquant ainsi l'échec de la procédure d'installation.</em>
 		</p><br>
 
-<hr><br>
+		<hr><br>
+
 		<h3>
 			Note spéciale pour Siege of Dragonspear fourni par Steam/GOG
 		</h3>
-		<p style="margin-top:1%;">
-			Good Old Games (GOG) et Steam fournissent le contenu de Siege of Dragonspear dans un format que <<a href="#" class="infobulle" aria-label="Weimer Dialogue Utility">WeiDU</a>, l'outil utilisé pour installer ce mod, ne peut pas reconnaitre. Vous devez donc lancer le programme <a href="https://github.com/Argent77/A7-DlcMerger/releases/latest">DLC Merger</a> dans votre répertoire de SoD avant d'installer ce mod, ou tout autre mod utilisant <a href="#" class="infobulle" aria-label="Weimer Dialogue Utility">WeiDU</a>.
+
+		<p style="margin-top:2%;">
+			Good Old Games (GOG) et Steam fournissent le contenu de Siege of Dragonspear dans un format que <a href="#" class="infobulle" aria-label="Weimer Dialogue Utility">WeiDU</a>, l'outil utilisé pour installer ce mod, ne peut pas reconnaitre. Vous devez donc lancer le programme <a href="https://github.com/Argent77/A7-DlcMerger/releases/latest">DLC Merger</a> dans votre répertoire de SoD avant d'installer ce mod, ou tout autre mod utilisant <a href="#" class="infobulle" aria-label="Weimer Dialogue Utility">WeiDU</a>.
 		</p><br>
 
-<hr><br>
+		<hr><br>
+
 		<h3>
 			Note pour les jeux en Édition Améliorée (EE)
 		</h3>
-		<p style="margin-top:1%;">
+
+		<p style="margin-top:2%;">
 			Les Éditions améliorées sont des jeux que le développeur fait encore évoluer, notamment par l'ajout de capacités supplémentaires destinées à la création de mods et par l'ajout de contenus. N'oubliez pas que chaque patch de mise à jour effacera les mods que vous avez installés ! Ce mod ne fera pas exception à la règle.
 		</p>
 		<p>
 			Si vous pouvez retarder la mise à jour du patch en plein milieu d'un partie moddée (si vous en avez la possibilité, notamment chez Beamdog et Good Old Games), n'oubliez pas que même après avoir réinstallé les mods sur un nouveau patch, vous ne pourrez peut-être pas continuer le jeu avec vos anciennes sauvegardes, en particulier à cause de noms de personnages, de lieux, etc, qui pourraient être incorrects. Pour y remédier, copiez tout le dossier du jeu dans un nouveau dossier dans lequel vous installerez vos mods, et qui ne sera pas modifié par les patches de mise à jour. Il est important que vous installiez le mod dans la version linguistique dans laquelle vous jouez. Sinon, les dialogues du mod ne s'afficheront pas et provoqueront des messages d'erreur.
 		</p><br>
 
-<hr><br>
-		<h3>
-			&#9888;&#65039; Avertissement : procédure d'installation
-		</h3>
-		<p style="margin-top:1%;">
-			<strong><span style="font-variant:small-caps;font-size: 12px;margin-left: 30px;">Les variables nécessaires à l'installation sont lues dans le fichier <a href="mymod.ini"><em>mymod.ini</em></a>, ou dans le fichier <a href="mymod_user.ini"><em>mymod_user.ini</em></a>, si ce dernier existe.</span></strong>
-		</p><br>
-		<p>
-			Pour éviter d'interrompre la procédure d'installation par de nombreux messages vous permettant de personnaliser certains composants à votre convenance, ces options ont été externalisées dans le fichier <a href="mymod.ini">mymod.ini</a> situé dans le répertoire <strong>mymod</strong>. Ce fichier définit une installation « <em>standard</em> ».
-		</p>
-		<p>
-			Si vous souhaitez choisir d'autres options d'installation, il vous suffit de modifier, avec Notepad ou un autre éditeur de texte, les options de configuration de la section <strong><em>[Mod_content]</em></strong> dans le fichier <strong><span style="font-variant:small-caps;font-size: 12px;"><em>mymod.ini</em></span></strong>, puis de sauvegarder ce dernier sous le nom <strong><span style="font-variant:small-caps;font-size: 12px;"><em>mymod_user.ini</em></span></strong>.
-		</p>
-		<p>
-			Chaque ligne de ce fichier comprend une option de configuration, suivie de « = », puis d'un chiffre ou d'une chaîne de caractères. Tout ce que vous avez à faire, c'est modifier la valeur du chiffre ou de la chaîne.
-		</p>
-		<p>
-			Le programme d'installation lira les valeurs des variables dans les deux fichiers .ini et donnera la priorité aux vôtres. Si le fichier mymod_user.ini contient une variable non conforme, ou si une variable est manquante, il la remplacera par sa valeur par défaut (celle correspondant à l'installation « <em>standard</em> »).
-		</p>
-		<p>
-			Voici le tableau des options concernées (ne modifiez pas les variables non listées ; elle font partie de l'architecture de debugging et de test) :
-		</p><br>
+		<hr><br>
 
-		<table style="margin-left: 80px" summary="Liste des options d'installation">
-			<tr>
-				<th>Option</th>
-				<th>Signification</th>
-				<th>Type</th>
-			</tr>
-			<tr>
-				<td style="padding-top:20px; padding-bottom:20px; "><strong><span style="color: Goldenrod;">mymod_variable1</span></strong></td>
-				<td style="text-align: left; padding-left:5px; padding-right:5px">blabla<br><br>
-				- <span style="color: Goldenrod">1 = premier choix (recommandé).</span><br>
-				- 2 = second choix.<br><br></td>
-				<td>numérique</td>
-			</tr>
-			<tr>
-				<td style="padding-top:20px; padding-bottom:20px; "><strong><span style="color: Goldenrod;">mymod_variable2</span></strong><br><br>
-				(supports: only EE)</td>
-				<td style="text-align: left; padding-left:5px; padding-right:5px">blabla<br><br>
-				- 1 = premier choix.<br>
-				- <span style="color: Goldenrod">2 = second choix (recommandé).</span><br>
-				- 3 = troisième choix.<br>
-				- 4 = quatrième choix.</td>
-				<td>numérique</td>
-			</tr>
-			<tr>
-				<td style="padding-top:20px; padding-bottom:20px; "><strong><span style="color: Goldenrod;">mymod_variable3</span></strong></td>
-				<td style="text-align: left; padding-left:5px; padding-right:5px">blabla<br><br>
-				- <span style="color: Goldenrod">A [par défaut].</span><br>
-				- B.<br>
-				- C.<br></td>
-				<td>alphanumérique (une lettre)</td>
-			</tr>
-			<tr>
-				<td style="padding-top:20px; padding-bottom:20px; "><strong><span style="color: Goldenrod;">mymod_variable4</span></strong></td>
-				<td style="text-align: left; padding-left:5px; padding-right:5px">Le nom que vous souhaitez donner à votre monture.<br><br>
-				- un nom !<br><br>
-				<span style="color: Goldenrod; padding-left:20px;">Flèche d'argent [par défaut]</span></td>
-				<td>alphanumérique</td>
-			</tr>
-		</table><br>
-
-<hr><br>
 		<h3>
 			Windows
 		</h3>
-		<p style="margin-top:1%;">
+
+		<p style="margin-top:2%;">
 			Mymod pour Windows est livré et installé avec <a href="#" class="infobulle" aria-label="Weimer Dialogue Utility">WeiDU</a>, et est diffusé sous forme d'archive.
 		</p>
 		<p>
-			Vous devez extraire les fichiers de l'archive dans votre répertoire de jeu (<em>le dossier qui contient le fichier CHITIN.KEY</em>) à l'aide de <a href="http://www.7-zip.org/download.html">7zip</a> ou de <a href="http://www.rarlab.com/download.htm">WinRAR</a>. Une fois l'archive extraite correctement, vous devriez trouver le répertoire <strong>mymod</strong> et le fichier <em><strong>setup-mymod.exe</strong></em> dans votre répertoire de jeu. Pour installer le mod, il suffit de double-cliquer sur <strong><span class="weidu">&nbsp;setup-mymod.exe&nbsp;</span></strong> et de suivre les instructions affichées à l'écran.
+			Vous devez extraire les fichiers de l'archive dans votre répertoire de jeu (<em>le dossier qui contient le fichier CHITIN.KEY</em>) à l'aide de <a href="http://www.7-zip.org/download.html">7zip</a> ou de <a href="http://www.rarlab.com/download.htm">WinRAR</a>. Une fois l'archive extraite correctement, vous devriez trouver le répertoire &#x1F4C1; mymod et le fichier setup-mymod.exe dans votre répertoire de jeu. Pour installer le mod, il suffit de double-cliquer sur <strong><span class="weidu">&nbsp;setup-mymod.exe&nbsp;</span></strong> et de suivre les instructions affichées à l'écran.
 		</p>
 		<p>
 			Vous pouvez lancer <strong><span class="weidu">&nbsp;setup-mymod.exe&nbsp;</span></strong> dans votre répertoire de jeu pour réinstaller, désinstaller, ou encore changer des composants.
-		</p>
+		</p><br>
  
 		<p>
-			[<strong>(Pour une version exe, remplacez les 2 deux premières lignes par les suivantes)</strong> Mymod pour Windows est livré et installé avec <a href="#" class="infobulle" aria-label="Weimer Dialogue Utility">WeiDU</a>, et est diffusé sous forme d'archive auto-extractible. Pour l'installer, il suffit de double-cliquer sur l'archive et de suivre les instructions affichées à l'écran.
+			[<strong>(À titre informatif, car obsolète : Pour une version exe, remplacez les 2 deux premières lignes par les suivantes)</strong>
+		</p>
+		<p>
+			Mymod pour Windows est livré et installé avec <a href="#" class="infobulle" aria-label="Weimer Dialogue Utility">WeiDU</a>, et est diffusé sous forme d'archive auto-extractible. Pour l'installer, il suffit de double-cliquer sur l'archive et de suivre les instructions affichées à l'écran.
 		</p>
 		<p>
 			Autrement, vous pouvez extraire les fichiers de l'archive dans votre répertoire de jeu (<em>le dossier qui contient le fichier CHITIN.KEY</em>) à l'aide de <a href="http://www.7-zip.org/download.html">7zip</a> ou de <a href="http://www.rarlab.com/download.htm">WinRAR</a>. Une fois l'archive extraite correctement, vous devriez trouver le répertoire <strong>mymod</strong> et le fichier <strong>setup-mymod.exe</strong> dans votre répertoire de jeu. Pour installer le mod, il suffit de double-cliquer sur <strong><span class="weidu">&nbsp;setup-mymod.exe&nbsp;</span></strong> et de suivre les instructions affichées à l'écran.]
 		</p><br>
 
-<hr><br>
+		<hr><br>
+
 		<h3>
 			Mac OS X
 		</h3>
-		<p style="margin-top:1%;">
-			Mymod pour Mac OS X est livré et installé avec <a href="#" class="infobulle" aria-label="Weimer Dialogue Utility">WeiDU</a>, et est diffusé sous forme d'archive compressée (tarball).</p>
+
+		<p style="margin-top:2%;">
+			Mymod pour Mac <a href="#" class="infobulle" aria-label="Operating System 10">OS X</a> est livré et installé avec <a href="#" class="infobulle" aria-label="Weimer Dialogue Utility">WeiDU</a>, et est diffusé dans la même archive compressée.</p>
 		<p>
-			Extrayez le contenu du tarball dans votre répertoire de jeu. Après une extraction réussie, ce dernier contiendra les fichiers <em><strong>setup-mymod</strong></em>, <em><strong>setup-mymod.command</strong></em>, et le répertoire <strong>mymod</strong>. Pour installer, il suffit de double-cliquer sur <strong><span class="weidu">&nbsp;setup-mymod.command&nbsp;</span></strong> et de suivre les instructions affichées à l'écran.
+			Extrayez le contenu de l'archive dans votre répertoire de jeu. Après une extraction réussie, ce dernier contiendra les fichiers setup-mymod, setup-mymod.command, et le répertoire &#x1F4C1; mymod. Pour installer, il suffit de double-cliquer sur <strong><span class="weidu">&nbsp;setup-mymod.command&nbsp;</span></strong> et de suivre les instructions affichées à l'écran.
 		</p>
 		<p>
 			Vous pouvez lancer <strong><span class="weidu">&nbsp;setup-mymod.command&nbsp;</span></strong> dans votre répertoire de jeu pour réinstaller, désinstaller ou changer des composants.
 		</p><br>
 
-<hr><br>
+		<hr><br>
+
 		<h3>
 			Linux
 		</h3>
-		<p style="margin-top:1%;">
-			Mymod pour Linux est diffusé sous forme d'archive compressée (tarball) sans l'installateur <a href="#" class="infobulle" aria-label="Weimer Dialogue Utility">WeiDU</a>.
+
+		<p style="margin-top:2%;">
+			Mymod pour Linux est diffusé dans la même archive compressée, mais sans l'installateur <a href="#" class="infobulle" aria-label="Weimer Dialogue Utility">WeiDU</a>.
 		</p>
 		<p>
 			Extrayez le contenu du mod dans le répertoire du jeu que vous voulez moder.
 		</p>
 		<p>
-			Téléchargez la version la plus récente de WeiDU pour Linux sur <a href="https://github.com/WeiDUorg/weidu/releases">WeiDU.org</a> et copiez weidu, weinstall et tolower dans <strong><span class="weidu">/usr/local/bin</span></strong> (créez-le s'il n'existe pas). Ouvrez ensuite un terminal et allez (<strong><span class="weidu">cd</span></strong>) dans le répertoire d'installation de votre jeu, lancez <strong><span class="weidu">&nbsp;/usr/local/bin/tolower&nbsp;</span></strong> et répondez « Y » aux deux questions. Vous pouvez éviter d'exécuter la seconde option (Linux.ini) si vous l'avez déjà lancée une fois dans le même dossier. Pour gagner du temps, l'archive est déjà passée en minuscules, aussi il n'est pas non plus nécessaire d'exécuter la première option (passer les noms de fichiers en minuscules) si vous n'avez extrait que ce mod depuis la dernière fois que vous avez passé les noms de fichiers en minuscules. Si vous avez un doute, il vaut mieux exécuter tolower et accepter les deux options.
+			Téléchargez la version la plus récente de WeiDU pour Linux sur <a href="https://github.com/WeiDUorg/weidu/releases">WeiDU.org</a> et copiez weidu, weinstall et tolower dans <strong><span class="weidu">/usr/local/bin</span></strong> (créez-le s'il n'existe pas). Ouvrez ensuite un terminal et allez (<strong><span class="weidu">&nbsp;cd&nbsp;</span></strong>) dans le répertoire d'installation de votre jeu, lancez <strong><span class="weidu">&nbsp;/usr/local/bin/tolower&nbsp;</span></strong> et répondez « Y » aux deux questions. Vous pouvez éviter d'exécuter la seconde option (Linux.ini) si vous l'avez déjà lancée une fois dans le même dossier. Pour gagner du temps, l'archive est déjà passée en minuscules, aussi il n'est pas non plus nécessaire d'exécuter la première option (passer les noms de fichiers en minuscules) si vous n'avez extrait que ce mod depuis la dernière fois que vous avez passé les noms de fichiers en minuscules. Si vous avez un doute, il vaut mieux exécuter tolower et accepter les deux options.
 		</p>
 		<p>
-			Tapez la commande <strong><span class="weidu">&nbsp;export PATH=$PATH:/usr/local/bin&nbsp;</span></strong>, puis lancez <strong><span class="weidu">&nbsp;weinstall setup-mymod&nbsp;</span></strong> depuis le dossier de votre jeu pour installer le mod. Puis, lancez <strong><span class="weidu">&nbsp;wine bgmain.exe&nbsp;</span></strong> (ou <strong><span class="weidu">&nbsp;wine baldur.exe&nbsp;</span></strong> pour les versions EE)  et commencez à jouer.
+			Tapez la commande <strong><span class="weidu">&nbsp;export PATH=$PATH:/usr/local/bin&nbsp;</span></strong>, puis lancez <strong><span class="weidu">&nbsp;weinstall setup-mymod&nbsp;</span></strong> depuis le dossier de votre jeu pour installer le mod. Puis, lancez <strong><span class="weidu">&nbsp;wine bgmain.exe&nbsp;</span></strong> (ou <strong><span class="weidu">&nbsp;wine baldur.exe&nbsp;</span></strong> pour les versions EE) et commencez à jouer.
 		</p><br>
 
-<hr><br>
+		<hr><br>
+
 		<h3>
 			Note pour effectuer une désinstallation complète
 		</h3>
-		<p style="margin-top:1%;">
+
+		<p style="margin-top:2%;">
 			En plus des méthodes détaillées plus haut pour supprimer des composants, il est possible de désinstaller complètement le mod en tapant <strong><span class="weidu">&nbsp;setup-mymod --uninstall&nbsp;</span></strong> dans une ligne de commandes, ce qui supprimera tous les composants sans devoir ingurgiter tous les messages.
 		</p><br>
+
+		<hr><br>
+
+		<h3>
+			&#9888;&#65039; Avertissement : procédure d'installation
+		</h3>
+
+		<p style="margin-top:2%;">
+			<strong><span style="font-variant:small-caps;font-size: 12px;margin-left: 30px;">Les options de configuration nécessaires à l'installation sont lues dans le fichier <a href="../mymod-config-default.ini"><em>mymod-config-default.ini</em></a>, ou dans le fichier <em>mymod-config-user.ini</em>, si ce dernier existe.</span></strong>
+		</p><br>
+		<p>
+			Pour éviter d'interrompre la procédure d'installation par de nombreux messages vous permettant de personnaliser certains composants à votre convenance (ce qui n'est pas compatible avec la plupart des utilitaires d'installation automatique de mods), ces options ont été externalisées dans le fichier <a href="../mymod-config-default.ini">mymod-config-default.ini</a> situé dans le répertoire &#x1F4C1; <strong>mymod</strong>. Ce fichier définit une installation « <em>standard</em> ».
+		</p>
+		<p>
+			Si vous souhaitez choisir d'autres options d'installation, il vous suffit de modifier, avec Notepad ou un autre éditeur de texte, les options de configuration dans le fichier <strong><span style="font-variant:small-caps;font-size: 12px;"><em>mymod-config-default.ini</em></span></strong>, puis de sauvegarder ce dernier sous le nom <strong><span style="font-variant:small-caps;font-size: 12px;"><em>mymod-config-user.ini</em></span></strong>.
+		</p>
+		<p>
+			Chaque ligne de ce fichier comprend une option de configuration, suivie de « = », puis d'un chiffre ou d'une chaîne de caractères. Tout ce que vous avez à faire, c'est modifier la valeur du chiffre ou de la chaîne.
+		</p>
+		<p>
+			Le programme d'installation lira les valeurs des variables dans les deux fichiers .ini et donnera la priorité aux vôtres. Si le fichier mymod-config-user.ini contient une variable non conforme, ou si une variable est manquante, il la remplacera par sa valeur par défaut (celle correspondant à l'installation « <em>standard</em> »).
+		</p>
+		<p>
+			Voici le tableau des options concernées :
+		</p><br>
+
+		<table style="margin-left: 80px;" summary="Installation options list">
+			<tr style="line-height: 300%;">
+				<th style="font-size: 125%;">Option</th>
+				<th style="font-size: 125%;">Signification</th>
+				<th style="font-size: 125%;">Type</th>
+			</tr>
+			<tr>
+				<td style="padding-top:20px; padding-bottom:20px; "><strong><span style="color: Goldenrod;">mymod_variable1</span></strong></td>
+				<td style="text-align: left; padding-left:5px; padding-right:5px; padding-top:20px; padding-bottom:20px;">Description de l'option mymod_variable1.<br><br>
+					<span style="color: Goldenrod; padding-left:40px;">1 = premier choix (recommandé). [Par défaut]</span><br>
+					<span style="padding-left:40px;">2 = second choix.</td>
+				<td>numérique</td>
+			</tr>
+			<tr>
+				<td style="padding-top:20px; padding-bottom:20px; "><strong><span style="color: Goldenrod;">mymod_variable2</span></strong><br><br>
+				(uniquement pour BG2:EE)</td>
+				<td style="text-align: left; padding-left:5px; padding-right:5px; padding-top:20px; padding-bottom:20px;">Description de l'option mymod_variable2.<br><br>
+					<span style="padding-left:40px;">1 = premier choix.</span><br>
+					<span style="color: Goldenrod; padding-left:40px;">2 = second choix (recommandé). [Par défaut]</span><br>
+					<span style="padding-left:40px;">3 = troisième choix.</span><br>
+					<span style="padding-left:40px;">4 = quatrième choix.</span></td>
+				<td>numérique</td>
+			</tr>
+			<tr>
+				<td style="padding-top:20px; padding-bottom:20px; "><strong><span style="color: Goldenrod;">mymod_variable3</span></strong></td>
+				<td style="text-align: left; padding-left:5px; padding-right:5px; padding-top:20px; padding-bottom:20px;">Description de l'option mymod_variable3.<br><br>
+					<span style="color: Goldenrod; padding-left:40px;">A. [Par défaut]</span><br>
+					<span style="padding-left:40px;">B.</span><br>
+					<span style="padding-left:40px;">C.</span></td>
+				<td>alphanumérique (une lettre)</td>
+			</tr>
+			<tr>
+				<td style="padding-top:20px; padding-bottom:20px; "><strong><span style="color: Goldenrod;">mymod_variable4</span></strong></td>
+				<td style="text-align: left; padding-left:5px; padding-right:5px; padding-top:20px; padding-bottom:20px;">Le nom que vous souhaitez donner à votre monture (un nom !).<br><br>
+					<span style="color: Goldenrod; padding-left:40px;">Flèche d'argent [par défaut]</span></td>
+				<td>alphanumérique</td>
+			</tr>
+		</table><br><br>
 
 
 			<address>
 				<span class="footer">Mymod &gt; Installation</span> &#8226; <a href="#top">Haut de page</a>
 			</address>
-		</div>
+	  </div>
 
 <!-- =================== C o m p o n e n t s ==================== -->
 		<a name="compon" id="compon"></a>

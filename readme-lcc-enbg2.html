@@ -343,8 +343,8 @@ After = bg2fixpack, EET, divine_remix</pre>
 	  </div>
 
 <!-- ================== I n s t a l l a t i o n ================== -->
-		<a name="installation" id="installation"></a>
-		<div class="content">
+	  <a name="installation" id="installation"></a>
+	  <div class="content">
 
 		<h2 class = "background">
 			Installation
@@ -353,8 +353,9 @@ After = bg2fixpack, EET, divine_remix</pre>
 		<h3>
 			Notes
 		</h3>
-		<p style="margin-top:1%;"><em>
-			If you've previously installed the mod, remove it before extracting the new version. To do this, run <strong><span class="weidu">&nbsp;setup-mymod.exe&nbsp;</span></strong> (or .command with OS X), un-install all previously installed components and delete the <strong>mymod</strong> folder.</em>
+
+		<p style="margin-top:2%;"><em>
+			If you've previously installed the mod, remove it before extracting the new version. To do this, run <strong><span class="weidu">&nbsp;setup-mymod.exe&nbsp;</span></strong> (or .command with <a href="#" class="infobulle" aria-label="Operating System 10">OS X</a>), un-install all previously installed components and delete both &#x1F4C1; <strong>mymod</strong> folder and <strong>setup-mymod.exe</strong> file.</em>
 		</p>
 		<p><em>
 			When installing or un-installing, <strong>do not close the <a href="#" class="infobulle" aria-label="Disk Operating System">DOS</a> window</strong> by clicking on the <strong>X</strong> button! Instead, press the <strong>Enter</strong> key whenever instructed to do so.</em>
@@ -363,150 +364,166 @@ After = bg2fixpack, EET, divine_remix</pre>
 			<strong>Disable any antivirus</strong> or other memory-resident software before installing this or any other mod. Some (particularly avast and Norton!) have a tendency to report false positives with mod activity, resulting in failed installs.</em>
 		</p><br>
 
-<hr><br>
+		<hr><br>
+
 		<h3>
 			Special Note for Siege of Dragonspear from Steam/GOG
 		</h3>
-		<p style="margin-top:1%;">
+
+		<p style="margin-top:2%;">
 			Good Old Games (GOG) and Steam both package the additional content for Siege of Dragonspear in a method that <a href="#" class="infobulle" aria-label="Weimer Dialogue Utility">WeiDU</a>, the tool used to install this mod, cannot access. You must run a program called <a href="https://github.com/Argent77/A7-DlcMerger/releases/latest">DLC Merger</a> on your SoD installation before you can install this or any other <a href="#" class="infobulle" aria-label="Weimer Dialogue Utility">WeiDU</a>-based mod.
 		</p><br>
 
-<hr><br>
+		<hr><br>
+
 		<h3>
 			Enhanced Editions Note
 		</h3>
-		<p style="margin-top:1%;">
+
+		<p style="margin-top:2%;">
 			The Enhanced Editions are actively supported games. Please note that every patch update will wipe your current mod setup! If in the middle of a modded game you might want to delay the patch update (if possible) as even after reinstalling the mods, you might not be able to continue with your old savegames. Alternatively, copy the whole game's folder into a new one that can be modded and will stay untouched by game patches. It is important that you install the mod to the language version you are playing the game in. Otherwise, the dialogues of the mod will not show but give error messages.
 		</p><br>
 
-<hr><br>
-		<h3>
-			&#9888;&#65039; Warning: Installation process
-		</h3>
-		<p style="margin-top:1%;">
-			<strong><span style="font-variant:small-caps;font-size: 12px;margin-left: 30px;">Options needed for installation are read from <a href="mymod.ini"><em>mymod.ini</em></a> file, or <a href="mymod_user.ini"><em>mymod_user.ini</em></a> if it exists.</span></strong>
-		</p><br>
-		<p>
-			As interrupting installation with plain text prompts allowing players to customise components to their liking, those options have been moved into <a href="mymod.ini">mymod.ini</a> file in <strong>mymod</strong> folder. This file provides a '<em>standard</em>' installation.
-		</p>
-		<p>
-			If you want to define your own customized installation, you have to edit the <strong><em>[Mod_content]</em></strong> section of <strong><span style="font-variant:small-caps;font-size: 12px;"><em>mymod.ini</em></span></strong> with Notepad or another text editor, then save this file as <strong><span style="font-variant:small-caps;font-size: 12px;"><em>mymod_user.ini</em></span></strong>.
-		</p>
-		<p>
-			Each line consists of a configuration option, then '=', then a number or an alphanumeric character string. The only thing you should edit is the number or the string.
-		</p>
-		<p>
-			The installation process will read both ini files and prioritize user's options values. If a value is not set or mismatched in mymod_user.ini, any installation failure will be prevented by reverting it back to its default value.
-		</p>
-		<p>
-			Here is a chart listing options related to the installation process (Don't change anything not listed; these are part of the testing framework.):<br>
-		</p><br>
+		<hr><br>
 
-		<table style="margin-left: 80px" summary="Installation options listing">
-			<tr>
-				<th>Option</th>
-				<th>Description</th>
-				<th>Type</th>
-			</tr>
-			<tr>
-				<td style="padding-top:20px; padding-bottom:20px; "><strong><span style="color: Goldenrod;">mymod_variable1</span></strong></td>
-				<td style="text-align: left; padding-left:5px; padding-right:5px">blabla<br><br>
-				- <span style="color: Goldenrod">1 = first option (recommended).</span><br>
-				- 2 = second option.<br><br></td>
-				<td>integer</td>
-			</tr>
-			<tr>
-				<td style="padding-top:20px; padding-bottom:20px; "><strong><span style="color: Goldenrod;">mymod_variable2</span></strong><br><br>
-				(supports: only EE)</td>
-				<td style="text-align: left; padding-left:5px; padding-right:5px">blabla<br><br>
-				- 1 = first option.<br>
-				- <span style="color: Goldenrod">2 = second option (recommended).</span><br>
-				- 3 = third option.<br>
-				- 4 = fourth option.</td>
-				<td>integer</td>
-			</tr>
-			<tr>
-				<td style="padding-top:20px; padding-bottom:20px; "><strong><span style="color: Goldenrod;">mymod_variable3</span></strong></td>
-				<td style="text-align: left; padding-left:5px; padding-right:5px">blabla<br><br>
-				- <span style="color: Goldenrod">A [Default].</span><br>
-				- B.<br>
-				- C.<br></td>
-				<td>string (one character)</td>
-			</tr>
-			<tr>
-				<td style="padding-top:20px; padding-bottom:20px; "><strong><span style="color: Goldenrod;">mymod_variable4</span></strong></td>
-				<td style="text-align: left; padding-left:5px; padding-right:5px">The name of your mount<br><br>
-				- a name!<br><br>
-				<span style="color: Goldenrod; padding-left:20px;">Silver Star [default]</span></td>
-				<td>string</td>
-			</tr>
-		</table><br>
-
-<hr><br>
 		<h3>
 			Windows
 		</h3>
-		<p style="margin-top:1%;">
+
+		<p style="margin-top:2%;">
 			Mymod for Windows is distributed as an extractable compressed archive and includes a <a href="#" class="infobulle" aria-label="Weimer Dialogue Utility">WeiDU</a> installer.
 		</p>
 		<p>
-			Extract the contents of the mod archive into the folder of the game you wish to modify (<em>the folder which contains the "CHITIN.KEY" file</em>), using <a href="http://www.7-zip.org/download.html">7zip</a>, <a href="http://www.rarlab.com/download.htm">WinRAR</a>, or another file compression utility that handles .zip files. On successful extraction, there should be a <strong>mymod</strong> folder and a <em><strong>setup-mymod.exe</strong></em> file in your game folder. To install, double-click <strong><span class="weidu">&nbsp;setup-mymod.exe&nbsp;</span></strong> and follow the instructions on screen.
+			Extract the contents of the mod archive into the folder of the game you wish to modify (<em>the folder which contains the "CHITIN.KEY" file</em>), using <a href="http://www.7-zip.org/download.html">7zip</a>, <a href="http://www.rarlab.com/download.htm">WinRAR</a>, or another file compression utility that handles .zip files. On successful extraction, there should be a &#x1F4C1; mymod folder and a setup-mymod.exe file in your game folder. To install, double-click <strong><span class="weidu">&nbsp;setup-mymod.exe&nbsp;</span></strong> and follow the instructions on screen.
 		</p>
 		<p>
 			You can run <strong><span class="weidu">&nbsp;setup-mymod.exe&nbsp;</span></strong> in your game folder to reinstall, un-install or otherwise change the components settings.
-		</p>
+		</p><br>
 
 		<p>
-			[<strong>(Pour une version exe, remplacez les 2 deux premières lignes par les suivantes :)</strong>Mymod for Windows is distributed as a self-extracting archive and includes a <a href="#" class="infobulle" aria-label="Weimer Dialogue Utility">WeiDU</a> installer. To install, simply double-click the archive and follow the instructions on screen.
+			[<strong>(À titre informatif, car obsolète : Pour une version exe, remplacez les 2 deux premières lignes par les suivantes :)</strong>
+		</p>
+		<p>
+			Mymod for Windows is distributed as a self-extracting archive and includes a <a href="#" class="infobulle" aria-label="Weimer Dialogue Utility">WeiDU</a> installer. To install, simply double-click the archive and follow the instructions on screen.
 		</p>
 		<p>
 			Alternatively, the files can be extracted into your game directory using <a href="http://www.7-zip.org/download.html">7zip</a> or <a href="http://www.rarlab.com/download.htm">WinRAR</a>. When properly extracted, your game directory will contain <strong>setup-mymod.exe</strong> and the folder <strong>mymod</strong>. To install, double-click <strong><span class="weidu">&nbsp;setup-mymod.exe&nbsp;</span></strong> and follow the instructions on screen.]
 		</p><br>
 
-<hr><br>
+		<hr><br>
+
 		<h3>
 			Mac OS X
 		</h3>
-		<p style="margin-top:1%;">
-			Mymod for Mac OS X is distributed as a compressed tarball and includes a <a href="#" class="infobulle" aria-label="Weimer Dialogue Utility">WeiDU</a> installer.
+
+		<p style="margin-top:2%;">
+			Mymod for Mac <a href="#" class="infobulle" aria-label="Operating System 10">OS X</a> is distributed in the same compressed archive and includes a <a href="#" class="infobulle" aria-label="Weimer Dialogue Utility">WeiDU</a> installer.
 		</p>
 		<p>
-			First, extract the files from the tarball into your game directory. On successful extraction, there should be a <strong>mymod</strong> folder, <em><strong>setup-mymod</strong></em> and <em><strong>setup-mymod.command</strong></em> files in your game folder. To install, double-click <strong><span class="weidu">&nbsp;setup-mymod.command&nbsp;</span></strong> and follow the instructions on screen.
+			First, extract the files from the archive into your game directory. On successful extraction, there should be a &#x1F4C1; mymod folder, setup-mymod and setup-mymod.command files in your game folder. To install, double-click <strong><span class="weidu">&nbsp;setup-mymod.command&nbsp;</span></strong> and follow the instructions on screen.
 		</p>
 		<p>
 			You can run <strong><span class="weidu">&nbsp;setup-mymod.command&nbsp;</span></strong> in your game folder to reinstall, un-install or otherwise the components settings.
 		</p><br>
 
-<hr><br>
+		<hr><br>
+
 		<h3>
 			Linux
 		</h3>
-		<p style="margin-top:1%;">
-			Mymod for Linux is distributed as a compressed tarball and does not include a <a href="#" class="infobulle" aria-label="Weimer Dialogue Utility">WeiDU</a> installer.
+
+		<p style="margin-top:2%;">
+			Mymod for Linux is distributed the same compressed archive and does not include a <a href="#" class="infobulle" aria-label="Weimer Dialogue Utility">WeiDU</a> installer.
 		</p>
 		<p>
 			Extract the contents of the mod to the folder of the game you wish to modify.
 		</p>
 		<p>
-			Download the latest version of WeiDU for Linux from <a href="https://github.com/WeiDUorg/weidu/releases">WeiDU.org</a> and copy weidu, weinstall and tolower to <strong><span class="weidu">/usr/local/bin</span></strong> (create it if needed). Following that, open a terminal, <strong><span class="weidu">cd</span></strong> to your game installation directory, run <strong><span class="weidu">&nbsp;/usr/local/bin/tolower&nbsp;</span></strong> and answer 'Y' to both queries. You can avoid running the second option (linux.ini) if you've already ran it once in the same directory. To save time, the archive is already tolowered, so there's no need to run the first option (lowercasing file names) either if you've extracted only this mod since the last time you lowercased file names. If you're unsure, running tolower and choosing both options is the safe bet.
+			Download the latest version of WeiDU for Linux from <a href="https://github.com/WeiDUorg/weidu/releases">WeiDU.org</a> and copy weidu, weinstall and tolower to <strong><span class="weidu">/usr/local/bin</span></strong> (create it if needed). Following that, open a terminal, <strong><span class="weidu">&nbsp;cd&nbsp;</span></strong> to your game installation directory, run <strong><span class="weidu">&nbsp;/usr/local/bin/tolower&nbsp;</span></strong> and answer 'Y' to both queries. You can avoid running the second option (linux.ini) if you've already run it once in the same directory. To save time, the archive is already tolowered, so there's no need to run the first option (lowercasing file names) either if you've extracted only this mod since the last time you lowercased file names. If you're unsure, running tolower and choosing both options is the safe bet.
 		</p>
 		<p>
 			To install, type <strong><span class="weidu">&nbsp;export PATH=$PATH:/usr/local/bin&nbsp;</span></strong>, then run <strong><span class="weidu">&nbsp;weinstall setup-mymod&nbsp;</span></strong> in your game folder. Then run <strong><span class="weidu">&nbsp;wine bgmain.exe&nbsp;</span></strong> (or <strong><span class="weidu">&nbsp;wine baldur.exe&nbsp;</span></strong> for EE games) and start playing.
 		</p><br>
 
-<hr><br>
+		<hr><br>
+
 		<h3>
 			Note for Complete Un-installation
 		</h3>
-		<p style="margin-top:1%;">
+
+		<p style="margin-top:2%;">
 			In addition to the methods above for removing individual components, you can completely un-install the mod using <strong><span class="weidu">&nbsp;setup-mymod --uninstall&nbsp;</span></strong> at the command line to remove all components without wading through prompts.
 		</p><br>
+
+		<hr><br>
+
+		<h3>
+			&#9888;&#65039; Warning: Installation process
+		</h3>
+
+		<p style="margin-top:2%;">
+			<strong><span style="font-variant:small-caps;font-size: 12px;margin-left: 30px;">Configuration options needed for installation are read from <a href="../mymod-config-default.ini"><em>mymod-config-default.ini</em></a> file, or <em>mymod-config-user.ini</em> if it exists.</span></strong>
+		</p><br>
+		<p>
+			As interrupting installation with plain text prompts allowing players to customise components to their liking is not compatible with most mods managers, all those options have been moved into <a href="../mymod-config-default.ini">mymod-config-default.ini</a> file in &#x1F4C1; <strong>mymod</strong> folder. This file provides a '<em>default</em>' installation.
+		</p>
+		<p>
+			If you want to define your own customized installation, you have to edit the <strong><span style="font-variant:small-caps;font-size: 12px;"><em>mymod-config-default.ini</em></span></strong> with Notepad or another text editor, then save it as <strong><span style="font-variant:small-caps;font-size: 12px;"><em>mymod-config-user.ini</em></span></strong>.
+		</p>
+		<p>
+			Each line consists of a configuration option, then '=', then a number or an alphanumeric character string. The only thing you should edit is the number or the string.
+		</p>
+		<p>
+			The installation process will read both .ini files and prioritize user's options values. If a value is not set or mismatched in mymod-config-user.ini, any installation failure will be prevented by reverting it back to its default value.
+		</p>
+		<p>
+			Here is a chart listing options related to the installation process:<br>
+		</p><br>
+
+		<table style="margin-left: 80px;" summary="Installation options list">
+			<tr style="line-height: 300%;">
+				<th style="font-size: 125%;">Option</th>
+				<th style="font-size: 125%;">Description</th>
+				<th style="font-size: 125%;">Type</th>
+			</tr>
+			<tr>
+				<td style="padding-top:20px; padding-bottom:20px; "><strong><span style="color: Goldenrod;">mymod_variable1</span></strong></td>
+				<td style="text-align: left; padding-left:5px; padding-right:5px; padding-top:20px; padding-bottom:20px;">Description de l'option mymod_variable1.<br><br>
+					<span style="color: Goldenrod; padding-left:40px;">1 = first option (recommended). [Default]</span><br>
+					<span style="padding-left:40px;">2 = second option.</span></td>
+				<td>integer</td>
+			</tr>
+			<tr>
+				<td style="padding-top:20px; padding-bottom:20px; "><strong><span style="color: Goldenrod;">mymod_variable2</span></strong><br><br>
+				(supports: only EE)</td>
+				<td style="text-align: left; padding-left:5px; padding-right:5px; padding-top:20px; padding-bottom:20px;">Description de l'option mymod_variable2<br><br>
+					<span style="padding-left:40px;">1 = first option.</span><br>
+					<span style="color: Goldenrod; padding-left:40px;">2 = second option (recommended). [Default]</span><br>
+					<span style="padding-left:40px;">3 = third option.</span><br>
+					<span style="padding-left:40px;">4 = fourth option.</span></td>
+				<td>integer</td>
+			</tr>
+			<tr>
+				<td style="padding-top:20px; padding-bottom:20px; "><strong><span style="color: Goldenrod;">mymod_variable3</span></strong></td>
+				<td style="text-align: left; padding-left:5px; padding-right:5px; padding-top:20px; padding-bottom:20px;">Description de l'option mymod_variable3<br><br>
+					<span style="color: Goldenrod; padding-left:40px;">A. [Default]</span><br>
+					<span style="padding-left:40px;">B.</span><br>
+					<span style="padding-left:40px;">C.</span></td>
+				<td>string (one character)</td>
+			</tr>
+			<tr>
+				<td style="padding-top:20px; padding-bottom:20px; "><strong><span style="color: Goldenrod;">mymod_variable4</span></strong></td>
+				<td style="text-align: left; padding-left:5px; padding-right:5px; padding-top:20px; padding-bottom:20px;">The name of your mount (a name!).<br><br>
+					<span style="color: Goldenrod; padding-left:40px;">Silver Star [Default]</span></td>
+				<td>string</td>
+			</tr>
+		</table><br><br>
 
 
 			<address>
 				<span class="footer">Mymod &gt; Installation</span> &#8226; <a href="#top">BACK TO TOP</a>
 			</address>
-		</div>
+	  </div>
 
 <!-- =================== C o m p o n e n t s ==================== -->
 		<a name="compon" id="compon"></a>
