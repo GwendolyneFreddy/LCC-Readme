@@ -53,7 +53,7 @@
 			<strong>Langues :</strong> français, anglais
 		</p>
 		<p class="about" style="text-align: left;margin-left: 70%">
-			<strong>Plateformes :</strong> Windows, Mac <acronym title="Operating System 10">OS X</acronym> et Linux
+			<strong>Plateformes :</strong> Windows, Mac <a href="#" class="infobulle" aria-label="Operating System 10">OS X</a> et Linux
 		</p>
 		<p class="about" style="text-align: left;margin-left: 70%">
 			<a href="https://www.baldursgateworld.fr/lacouronne/mymod/">Site internet du mod</a> &#8226; <a href="https://www.baldursgateworld.fr/lacouronne/mymod/">Forum du mod</a> &#8226; <a href="https://www.baldursgateworld.fr/lacouronne/mymod.php">Téléchargement</a> &#8226; <a href="https://github.com/Auteur/Mymod">GitHub</a>
@@ -492,7 +492,7 @@ After = bg2fixpack, EET, divine_remix</pre>
 				<td style="padding-top:20px; padding-bottom:20px; "><strong><span style="color: Goldenrod;">mymod_variable1</span></strong></td>
 				<td style="text-align: left; padding-left:5px; padding-right:5px; padding-top:20px; padding-bottom:20px;">Description de l'option mymod_variable1.<br><br>
 					<span style="color: Goldenrod; padding-left:40px;">1 = premier choix (recommandé). [Par défaut]</span><br>
-					<span style="padding-left:40px;">2 = second choix.</td>
+					<span style="padding-left:40px;">2 = second choix.</span></td>
 				<td>numérique</td>
 			</tr>
 			<tr>
@@ -528,39 +528,49 @@ After = bg2fixpack, EET, divine_remix</pre>
 	  </div>
 
 <!-- =================== C o m p o n e n t s ==================== -->
-		<a name="compon" id="compon"></a>
-		<div class="content">
+	  <a name="compon" id="compon"></a>
+	  <div class="content">
 
 		<h2 class = "background">
 			Composants
 		</h2><br>
 
 		<p>
-			Le programme d'installation comprend les composants suivants. Chacun possède un numéro distinct et pré-défini qui lui attribue une position déterminée (mot-clé <em>DESIGNATED</em> en langage <a href="#" class="infobulle" aria-label="Weimer Dialogue Utility">WeiDU</a>) ; ce qui permet aux autres composants et aux autres mods de le détecter et aux utilitaires d'installation automatiques de préciser quels composants installer.
-		</p><br />
+			Le programme d'installation comprend les composants suivants. Chacun possède un numéro distinct et pré-défini qui lui attribue une position déterminée (mot-clé '<span class="tp2">DESIGNATED</span>' en langage <a href="#" class="infobulle" aria-label="Weimer Dialogue Utility">WeiDU</a>) ; ce qui permet aux autres composants et aux autres mods de le détecter et aux utilitaires d'installation automatiques de préciser quels composants installer.
+		</p>
 
-<hr>
-		<h3>
-			10. Composant 1 : blabbla
-		</h3>
 		<p>
-			Description du composant 1.
+			[Optionnel : Tous les sous-composants nécessite le composant principal. Leur installation est d'ailleurs optionnelle.]
 		</p><br>
 
-<hr>
-		<h3>
-			20. Composant 2 : blabbla
-		</h3>
+		<hr>
+
+		<h3>[10] Composant blabla (composant principal)</h3>
+
+		<p style="margin-top:2%;">
+			Description du composant blabla.
+		</p>
 		<p>
-			Description du composant 2.
+			Ou bien,, autre présentation
+		</p>
+		<p>
+			&#10173; Description du composant blabla.
 		</p><br>
 
-<hr>
-		<h3>
-			30. Composant 3 : blabbla
-		</h3>
-		<p>
-			Exemple de composant présentant des tableaux.
+		<hr>
+
+		<h3>[20] Composant blublu</h3>
+
+		<p style="margin-top:2%;">
+			Description du composant blublu.
+		</p><br>
+
+		<hr>
+
+		<h3>[30] Composant bloblo</h3>
+
+		<p style="margin-top:2%;">
+			Exemple de composant présentant un tableau.
 		</p><br>
 
 		<table style="margin-left: 80px" summary="Nom du tableau">
@@ -603,43 +613,63 @@ After = bg2fixpack, EET, divine_remix</pre>
 		</div>
 
 <!-- =================== C o m p o n e n t s ==================== -->
-		<a name="componlist" id="componlist"></a>
-		<div class="content">
+	  <a name="componlist" id="componlist"></a>
+	  <div class="content">
 
 		<h2 class = "background">
 			Composants
 		</h2><br>
 
 		<p>
-			Le programme d'installation comprend les composants suivants. Chacun possède un numéro distinct et pré-défini qui lui attribue une position déterminée (mot-clé <em>DESIGNATED</em> en langage <a href="#" class="infobulle" aria-label="Weimer Dialogue Utility">WeiDU</a>) ; ce qui permet aux autres composants et aux autres mods de le détecter et aux utilitaires d'installation automatiques de préciser quels composants installer.
-		</p><br />
+			Le programme d'installation comprend les composants suivants. Chacun possède un numéro distinct et pré-défini qui lui attribue une position déterminée (mot-clé '<span class="tp2">DESIGNATED</span>' en langage <a href="#" class="infobulle" aria-label="Weimer Dialogue Utility">WeiDU</a>) ; ce qui permet aux autres composants et aux autres mods de le détecter et aux utilitaires d'installation automatiques de préciser quels composants installer.
+		</p><br>
 
 		<p>
-			<span style="margin-left: 50px;"><a href="#10">[10] Composant 10 (composant principal)</a></span></br>
-			<span style="margin-left: 50px;"><a href="#20">[20] Composant 20</a></span></br>
-			<span style="margin-left: 50px;"><a href="#20">[30] Composant 30</a></span></br>
+			<span style="margin-left: 50px;"><a href="#10">[10] Composant blabla</a> <em>&nbsp;&nbsp;&nbsp;[composant principal]</em></span></br>
+			<span style="margin-left: 50px;"><a href="#20">[20] Composant blublu</a></span></br>
+			<span style="margin-left: 50px;"><a href="#20">[30] Composant bloblo</a></span></br>
 			<span style="margin-left: 50px;"><a href="#40">[40] ...</a></span>
-		</p><br />
+		</p><br>
 
-<hr>
-		<p><a name="10" id="10"></a>
-			<strong>10. Composant 10 (composant principal)</strong><br />
-			<em><span style="margin-left: 15px;">Nécessite le patch <a href="#" class="infobulle" aria-label="Throne of Bhaal">ToB</a> v26498</span></em>
+		<p>
+			[Optionnel : Tous les sous-composants nécessite le composant principal. Leur installation est d'ailleurs optionnelle.]
+		</p><br>
+
+		<hr><br>
+
+<!-- ================= C o m p o n e n t   10 =================== -->
+		<a name="10" id="10"></a>
+		<h2 class = "backgroundcomp"><span class="com">[10]</span>Composant blabla (main principal)</h2>
+		<p>
+			<em><span style="margin-left: 65px; font-variant:small-caps;">Jeu original : Nécessite le patch <a href="#" class="infobulle" aria-label="Throne of Bhaal">ToB</a> v26498</span></em><br><br>
 		</p>
-		<ul style="margin-left: 4%;">
+
+		<p>
+			&#10173; Il s'agit du composant principal, nécessaire pour installer tous les autres composants.
+		</p>
+
+		  <ul style="margin-left: 6%;">
 			<li>Vérifie la présence des fichiers nécessaires.</li>
-			<li>ToB : Vérifie la validité de l'exécutable, fait une copie de sauvegarde de l'exécutable et le modifie.</li>
-			<li>ToB : Remplace les animations _LOW de créatures.</li>
+			<li>Seulement pour ToB original : Vérifie la validité de l'exécutable, fait une copie de sauvegarde de l'exécutable et le modifie.</li>
+			<li>Seulement pour ToB original : Remplace les animations _LOW de créatures.</li>
 			<li>Met à jour les fichiers .ids.</li>
 			<li>Rétablit toutes les animations écrasées par les mods.</li>
+			<li>Installe les nouvelles animations.</li>
 			<li>Corrige toutes les créatures affectées.</li>
-		</ul><br>
+		  </ul>
+
 		<p style="font-size:90%;text-align: right;"><a href="#componlist">RETOUR À LA LISTE DES COMPOSANTS</a></p>
 
-<hr>
-		<p><a name="20" id="20"></a>
-			<strong>20. Composant 2 : blabbla</strong><br />
+		<hr><br>
+
+<!-- ================= C o m p o n e n t   20 =================== -->
+		<a name="20" id="20"></a>
+		<h2 class = "backgroundcomp"><span class="com">[20]</span>Composant blublu</h2><br>
+
+		<p>
+			&#10173; Ce composant rétablit les slots d'animation adéquats de certaines créatures humanoïdes :
 		</p>
+
 		<ul style="margin-left: 4%;">
 			<li>Attribue aux guerriers humains l'animation de guerrier plutôt que celle de prêtre.</li>
 			<li>Attribue aux guerriers elfes l'animation de guerrier plutôt que celle de prêtre.</li>
@@ -654,18 +684,21 @@ After = bg2fixpack, EET, divine_remix</pre>
 			<li>Attribue aux marins humains l'animation de marin.</li>
 			<li>Attribue aux gardes amniens l'animation de garde amnien.</li>
 			<li>Attribue aux Voleurs de l'ombre humains l'animation de voleur de l'ombre.</li>
-		</ul><br>
+		</ul>
+
 		<p style="font-size:90%;text-align: right;"><a href="#componlist">RETOUR À LA LISTE DES COMPOSANTS</a></p>
 
-<hr>
-		<p><a name="30" id="30"></a>
-			<strong>30. Composant 3 : blabbla</strong><br />
-		</p>
-		<div style="margin: 0px auto;width: 85%; border-style: solid; border-width: 1px; border-color: Goldenrod; margin-top: 2px; margin-bottom: 2px; padding: 2px;">
+		<hr><br>
+
+<!-- ================= C o m p o n e n t   30 =================== -->
+		<a name="30" id="30"></a>
+		<h2 class = "backgroundcomp"><span class="com">[30]</span>Composant bloblo</h2><br>
+
+		<div style="margin: 0px auto;width: 85%; border-style: solid; border-width: 1px; border-color: Goldenrod; margin-top: 2px; margin-bottom: 2px; padding: 4px;">
 			<div class="quotetitle">
 				<em>&nbsp;&nbsp;&#x25BA; Obsolète depuis la version 6.0.0:</em>
 				<input value="Afficher" style="margin: 0px; padding: 0px; width: 60px; background:Goldenrod;"
-				onclick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; this.innerText = ''; this.value = 'Hide'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = 'Show'; }" type="button" >
+				onclick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; this.innerText = ''; this.value = 'Cacher'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = 'Afficher'; }" type="button" >
 			</div>
 			<div class="quotecontent">
 				<div style="display: none;">
@@ -674,21 +707,29 @@ After = bg2fixpack, EET, divine_remix</pre>
 				</p>
 				</div>
 			</div>
-		</div>
-		<ul style="margin-left: 4%;">
+		</div><br>
+
+		<p>
+			&#10173; Ce composant assigne aux génies des animations différenciées :
+		</p>
+
+		<ul style="margin-left: 6%;">
 			<li>Utilise les animations de djinn, d'efrit, de dao, de jann et de marid lorsqu'elles sont pertinentes.</li>
-		</ul><br>
+		</ul>
+
 		<p style="font-size:90%;text-align: right;"><a href="#componlist">RETOUR À LA LISTE DES COMPOSANTS</a></p>
 
-<hr>
-		<p><a name="40" id="40"></a>
-			<strong>40. ...</strong><br />
-		</p>
-		<div style="margin: 0px auto;width: 85%; border-style: solid; border-width: 1px; border-color: Goldenrod; margin-top: 2px; margin-bottom: 2px; padding: 2px;">
+		<hr><br>
+
+<!-- ================= C o m p o n e n t   40 =================== -->
+		<a name="40" id="40"></a>
+		<h2 class = "backgroundcomp"><span class="com">[40]</span>Composant ...</h2><br>
+
+		<div style="margin: 0px auto;width: 85%; border-style: solid; border-width: 1px; border-color: Goldenrod; margin-top: 2px; margin-bottom: 2px; padding: 4px;">
 			<div class="quotetitle">
 				<em>&nbsp;&nbsp;&#x25BA; Obsolète depuis la version 6.0.0:</em>
 				<input value="Afficher" style="margin: 0px; padding: 0px; width: 60px; background:Goldenrod;"
-				onclick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; this.innerText = ''; this.value = 'Hide'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = 'Show'; }" type="button" >
+				onclick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = ''; this.innerText = ''; this.value = 'Cacher'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = 'Afficher'; }" type="button" >
 			</div>
 			<div class="quotecontent">
 				<div style="display: none;">
@@ -698,29 +739,34 @@ After = bg2fixpack, EET, divine_remix</pre>
 				</p>
 				</div>
 			</div>
-		</div>
-		<ul style="margin-left: 4%;">
+		</div><br>
+
+		<p>
+			&#10173; Ce composant assigne aux démons soit leur bonne animation, soit des animations différenciées :
+		</p>
+
+		  <ul style="margin-left: 6%;">
 			<li>Attribue aux nabassus une animation de tanar'ri vert-gris.</li>
 			<li>Attribue au Démon chromatique une animation de base un peu plus colorée [<em>NdT : bleue</em>].</li>
-			<li>Attribue aux bebiliths (seulement dans les mods Longer Road et Drizzt Saga) une animation provenant de <acronym title="Neverwinter Nights">NWN</acronym>.</li>
+			<li>Attribue aux bebiliths (seulement dans les mods Longer Road et Drizzt Saga) une animation provenant de <a href="#" class="infobulle" aria-label="Neverwinter Nights">NWN</a>.</li>
 			<li>Attribue à certaines mariliths une animation plus sombre.</li>
-			<li>Attribue aux <acronym title="Night hag">sorcières de la nuit</acronym> [<em>NdT : ou guenaudes noires selon les traductions</em>] l'animation de guenaude nocturne de <acronym title="Planescape: Torment">PS:T</acronym>.</li>
-			<li>Attribue aux démons d'os l'animation d'osyluth de <acronym title="Neverwinter Nights">NWN</acronym>.</li>
+			<li>Attribue aux <a href="#" class="infobulle" aria-label="Night hag">sorcières de la nuit</a> [<em>NdT : ou guenaudes noires selon les traductions</em>] l'animation de guenaude nocturne de <a href="#" class="infobulle" aria-label="Planescape: Torment">PS:T</a>.</li>
+			<li>Attribue aux démons d'os l'animation d'osyluth de <a href="#" class="infobulle" aria-label="Neverwinter Nights">NWN</a>.</li>
 			<li>Attribue aux gélugons (seulement ceux ajoutés par un mod) l'animation de salamandre des glaces.</li>
 			<li>Attribue aux yochlols (sauf celles sous l'apparence d'elfes noires) une animation d'otyugh plus foncée.</li>
-			<li>Attribue aux abishaïs d'argent, verts et rouges leur animation appropriée d'<acronym title="Icewind Dale">IWD</acronym> ou de <acronym title="Planescape: Torment">PS:T</acronym>.</li>
-			<li>Attribue aux manes l'animation de mort noyé d'<acronym title="Icewind Dale">IWD</acronym>.</li>
+			<li>Attribue aux abishaïs d'argent, verts et rouges leur animation appropriée d'<a href="#" class="infobulle" aria-label="Icewind Dale">IWD</a> ou de <a href="#" class="infobulle" aria-label="Planescape: Torment">PS:T</a>.</li>
+			<li>Attribue aux manes l'animation de mort noyé d'<a href="#" class="infobulle" aria-label="Icewind Dale">IWD</a>.</li>
 			<li>Attribue aux erinyes un avatar d'elfe dotée d'ailes noires.</li>
-			<li>Attribue aux succubes l'animation de succube de <acronym title="Neverwinter Nights">NWN</acronym>.</li>
+			<li>Attribue aux succubes l'animation de succube de <a href="#" class="infobulle" aria-label="Neverwinter Nights">NWN</a>.</li>
 			<li>Attribue aux maurezhis l'animation de maurezhi (une goule sombre).</li>
 			<li>Attribue aux glabrezus la bonne animation de glabrezu.</li>
-		</ul><br>
+		  </ul><br>
 
 
 			<address>
 				<span class="footer">Mymod &gt; Components</span> &#8226; <a href="#top">Haut de page</a>
 			</address>
-		</div>
+	  </div>
 
 <!-- =================== I m a g e s ==================== -->
 		<a name="images" id="images"></a>
@@ -1043,7 +1089,7 @@ After = bg2fixpack, EET, divine_remix</pre>
 				<li>modification niveau 2</li>
 			  </ul>
 			</li>
-			<li>Updated installer <acronym title="Weimer Dialogue Utility">WeiDU</acronym> to v246.</li>
+			<li>Updated installer <a href="#" class="infobulle" aria-label="Weimer Dialogue Utility">WeiDU</> to v246.</li>
 		</ul><br>
 
 		<p class="version">

@@ -534,31 +534,41 @@ After = bg2fixpack, EET, divine_remix</pre>
 		</h2><br>
 
 		<p>
-			The installer includes the following components. The number of each is the component <em>DESIGNATED</em> number which gives it a fixed install position, lets other components and mods detect it and allows automated installers to specify component choices.
-		</p><br />
+			The installer includes the following components. The number of each is the component '<span class="tp2">DESIGNATED</span>' number which gives it a fixed install position, lets other components and mods detect it and allows automated installers to specify component choices.
+		</p>
 
-<hr>
-		<h3>
-			10. Component 1 : blabbla
-		</h3>
 		<p>
-			Description du composant 1.
+			[Optional: All subcomponents require the main component (they need to since it's the one that installs new content). All components are otherwise optional.]
 		</p><br>
 
-<hr>
-		<h3>
-			20. Component 2 : blabbla
-		</h3>
+		<hr>
+
+		<h3>[10] Component blabla (main component)</h3>
+
+		<p style="margin-top:2%;">
+			Description du composant blabla.
+		</p>
 		<p>
-			Description du composant 2
+			Ou bien,, autre présentation
+		</p>
+		<p>
+			&#10173; Description du composant blabla.
 		</p><br>
 
-<hr>
-		<h3>
-			30. Component 3 : blabbla
-		</h3>
-		<p>
-			Exemple de composant présentant des tableaux.
+		<hr>
+
+		<h3>[20] Component blublu</h3>
+
+		<p style="margin-top:2%;">
+			Description du composant blublu.
+		</p><br>
+
+		<hr>
+
+		<h3>[30] Component bloblo</h3>
+
+		<p style="margin-top:2%;">
+			Exemple de composant présentant un tableau.
 		</p><br>
 
 		<table style="margin-left: 80px" summary="Nom du tableau">
@@ -598,47 +608,63 @@ After = bg2fixpack, EET, divine_remix</pre>
 			<address>
 				<span class="footer">Mymod &gt; Components</span> &#8226; <a href="#top">BACK TO TOP</a>
 			</address>
-		</div>
+	  </div>
 
 <!-- =================== C o m p o n e n t s ==================== -->
-		<a name="componlist" id="componlist"></a>
-		<div class="content">
+	  <a name="componlist" id="componlist"></a>
+	  <div class="content">
 
 		<h2 class = "background">
 			Components
 		</h2><br>
 
 		<p>
-			The installer includes the following components. The number of each is the component <em>DESIGNATED</em> number which gives it a fixed install position, lets other components and mods detect it and allows automated installers to specify component choices.
-		</p><br />
+			The installer includes the following components. The number of each is the component '<span class="tp2">DESIGNATED</span>' number which gives it a fixed install position, lets other components and mods detect it and allows automated installers to specify component choices.
+		</p><br>
 
 		<p>
-			<span style="margin-left: 50px;"><a href="#10">[10] Component 10 (main component)</a></span></br>
-			<span style="margin-left: 50px;"><a href="#20">[20] Component 20</a></span></br>
-			<span style="margin-left: 50px;"><a href="#20">[30] Component 30</a></span></br>
+			<span style="margin-left: 50px;"><a href="#10">[10] Component blabla</a> <em>&nbsp;&nbsp;&nbsp;[main component]</em></span></br>
+			<span style="margin-left: 50px;"><a href="#20">[20] Component blublu</a></span></br>
+			<span style="margin-left: 50px;"><a href="#20">[30] Component bloblo</a></span></br>
 			<span style="margin-left: 50px;"><a href="#40">[40] ...</a></span>
-		</p><br />
+		</p><br>
 
-<hr>
-		<p><a name="10" id="10"></a>
-			<strong>10. Component 10 (main component)</strong><br />
-			<em><span style="margin-left: 15px;">Requires <a href="#" class="infobulle" aria-label="Throne of Bhaal">ToB</a> v26498</span></em>
+		<p>
+			[Optional: All subcomponents require the main component (they need to since it's the one that installs new content). All components are otherwise optional.]
+		</p><br>
+
+		<hr><br>
+
+<!-- ================= C o m p o n e n t   10 =================== -->
+		<a name="10" id="10"></a>
+		<h2 class = "backgroundcomp"><span class="com">[10]</span>Component blabla (main component)</h2>
+		<p>
+			<em><span style="margin-left: 65px; font-variant:small-caps;">Original game: requires <a href="#" class="infobulle" aria-label="Throne of Bhaal">ToB</a> v26498</span></em><br><br>
 		</p>
-		<ul style="margin-left: 4%;">
+
+		<p>
+			&#10173; This is the main component required before installing all other components.
+		</p>
+
+		  <ul style="margin-left: 6%;">
 			<li>Checks mod files</li>
-			<li>ToB only: Checks .exe validity, backs up and patches the .exe</li>
-			<li>ToB only: Replaces _LOW creature animations</li>
+			<li>Original ToB only: Checks .exe validity, backs up and patches the .exe</li>
+			<li>Original ToB only: Replaces _LOW creature animations</li>
 			<li>Updates .ids files</li>
-			<li>Copies new animations (any extracted to /content folder)</li>
+			<li>Restores any necessary mod-overwritten animations</li>
+			<li>Copies new animations (any extracted to &#x1F4C1; /archives folder)</li>
 			<li>Fixes any affected creatures</li>
-		</ul><br>
+		  </ul>
+
 		<p style="font-size:90%;text-align: right;"><a href="#componlist">BACK TO COMPONENTS INDEX</a></p>
 
-<hr>
-		<p><a name="20" id="20"></a>
-			<strong>20. Component 2 : blabbla</strong><br />
-		</p>
-		<ul style="margin-left: 4%;">
+		<hr><br>
+
+<!-- ================= C o m p o n e n t   20 =================== -->
+		<a name="20" id="20"></a>
+		<h2 class = "backgroundcomp"><span class="com">[20]</span>Component blublu</h2><br>
+
+		<ul style="margin-left: 6%;">
 			<li>Male human fighters get the fighter instead of cleric animation</li>
 			<li>Male elf fighters get the fighter instead of cleric animation</li>
 			<li>Male halfling fighters get the fighter instead of cleric animation</li>
@@ -652,14 +678,17 @@ After = bg2fixpack, EET, divine_remix</pre>
 			<li>Male human sailors get the sailor animation</li>
 			<li>Amnian guards get the Amnian guard animation</li>
 			<li>Male human Shadow Thieves get the Shadow Thief animation</li>
-		</ul><br>
+		</ul>
+
 		<p style="font-size:90%;text-align: right;"><a href="#componlist">BACK TO COMPONENTS INDEX</a></p>
 
-<hr>
-		<p><a name="30" id="30"></a>
-			<strong>30. Component 3 : blabbla</strong><br />
-		</p>
-		<div style="margin: 0px auto;width: 85%; border-style: solid; border-width: 1px; border-color: Goldenrod; margin-top: 2px; margin-bottom: 2px; padding: 2px;">
+	<hr><br>
+
+<!-- ================= C o m p o n e n t   30 =================== -->
+		<a name="30" id="30"></a>
+		<h2 class = "backgroundcomp"><span class="com">[30]</span>Component bloblo</h2><br>
+
+		<div style="margin: 0px auto;width: 85%; border-style: solid; border-width: 1px; border-color: Goldenrod; margin-top: 2px; margin-bottom: 2px; padding: 4px;">
 			<div class="quotetitle">
 				<em>&nbsp;&nbsp;&#x25BA; Deprecated as of v 6.0.0:</em>
 				<input value="Show" style="margin: 0px; padding: 0px; width: 60px; background:Goldenrod;"
@@ -672,17 +701,25 @@ After = bg2fixpack, EET, divine_remix</pre>
 				</p>
 				</div>
 			</div>
-		</div>
-		<ul style="margin-left: 4%;">
+		</div><br>
+
+		<p>
+			&#10173; This component assigns genies distinctive animations:
+		</p>
+
+		<ul style="margin-left: 6%;">
 			<li>Uses djinn, efreet, dao, jann and marid animations where sensible</li>
-		</ul><br>
+		</ul>
+
 		<p style="font-size:90%;text-align: right;"><a href="#componlist">BACK TO COMPONENTS INDEX</a></p>
 
-<hr>
-		<p><a name="40" id="40"></a>
-			<strong>40. ...</strong><br />
-		</p>
-		<div style="margin: 0px auto;width: 85%; border-style: solid; border-width: 1px; border-color: Goldenrod; margin-top: 2px; margin-bottom: 2px; padding: 2px;">
+		<hr><br>
+
+<!-- ================= C o m p o n e n t   40 =================== -->
+		<a name="40" id="40"></a>
+		<h2 class = "backgroundcomp"><span class="com">[40]</span>Component ...</h2><br>
+
+		<div style="margin: 0px auto;width: 85%; border-style: solid; border-width: 1px; border-color: Goldenrod; margin-top: 2px; margin-bottom: 2px; padding: 4px;">
 			<div class="quotetitle">
 				<em>&nbsp;&nbsp;&#x25BA; Deprecated as of v 6.0.0:</em>
 				<input value="Show" style="margin: 0px; padding: 0px; width: 60px; background:Goldenrod;"
@@ -696,20 +733,25 @@ After = bg2fixpack, EET, divine_remix</pre>
 				</p>
 				</div>
 			</div>
-		</div>
-		<ul style="margin-left: 4%;">
+		</div><br>
+
+		<p>
+			&#10173; This component assigns fiends creatures either their proper animation or new animations:
+		</p>
+
+		<ul style="margin-left: 6%;">
 			<li>Nabassus get a green-grey tanar'ri animation</li>
 			<li>Chromatic Demon gets a somewhat more colourful base animation</li>
-			<li>Bebiliths (Longer Road and Drizzt Saga only) get the <acronym title="Neverwinter Nights">NWN</acronym> animation</li>
+			<li>Bebiliths (Longer Road and Drizzt Saga only) get the <a href="#" class="infobulle" aria-label="Neverwinter Nights">NWN</a> animation</li>
 			<li>Some mariliths get a darker animation</li>
-			<li>Night hags get the <acronym title="Planescape: Torment">PS:T</acronym> night hag animation</li>
-			<li>Bone fiends get the <acronym title="Neverwinter Nights">NWN</acronym> osyluth animation</li>
+			<li>Night hags get the <a href="#" class="infobulle" aria-label="Planescape: Torment">PS:T</a> night hag animation</li>
+			<li>Bone fiends get the <a href="#" class="infobulle" aria-label="Neverwinter Nights">NWN</a> osyluth animation</li>
 			<li>Gelugons (only if added by a mod) get a frost salamander animation</li>
 			<li>Yochlols (except those in drow form) get a dark otyugh-based animation</li>
-			<li>White, green and red abishai get the relevant <acronym title="Icewind Dale">IWD</acronym> or <acronym title="Planescape: Torment">PS:T</acronym> animations</li>
-			<li>Manes get the <acronym title="Icewind Dale">IWD</acronym> drowned dead animation</li>
+			<li>White, green and red abishai get the relevant <a href="#" class="infobulle" aria-label="Icewind Dale">IWD</a> or <a href="#" class="infobulle" aria-label="Planescape: Torment">PS:T</a> animations</li>
+			<li>Manes get the <a href="#" class="infobulle" aria-label="Icewind Dale">IWD</a> drowned dead animation</li>
 			<li>Erinyes get a black-winged elf avatar</li>
-			<li>Succubi get the <acronym title="Neverwinter Nights">NWN</acronym> succubus animation</li>
+			<li>Succubi get the <a href="#" class="infobulle" aria-label="Neverwinter Nights">NWN</a> succubus animation</li>
 			<li>Maurezhi get a dark ghoulish animation</li>
 			<li>Glabrezu get the proper glabrezu animation</li>
 		</ul><br>
@@ -718,7 +760,7 @@ After = bg2fixpack, EET, divine_remix</pre>
 			<address>
 				<span class="footer">Mymod &gt; Components</span> &#8226; <a href="#top">BACK TO TOP</a>
 			</address>
-		</div>
+	  </div>
 
 <!-- =================== I m a g e s ==================== -->
 		<a name="images" id="images"></a>
@@ -1041,7 +1083,7 @@ After = bg2fixpack, EET, divine_remix</pre>
 				<li>modification niveau 2</li>
 			  </ul>
 			</li>
-			<li>Updated installer <acronym title="Weimer Dialogue Utility">WeiDU</acronym> to v246.</li>
+			<li>Updated installer <a href="#" class="infobulle" aria-label="Weimer Dialogue Utility">WeiDU</a> to v246.</li>
 		</ul><br>
 
 		<p class="version">
