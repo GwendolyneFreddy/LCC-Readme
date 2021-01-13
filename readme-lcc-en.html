@@ -803,8 +803,8 @@ After = bg2fixpack, EET, divine_remix</pre>
 	  </div>
 
 <!-- ============== T r o u b l e s h o o t i n g =============== -->
-		<a name="trouble" id="trouble"></a>
-		<div class="content">
+	  <a name="trouble" id="trouble"></a>
+	  <div class="content">
 
 		<h2>
 			Troubleshooting and Bug Reporting
@@ -815,43 +815,59 @@ After = bg2fixpack, EET, divine_remix</pre>
 		</p><br>
 
 		<p>
-			These are some general tips if you have problems getting the game working, with or without this or other mods. Many times, errors have to do with the game engine itself or the manner of installation or gameplay. The game recommends deleting all files out of the /cache, /temp and /tempsave sub-folders in your game folder to see if that resolves the problem before any further troubleshooting.
+			These are some general tips if you have problems getting the game working, with or without this or other mods. Many times, errors have to do with the game engine itself or the manner of installation or gameplay. The game recommends deleting all files out of the /cache, /temp and /tempsave &#x1F4C1; sub-folders in your game folder to see if that resolves the problem before any further troubleshooting.
 		</p>
 
-<hr>
+		<hr>
+
 		<p>
 			<strong>Symptom: Game freezes or crashes to desktop (CTDs)</strong>
-		</p>
+		</p><br>
  		<p>
 			Sometimes the game displays an 'assertion error' in a pop-up window when this happens, but often times it doesn't. To enable the full error message, open the file <strong>baldur.ini</strong> in your game folder with a text editor (such as Notepad). If you find you can't edit it or save changes in Windows Vista or 7, see <a href="http://forums.bioware.com/viewtopic.html?topic=662080&forum=10"> this topic</a> for assistance.
 		</p>
  		<p>
-			Under the [Program Options] section in the file, type <strong> Logging On=1</strong> (unless it's already there). While you're there, you may also want to make sure <strong>Debug Mode=1</strong> is there to enable the <a href="https://gibberlings3.github.io/iesdp/appendices/clua/bg2.htm">CLUA Console</a> for debugging and testing. Save the file and exit. Now go back into the game and try to reproduce the crash. Then look in your game folder again for the <strong>Baldur.err</strong> file and open it with a text editor to analyse its contents.
+			Under the [Program Options] section in the file, type <strong>Logging On=1</strong> (unless it's already there). While you're there, you may also want to make sure <strong>Debug Mode=1</strong> is there to enable the <a href="https://gibberlings3.github.io/iesdp/appendices/clua/bg2.htm">CLUA Console</a> for debugging and testing. Save the file and exit. Now go back into the game and try to reproduce the crash. Then look in your game folder again for the <strong>Baldur.err</strong> file and open it with a text editor to analyse its contents.
 		</p>
 
-<hr>
+		<hr>
+
+		<p>
+			<strong>Symptom: Game crashes with no Baldur.err log and shows either a black screen or a pop-up window indicating an error at offset 005ca8a8</strong>
+		</p><br>
+ 		<p>
+			This usually indicates an animation-related issue. Make sure you have the latest version of the mod. If you've installed other mods after it and have this issue, install the fix available <a href="http://www.shsforums.net/files/file/884-ia-aurora-low-fix/">here</a>.
+		</p>
+
+		<hr>
+
  		<p>
 			<strong>Symptom:</strong>
-		</p>
+		</p><br>
 		  <div class="important" style="background-color: black;color: #deded9;">
-			<p style="font-family: Courier New;font-size: 100%;">ERROR: error copying [infinityanimations/content/somefile.bam]<br />
-			ERROR: [SOMEFILE.CRE] -> [override/SOMEFILE.CRE] Patching failed (COPY)<br />
-			Stopping installation because of error.<br /></p>
-			<p>(with no other error message)<br /></p>
-		  </div>
+			<p style="font-family: Courier New;font-size: 100%;"><strong>
+				ERROR: error copying [infinityanimations/content/somefile.bam]<br>
+				ERROR: [SOMEFILE.CRE] -> [override/SOMEFILE.CRE] Patching failed (COPY)<br>
+				Stopping installation because of error.</strong><br>
+				(with no other error message)<br>
+			</p>
+		  </div><br>
+
  		<p>
-			Less-than-informative messages like these may indicate you're installing to a hard drive with a low data transfer rate or an antivirus program is active during installation (which can also affect data transfer). Try installing to an internal drive with antivirus protection disabled during the install. If unsure, disconnect from the Internet (either unplug your network cable or disable your wireless adaptor) and turn off <strong>all</strong> memory-resident programs during the install. To get a list of these, go to Start > Run and type <strong>msconfig</strong> where it says "Open:" then click OK. When the System Configuration Utility appears, click on the Startup tab. The only really necessary programs that need to be loaded in memory at startup are those related to your graphics chip (typically ATI or NVIDIA). Uncheck everything else, reboot and try installing the mod again. There are well-documented issues with installing mods while Avast antivirus is running, so make absolutely sure all components of Avast are completely disabled.
+			Less-than-informative messages like these may indicate you're installing to a hard drive with a low data transfer rate or an antivirus program is active during installation (which can also affect data transfer). Try installing to an internal drive with antivirus protection disabled during the install. If unsure, disconnect from the Internet (either unplug your network cable or disable your wireless adaptor) and turn off <strong>all</strong> memory-resident programs during the install. To get a list of these, go to Start > Run and type <strong><span class="weidu">&nbsp;msconfig&nbsp;</span></strong> where it says "<em>Open</em>:" then click OK. When the System Configuration Utility appears, click on the Startup tab. The only really necessary programs that need to be loaded in memory at startup are those related to your graphics chip (typically ATI or NVIDIA). Uncheck everything else, reboot and try installing the mod again. There are well-documented issues with installing mods while Avast antivirus is running, so make absolutely sure all components of Avast are completely disabled.
 		</p>
 
-<hr>
+		<hr>
+
 		<p>
 			<strong>Other issues</strong>
-		</p>
- 		<p>
-			If you have more than one large mod installed, please refer to the <a href="http://www.shsforums.net/index.php?showtopic=41036">Megamod FAQ</a> for more troubleshooting tips.
+		</p><br>
+		<p>
+			If you have more than one large mod installed, please refer to the <a href="http://www.shsforums.net/topic/41036-faq-for-the-megamods/">Megamod FAQ</a> for more troubleshooting tips.
 		</p>
 
-<hr>
+		<hr>
+
  		<p>
 			If none of this resolves your issue, or you have mod-specific issues, please report the problem in the mod's <a href="https://www.baldursgateworld.fr/lacouronne/mymod.php">forum</a>. Include the contents of your <acronym title="Weimer Dialogue Utility">WeiDU</acronym>.log file in the post, or attach it if it's large.
 		</p><br>
@@ -860,7 +876,7 @@ After = bg2fixpack, EET, divine_remix</pre>
 			<address>
 				<span class="footer">Mymod &gt; Troubleshooting</span> &#8226; <a href="#top">BACK TO TOP</a>
 			</address>
-		</div>
+	  </div>
 
 <!-- ======================= C r e d i t s ====================== -->
 		<a name="credits" id="credits"></a>

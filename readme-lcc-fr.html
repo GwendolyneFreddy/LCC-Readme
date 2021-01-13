@@ -803,8 +803,8 @@ After = bg2fixpack, EET, divine_remix</pre>
 	  </div>
 
 <!-- ============== T r o u b l e s h o o t i n g =============== -->
-		<a name="trouble" id="trouble"></a>
-		<div class="content">
+	  <a name="trouble" id="trouble"></a>
+	  <div class="content">
 
 		<h2>
 			Dépannage
@@ -815,13 +815,14 @@ After = bg2fixpack, EET, divine_remix</pre>
 		</p><br>
 
 		<p>
-			Voici quelques astuces classiques si vous rencontrez des problèmes pour faire fonctionner le jeu, avec ou sans ce mod (ou d'autres mods). Les erreurs sont souvent causées par le moteur du jeu lui-même, la manière d'installer jeu et mods, ou encore la façon de jouer. Avant d'essayer quoi que ce soit d'autre, il est recommandé de supprimer tous les fichiers des sous-répertoires /cache, /temp et /tempsave dans le répertoire du jeu pour voir si cela résout le problème.
+			Voici quelques astuces classiques si vous rencontrez des problèmes pour faire fonctionner le jeu, avec ou sans ce mod (ou d'autres mods). Les erreurs sont souvent causées par le moteur du jeu lui-même, la manière d'installer jeu et mods, ou encore la façon de jouer. Avant d'essayer quoi que ce soit d'autre, il est recommandé de supprimer tous les fichiers des sous-répertoires &#x1F4C1; /cache, /temp et /tempsave dans le répertoire du jeu pour voir si cela résout le problème.
 		</p>
 
-<hr>
+		<hr>
+
 		<p>
 			<strong>Symptôme : le jeu se bloque ou provoque un retour sur le bureau de Windows</strong>
-		</p>
+		</p><br>
  		<p>
 			Quand ceci se produit, le jeu affiche parfois une erreur d'assertion (« <em>assertion error</em> ») dans une fenêtre pop-up, mais ce n'est pas toujours le cas. Pour que le message d'erreur complet s'affiche, ouvrez le fichier <strong>baldur.ini</strong> (qui se trouve dans le répertoire du jeu) avec un éditeur de texte (comme Notepad ou le bloc-notes). Si vous êtes sous Windows Vista, ou un système d'exploitation plus récent, et n'arrivez pas à éditer ce fichier ou à sauvegarder vos modifications, consultez <a href="http://forums.bioware.com/viewtopic.html?topic=662080&forum=10"> ce sujet</a> pour de plus amples informations. Vous pouvez aussi consulter cette <a href="http://www.baldursgateworld.fr/lacouronne/la-taverne-damkethran-baldurs-gate-2/19928-guide-installation-de-baldurs-gate-ii-et-de-throne-bhaal-faq.html#post212903">FAQ</a> en français.
 		</p>
@@ -829,29 +830,45 @@ After = bg2fixpack, EET, divine_remix</pre>
 			Dans la section [Program Options] de ce fichier, tapez <strong>Logging On=1</strong> (à moins que cette instruction ne soit déjà présente). Il est également intéressant de vérifier que l'instruction <strong>Debug Mode=1</strong> est bien présente, ce qui permet d'activer la <a href="https://gibberlings3.github.io/iesdp/appendices/clua/bg2.htm">Console CLUA</a> pour déboguer et effectuer des tests. Sauvegardez le fichier et refermez-le. Lancez à nouveau le jeu et tentez de reproduire l'erreur. Cherchez ensuite dans le répertoire du jeu le fichier <strong>Baldur.err</strong> et ouvrez-le avec un éditeur de texte pour analyser son contenu.
 		</p>
 
-<hr>
+		<hr>
+
+		<p>
+			<strong>Symptôme : le jeu crashe sans produire de logs dans le fichier Baldur.err, et affiche soit un écran noir, soit une fenêtre pop-up indiquant une erreur à l'offset 005ca8a8</strong> [<em>adresse</em>]
+		</p><br>
+
+		<p>
+			Ce message indique généralement un problème lié à une animation. Assurez-vous d'avoir installé la version la plus récente du mod. Si vous avez installé d'autres mods après celui-ci et rencontrez ce problème, installez le correctif disponible <a href="http://www.shsforums.net/files/file/884-ia-aurora-low-fix/">ici</a>.
+		</p>
+
+		<hr>
+
  		<p>
 			<strong>Symptôme :</strong>
-		</p>
+		</p><br>
 		  <div class="important" style="background-color: black;color: #deded9;">
-			<p style="font-family: Courier New;font-size: 100%;">ERROR: error copying [infinityanimations/content/somefile.bam]<br />
-			ERROR: [SOMEFILE.CRE] -> [override/SOMEFILE.CRE] Patching failed (COPY)<br />
-			Stopping installation because of error.<br /></p>
-			<p>(with no other error message)<br /></p>
-		  </div>
- 		<p>
-			Ce genre de messages dépourvus de valeur informative peuvent indiquer que vous installez le mod sur un disque dur avec un faible taux de transfert de données, ou qu'un programme antivirus est actif pendant l'installation (ce qui peut aussi affecter le transfert de données). Essayez d'installer le mod sur un disque dur interne en vous assurant que la protection antivirus est désactivée pendant l'installation. Si vous n'en êtes pas certain.e, déconnectez-vous d'internet pendant l'installation (soit en débranchant votre cable, soit en déconnectant votre adaptateur wifi) et fermez <strong>tous</strong> les programmes résidant en mémoire pendant l'installation. Pour en obtenir la liste, allez dans Démarrage > Exécutez, et tapez <strong>msconfig</strong> là où est indiqué «&#160;Ouvrir : ». Cliquez ensuite sur OK. Quand l'utilitaire de configuration du système apparaît, cliquez sur le bouton de démarrage. Les seuls programmes qu'il est vraiment nécessaire de charger en mémoire au démarrage sont ceux liés à votre puce graphique (typiquement ATI ou NVIDIA). Décochez tout le reste, redémarrez et essayez d'installer à nouveau le mod. Il existe une abondante littérature sur des problèmes liés à l'installation de mods quand l'antivirus Avast est activé, alors assurez-vous bien que tous les composants d'Avast sont complètement désactivés.
+			<p style="font-family: Courier New;font-size: 100%;"><strong>
+				ERROR: error copying [infinityanimations/content/somefile.bam]<br>
+				ERROR: [SOMEFILE.CRE] -> [override/SOMEFILE.CRE] Patching failed (COPY)<br>
+				Stopping installation because of error.</strong><br>
+				(with no other error message)<br>
+			</p>
+		  </div><br>
+
+		<p>
+			Ce genre de messages dépourvus de valeur informative peuvent indiquer que vous installez le mod sur un disque dur avec un faible taux de transfert de données, ou qu'un programme antivirus est actif pendant l'installation (ce qui peut aussi affecter le transfert de données). Essayez d'installer le mod sur un disque dur interne en vous assurant que la protection antivirus est désactivée pendant l'installation. Si vous n'en êtes pas certain.e, déconnectez-vous d'internet pendant l'installation (soit en débranchant votre cable, soit en déconnectant votre adaptateur wifi) et fermez <strong>tous</strong> les programmes résidant en mémoire pendant l'installation. Pour en obtenir la liste, allez dans Démarrage > Exécutez, et tapez <strong><span class="weidu">&nbsp;msconfig&nbsp;</span></strong> là où est indiqué «&#160;<em>Ouvrir&#160;:</em>&#160;». Cliquez ensuite sur OK. Quand l'utilitaire de configuration du système apparaît, cliquez sur le bouton de démarrage. Les seuls programmes qu'il est vraiment nécessaire de charger en mémoire au démarrage sont ceux liés à votre puce graphique (typiquement ATI ou NVIDIA). Décochez tout le reste, redémarrez et essayez d'installer à nouveau le mod. Il existe une abondante littérature sur des problèmes liés à l'installation de mods quand l'antivirus Avast est activé, alors assurez-vous bien que tous les composants d'Avast sont complètement désactivés.
 		</p>
 
-<hr>
+		<hr>
+
 		<p>
 			<strong>Autres problèmes</strong>
-		</p>
+		</p><br>
  		<p>
-			Si vous avez installé plus d'un « mégamod », veuillez consulter la <a href="http://www.shsforums.net/index.php?showtopic=41036">FAQ sur les mégamods</a> pour y trouver des informations supplémentaires de dépannage.
+			Si vous avez installé plus d'un « mégamod », veuillez consulter la <a href="http://www.shsforums.net/topic/41036-faq-for-the-megamods/">FAQ sur les mégamods</a> pour y trouver des informations supplémentaires de dépannage.
 		</p>
 
-<hr>
+		<hr>
+
  		<p>
 			Si rien de tout ceci ne résout votre problème, ou si votre problème est lié à un mod spécifique, merci de le signalez dans le <a href="https://www.baldursgateworld.fr/lacouronne/mymod.php">forum du mod</a>. Incluez dans votre message le contenu du fichier <acronym title="Weimer Dialogue Utility">WeiDU</acronym>.log (mis entre les balises <strong>[spoiler][/spoiler]</strong> s'il vous plaît !), ou attachez-le en pièce jointe au message s'il est trop volumineux.
 		</p><br>
@@ -860,7 +877,7 @@ After = bg2fixpack, EET, divine_remix</pre>
 			<address>
 				<span class="footer">Mymod &gt; Dépannage</span> &#8226; <a href="#top">Haut de page</a>
 			</address>
-		</div>
+	  </div>
 
 <!-- ======================= C r e d i t s ====================== -->
 		<a name="credits" id="credits"></a>
