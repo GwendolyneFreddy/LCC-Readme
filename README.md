@@ -4,21 +4,30 @@
 ![Platform](https://img.shields.io/static/v1?label=plateforme&message=windows&color=informational)
 ![Language](https://img.shields.io/static/v1?label=langues&message=Anglais%20%7C%20Français%20&color=limegreen)
 
-<div align="center"><h1>MYMOD</h1>
+
+<div align="center"><h1>Mymod</h1>
 
 <h3>Un mod développé sur <a href="https://www.baldursgateworld.fr">La Couronne de Cuivre</a> pour Baldur's Gate II: ToB, BGT, BG2:EE et EET<h3>
 
-</div><br />
+</div><br>
 
 
 **Auteur(e) :** <a href="https://www.baldursgateworld.fr/lacouronne/Auteur.html">bibi</a>  
 **Langues :** français, <a href="README_EN.md">anglais</a>  
-**Forum du mod :** <a href="https://www.baldursgateworld.fr/lacouronne/mymod/">MYMOD</a><br /><br />
+**Forum du mod :** <a href="https://www.baldursgateworld.fr/lacouronne/mymod/">Mymod</a>  
 
+## 
+
+[Read the mod's readme]()
+
+[Download the mod at La Couronne de Cuivre]()<br>
+
+## 
 
 <div align="center">
 <a href="#intro">Présentation</a> &#8226; <a href="#compat">Compatibilité</a> &#8226; <a href="#installation">Installation</a> &#8226; <a href="#components">Composants</a> &#8226; <a href="#componentslist">Composants (présentation alternative</a> &#8226; <a href="#images">Captures d'écran</a> &#8226; <a href="#credits">Crédits et remerciements</a> &#8226; <a href="#versions">Historique des versions</a></br>
 </div>
+
 
 <hr>
 
@@ -27,12 +36,24 @@
 
 Courte description du mod : Ce mod... ou L'objet de ce mod...
 
+
 Il s'agit d'un modèle de fichier readme pour GitHub destiné aux mods développés et/ou publiés sur la Couronne de Cuivre. Il est écrit en langage Markdown. Bien qu'il soit assez proche du langage HTML, certains formatages ne sont pas pris en compte par GitHub, comme l'affichage des couleurs.
 
 Pour chaque section, j'ai repris, chaque fois que c'était possible, des éléments de traductions déjà publiées (par les d'Oghms ou par bibi) afin de conserver un semblant d'homogénéité dans les termes employés. Il suffit alors de conserver celles dont on a besoin (liste des jeux compatibles, procédures d'installation selon la plateforme, liste des outils utilisés...) et, pour le reste, de remplacer MYMOD et Auteur par le nom du mod et de son auteur, de modifier les liens et de remplir les textes adéquats. Pour certaines sections, j'ai été le plus exhaustif possible : il vous suffit de choisir les paragraphes qui vous intéressent et de supprimer les autres. &#128521;
 
 
 Malheureusement, le rendu d'un fichier .md n'est véritablement effectif que dans GitHub, ce qui ne vous permet pas de visualiser votre mise en page dans Notepad++. Il existe cependant plusieurs utilitaires vous permettant de les éditer et de visualiser partiellement vos modifications. Partiellement parce que certaines balises comme [br (break line)] apparaissent à l'écran MÊME si elles resteront invisibles dans GitHub. Personnellement, j'ai opté pour <a href="https://typora.io/">Typora</a>, mais il en existe d'autres.<br>
+
+
+**Contenu :**
+- Principal contenu #1
+- Principal contenu #2
+- Principal contenu #3
+- Principal contenu #4
+- ...
+
+&#9755; **Note :** Si vous souhaitez utiliser des modèles de page plus complexes, veuillez consulter <a href="https://github.com/GwendolyneFreddy/Infinity-Animations">celle-ci</a> et <a href="https://github.com/SpellholdStudios/1pp">celle-là</a>.<br>
+
 
 <details><summary>CLIQUER</summary>
 <p>
@@ -55,20 +76,40 @@ Deux listes de codes de smileys et d'emoji utilisables par markdown :
 
 ## <a name="compat" id="compat"></a>Compatibilité
 
-Ce mod est conçu pour fonctionner sur les jeux Infinity Engine suivants : Baldur's Gate: Enhanced Edition (BGEE), Baldur's Gate II: Enhanced Edition (BG2EE), Icewind Dale: Enhanced Edition (IWDEE), Planescape: Torment: Enhanced Edition (PsTEE), ainsi que l'extension de BGEE, Siege of Dragonspear (SoD) ; le jeu original Baldur's Gate (BG), avec ou sans son extension La légende de l'île perdue (Tales of the Sword Coast : TotSC), le jeu original Baldur's Gate II (Les Ombres d'Amn : BG2-SoA), avec ou sans son extension Trône de Bhaal (Throne of Bhaal : ToB) ; les mods de conversion <a href="http://www.shsforums.net/forum/261-bgt-weidu/">Baldur's Gate Trilogy (BGT)</a>, <a href="http://www.pocketplane.net/tutu/">Baldur's Gate Tutu (Tutu)</a>, Icewind Dale-in-Baldur's Gate II (IWD-in-BG2) et <a href="https://github.com/K4thos/EET/releases">Enhanced Edition Trilogy</a> (EET) ; le jeu original Icewind Dale (IWD), avec ou sans ses extensions Heart of Winter (HoW) et Trials of the Luremaster (TotLM), Icewind Dale II (IWD2), le jeu original Planescape: Torment (PsT).
+#### Jeux concernés
 
+Ce mod est conçu pour fonctionner sur les jeux Infinity Engine suivants :
+- La série des Éditions Améliorées (Enhanced Editions) publiées par Beamdog, soient Baldur's Gate: Enhanced Edition (BGEE), Baldur's Gate II: Enhanced Edition (BG2EE), Icewind Dale: Enhanced Edition (IWDEE), Planescape: Torment: Enhanced Edition (PsTEE), ainsi que l'extension de BGEE, Siege of Dragonspear (SoD). Toutes les Éditions Améliorées comprennent leurs extensions originales (ainsi, IWDEE comprend Heart of Winter et Trials of the Luremaster).
+- Le jeu original Baldur's Gate (BG), avec ou sans son extension La légende de l'île perdue (Tales of the Sword Coast : TotSC).
+- Le jeu original Baldur's Gate II (Les Ombres d'Amn : BG2-SoA), avec ou sans son extension Trône de Bhaal (Throne of Bhaal : ToB). *Assurez-vous que l'extension Trône de Bhaal dispose bien du patch 26498. Vérifiez le numéro de cette version dans le fichier readme de votre répertoire de jeu, et consultez éventuellement <a href="http://www.bioware.com/games/throne_bhaal/support/patches/">le site de BioWare</a>.*
+- Les mods de conversion basés sur le moteur ToB : <a href="http://www.shsforums.net/forum/261-bgt-weidu/">Baldur's Gate Trilogy</a> (BGT), <a href="https://www.pocketplane.net/bg1tutu/">Baldur's Gate Tutu</a> (Tutu), Icewind Dale-in-Baldur's Gate II (IWD-in-BG2) et <a href="https://github.com/K4thos/EET/releases">Enhanced Edition Trilogy</a> (EET).
+- Le jeu original Icewind Dale (IWD), avec ou sans ses extensions Heart of Winter (HoW) et Trials of the Luremaster (TotLM).
+- Icewind Dale II (IWD2).
+- Le jeu original Planescape: Torment (PsT).
 
-MYMOD est un mod WeiDU et devrait par conséquent être compatible avec n'importe quel mod WeiDU. [facultatif : Il a été testé sur plusieurs installations et a fonctionné parfaitement jusqu'à présent.] Je ne peux cependant pas tous les tester. [Choisir une formule parmi les suivantes :] Si vous faites face à des bugs, veuillez contactez <a href="https://www.baldursgateworld.fr/lacouronne/Auteur.html">AUTEUR</a> ou bien poster dans les forums. Si vous faites face à des bugs, veuillez les signaler dans le forum, s'il vous plaît.
+## 
 
-Bien que je m'efforce de rendre MYMOD compatible avec le plus grand nombre possible de mods, des incompatibilités risquent toujours de se produire. Voici la liste de celles recensées jusqu'à présent :
+#### Compatibilité avec les autres mods
+
+Mymod est un mod  WeiDU et devrait par conséquent être compatible avec n'importe quel mod WeiDU. [Choisir une formule parmi les suivantes : ]Bien qu'il ne soit pas requis pour faire correctement tourner MYMOD, il est toujours utile d'avoir installé la dernière version du <a href="http://www.gibberlings3.net/bg2fixpack/">BG2 Fixpack</a>. Je vous recommande fortement d'installer la dernière version du <a href="http://www.gibberlings3.net/bg2fixpack/">BG2 Fixpack</a> avant d'installer ce mod.
+
+Bien que je m'efforce de rendre Mymod compatible avec le plus grand nombre possible de mods, des incompatibilités risquent toujours de se produire. Voici la liste de celles recensées jusqu'à présent :
 - mod 1
 - mod 2
 - ...
 
 
-#### Mods pré-requis
+Si vous rencontrez des bugs, veuillez les signaler dans le forum, s'il vous plaît
 
-[Choisir une formule parmi les suivantes : ]Bien qu'il ne soit pas requis pour faire correctement tourner MYMOD, il est toujours utile d'avoir installé la dernière version du <a href="http://www.gibberlings3.net/bg2fixpack/">BG2 Fixpack</a>. Je vous recommande fortement d'installer la dernière version du <a href="http://www.gibberlings3.net/bg2fixpack/">BG2 Fixpack</a> avant d'installer ce mod.<br>
+## 
+
+#### Ordre d'installation
+
+>Bien qu'il ne soit pas requis pour faire correctement tourner Mymod, je recommande fortement aux joueurs de BG2 et ToB classiques d'installer la dernière version du <a href="http://www.gibberlings3.net/bg2fixpack/">BG2 Fixpack</a> avant d'installer ce mod.<br>
+
+- Veuillez installer Mymod avant le mod A.
+- Veuillez installer Mymod après le mod B.
+- ...
 <div align="right"><a href="#top">Retour en haut de page</a></div>
 
 
@@ -79,11 +120,11 @@ Bien que je m'efforce de rendre MYMOD compatible avec le plus grand nombre possi
 
 #### Mise en garde
 
-*Si une ancienne version de ce mod est déjà installée, il est nécessaire de la désinstaller d'abord. Pour cela, lancez **`setup-mymod.exe`**, et désinstallez tous les composants précédemment installés. Une fois la désinstallation achevée, supprimez le :file_folder: répertoire **mymod** et le fichier **setup-mymod.exe** (version Windows) avant d'extraire la nouvelle version du mod.*
+*Si une ancienne version de ce mod est déjà installée, il est nécessaire de la désinstaller d'abord. Pour cela, lancez __`setup-mymod.exe`__ (ou .command si vous êtes sous OS X) et désinstallez tous les composants précédemment installés. Une fois la désinstallation achevée, supprimez le répertoire :file_folder: __mymod__ et le fichier __setup-mymod.exe__ (version Windows) avant d'extraire la nouvelle version du mod.*
 
-*Lorsque vous installez ou désinstallez, **ne fermez pas la fenêtre DOS** en cliquant sur le bouton **X** ! Au lieu de cela, appuyez sur la touche **Entrée** lorsque l'invite de commandes vous le demande.*
+*Lorsque vous installez ou désinstallez, __ne fermez pas la fenêtre DOS__ en cliquant sur le bouton __X__ ! Au lieu de cela, appuyez sur la touche __Entrée__ lorsque l'invite de commandes vous le demande.*
 
-*Par précaution, **désactivez les antivirus** ou tout logiciel résidant en mémoire avant d'installer ce mod, ou tout autre mod. Certains (en particulier avast et Norton !) ont une fâcheuse tendance à déclarer les exécutables des mods comme des faux positifs, provoquant ainsi l'échec de la procédure d'installation.*
+*Par précaution, __désactivez les antivirus__ ou tout logiciel résidant en mémoire avant d'installer ce mod, ou tout autre mod. Certains (en particulier avast et Norton !) ont une fâcheuse tendance à déclarer les exécutables des mods comme des faux positifs, provoquant ainsi l'échec de la procédure d'installation.*
 
 ## 
 
@@ -101,48 +142,21 @@ Si vous pouvez retarder la mise à jour du patch en plein milieu d'un partie modd
 
 ## 
 
-#### &#9888;&#65039; Avertissement : procédure d'installation
-
-###### Les variables nécessaires à l'installation sont lues dans le fichier *<a href="https://raw.githubusercontent.com/Auteur/mymod/master/mymod/mymod.ini">mymod.ini</a>*, ou dans le fichier *<a href="https://raw.githubusercontent.com/Auteur/mymod/master/mymod/mymod-user.ini">mymod-user.ini</a>*, si ce dernier existe.
-
-Pour éviter d'interrompre la procédure d'installation par de nombreux messages vous permettant de personnaliser certains composants à votre convenance, ces options ont été externalisées dans le fichier <a href="https://raw.githubusercontent.com/Auteur/mymod/master/mymod/mymod.ini">mymod.ini</a> situé dans le répertoire :file_folder: **mymod**. Ce fichier définit une installation « *standard* ».
-
-Si vous souhaitez choisir d'autres options d'installation, il vous suffit de modifier, avec Notepad ou un autre éditeur de texte, les options de configuration de la section **<em>[Mod_content]</em>** dans le fichier *__mymod.ini__*, puis de sauvegarder ce dernier sous le nom *__mymod-user.ini__*.
-
-Chaque ligne de ce fichier comprend une option de configuration, suivie de « = », puis d'un chiffre ou d'une chaîne de caractères. Tout ce que vous avez à faire, c'est modifier la valeur du chiffre ou de la chaîne.
-
-Le programme d'installation lira les valeurs des variables dans les deux fichiers ini et donnera la priorité aux vôtres. Si le fichier mymod-user.ini contient une variable non conforme, ou si une variable est manquante, il la remplacera par sa valeur par défaut (celle correspondant à l'installation « *standard* »).</br>
-
-Voici le tableau des options concernées (ne modifiez pas les variables non listées ; elle font partie de l'architecture de debugging et de test) :<br>
-
-| Option | Signification de l'option d'installation | Type | Valeurs | Défaut |
-| :---: | --- | :---: | :---: | :---: |
-| mymod_variable1 | blabla<br>1 = description de la première valeur (recommandée).<br>2 = description de la seconde valeur.<br> | numérique | 1 ou 2 | <strong>1<strong> |
-| mymod_variable2 | blabla<br>1 = description de la première valeur (recommandée).<br>2 = description de la deuxième valeur.<br>3 = description de la troisième valeur.<br> | numérique | 1, 2 ou 3 | <strong>1<strong> |
-| mymod_variable3 | blabla<br> | alphanumérique | une lettre | <strong>A<strong> |
-| mymod_variable4 | blabla<br> | alphanumérique | un nom! | <strong>Hello<strong> |
-
-## 
-
 #### Windows
 
-MYMOD pour Windows est livré et installé avec WeiDU, et est diffusé sous forme d'archive.
+Mymod pour Windows est livré et installé avec WeiDU, et est diffusé sous forme d'archive.
 
-Vous devez extraire les fichiers de l'archive dans votre répertoire de jeu (*le dossier qui contient le fichier CHITIN.KEY*) à l'aide de <a href="http://www.7-zip.org/download.html">7zip</a> ou de <a href="http://www.rarlab.com/download.htm">WinRAR</a>. Une fois l'archive extraite correctement, vous devriez trouver le répertoire :file_folder: mymod et le fichier setup-mymod.exe dans votre répertoire de jeu. Pour installer le mod, il suffit de double-cliquer sur **`setup-mymod.exe`** et de suivre les instructions affichées à l'écran.
+Vous devez extraire les fichiers de l'archive dans votre répertoire de jeu (*le dossier qui contient le fichier CHITIN.KEY*) à l'aide de <a href="https://www.7-zip.org/download.html">7zip</a> ou de <a href="https://www.rarlab.com/download.htm">WinRAR</a>. Une fois l'archive extraite correctement, vous devriez trouver le répertoire :file_folder: mymod et le fichier setup-mymod.exe dans votre répertoire de jeu. Pour installer le mod, il suffit de double-cliquer sur **`setup-mymod.exe`** et de suivre les instructions affichées à l'écran.
 
 Vous pouvez lancer **`setup-mymod.exe`** dans votre répertoire de jeu pour réinstaller, désinstaller, ou encore changer des composants.
-
-[**(Pour une version exe, remplacez les 2 deux premières lignes par les suivantes)** MYMOD pour Windows est livré et installé avec WeiDU, et est diffusé sous forme d'archive auto-extractible. Pour l'installer, il suffit de double-cliquer sur l'archive et de suivre les instructions affichées à l'écran.
-
-Autrement, vous pouvez extraire les fichiers de l'archive dans votre répertoire de jeu (*le dossier qui contient le fichier CHITIN.KEY*) à l'aide de <a href="http://www.7-zip.org/download.html">7zip</a> ou de <a href="http://www.rarlab.com/download.htm">WinRAR</a>. Une fois l'archive extraite correctement, vous devriez trouver le répertoire **mymod** et le fichier **setup-mymod.exe** dans votre répertoire de jeu. Pour installer le mod, il suffit de double-cliquer sur **setup-mymod.exe** et de suivre les instructions affichées à l'écran.]
 
 ## 
 
 #### Mac OS X
 
-MYMOD pour Mac OS X est livré et installé avec WeiDU, et est diffusé sous forme d'archive compressée (tarball).
+Mymod pour Mac OS X est livré et installé avec WeiDU, et est diffusé dans la même archive compressée.
 
-Extrayez le contenu du tarball dans votre répertoire de jeu. Après une extraction réussie, ce dernier contiendra les fichiers setup-mymod, setup-mymod.command, et le répertoire :file_folder: mymod. Pour installer, il suffit de double-cliquer sur **`setup-mymod.command`** et de suivre les instructions affichées à l'écran.
+Extrayez le contenu de l'archive dans votre répertoire de jeu. Après une extraction réussie, ce dernier contiendra les fichiers setup-mymod, setup-mymod.command, et le répertoire :file_folder: mymod. Pour installer, il suffit de double-cliquer sur **`setup-mymod.command`** et de suivre les instructions affichées à l'écran.
 
 Vous pouvez lancer **`setup-mymod.command`** dans votre répertoire de jeu pour réinstaller, désinstaller ou changer des composants.
 
@@ -150,7 +164,7 @@ Vous pouvez lancer **`setup-mymod.command`** dans votre répertoire de jeu pour r
 
 #### Linux
 
-MYMOD pour Linux est diffusé sous forme d'archive compressée (tarball) sans l'installateur WeiDU.
+Mymod pour Linux est diffusé dans la même archive compressée, mais sans l'installateur WeiDU.
 
 Extrayez le contenu du mod dans le répertoire du jeu que vous voulez moder.
 
@@ -163,6 +177,30 @@ Tapez la commande **`export PATH=$PATH:/usr/local/bin`**, puis lancez **`weinsta
 #### Note pour effectuer une désinstallation complète
 
 En plus des méthodes détaillées plus haut pour supprimer des composants, il est possible de désinstaller complètement le mod en tapant **`setup-mymod --uninstall`** dans une ligne de commandes, ce qui supprimera tous les composants sans devoir ingurgiter tous les messages.</br>
+
+## 
+
+#### &#9888;&#65039; Avertissement : procédure d'installation
+
+###### Les options de configuration nécessaires à l'installation sont lues dans le fichier *<a href="../mymod-config-default.ini">mymod-config-default</a>*, ou dans le fichier *mymod-config-user.ini*, si ce dernier existe.
+
+Pour éviter d'interrompre la procédure d'installation par de nombreux messages vous permettant de personnaliser certains composants à votre convenance (ce qui n'est pas compatible avec la plupart des utilitaires d'installation automatique de mods), ces options ont été externalisées dans le fichier <a href="../mymod-config-default.ini">mymod-config-default.ini</a> situé dans le répertoire :file_folder: **mymod**. Ce fichier définit une installation « *standard* ».
+
+Si vous souhaitez choisir d'autres options d'installation, il vous suffit de modifier, avec Notepad ou un autre éditeur de texte, les options de configuration dans le fichier *__mymod-config-default.ini__*, puis de sauvegarder ce dernier sous le nom *__mymod-config-user.ini__*.
+
+Chaque ligne de ce fichier comprend une option de configuration, suivie de « = », puis d'un chiffre ou d'une chaîne de caractères. Tout ce que vous avez à faire, c'est modifier la valeur du chiffre ou de la chaîne.
+
+Le programme d'installation lira les valeurs des variables dans les deux fichiers .ini et donnera la priorité aux vôtres. Si le fichier mymod-config-user.ini contient une variable non conforme, ou si une variable est manquante, il la remplacera par sa valeur par défaut (celle correspondant à l'installation « *standard* »).</br>
+
+Voici le tableau des options concernées :<br>
+
+| Option | Signification de l'option d'installation | Type | Valeurs | Défaut |
+| :---: | --- | :---: | :---: | :---: |
+| mymod_variable1 | blabla<br>1 = description de la première valeur (recommandée).<br>2 = description de la seconde valeur.<br> | numérique | 1 ou 2 | <strong>1<strong> |
+| mymod_variable2 | blabla<br>1 = description de la première valeur (recommandée).<br>2 = description de la deuxième valeur.<br>3 = description de la troisième valeur.<br> | numérique | 1, 2 ou 3 | <strong>1<strong> |
+| mymod_variable3 | blabla<br> | alphanumérique | une lettre | <strong>A<strong> |
+| mymod_variable4 | blabla<br> | alphanumérique | un nom! | <strong>Hello<strong> |
+
 <div align="right"><a href="#top">Retour en haut de page</a></div>
 
 
@@ -171,29 +209,36 @@ En plus des méthodes détaillées plus haut pour supprimer des composants, il est 
 
 ## <a name="components" id="components"></a>Composants
 
-Le programme d'installation comprend les composants suivants. Chacun possède un numéro distinct et pré-défini qui lui attribue une position déterminée (mot-clé *DESIGNATED* en langage WeiDU) ; ce qui permet aux autres composants de le détecter et aux utilitaires d'installation automatiques de préciser quels composants installer.<br /><br />
+Le programme d'installation comprend les composants suivants. Chacun possède un numéro distinct et pré-défini qui lui attribue une position déterminée (mot-clé *`DESIGNATED`* en langage WeiDU) ; ce qui permet aux autres composants et aux autres mods de le détecter et aux utilitaires d'installation automatique de préciser quels composants installer.
 
-
-#### 10. Composant 10 (composant principal)
-
-Description du composant principal.</br>
+>Optionnel : Tous les sous-composants nécessitent le composant principal. Leur installation est d'ailleurs optionnelle.
 
 ## 
 
-#### 20. Composant 20 : blabbla
+#### [10] Component blabla (main component)
 
-Description du composant 20.</br>
+Description du composant principal.
+
+ou bien
+
+&#10173; Description du composant principal.
 
 ## 
 
-#### 30. Composant 30 : blabbla
+#### [20] Component blublu
+
+Description du composant blublu.
+
+## 
+
+#### [30] Component bloblo
 
 Exemple de composant présentant des tableaux.
 
 | Créature | Profil | Niveau&#160;&#160;&#160;(ex) | XP&#160;&#160;&#160;(ex) | PV&#160;&#160;&#160;(ex) | Force&#160;&#160;&#160;(ex) | Constitution&#160;&#160;&#160;(ex) | Compétence martiale |
 | :---: | --- | :---: | :---: | :---: | :---: | :---: | :---: |
 | Tazok | -- | <strong>19</strong>&#160;&#160;&#160;(18) | <strong>12000</strong>&#160;&#160;&#160;(6000) | <strong>154</strong>&#160;&#160;&#160;(136) | -- | -- | TWO-HANDED SWORD +++++ |
-| FIRorc01 (DigDag) | Berserker | <strong>13</strong>&#160;&#160;&#160;(12) | <strong>7000</strong>&#160;&#160;&#160;(2000) | <strong>107</strong>&#160;&#160;&#160;(99) | <strong>22</strong>&#160;&#160;&#160;(17)) | <strong>22</strong>&#160;&#160;&#160;(9) | BASTARD SWORD +++++ |
+| FIRorc01 (DigDag) | Berserker | <strong>13</strong>&#160;&#160;&#160;(12) | <strong>7000</strong>&#160;&#160;&#160;(2000) | <strong>107</strong>&#160;&#160;&#160;(99) | <strong>22</strong>&#160;&#160;&#160;(17) | <strong>22</strong>&#160;&#160;&#160;(9) | BASTARD SWORD +++++ |
 <br>
 <div align="right"><a href="#top">Retour en haut de page</a></div>
 
@@ -203,34 +248,32 @@ Exemple de composant présentant des tableaux.
 
 ## <a name="componentslist" id="componentslist"></a>Composants (présentation alternative si vous avez beaucoup de composants)
 
+Le programme d'installation comprend les composants suivants. Chacun possède un numéro distinct et pré-défini qui lui attribue une position déterminée (mot-clé *`DESIGNATED`* en langage WeiDU) ; ce qui permet aux autres composants et aux autres mods de le détecter et aux utilitaires d'installation automatique de préciser quels composants installer.
 
-Le programme d'installation comprend les composants suivants. Chacun possède un numéro distinct et pré-défini qui lui attribue une position déterminée (mot-clé *DESIGNATED* en langage WeiDU) ; ce qui permet aux autres composants de le détecter et aux utilitaires d'installation automatiques de préciser quels composants installer.<br /><br />
-
-><span style="margin-left: 50px;"><a href="#10">[10] Composant 10 (composant principal)</a></span></br>
-><span style="margin-left: 50px;"><a href="#20">[20] Composant 20</a></span></br>
-><span style="margin-left: 50px;"><a href="#50">[30] Composant 30</a></span></br>
+><span style="margin-left: 50px;"><a href="#10">[10] Composant blabla</a>&nbsp;&nbsp;&nbsp;*[composant principal]*</span></br>
+><span style="margin-left: 50px;"><a href="#20">[20] Composant blublu</a></span></br>
+><span style="margin-left: 50px;"><a href="#50">[30] Composant bloblo</a></span></br>
 ><span style="margin-left: 50px;"><a href="#40">[40] ...</a></span></br>
 
+------------------------
 
-## 
+<a name="10" id="10"></a>**[10] Composant blabla (composant principal)**<br><br>
 
-<a name="10" id="10"></a>**10. Composant 10 (composant principal)**<br />
-
-Description du composant principal.</br>
+Description du composant principal.
 <div align="right"><a href="#componentslist">Back to components list</a></div>
 
 ## 
 
-<a name="10" id="20"></a>**20. Composant 20**<br />
+<a name="20" id="20"></a>**[20] Component blublu**<br><br>
 
-Description du composant 20.</br>
+Description du composant blublu.</br>
 <div align="right"><a href="#componentslist">Back to components list</a></div>
 
 ## 
 
-<a name="30" id="10"></a>**30. Composant 30**<br />
+<a name="30" id="30"></a>**[30] Component bloblo**<br><br>
 
-Description du composant 30.</br>
+Description du composant bloblo.</br>
 <div align="right"><a href="#componentslist">Back to components list</a></div>
 
 
@@ -239,6 +282,7 @@ Description du composant 30.</br>
 
 ## <a name="images" id="images"></a>Captures d'écran
 
+#### Exemples basiques de fichiers images que l'on peut afficher (tirés du mod BuTcHeRy).
 <img src="images/baldr000.jpg">
 <img src="images/baldr001.jpg"></br>
 <div align="right"><a href="#top">Retour en haut de page</a></div>
@@ -249,6 +293,10 @@ Description du composant 30.</br>
 
 ## <a name="credits" id="credits"></a>Crédits et remerciements
 
+&#9755; Pour toute question ou demande d'assistance, veuillez consulter le <a href="https://www.baldursgateworld.fr/lacouronne/mymod.php">forum du mod</a>.
+
+## 
+
 #### Auteur(e) : <a href="https://www.baldursgateworld.fr/lacouronne/members/auteur.html">Auteur</a>
 
 ## 
@@ -256,7 +304,7 @@ Description du composant 30.</br>
 #### Remerciements particuliers à :
 
 - L'équipe de <a href="https://www.baldursgateworld.fr">La Couronne de Cuivre</a> pour l'hébergement de ce mod.
-- Les créateurs de la série Baldur's Gate : <a href="http://www.bioware.com/">Bioware</a> et <a href="http://www.obsidian.net/">Black Isle Studios</a>.
+- Les créateurs de la série Baldur's Gate : <a href="https://www.bioware.com/">Bioware</a> et <a href="https://www.obsidian.net/">Black Isle Studios</a>.
 - machin pour m'avoir donner la permission d'utiliser blabla.
 - dugland pour m'avoir aidé à coder.
 - trucmuche pour son aide dans le codage et ses suggestions.
@@ -264,7 +312,7 @@ Description du composant 30.</br>
 - xxx pour la traduction française.
 - yyy pour la relecture.
 - Merci aux artistes de portraits du site <a href="https://www.pinterest.fr/">Pinterest</a>.
-- Merci à toutes les personnes des forums de <a href="https://www.baldursgateworld.fr">La Couronne de Cuivre</a>, <a href="http://gibberlings3.net/forums/">The Gibberlings Three</a>, <a href="http://www.shsforums.net/">Spellhold Studios</a>, et des autres communautés de joueurs et de moddeurs IE qui m'ont offert leur aide.
+- Merci à toutes les personnes des forums de <a href="https://www.baldursgateworld.fr">La Couronne de Cuivre</a>, <a href="https://www.gibberlings3.net/forums/">The Gibberlings Three</a>, <a href="http://www.shsforums.net/">Spellhold Studios</a>, et des autres communautés de joueurs et de moddeurs IE qui m'ont offert leur aide.
 - etc.
 
 ## 
@@ -277,28 +325,28 @@ Description du composant 30.</br>
 - <a href="http://www.gibberlings3.net/tools/dltcep.php"><acronym title="Dragonlance Total Conversion Editor Pro">DLTCEP</acronym></a> de Avenger.
 - <a href="http://www.baldursgatemods.com/forums/index.php?action=downloads;sa=view;down=85">CreMaker_v3.1.9</a>.
 - <a href="https://gibberlings3.github.io/iesdp/"><acronym title="Infinity Engine Structures Description Project">IESDP</acronym></a> maintenu par igi et lynx.
-- <a href="http://www.gibberlings3.net/debug/">G3 Debugging Suite</a> de CamDawg.
-- <a href="http://www.teambg.eu/?page=tools&amp;cat=32">BAM Workshop</a> de Glenn Flansburg.
+- <a href="https://www.gibberlings3.net/mods/tools/debug/">G3 Debugging Suite</a> de CamDawg.
+- <a href="http://www.baldursgatemods.com/forums/index.php?action=downloads;sa=view;down=68">BAM Workshop</a> de Glenn Flansburg.
 - <a href="http://www.shsforums.net/topic/57564-bamworkshop/">BAMWorkshop 2</a> de Andrew Bridges.
-- <a href="http://www.shsforums.net/index.php?showtopic=42359">BAM Batcher</a> de Miloch.
+- <a href="http://www.shsforums.net/topic/42359-release-bam-batcher/">BAM Batcher</a> de Miloch.
 - <a href="https://www.adobe.com/products/photoshop.html">Adobe Photoshop</a>
-- <a href="http://www.gimp.org/"><acronym title="GNU Image Manipulation Program">GIMP</acronym></a> par l'équipe de the GIMP.
+- <a href="https://www.gimp.org/"><acronym title="GNU Image Manipulation Program">GIMP</acronym></a> par l'équipe de the GIMP.
 - <a href="http://www.gamani.com/">GIF Movie Gear</a>
 - <a href="https://www.blender.org/">Blender</a> par la Fondation Blender.
 - <a href="https://www.autodesk.com/products/3ds-max/overview">3ds Max</a>
 - <a href="http://notepad-plus-plus.org/">Notepad++</a> par l'équipe de Notepad++, Don Ho, et le plug-in de correction orthographique.
 - <a href="http://www.shsforums.net/files/file/1048-weidu-highlighter-for-notepad/">WeiDU Notepad++ Highlighters </a> de Argent77.
-- <a href="http://www.context.cx/">ConTEXT Text Editor</a> de Eden Kirin.
+- <a href="https://www.filecroco.com/download-context/">ConTEXT Text Editor</a> de Eden Kirin.
 - <a href="https://www.gibberlings3.net/mods/tools/weidu/">WeiDU ConTEXT Highlighters </a> de Idobek, mis à jour par cmorgan.
 - <a href="http://www.editpadpro.com/editpadclassic.html">EditPad Classic</a> de Jan Goyvaerts.
 - <a href="http://www.pspad.com/en/">PSPad</a> de Jan Fiala.
-- <a href="http://www.bulkrenameutility.co.uk/">Bulk Rename Utility</a> de TGRMN Software.
+- <a href="https://www.bulkrenameutility.co.uk/">Bulk Rename Utility</a> de TGRMN Software.
 
 ## 
 
 #### Information sur les droits d'auteur
 
-Libre à vous de choisir la formule et la présentation qui vous conviennent :
+Libre à vous de choisir la formule qui vous convient :
 
 ###### MYMOD n'est pas développé, supporté ni approuvé par BioWare&trade; ou Interplay/Black Isle, Overhaul, Beamdog ou Wizards of the Coast. Il a été développé par AUTEUR, et est basé sur le jeu Baldur's Gate II et son extension.
 ###### Tout le contenu du mod appartient à &copy;AUTEUR.
@@ -327,7 +375,7 @@ Libre à vous de choisir la formule et la présentation qui vous conviennent :
 #### Version 5.0.0 (29 avril 2020)
 
 - Modifications générales (fichiers .html et .md) :
-  - Correction des derniers typos (enfin, je l'espère).
+  - Correction des derniers typos (enfin, je l'espère). :wink:
   - Externalisation des paramètres de style dans les fichiers *style_lcc.css* et *style_lcc_bg2.css*.
   - Externalisation du code javascript dans le fichier *script_astuce.js*.
    - Skin BG2 : ajout d'une infobulle personnalisée en remplacement de la balise `acronym`.
@@ -336,7 +384,7 @@ Libre à vous de choisir la formule et la présentation qui vous conviennent :
   - Section Installation : Remplacement de l'outil *modmerge* par *DLC Merger* et ré-écriture de la procédure d'installation linux (merci à Fossy et à vv221 !).
   - Section Crédits et remerciements : Ajout de la Creative Commons License.
 - Fichiers readme-lcc.html :
-  - Ajout d'une version dotée de la nouvelle skin BG2 de LCC (&#9888;&#65039; : **_n'oubliez-pas de supprimer le suffixe *bg2* aux fichiers .html, ainsi que dans les liens qu'ils contiennent pour passer de la verions franàaise à la version anglaise, et lycée de Versailles_**).
+  - Ajout d'une version dotée de la nouvelle skin BG2 de LCC (&#9888;&#65039; : **_n'oubliez-pas de supprimer le suffixe *bg2* aux fichiers .html, ainsi que dans les liens qu'ils contiennent pour passer de la version française à la version anglaise, et lycée de Versailles_**.
   - Ajout des captures d'écran superposées.
   - Reformatage de nombreuses sections.
 - Fichiers readme.md :
