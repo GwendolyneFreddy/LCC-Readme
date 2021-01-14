@@ -4,7 +4,7 @@
 ![Platform](https://img.shields.io/static/v1?label=platform&message=windows%20%7C%20Mac%20%7C%20linux&color=informational)
 ![Language](https://img.shields.io/static/v1?label=langues&message=Anglais%20%7C%20Français&color=limegreen)
 ![GitHub release (latest by date)](https://img.shields.io/github/downloads/gwendolynefreddy/lcc-readme/latest/total?color=gold&label=téléchargements) <span style="padding-top:-2 px">(sur</span> ![GitHub all releases](https://img.shields.io/github/downloads/gwendolynefreddy/lcc-readme/total?label=total&color=yellow)<span style="vertical-align:'middle">)</span>
-<a href="README_EN.md"><img align="right" src="images/uk-flag-32.png" title="English Readme"></a>
+<a href="README_EN.md"><img align="right" src="mymod/readme/images/uk-flag-32.png" title="English Readme"></a>
 
 
 <div align="center"><h1>Mymod</h1>
@@ -288,8 +288,8 @@ Description du composant bloblo.</br>
 ## <a name="images" id="images"></a>Captures d'écran
 
 #### Exemples basiques de fichiers images que l'on peut afficher (tirés du mod BuTcHeRy).
-<img src="images/baldr000.jpg">
-<img src="images/baldr001.jpg"></br>
+<img src="mymod/readme/images/baldr000.jpg">
+<img src="mymod/readme/images/baldr001.jpg"></br>
 <div align="right"><a href="#top">Retour en haut de page</a></div>
 
 
@@ -362,9 +362,9 @@ Libre à vous de choisir la formule qui vous convient :
 
 ###### S'il existe des problèmes de droits d'auteur ou si cette déclaration nécessite une révision, veuillez me contacter et conseillez-moi sur ce qu'il faut faire à ce sujet. Plus particulièrement, si vous trouvez dans ce mod des illustrations susceptibles d'être en conflit avec les règles de droit d'auteur, merci de bien vouloir me le faire savoir dès que possible et je supprimerai immédiatement le contenu en conflit.
 
-###### <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US"><img align="left" alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png" /></a> Ce module (y compris l'intégralité du code et de la documentation) est déposé sous la licence <a href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>. Vous êtes libre de partager (copier, distribuer et transmettre) et de modifier (adapter) ce travail, sauf à des fins commerciales. Pour plus de détails, consultez la licence <a href="http://creativecommons.org/licenses/by-nc/3.0/legalcode">Creative Commons Public License</a>. Veuillez informer les auteurs de tout changement ou toute mise à jour du mod sur le <a href="https://www.baldursgateworld.fr/lacouronne/mymod/">forum</a> du mod. 
+###### <a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/deed.en_US"><img align="left" alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png" /></a> Ce module (y compris l'intégralité du code et de la documentation) est déposé sous la licence <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.en_US">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>. Vous êtes libre de partager (copier, distribuer et transmettre) et de modifier (adapter) ce travail, sauf à des fins commerciales. Pour plus de détails, consultez la licence <a href="https://creativecommons.org/licenses/by-nc/3.0/legalcode">Creative Commons Public License</a>. Veuillez informer les auteurs de tout changement ou toute mise à jour du mod sur le <a href="https://www.baldursgateworld.fr/lacouronne/mymod/">forum</a> du mod. 
 
-###### <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png" /></a> Mymod n'est pas développé, supporté ni approuvé par BioWare&trade; ou Interplay/BlackIsle, Overhaul, Beamdog ou the Wizards of the Coast. Il a été développé par AUTEUR, et est basé sur le jeu Baldur's Gate II et son extension, et est déposé sous la licence <a href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>.
+###### <a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png" /></a> Mymod n'est pas développé, supporté ni approuvé par BioWare&trade; ou Interplay/BlackIsle, Overhaul, Beamdog ou the Wizards of the Coast. Il a été développé par AUTEUR, et est basé sur le jeu Baldur's Gate II et son extension, et est déposé sous la licence <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.en_US">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>.
 
 ###### La communauté de modding sur le moteur Infinity Engine a été très active depuis plus de quinze ans maintenant, et a produit des milliers d'heures de travail non rémunérées effectuées par des fans du jeu. Les moddeurs s'efforcent de publier le meilleur de leur travail, et les joueurs bénéficient des mods les plus performants et les mieux maintenus, à condition que nous travaillions tous dans le même sens.
 ###### Mais cette harmonie peut malheureusement être perturbée, principalement par deux comportements. Le premier, c'est de revendiquer le travail de quelqu'un d'autre. Le second consiste à héberger et à redistribuer un mod sans la permission de son(es) auteur(s).
@@ -384,7 +384,8 @@ Libre à vous de choisir la formule qui vous convient :
 #### Version 6.0.0 &nbsp;(14 janvier 2021)
 
 &#9755; <ins>Modifications générales (fichiers .html et .md) :</ins>
-  - ...
+  - Création du dossier :file_folder: mymod.
+  - Modification du nom des fichiers .ini et ajout de modèles dans le dossier :file_folder: /mymod.
   - Correction de typos.
   - Ajouts de lignes de séparations manquantes.
   - Mise à jour des liens obsolètes.

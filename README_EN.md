@@ -4,7 +4,7 @@
 ![Platform](https://img.shields.io/static/v1?label=platform&message=windows%20%7C%20Mac%20%7C%20linux&color=informational)
 ![Language](https://img.shields.io/static/v1?label=language&message=English%20%7C%20French&color=limegreen)
 ![GitHub release (latest by date)](https://img.shields.io/github/downloads/gwendolynefreddy/lcc-readme/latest/total?color=gold) (out of ![GitHub all releases](https://img.shields.io/github/downloads/gwendolynefreddy/lcc-readme/total?label=total&color=yellow))
-<a href="README.md"><img align="right" src="images/fr-flag-32.png" title="Readme français"></a>
+<a href="README.md"><img align="right" src="mymod/readme/images/fr-flag-32.png" title="Readme français"></a>
 
 
 <div align="center"><h1>Mymod</h1>
@@ -287,8 +287,8 @@ Component bloblo description.
 ## <a name="images" id="images"></a>Screenshots
 
 #### Exemples basiques de fichiers images que l'on peut afficher (tirés du mod BuTcHeRy).
-<img src="images/baldr000.jpg">
-<img src="images/baldr001.jpg"></br>
+<img src="mymod/readme/images/baldr000.jpg">
+<img src="mymod/readme/images/baldr001.jpg"></br>
 <div align="right"><a href="#top">Back to top</a></div>
 
 
@@ -361,9 +361,9 @@ Libre à vous de choisir la formule qui vous convient :
 
 ###### If there are any copyright issues or this statement needs revision, then please contact me and advise me what to do about it. Most notably, if you see any artwork in this mod that might conflict with Copyright rules, please let me know as soon as possible, and I will remove the conflicting content immediately.
 
-###### <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US"><img align="left" alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png" /></a> Mymod is not developed, supported, or endorsed by BioWare&trade; or Interplay/BlackIsle, Overhaul, Beamdog or the Wizards of the Coast. It was developed by Auteur, based on material from the game Baldur's Gate II and its expansion, and is licensed under a <a href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>.
+###### <a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/deed.en_US"><img align="left" alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png" /></a> This work (including all code and documentation) is licensed under a <a href="https://creativecommons.org/licenses/by-nc/3.0/">Creative Commons Attribution-Noncommercial 3.0 Unported License</a>. You are free to share (copy, distribute and transmit) and to remix (adapt) this work, except for commercial purposes. See the <a href="https://creativecommons.org/licenses/by-nc/3.0/legalcode">Creative Commons Public License</a> for more details. Please post any changes or updates at the mod's <a href="https://www.baldursgateworld.fr/lacouronne/mymod/">forum</a>.
 
-###### <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US"><img align="left" alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png" /></a> This work (including all code and documentation) is licensed under a <a href="http://creativecommons.org/licenses/by-nc/3.0/">Creative Commons Attribution-Noncommercial 3.0 Unported License</a>. You are free to share (copy, distribute and transmit) and to remix (adapt) this work, except for commercial purposes. See the <a href="http://creativecommons.org/licenses/by-nc/3.0/legalcode">Creative Commons Public License</a> for more details. Please post any changes or updates at the mod's <a href="https://www.baldursgateworld.fr/lacouronne/mymod/">forum</a>.
+###### <a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/deed.en_US"><img align="left" alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png" /></a> Mymod is not developed, supported, or endorsed by BioWare&trade; or Interplay/BlackIsle, Overhaul, Beamdog or the Wizards of the Coast. It was developed by Auteur, based on material from the game Baldur's Gate II and its expansion, and is licensed under a <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.en_US">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>.
 
 ###### The modding community for the Infinity Engine has been going strong for more than 10 years now, and is the culmination of thousands of unpaid modding hours by fellow fans of the game. Modders produce their best work and players get the best, well-supported mods when we all work together.
 ###### There are two big ways to upset this harmony. One is to claim someone else's work as your own. The second is to host and redistribute a mod without permission from the author(s).

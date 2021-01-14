@@ -8,6 +8,8 @@ body {
 	background: #000 url('../images/bg_lcc2.png');
 }
 
+/* NOTE : la couleur Goldenrod (#DAA520) remplace #FFCC33 (le doré flashy de la présentation classique) */
+
 
 /* --------- *
  *  En-tête  *
@@ -28,9 +30,9 @@ body {
 	text-align: center;
 /*	background: #303030;*/
 	background-image: linear-gradient(#666666, #040404);
-	border: 1px solid #FFCC33;
-	border-top: 5px solid #FFCC33;
-	border-bottom: 5px solid #FFCC33;
+	border: 1px solid Goldenrod;
+	border-top: 5px solid Goldenrod;
+	border-bottom: 5px solid Goldenrod;
 	padding: 5px 0 13px 0;
 	height: 310px;
 	border-radius: 3px 4px 3px 3px;
@@ -66,7 +68,7 @@ body {
 	margin: 0;
 	margin-top: 20px;
 	text-align: center;
-	color: #FFCC33;
+	color: Goldenrod;
 	background-repeat: repeat-x;
 	background: url("../images/degrade_titre.png");
 	border-radius: 3px 4px 3px 3px;
@@ -74,6 +76,7 @@ body {
 	line-height: 400%;
 	vertical-align:middle;
 }
+
 #menu a:link, #menu a:visited {}
 #menu a:focus, #menu a:hover {
 	text-decoration: none;
@@ -94,11 +97,12 @@ body {
 #maindiv .content {
 	color: #deded9;
 	background-color: #5F5F5F;
+	background: url("../images/fond_descr_forum.jpg");
 	padding: 0 0 25px 0;
 	margin: 50px auto;
 	border-width: 1px 1px 4px 10px;
 	border-style: solid;
-	border-color: #FFBF00;
+	border-color: #655949;/*#96846e;*/
 	position: relative;
 	border-radius: 4px 4px 4px 5px;
 	box-shadow: 8px 8px 15px black;
@@ -112,11 +116,11 @@ body {
 /*	background-color: #F1F1F1;*/
 	border-width: 1px 4px 1px 4px;
 	border-style: solid;
-	border-color: #FFBF00;
-/*	border-top: solid 1px #FFBF00;
-	border-bottom: solid 1px #FFBF00;
-	border-left: solid 6px #FFBF00;
-	border-right: solid 6px #FFBF00;
+	border-color: Goldenrod;
+/*	border-top: solid 1px Goldenrod;
+	border-bottom: solid 1px Goldenrod;
+	border-left: solid 6px Goldenrod;
+	border-right: solid 6px Goldenrod;
 */	padding: 10px;
 	margin: 10px auto;
 	width: 80%;
@@ -160,8 +164,8 @@ body {
 	font-style: normal;
 	font-weight: bold;
 	text-decoration: none;
-	color: #303030;
-	background-color: #FFBF00;
+	color: Goldenrod;
+	background-color: #655949;
 	padding: 3px 0px 0px;
 	margin: 0px;
 	width: 100%;
@@ -175,13 +179,13 @@ body {
 	font-weight: bold;
 	text-decoration: underline;
 	background-color: transparent;
-	color: #000 !important;
+	color: #D1D1D1 !important;
 	padding-right: 5px;
 	padding-left: 6px;
 }
 #maindiv address a:focus, #maindiv address a:hover {
 	text-decoration: none;
-	color: #000;
+	color: #D1D1D1;
 }
 
 
@@ -203,7 +207,7 @@ body {
 #maindiv p.boxed {
 	border-style: solid;
 	border-width: 1px;
-	border-color: #FFCC33;
+	border-color: Goldenrod;
 	margin-top: 32px;
 	padding: 6px;
 }
@@ -253,8 +257,8 @@ body {
 	font-weight: bold;
 	padding-top: 3px;
 	padding-bottom: 3px;
-	border-bottom: solid 1px #FFCC33;
-	border-top: solid 1px #FFCC33;
+	border-bottom: solid 1px Goldenrod;
+	border-top: solid 1px Goldenrod;
 }
 
 
@@ -263,7 +267,7 @@ body {
  * ---------------- */
 a:link,
 a:visited {
-	color: #FFCC33;
+	color: Goldenrod;
 	/*font-weight: bold; */
 	text-decoration: none;
 }
@@ -280,8 +284,8 @@ a:hover {
 h1 {
 	line-height: 170%;
 	font-size: 225%;
-	color: #FFCC33; /*5F5F5F
-	padding: 5px 0 5px 0;*/
+	color: Goldenrod;
+/*	padding: 5px 0 5px 0;*/
 	margin: 0;
 	width: 100%;
 }
@@ -294,17 +298,27 @@ h2 {
 	text-indent: 30px;
 	padding: 0px;
 	margin: 20px 0 0 0;
-	border-bottom: dotted 2px #d0d0d0;
-	background: #303030;
+	border-top: dotted 2px #96846e;
+	border-bottom: dotted 2px #96846e;
+/*	background: #303030; */
 	font-size: 160%;
 }
+h2.background {
+	background-repeat: repeat-x;
+	background: url("../images/fond_entete_forum.jpg");
+}
+h2.backgroundcomp {
+	line-height: 150%;
+	background-repeat: repeat-x;
+	background: url("../images/fond_compon.jpg");
+}
 h2::first-letter {
-	color: #FFCC33;
+	color: Goldenrod;
 	background-color: transparent;
 }
 
 h2 .com {
-	color: #FFCC33;
+	color: Goldenrod;
 	background-color: transparent;
 	margin-left:40px;
 	margin-right:30px;
@@ -338,7 +352,7 @@ h6 {
 }
 
 .com {
-	color: #FFCC33;
+	color: Goldenrod;
 	background-color: transparent;
 	margin-right:30px;
 	}
@@ -354,11 +368,11 @@ h6 {
 	background-color: black;
 	color: #deded9;
 }
+
 .tp2 {
 	font-family: Courier New;
 	font-size: 100%;
 }
-
 
 /* --------------------- *
  * Image-logo d'en-tête  *
@@ -378,7 +392,7 @@ img.image_left {
 	-moz-transition: opacity 1.25s ease-in-out;
 	-webkit-transition: opacity 1.25s ease-in-out;
 }
-.screen img:hover{border-style:none;max-width:100%; opacity:0}
+.screen img:hover{max-width:100%; opacity:0}
 
 
 /*  ------------ *
@@ -392,8 +406,8 @@ hr {
 	/*padding: 0; */
 	height: 1px;
 	border: 0;
-	color: #FFCC33;
-	background-color: #FFCC33;
+	color: Goldenrod;
+	background-color: Goldenrod;
 }
 
 
@@ -419,14 +433,14 @@ td, th {
 	border: 1px solid #aaa;
 }
 th {
-	background-color: #303030;/*#000099;*/
+	background-color: #303030; /**#000099;*/
 	/*color: #fff;*/
 	font-weight: bold;
 /*	border:none;*/
 }
 /*tr {)*/
 
-.leftalign, table.leftalign tr th, table.leftalign tr td (
+.leftalign, table.leftalign tr th, table.leftalign tr td {
 	text-align: left;
 }
 
@@ -434,24 +448,47 @@ th {
 /* ------------ *
  *  Info-bulle  *
  * ------------ */ 
-
-/*a.tooltip span{
-	visibility: hidden;
-	position: absolute;
-	bottom: 30px;
-	left: 50%;
-	z-index: 999;
-	padding: 10px;
-	border: 2px solid #ccc;
-	background-color: #5e584e;
-	background-image: -webkit-linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,0));
-	background-image: -moz-linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,0));
-	background-image: -ms-linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,0));
-	background-image: -o-linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,0));
-	background-image: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,0));
-	-moz-border-radius: 4px;
-	border-radius: 4px;
-	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.4), 0 1px 0 rgba(255,255,255,.5) inset;
-	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.4), 0 1px 0 rgba(255,255,255,.5) inset;
+a.infobulle {
+	position: relative;  /*les .infobulles deviennent référentes*/
+	cursor: help;
+	text-decoration: none;
+	color: #deded9;
+	border-bottom: 1px #deded9 dotted; /* On souligne le texte. */
 }
-*/
+
+/* on génère un élément :after lors du survol et du focus :*/
+a.infobulle:hover::after,
+a.infobulle:focus::after {
+	content: attr(aria-label);  /* on affiche aria-label */
+	font-size: 80%;
+	position: absolute;
+	top: -3.2em;
+	left: 50%;
+	transform: translateX(-50%); /* on centre horizontalement */
+	z-index: 1; /* pour s'afficher au dessus des éléments en position relative */
+	white-space: nowrap;  /* on interdit le retour à la ligne */
+	padding: 3px 8px;
+	background: #5e584e;
+	border: 1px solid Goldenrod;
+	border-radius: 4px;
+}
+
+/* on génère un second élément en :before pour la flèche */
+[aria-label]:hover::before,
+[aria-label]:focus::before {
+	content: "";
+	position: absolute;
+	top: -0.55em;
+	left: 50%;
+	transform: translateX(-50%); /* on centre horizontalement  */
+	border-top: 8px solid Goldenrod;
+	border-left: 8px solid transparent;
+	border-right: 8px solid transparent;
+/*	color: #413219;*/
+}
+
+/* pas de contour durant le :focus */
+[aria-label]:focus {
+	outline: none;
+}
+
