@@ -68,11 +68,11 @@ Deux listes de codes de smileys et d'emoji utilisables par markdown :
 
 </p><br>
 </details>
-<div align="right"><a href="#top">Back to top</a></div>
 
 &nbsp;
 
 &#9755; **Note:** If you want to use more complex formating, please have a look <a href="https://github.com/GwendolyneFreddy/Infinity-Animations">here</a> and <a href="https://github.com/SpellholdStudios/1pp">there</a>.<br>
+<div align="right"><a href="#top">Back to top</a></div>
 
 
 <hr>
