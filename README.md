@@ -1,8 +1,9 @@
 
 ![Latest Release](https://img.shields.io/github/v/release/gwendolynefreddy/lcc-readme?include_prereleases&color=gold)<a name="top" id="top">
 ![Latest Release](https://img.shields.io/static/v1?label=version&message=v4.0.0&color=gold)
-![Platform](https://img.shields.io/static/v1?label=plateforme&message=windows&color=informational)
+![Platform](https://img.shields.io/static/v1?label=platform&message=windows%20%7C%20linux&color=informational)
 ![Language](https://img.shields.io/static/v1?label=langues&message=Anglais%20%7C%20Français%20&color=limegreen)
+<a href="README_EN.md"><img align="right" src="mymod/readme/images/uk-flag-32.png" title="English Readme"></a>
 
 
 <div align="center"><h1>Mymod</h1>
@@ -13,12 +14,11 @@
 
 
 **Auteur(e) :** <a href="https://www.baldursgateworld.fr/lacouronne/Auteur.html">bibi</a>  
-**Langues :** français, <a href="README_EN.md">anglais</a>  
 **Forum du mod :** <a href="https://www.baldursgateworld.fr/lacouronne/mymod/">Mymod</a>  
 
 ## 
 
-[Read the mod's readme]()
+[Read the mod's readme](https://gwendolynefreddy.github.io/docs/lcc/readme-lcc-fr.html)
 
 [Download the mod at La Couronne de Cuivre]()<br>
 
@@ -44,6 +44,7 @@ Pour chaque section, j'ai repris, chaque fois que c'était possible, des éléments
 
 Malheureusement, le rendu d'un fichier .md n'est véritablement effectif que dans GitHub, ce qui ne vous permet pas de visualiser votre mise en page dans Notepad++. Il existe cependant plusieurs utilitaires vous permettant de les éditer et de visualiser partiellement vos modifications. Partiellement parce que certaines balises comme [br (break line)] apparaissent à l'écran MÊME si elles resteront invisibles dans GitHub. Personnellement, j'ai opté pour <a href="https://typora.io/">Typora</a>, mais il en existe d'autres.<br>
 
+&nbsp;
 
 **Contenu :**
 - Principal contenu #1
@@ -52,8 +53,7 @@ Malheureusement, le rendu d'un fichier .md n'est véritablement effectif que dans
 - Principal contenu #4
 - ...
 
-&#9755; **Note :** Si vous souhaitez utiliser des modèles de page plus complexes, veuillez consulter <a href="https://github.com/GwendolyneFreddy/Infinity-Animations">celle-ci</a> et <a href="https://github.com/SpellholdStudios/1pp">celle-là</a>.<br>
-
+&nbsp;
 
 <details><summary>CLIQUER</summary>
 <p>
@@ -69,6 +69,10 @@ Deux listes de codes de smileys et d'emoji utilisables par markdown :
 </p><br>
 </details>
 <div align="right"><a href="#top">Retour en haut de page</a></div>
+
+&nbsp;
+
+&#9755; **Note :** Si vous souhaitez utiliser des modèles de page plus complexes, veuillez consulter <a href="https://github.com/GwendolyneFreddy/Infinity-Animations">celle-ci</a> et <a href="https://github.com/SpellholdStudios/1pp">celle-là</a>.<br>
 
 
 <hr>
@@ -348,7 +352,7 @@ Description du composant bloblo.</br>
 
 Libre à vous de choisir la formule qui vous convient :
 
-###### MYMOD n'est pas développé, supporté ni approuvé par BioWare&trade; ou Interplay/Black Isle, Overhaul, Beamdog ou Wizards of the Coast. Il a été développé par AUTEUR, et est basé sur le jeu Baldur's Gate II et son extension.
+###### Mymod n'est pas développé, supporté ni approuvé par BioWare&trade; ou Interplay/Black Isle, Overhaul, Beamdog ou Wizards of the Coast. Il a été développé par AUTEUR, et est basé sur le jeu Baldur's Gate II et son extension.
 ###### Tout le contenu du mod appartient à &copy;AUTEUR.
 ###### Baldur's Gate II : Les Ombres d'Amn et Baldur's Gate II : Trône de Bhaal appartiennent à &copy; TSR, Inc. Le moteur Infinity Engine appartient à &copy; BioWare Corp. Toutes les autres marques et droits d'auteur appartiennent à leurs propriétaires respectifs.
 
@@ -357,7 +361,9 @@ Libre à vous de choisir la formule qui vous convient :
 
 ###### S'il existe des problèmes de droits d'auteur ou si cette déclaration nécessite une révision, veuillez me contacter et conseillez-moi sur ce qu'il faut faire à ce sujet. Plus particulièrement, si vous trouvez dans ce mod des illustrations susceptibles d'être en conflit avec les règles de droit d'auteur, merci de bien vouloir me le faire savoir dès que possible et je supprimerai immédiatement le contenu en conflit.
 
-###### <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png" /></a> MYMOD n'est pas développé, supporté ni approuvé par BioWare&trade; ou Interplay/BlackIsle, Overhaul, Beamdog ou the Wizards of the Coast. Il a été développé par AUTEUR, et est basé sur le jeu Baldur's Gate II et son extension, et est déposé sous la licence <a href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>.
+###### <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US"><img align="left" alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png" /></a> Ce module (y compris l'intégralité du code et de la documentation) est déposé sous la licence <a href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>. Vous êtes libre de partager (copier, distribuer et transmettre) et de modifier (adapter) ce travail, sauf à des fins commerciales. Pour plus de détails, consultez la licence <a href="http://creativecommons.org/licenses/by-nc/3.0/legalcode">Creative Commons Public License</a>. Veuillez informer les auteurs de tout changement ou toute mise à jour du mod sur le <a href="https://www.baldursgateworld.fr/lacouronne/mymod/">forum</a> du mod. 
+
+###### <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png" /></a> Mymod n'est pas développé, supporté ni approuvé par BioWare&trade; ou Interplay/BlackIsle, Overhaul, Beamdog ou the Wizards of the Coast. Il a été développé par AUTEUR, et est basé sur le jeu Baldur's Gate II et son extension, et est déposé sous la licence <a href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>.
 
 ###### La communauté de modding sur le moteur Infinity Engine a été très active depuis plus de quinze ans maintenant, et a produit des milliers d'heures de travail non rémunérées effectuées par des fans du jeu. Les moddeurs s'efforcent de publier le meilleur de leur travail, et les joueurs bénéficient des mods les plus performants et les mieux maintenus, à condition que nous travaillions tous dans le même sens.
 ###### Mais cette harmonie peut malheureusement être perturbée, principalement par deux comportements. Le premier, c'est de revendiquer le travail de quelqu'un d'autre. Le second consiste à héberger et à redistribuer un mod sans la permission de son(es) auteur(s).
@@ -384,7 +390,7 @@ Libre à vous de choisir la formule qui vous convient :
   - Section Installation : Remplacement de l'outil *modmerge* par *DLC Merger* et ré-écriture de la procédure d'installation linux (merci à Fossy et à vv221 !).
   - Section Crédits et remerciements : Ajout de la Creative Commons License.
 - Fichiers readme-lcc.html :
-  - Ajout d'une version dotée de la nouvelle skin BG2 de LCC (&#9888;&#65039; : **_n'oubliez-pas de supprimer le suffixe *bg2* aux fichiers .html, ainsi que dans les liens qu'ils contiennent pour passer de la version française à la version anglaise, et lycée de Versailles_**.
+  - Ajout d'une version dotée de la nouvelle skin BG2 de LCC (&#9888;&#65039; : **_n'oubliez-pas de supprimer le suffixe "bg2" aux fichiers .html, ainsi que dans les liens qu'ils contiennent pour passer de la version française à la version anglaise, et lycée de Versailles_**.
   - Ajout des captures d'écran superposées.
   - Reformatage de nombreuses sections.
 - Fichiers readme.md :

@@ -1,8 +1,9 @@
 
 ![Latest Release](https://img.shields.io/github/v/release/gwendolynefreddy/lcc-readme?include_prereleases&color=gold)<a name="top" id="top">
 ![Latest Release](https://img.shields.io/static/v1?label=version&message=v4.0.0&color=gold)
-![Platform](https://img.shields.io/static/v1?label=platform&message=windows&color=informational)
+![Platform](https://img.shields.io/static/v1?label=platform&message=windows%20%7C%20linux&color=informational)
 ![Language](https://img.shields.io/static/v1?label=language&message=English%20%7C%20French%20&color=limegreen)
+<a href="README.md"><img align="right" src="mymod/readme/images/fr-flag-32.png" title="Readme français"></a>
 
 
 <div align="center"><h1>Mymod</h1>
@@ -18,7 +19,7 @@
 
 ## 
 
-[Read the mod's readme]()
+[Read the mod's readme](https://gwendolynefreddy.github.io/docs/lcc/readme-lcc-en.html)
 
 [Download the mod at La Couronne de Cuivre]()<br>
 
@@ -43,6 +44,8 @@ Pour chaque section, j'ai repris, chaque fois que c'était possible, des éléments
 
 Malheureusement, le rendu d'un fichier .md n'est véritablement effectif que dans GitHub, ce qui ne vous permet pas de visualiser votre mise en page dans Notepad++. Il existe cependant plusieurs utilitaires vous permettant de les éditer et de visualiser partiellement vos modifications. Partiellement parce que certaines balises comme [br (break line)] apparaissent à l'écran MÊME si elles resteront invisibles dans GitHub. Personnellement, j'ai opté pour <a href="https://typora.io/">Typora</a>, mais il en existe d'autres.<br>
 
+&nbsp;
+
 **Key features:**
 - Feature #1
 - Feature #2
@@ -50,9 +53,7 @@ Malheureusement, le rendu d'un fichier .md n'est véritablement effectif que dans
 - Feature #4
 - ...
 
-&#9755; **Note:** If you want to use more complex formating, please have a look <a href="https://github.com/GwendolyneFreddy/Infinity-Animations">here</a> and <a href="https://github.com/SpellholdStudios/1pp">there</a>.<br>
-
-
+&nbsp;
 
 <details><summary>CLICK ME</summary>
 <p>
@@ -68,6 +69,10 @@ Deux listes de codes de smileys et d'emoji utilisables par markdown :
 </p><br>
 </details>
 <div align="right"><a href="#top">Back to top</a></div>
+
+&nbsp;
+
+&#9755; **Note:** If you want to use more complex formating, please have a look <a href="https://github.com/GwendolyneFreddy/Infinity-Animations">here</a> and <a href="https://github.com/SpellholdStudios/1pp">there</a>.<br>
 
 
 <hr>
@@ -357,7 +362,7 @@ Libre à vous de choisir la formule qui vous convient :
 
 ###### <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US"><img align="left" alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png" /></a> Mymod is not developed, supported, or endorsed by BioWare&trade; or Interplay/BlackIsle, Overhaul, Beamdog or the Wizards of the Coast. It was developed by Auteur, based on material from the game Baldur's Gate II and its expansion, and is licensed under a <a href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>.
 
-###### <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US"><img align="left" alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png" /></a> This work (including all code and documentation) is licensed under a <a href="http://creativecommons.org/licenses/by-nc/3.0/">Creative Commons Attribution-Noncommercial 3.0 Unported License</a>. You are free to share (copy, distribute and transmit) and to remix (adapt) this work, except for commercial purposes. See the <a href="http://creativecommons.org/licenses/by-nc/3.0/legalcode">Creative Commons Public License</a> for more details. Please post any changes or updates at the mod's <a href="">forum</a>.
+###### <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US"><img align="left" alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png" /></a> This work (including all code and documentation) is licensed under a <a href="http://creativecommons.org/licenses/by-nc/3.0/">Creative Commons Attribution-Noncommercial 3.0 Unported License</a>. You are free to share (copy, distribute and transmit) and to remix (adapt) this work, except for commercial purposes. See the <a href="http://creativecommons.org/licenses/by-nc/3.0/legalcode">Creative Commons Public License</a> for more details. Please post any changes or updates at the mod's <a href="https://www.baldursgateworld.fr/lacouronne/mymod/">forum</a>.
 
 ###### The modding community for the Infinity Engine has been going strong for more than 10 years now, and is the culmination of thousands of unpaid modding hours by fellow fans of the game. Modders produce their best work and players get the best, well-supported mods when we all work together.
 ###### There are two big ways to upset this harmony. One is to claim someone else's work as your own. The second is to host and redistribute a mod without permission from the author(s).
@@ -370,7 +375,7 @@ Libre à vous de choisir la formule qui vous convient :
 
 ## <a name="versions" id="versions"></a>Version History
 
-#### Version 2.0.0 (Mois jour, 201x)
+#### Version 2.0.0 (Mois jour, 202x)
 
 - modification niveau 1
   - modification niveau 2
@@ -380,7 +385,7 @@ Libre à vous de choisir la formule qui vous convient :
 
 ## 
 
-#### Version beta 1.0.0 (Mois jour, 201x)
+#### Version beta 1.0.0 (Mois jour, 202x)
 
 - Initial release.
 <div align="right"><a href="#top">Back to top</a></div>
