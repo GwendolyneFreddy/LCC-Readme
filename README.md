@@ -3,9 +3,9 @@
 ![Latest Release](https://img.shields.io/static/v1?label=version&message=v4.0.0&color=gold)
 ![Platform](https://img.shields.io/static/v1?label=platform&message=windows%20%7C%20Mac%20%7C%20linux&color=informational)
 ![Language](https://img.shields.io/static/v1?label=langues&message=Anglais%20%7C%20Français&color=limegreen)
-![GitHub release (latest by date)](https://img.shields.io/github/downloads/gwendolynefreddy/lcc-readme/latest/total?color=gold&label=téléchargements) (sur ![GitHub all releases](https://img.shields.io/github/downloads/gwendolynefreddy/lcc-readme/total?label=total?color=yellow))
+![GitHub release (latest by date)](https://img.shields.io/github/downloads/gwendolynefreddy/lcc-readme/latest/total?color=gold&label=téléchargements) (sur ![GitHub all releases](https://img.shields.io/github/downloads/gwendolynefreddy/lcc-readme/total?label=total&color=yellow))
 
-<a href="README_EN.md"><img align="right" src="mymod/readme/images/uk-flag-32.png" title="English Readme"></a>
+<a href="README_EN.md"><img align="right" src="images/uk-flag-32.png" title="English Readme"></a>
 
 
 <div align="center"><h1>Mymod</h1>
@@ -329,7 +329,7 @@ Description du composant bloblo.</br>
 - <a href="https://github.com/Argent77/NearInfinity/releases">Near Infinity</a> de Jon Olav Hauglid, FredSRichardson et Argent77.
 - <a href="http://www.shsforums.net/topic/31285-infinity-explorer-v085/">Infinity Explorer</a> de Dmitry Jemerov / bigmoshi.
 - <a href="http://www.gibberlings3.net/tools/dltcep.php"><acronym title="Dragonlance Total Conversion Editor Pro">DLTCEP</acronym></a> de Avenger.
-- <a href="http://www.baldursgatemods.com/forums/index.php?action=downloads;sa=view;down=85">CreMaker_v3.1.9</a>.
+- <a href="http://www.baldursgatemods.com/forums/index.php?action=downloads;sa=view;down=85">CreMaker_v3.1.9</a>
 - <a href="https://gibberlings3.github.io/iesdp/"><acronym title="Infinity Engine Structures Description Project">IESDP</acronym></a> maintenu par igi et lynx.
 - <a href="https://www.gibberlings3.net/mods/tools/debug/">G3 Debugging Suite</a> de CamDawg.
 - <a href="http://www.baldursgatemods.com/forums/index.php?action=downloads;sa=view;down=68">BAM Workshop</a> de Glenn Flansburg.
@@ -369,7 +369,7 @@ Libre à vous de choisir la formule qui vous convient :
 
 ###### La communauté de modding sur le moteur Infinity Engine a été très active depuis plus de quinze ans maintenant, et a produit des milliers d'heures de travail non rémunérées effectuées par des fans du jeu. Les moddeurs s'efforcent de publier le meilleur de leur travail, et les joueurs bénéficient des mods les plus performants et les mieux maintenus, à condition que nous travaillions tous dans le même sens.
 ###### Mais cette harmonie peut malheureusement être perturbée, principalement par deux comportements. Le premier, c'est de revendiquer le travail de quelqu'un d'autre. Le second consiste à héberger et à redistribuer un mod sans la permission de son(es) auteur(s).
-###### Soyez assez sympa avec vos collègues joueurs et moddeurs. Ne le faites pas.</br></br>
+###### Soyez assez sympa avec vos collègues joueurs et moddeurs. Ne le faites pas.</br>
 <div align="right"><a href="#top">Retour en haut de page</a></div>
 
 
@@ -378,9 +378,11 @@ Libre à vous de choisir la formule qui vous convient :
 
 ## <a name="versions" id="versions"></a>Historique des versions
 
-<p>Note du traducteur : l'historique n'est volontairement pas traduit afin de faciliter la mise à jour par l'auteur.</p>
+>&#9755; Si vous hébergez votre mod sur GitHub, vous pouvez vous gagner du temps en publiant vos archives à l'aide cet <a href="https://github.com/InfinityTools/InfinityAutoPackager">utilitaire</a>. Ce dernier crée automatiquement des archives aux formats zip et <a href="https://github.com/ALIENQuake/ProjectInfinity/wiki/Specification-of-the-IEMOD-file-format">IEMod</a> lorsque vous publiez une nouvelle version. Son utilisation est un jeu d'enfant et la plupart des mods hébergés par Spellhold Studios l'utilisent. Pour de plus amples informations, veuillez consulter <a href="https://forums.beamdog.com/discussion/78364/infinity-auto-packager-automatically-generate-and-adds-mod-packages-to-release-when-you-publish-it">ce lien</a>.<br>
 
-#### Version 5.0.0 (29 avril 2020)
+&nbsp;
+
+#### Version 5.0.0 &nbsp;(29 avril 2020)
 
 - Modifications générales (fichiers .html et .md) :
   - Correction des derniers typos (enfin, je l'espère). :wink:
@@ -400,7 +402,7 @@ Libre à vous de choisir la formule qui vous convient :
 
 ## 
 
-#### Version 4.0.0 (16 novembre 2019)
+#### Version 4.0.0 &nbsp;(16 novembre 2019)
 
 - Modifications générales (fichiers .html et .md) :
   - Correction de typos.
@@ -430,7 +432,7 @@ Libre à vous de choisir la formule qui vous convient :
 
 ## 
 
-#### Version 3.0.0 (5 février 2019)
+#### Version 3.0.0 &nbsp;(5 février 2019)
 
 - Ajout de balises spoilers dans les fichiers .html et .md.
 - Ajout d'un petit bonus dans la section Présentation du fichier .html.
@@ -438,23 +440,23 @@ Libre à vous de choisir la formule qui vous convient :
 
 ## 
 
-#### Version 2.0.0 (21 octobre 2018)
+#### Version 2.0.0 &nbsp;(21 octobre 2018)
 
 - Correction de liens erronés, de typos, et ajout de Blender dans les outils.
 - Ajout de la proposition d'Isaya pour gérer les listes à plusieurs niveaux. Je l'ai modifiée pour ajouter un niveau supplémentaire de liste.
-- Ajout de la procédure de lecture des fichiers ini qui sera utilisée par les prochains outils d'installation automatique.
+- Ajout de la procédure de lecture des fichiers .ini qui sera utilisée par les prochains outils d'installation automatique.
 - Ajout des fichiers .md pour les dépôts GitHub.
 - Ajout de plusieurs drapeaux étrangers.
 
 ## 
 
-#### Version 1.1 (15 octobre 2018)
+#### Version 1.1 &nbsp;(15 octobre 2018)
 
-- Un drapeau permet de passer du readme français à l'anglais, et lycée de Versailles.
+- Un drapeau permet de passer du readme HTML français à l'anglais, et lycée de Versailles.
 
 ## 
 
-#### Version beta 1.0 (13 octobre 2018)
+#### Version beta 1.0 &nbsp;(13 octobre 2018)
 
 - Sortie initiale.
 <div align="right"><a href="#top">Retour en haut de page</a></div>

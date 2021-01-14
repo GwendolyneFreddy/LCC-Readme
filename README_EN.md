@@ -3,8 +3,8 @@
 ![Latest Release](https://img.shields.io/static/v1?label=version&message=v4.0.0&color=gold)
 ![Platform](https://img.shields.io/static/v1?label=platform&message=windows%20%7C%20Mac%20%7C%20linux&color=informational)
 ![Language](https://img.shields.io/static/v1?label=language&message=English%20%7C%20French&color=limegreen)
-![GitHub release (latest by date)](https://img.shields.io/github/downloads/gwendolynefreddy/lcc-readme/latest/total?color=gold) (out of ![GitHub all releases](https://img.shields.io/github/downloads/gwendolynefreddy/lcc-readme/total?label=total?color=yellow))
-<a href="README.md"><img align="right" src="mymod/readme/images/fr-flag-32.png" title="Readme français"></a>
+![GitHub release (latest by date)](https://img.shields.io/github/downloads/gwendolynefreddy/lcc-readme/latest/total?color=gold) (out of ![GitHub all releases](https://img.shields.io/github/downloads/gwendolynefreddy/lcc-readme/total?label=total&color=yellow))
+<a href="README.md"><img align="right" src="images/fr-flag-32.png" title="Readme français"></a>
 
 
 <div align="center"><h1>Mymod</h1>
@@ -327,7 +327,7 @@ Component bloblo description.
 - <a href="https://github.com/Argent77/NearInfinity/releases">Near Infinity</a>, by Jon Olav Hauglid, FredSRichardson, and Argent77.
 - <a href="http://www.shsforums.net/topic/31285-infinity-explorer-v085/">Infinity Explorer</a>, by Dmitry Jemerov / bigmoshi.
 - <a href="http://www.gibberlings3.net/tools/dltcep.php"><acronym title="Dragonlance Total Conversion Editor Pro">DLTCEP</acronym></a>, by Avenger.
-- <a href="http://www.baldursgatemods.com/forums/index.php?action=downloads;sa=view;down=85">CreMaker_v3.1.9</a>.
+- <a href="http://www.baldursgatemods.com/forums/index.php?action=downloads;sa=view;down=85">CreMaker_v3.1.9</a>
 - <a href="https://gibberlings3.github.io/iesdp/"><acronym title="Infinity Engine Structures Description Project">IESDP</acronym></a>, maintained by igi and lynx.
 - <a href="https://www.gibberlings3.net/mods/tools/debug/">G3 Debugging Suite</a>, by CamDawg.
 - <a href="http://www.baldursgatemods.com/forums/index.php?action=downloads;sa=view;down=68">BAM Workshop</a>, by Glenn Flansburg.
@@ -367,7 +367,7 @@ Libre à vous de choisir la formule qui vous convient :
 
 ###### The modding community for the Infinity Engine has been going strong for more than 10 years now, and is the culmination of thousands of unpaid modding hours by fellow fans of the game. Modders produce their best work and players get the best, well-supported mods when we all work together.
 ###### There are two big ways to upset this harmony. One is to claim someone else's work as your own. The second is to host and redistribute a mod without permission from the author(s).
-###### Be kind to your fellow players and modders. Don't do either.<br><br>
+###### Be kind to your fellow players and modders. Don't do either.<br>
 <div align="right"><a href="#top">Back to top</a></div>
 
 
@@ -376,7 +376,13 @@ Libre à vous de choisir la formule qui vous convient :
 
 ## <a name="versions" id="versions"></a>Version History
 
-#### Version 2.0.0 (Mois jour, 202x)
+>&#9755; If your mod is hosted at GitHub, you can save yourself trouble of creating mod packages manually by using this <a href="https://github.com/InfinityTools/InfinityAutoPackager">tool</a>. It produces zip and <a href="https://github.com/ALIENQuake/ProjectInfinity/wiki/Specification-of-the-IEMOD-file-format">IEMod</a> packages for you when you create mod release. It is very easy to use and most SHS mods are released with it. For further documentation, please read <a href="https://forums.beamdog.com/discussion/78364/infinity-auto-packager-automatically-generate-and-adds-mod-packages-to-release-when-you-publish-it">this</a>.<br>
+
+<p>Note du traducteur : l'historique n'est volontairement pas traduit afin de faciliter la mise à jour par l'auteur.</p>
+
+&nbsp;
+
+#### Version 2.0.0 &nbsp;(Mois jour, 202x)
 
 - modification niveau 1
   - modification niveau 2
@@ -386,7 +392,7 @@ Libre à vous de choisir la formule qui vous convient :
 
 ## 
 
-#### Version beta 1.0.0 (Mois jour, 202x)
+#### Version beta 1.0.0 &nbsp;(Mois jour, 202x)
 
 - Initial release.
 <div align="right"><a href="#top">Back to top</a></div>
