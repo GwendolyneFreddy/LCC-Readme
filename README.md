@@ -3,7 +3,7 @@
 ![Latest Release](https://img.shields.io/static/v1?label=version&message=v4.0.0&color=gold)
 ![Platform](https://img.shields.io/static/v1?label=platform&message=windows%20%7C%20Mac%20%7C%20linux&color=informational)
 ![Language](https://img.shields.io/static/v1?label=langues&message=Anglais%20%7C%20Français&color=limegreen)
-![GitHub release (latest by date)](https://img.shields.io/github/downloads/gwendolynefreddy/lcc-readme/latest/total?color=gold&label=téléchargements) <span style="vertical-align:middle">(sur</span> ![GitHub all releases](https://img.shields.io/github/downloads/gwendolynefreddy/lcc-readme/total?label=total&color=yellow)<span style="vertical-align:'middle">)</span>
+![GitHub release (latest by date)](https://img.shields.io/github/downloads/gwendolynefreddy/lcc-readme/latest/total?color=gold&label=téléchargements) <span style="paddung-top:-2 px">(sur</span> ![GitHub all releases](https://img.shields.io/github/downloads/gwendolynefreddy/lcc-readme/total?label=total&color=yellow)<span style="vertical-align:'middle">)</span>
 <a href="README_EN.md"><img align="right" src="images/uk-flag-32.png" title="English Readme"></a>
 
 
@@ -380,6 +380,52 @@ Libre à vous de choisir la formule qui vous convient :
 >&#9755; Si vous hébergez votre mod sur GitHub, vous pouvez vous gagner du temps en publiant vos archives à l'aide cet <a href="https://github.com/InfinityTools/InfinityAutoPackager">utilitaire</a>. Ce dernier crée automatiquement des archives aux formats zip et <a href="https://github.com/ALIENQuake/ProjectInfinity/wiki/Specification-of-the-IEMOD-file-format">IEMod</a> lorsque vous publiez une nouvelle version. Son utilisation est un jeu d'enfant et la plupart des mods hébergés par Spellhold Studios l'utilisent. Pour de plus amples informations, veuillez consulter <a href="https://forums.beamdog.com/discussion/78364/infinity-auto-packager-automatically-generate-and-adds-mod-packages-to-release-when-you-publish-it">ce lien</a>.<br>
 
 &nbsp;
+
+#### Version 6.0.0 &nbsp;(14 janvier 2021)
+
+&#9755; <ins>Modifications générales (fichiers .html et .md) :</ins>
+  - ...
+  - Correction de typos.
+  - Ajouts de lignes de séparations manquantes.
+  - Mise à jour des liens obsolètes.
+  - Diverses modifications cosmétiques.
+  - Section Présentation :
+    - Ajout du paragraphe "Contenu".
+    - Ajout de liens vers des mises en page plus complexes.
+   - Section Compatibilité :
+    - Ajout du paragraphe "Jeux concernés".
+    - Ajout du paragraphe "Compatibilité avec les autres mods".
+    - Ajout du paragraphe "Ordre d'installation".
+  - Section Installation :
+    - Mise à jour des procédures d'installation (Mac OS X et Linux) : le mod est diffusé dans la même archive quel que soit le système d'exploitation.
+  - Sections Composants :
+    - Remise en forme complète des deux sections.
+  - Section Dépannage :
+    - Ajout d'un symptôme identifié.
+  - Section Historique des versions :
+    - Ajout du paragraphe sur l'utilitaire "*Infinity Auto Packager*".
+    - Remise en forme complète de la section.
+
+&#9755; <ins>Fichiers .html :</ins>
+  - Ajout d'un script qui modifie automatiquement le numéro de version dans l'en-tête à partir de la dernière version saisi dans la partie Historique des versions. :wink:
+  - Ajout de l'icône de LCC apparaissant dans le navigateur.
+  - Ajout d'une ombre portée au titre du mod.
+  - Traduction des chaînes de caractères à afficher par le code javascript en anglais dans le fichier "*script_astuce_en.js*".
+  - Section Compatibilité : ajout de la classe "important_tuto".
+  - Section Installation : ajout des info-bulles manquantes.
+  - Sections Composants :
+    - Ajout d'une nouvelle image de background pour la présentation alternative des composants.
+    - Ajout de de la classe "tp2".
+    - Ajout des info-bulles manquantes.
+    - Added BG2 Fixpack and partial SR compatibility in a rather softer way.
+
+&#9755; <ins>Fichiers readme.md :</ins>
+  - Ajout des badges d'en-tête de plateforme Mac et Linux.
+  - Ajout des badges d'en-tête personnalisés de statistiques de téléchargement.
+  - Traduction en français des badges d'en-tête.
+  - Ajout du lien permettant d'afficher les readme Markdown français et anglais.
+
+## 
 
 #### Version 5.0.0 &nbsp;(29 avril 2020)
 
