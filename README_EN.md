@@ -7,19 +7,20 @@
 
 ## 
 
-*Repository*  
-[![Created Badge](https://badges.pufler.dev/created/GwendolyneFreddy/LCC-Readme?style=plastic)](https://badges.pufler.dev)
-![GitHub repo size](https://img.shields.io/github/repo-size/GwendolyneFreddy/LCC-Readme?style=plastic)
-[![Visits Badge](https://badges.pufler.dev/visits/GwendolyneFreddy/LCC-Readme?style=plastic)](https://badges.pufler.dev)
-[![Updated Badge](https://badges.pufler.dev/updated/GwendolyneFreddy/LCC-Readme?style=plastic)](https://badges.pufler.dev)
-![GitHub release (latest by date)](https://img.shields.io/github/downloads/gwendolynefreddy/lcc-readme/latest/total?color=gold&style=plastic)
-![GitHub all releases](https://img.shields.io/github/downloads/gwendolynefreddy/lcc-readme/total?label=out%20%ofcolor=yellow&style=plastic)
-
-![GitHub help wanted](https://img.shields.io/badge/%20-help--wanted-%23159818&style=plastic)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=plastic))](https://GitHub.com/GwendolyneFreddy/LCC-Readme/graphs/commit-activity)
+###### Repository  [![Created Badge](https://badges.pufler.dev/created/GwendolyneFreddy/LCC-Readme?style=plastic)](https://badges.pufler.dev) ![GitHub repo size](https://img.shields.io/github/repo-size/GwendolyneFreddy/LCC-Readme?style=plastic) [![Visits Badge](https://badges.pufler.dev/visits/GwendolyneFreddy/LCC-Readme?style=plastic)](https://badges.pufler.dev)
+[![Updated Badge](https://badges.pufler.dev/updated/GwendolyneFreddy/LCC-Readme?style=plastic)](https://badges.pufler.dev) ![GitHub release (latest by date)](https://img.shields.io/github/downloads/gwendolynefreddy/lcc-readme/latest/total?color=gold&style=plastic) ![GitHub all releases](https://img.shields.io/github/downloads/gwendolynefreddy/lcc-readme/total?label=out%20of&color=yellow&style=plastic)
+![GitHub help wanted](https://img.shields.io/badge/%20-help--wanted-%23159818?style=plastic)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=plastic)](https://GitHub.com/GwendolyneFreddy/LCC-Readme/graphs/commit-activity)
 ![Maintenance](https://img.shields.io/maintenance/yes/2019?style=plastic)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-no-red.svg?style=plastic))](https://GitHub.com/GwendolyneFreddy/LCC-Readme/graphs/commit-activity)
-[![No Maintenance Intended](http://unmaintained.tech/badge.svg?style=plastic))](http://unmaintained.tech/)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-no-red.svg?style=plastic)](https://GitHub.com/GwendolyneFreddy/LCC-Readme/graphs/commit-activity)
+
+###### Activity
+[![Commits Badge](https://badges.pufler.dev/commits/monthly/GwendolyneFreddy?style=plastic)](https://badges.pufler.dev)
+![GitHub commits since latest release (by date including pre-releases)](https://img.shields.io/github/commits-since/GwendolyneFreddy/LCC-Readme/latest/master?color=greenlight&include_prereleases&style=plastic)
+![GitHub commits since](https://img.shields.io/github/commits-since/GwendolyneFreddy/LCC-Readme/v5.0.0.svg?style=plastic)
+[![GitHub commits since](https://img.shields.io/github/commits-since/GwendolyneFreddy/LCC-Readme/v5.0.0.svg?style=plastic)]() 
+![GitHub last commit](https://img.shields.io/github/last-commit/GwendolyneFreddy/LCC-Readme?color=red&style=plastic)
+![GitHub last commit](https://img.shields.io/github/last-commit/GwendolyneFreddy/LCC-Readme.svg?style=plastic)
 
 
 <div align="center"><h1>Mymod</h1>
