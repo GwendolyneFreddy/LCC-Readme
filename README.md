@@ -1,6 +1,7 @@
 
 ![Latest Release](https://img.shields.io/github/v/release/gwendolynefreddy/lcc-readme?include_prereleases&color=gold&label=version)<a name="top" id="top">
 ![Latest Release](https://img.shields.io/static/v1?label=version&message=v4.0.0&color=gold)
+![GitHub (Pre-)Release Date](https://img.shields.io/github/release-date-pre/GwendolyneFreddy/LCC-Readme?color=Gold&label=publi%C3%A9e%20en&style=plastic)
 ![Platform](https://img.shields.io/static/v1?label=platform&message=windows%20%7C%20Mac%20%7C%20linux&color=informational)
 ![Language](https://img.shields.io/static/v1?label=langues&message=Anglais%20%7C%20Français&color=limegreen)
 <a href="README_EN.md"><img align="right" src="mymod/readme/images/uk-flag-32.png" title="English Readme"></a>
@@ -8,24 +9,34 @@
 
 ## 
 
-**Maintenance** 
-
-[![Visits Badge](https://badges.pufler.dev/visits/GwendolyneFreddy/LCC-Readme?style=plastic)](https://badges.pufler.dev)
-[![Updated Badge](https://badges.pufler.dev/updated/GwendolyneFreddy/LCC-Readme?style=plastic)](https://badges.pufler.dev)
+**Dépôt** 
 [![Created Badge](https://badges.pufler.dev/created/GwendolyneFreddy/LCC-Readme?style=plastic)](https://badges.pufler.dev)
-[![Commits Badge](https://badges.pufler.dev/commits/monthly/GwendolyneFreddy?style=plastic)](https://badges.pufler.dev)
-[![Contributors Display](https://badges.pufler.dev/contributors/GwendolyneFreddy/LCC-Readme?size=50&padding=5&bots=true)](https://badges.pufler.dev)
-
 ![GitHub repo size](https://img.shields.io/github/repo-size/GwendolyneFreddy/LCC-Readme?style=plastic)
-![GitHub language count](https://img.shields.io/github/languages/count/GwendolyneFreddy/LCC-Readme?style=plastic)
-![GitHub top language](https://img.shields.io/github/languages/top/GwendolyneFreddy/LCC-Readme?style=plastic)
-![GitHub last commit](https://img.shields.io/github/last-commit/GwendolyneFreddy/LCC-Readme?color=red&style=plastic)
-
-<img src="https://img.shields.io/badge/made%20with-python-blue.svg" alt="made with python">
-
-
+[![Updated Badge](https://badges.pufler.dev/updated/GwendolyneFreddy/LCC-Readme?style=plastic)](https://badges.pufler.dev)
+[![Visits Badge](https://badges.pufler.dev/visits/GwendolyneFreddy/LCC-Readme?style=plastic)](https://badges.pufler.dev)
 [![HitCount](http://hits.dwyl.com/GwendolyneFreddy/LCC-Readme.svg?style=plastic)](http://hits.dwyl.com/GwendolyneFreddy/LCC-Readme)
 [![HitCount](http://hits.dwyl.io/GwendolyneFreddy/LCC-Readme.svg?style=plastic)](http://hits.dwyl.io/GwendolyneFreddy/LCC-Readme)
+![GitHub release (latest by date)](https://img.shields.io/github/downloads/gwendolynefreddy/lcc-readme/latest/total?color=gold&label=téléchargements) / ![GitHub all releases](https://img.shields.io/github/downloads/gwendolynefreddy/lcc-readme/total?label=total&color=yellow)
+
+[![Github all releases](https://img.shields.io/github/downloads/GwendolyneFreddy/LCC-Readme/total.svg)](https://GitHub.com/GwendolyneFreddy/LCC-Readme/releases/)
+
+** Activité**
+[![Commits Badge](https://badges.pufler.dev/commits/monthly/GwendolyneFreddy?style=plastic)](https://badges.pufler.dev)
+![GitHub commits since latest release (by date including pre-releases)](https://img.shields.io/github/commits-since/GwendolyneFreddy/LCC-Readme/latest/master?color=greenlight&include_prereleases&style=plastic)
+![GitHub last commit](https://img.shields.io/github/last-commit/GwendolyneFreddy/LCC-Readme?color=red&style=plastic)
+
+![GitHub commits](https://img.shields.io/github/commits-since/GwendolyneFreddy/LCC-Readme/v5.0.0.svg)(https://GitHub.com/GwendolyneFreddy/LCC-Readme/commit/)
+
+[![GitHub last commit](https://img.shields.io/github/last-commit/GwendolyneFreddy/LCC-Readme.svg?style=flat)]() [![GitHub commit activity the past week, 4 weeks](https://img.shields.io/github/commit-activity/y/GwendolyneFreddy/LCC-Readme.svg?style=flat)]() [![GitHub commits since](https://img.shields.io/github/commits-since/GwendolyneFreddy/LCC-Readme/v5.0.0.svg)]() 
+
+![GitHub contributors](https://img.shields.io/github/contributors/GwendolyneFreddy/LCC-Readme?color=blueviolet&style=plastic)
+![GitHub contributors](https://img.shields.io/github/contributors/GwendolyneFreddy/LCC-Readme?color=cyan&label=contributeurs&style=plastic)
+[![GitHub contributors](https://img.shields.io/github/contributors/GwendolyneFreddy/LCC-Readme.svg)](https://GitHub.com/GwendolyneFreddy/LCC-Readme/graphs/contributors/)
+
+[![Contributors Display](https://badges.pufler.dev/contributors/GwendolyneFreddy/LCC-Readme?size=50&padding=5&bots=true)](https://badges.pufler.dev)
+
+
+<img src="https://img.shields.io/badge/made%20with-python-blue.svg" alt="made with python">
 
 
 ?link=http://left&link=http://right
@@ -33,14 +44,8 @@
 ?colorB=fedcba : Set background of the right part (hex color only)
 
 
-
-![GitHub release (latest by date)](https://img.shields.io/github/downloads/gwendolynefreddy/lcc-readme/latest/total?color=gold&label=téléchargements) / ![GitHub all releases](https://img.shields.io/github/downloads/gwendolynefreddy/lcc-readme/total?label=total&color=yellow)
-
-![GitHub commits](https://img.shields.io/github/commits-since/GwendolyneFreddy/LCC-Readme/v5.0.0.svg)(https://GitHub.com/GwendolyneFreddy/LCC-Readme/commit/)
-
 GwendolyneFreddy/LCC-Readme
 
-![Github all releases](https://img.shields.io/github/downloads/GwendolyneFreddy/LCC-Readme/total.svg)](https://GitHub.com/GwendolyneFreddy/LCC-Readme/releases/
 
 ![Profile views](https://gpvc.arturio.dev/GwendolyneFreddy)
 
@@ -57,13 +62,8 @@ GwendolyneFreddy/LCC-Readme
 ![GitHub pull requests](https://img.shields.io/github/issues-pr/GwendolyneFreddy/LCC-Readme?style=plastic)
 ![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed/!%5BGitHub%20pull%20requests%5D(https://img.shields.io/github/issues-pr/GwendolyneFreddy/LCC-Readme)/LCC-Readme?style=plastic)
 
-![GitHub commits since latest release (by date including pre-releases)](https://img.shields.io/github/commits-since/GwendolyneFreddy/LCC-Readme/latest/master?color=greenlight&include_prereleases&style=plastic)
 
-![GitHub (Pre-)Release Date](https://img.shields.io/github/release-date-pre/GwendolyneFreddy/LCC-Readme?color=Gold&label=publi%C3%A9e%20en&style=plastic)
-![GitHub contributors](https://img.shields.io/github/contributors/GwendolyneFreddy/LCC-Readme?color=blueviolet&style=plastic)
 ![Maintenance](https://img.shields.io/maintenance/yes/2019?style=plastic)
-
-[![GitHub contributors](https://img.shields.io/github/contributors/GwendolyneFreddy/LCC-Readme.svg)](https://GitHub.com/GwendolyneFreddy/LCC-Readme/graphs/contributors/)
 
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/GwendolyneFreddy/LCC-Readme/graphs/commit-activity)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-no-red.svg)](https://bitbucket.org/lbesson/ansi-colors)
@@ -75,14 +75,11 @@ https://img.shields.io/badge/%20-help--wanted-%23159818
 
 https://badgen.net/github/closed-issues/micromatch/micromatch
 
-![GitHub contributors](https://img.shields.io/github/contributors/GwendolyneFreddy/LCC-Readme?color=cyan&label=contributeurs&style=plastic)
 
 [![Actions Status](https://github.com/{GwendolyneFreddy}/{repo}/workflows/{action}/badge.svg)](https://github.com/{GwendolyneFreddy}/{repo}/actions)
 [![Actions Status](https://github.com/RobDWaller/csp-generator/workflows/Build%20and%20Test/badge.svg)](https://github.com/RobDWaller/csp-generator/actions)
 
 ## Commits
-[![GitHub last commit](https://img.shields.io/github/last-commit/GwendolyneFreddy/LCC-Readme.svg?style=flat)]()
-[![GitHub commit activity the past week, 4 weeks](https://img.shields.io/github/commit-activity/y/GwendolyneFreddy/LCC-Readme.svg?style=flat)]() [![GitHub commits since](https://img.shields.io/github/commits-since/GwendolyneFreddy/LCC-Readme/v5.0.0.svg)]() 
 
 
 <p><img src="https://img.shields.io/github/tag/expressjs/express.svg" alt="Current GitHub tag" style="margin-bottom: -5px; display: inline-block;">  will become  <img src="https://img.shields.io/github/tag/expressjs/express.svg?logo=visual-studio-code" alt="Current GitHub tag" style="margin-bottom: -5px; display: inline-block;"></p>
