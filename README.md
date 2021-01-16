@@ -14,14 +14,15 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/GwendolyneFreddy/LCC-Readme?style=plastic)
 [![Updated Badge](https://badges.pufler.dev/updated/GwendolyneFreddy/LCC-Readme?style=plastic)](https://badges.pufler.dev)
 [![Visits Badge](https://badges.pufler.dev/visits/GwendolyneFreddy/LCC-Readme?style=plastic)](https://badges.pufler.dev)
-![GitHub release (latest by date)](https://img.shields.io/github/downloads/gwendolynefreddy/lcc-readme/latest/total?color=gold&label=téléchargements) / ![GitHub all releases](https://img.shields.io/github/downloads/gwendolynefreddy/lcc-readme/total?label=total&color=yellow)
+![GitHub release (latest by date)](https://img.shields.io/github/downloads/gwendolynefreddy/lcc-readme/latest/total?color=gold&label=téléchargements&style=plastic) / ![GitHub all releases](https://img.shields.io/github/downloads/gwendolynefreddy/lcc-readme/total?label=total&color=yellow&style=plastic)
+[![Github all releases](https://img.shields.io/github/downloads/GwendolyneFreddy/LCC-Readme/total.svg&style=plastic))](https://GitHub.com/GwendolyneFreddy/LCC-Readme/releases/)
 
+![GitHub help wanted](https://img.shields.io/badge/%20-help--wanted-%23159818&style=plastic)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg&style=plastic)](https://GitHub.com/GwendolyneFreddy/LCC-Readme/graphs/commit-activity)
 ![Maintenance](https://img.shields.io/maintenance/yes/2019?style=plastic)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/GwendolyneFreddy/LCC-Readme/graphs/commit-activity)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-no-red.svg)](https://GitHub.com/GwendolyneFreddy/LCC-Readme/graphs/commit-activity)
-[![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-no-red.svg&style=plastic)](https://GitHub.com/GwendolyneFreddy/LCC-Readme/graphs/commit-activity)
+[![No Maintenance Intended](http://unmaintained.tech/badge.svg&style=plastic)](http://unmaintained.tech/)
 
-[![Github all releases](https://img.shields.io/github/downloads/GwendolyneFreddy/LCC-Readme/total.svg)](https://GitHub.com/GwendolyneFreddy/LCC-Readme/releases/)
 
 *Activité*  
 [![Commits Badge](https://badges.pufler.dev/commits/monthly/GwendolyneFreddy?style=plastic)](https://badges.pufler.dev)
@@ -32,22 +33,18 @@
 ![GitHub commits](https://img.shields.io/github/commits-since/GwendolyneFreddy/LCC-Readme/v5.0.0.svg)
 [![GitHub commits since](https://img.shields.io/github/commits-since/GwendolyneFreddy/LCC-Readme/v5.0.0.svg)]() 
 
-[![GitHub commit activity the past week, 4 weeks](https://img.shields.io/github/commit-activity/y/GwendolyneFreddy/LCC-Readme.svg?style=flat)]
+![GitHub commit activity the past week, 4 weeks](https://img.shields.io/github/commit-activity/y/GwendolyneFreddy/LCC-Readme.svg?style=flat)
 
-![GitHub contributors](https://img.shields.io/github/contributors/GwendolyneFreddy/LCC-Readme?color=blueviolet&style=plastic)
-![GitHub contributors](https://img.shields.io/github/contributors/GwendolyneFreddy/LCC-Readme?color=cyan&label=contributeurs&style=plastic)
-[![GitHub contributors](https://img.shields.io/github/contributors/GwendolyneFreddy/LCC-Readme.svg)](https://GitHub.com/GwendolyneFreddy/LCC-Readme/graphs/contributors/)
-
-[![Contributors Display](https://badges.pufler.dev/contributors/GwendolyneFreddy/LCC-Readme?size=50&padding=5&bots=true)](https://badges.pufler.dev)
-
-[![GitHub issues](https://img.shields.io/github/issues/GwendolyneFreddy/LCC-Readme.svg)](https://GitHub.com/GwendolyneFreddy/LCC-Readme/issues/)
-[![GitHub issues-closed](https://img.shields.io/github/issues-closed/GwendolyneFreddy/LCC-Readme.svg)](https://GitHub.com/GwendolyneFreddy/LCC-Readme/issues?q=is%3Aissue+is%3Aclosed)
+![GitHub contributors](https://img.shields.io/github/contributors/GwendolyneFreddy/LCC-Readme?color=blueviolet&style=plastic) ![GitHub contributors](https://img.shields.io/github/contributors/GwendolyneFreddy/LCC-Readme?color=cyan&label=contributeurs&style=plastic) [![GitHub contributors](https://img.shields.io/github/contributors/GwendolyneFreddy/LCC-Readme.svg)](https://GitHub.com/GwendolyneFreddy/LCC-Readme/graphs/contributors/) [![Contributors Display](https://badges.pufler.dev/contributors/GwendolyneFreddy/LCC-Readme?size=50&padding=5&bots=true)](https://badges.pufler.dev)
 
 ![GitHub issues](https://img.shields.io/github/issues/GwendolyneFreddy/LCC-Readme?color=red&style=plastic)
 ![GitHub closed issues](https://img.shields.io/github/issues-closed/GwendolyneFreddy/LCC-Readme?color=blue&style=plastic)
 
 ![GitHub issues](https://img.shields.io/github/issues/GwendolyneFreddy/LCC-Readme?color=red&label=probl%C3%A8mes&style=plastic)
 ![GitHub closed issues](https://img.shields.io/github/issues-closed/GwendolyneFreddy/LCC-Readme?color=blue&label=probl%C3%A8mes&style=plastic)
+
+![GitHub issues](https://badgen.net/github/open-issues/GwendolyneFreddy/LCC-Readme) ![GitHub closed issues](https://badgen.net/github/closed-issues/GwendolyneFreddy/LCC-Readme)
+
 
 [![GitHub pull-requests](https://img.shields.io/github/issues-pr/GwendolyneFreddy/LCC-Readme.svg)](https://GitHub.com/GwendolyneFreddy/LCC-Readme/pull/)
 [![GitHub pull-requests closed](https://img.shields.io/github/issues-pr-closed/GwendolyneFreddy/LCC-Readme.svg)](https://GitHub.com/GwendolyneFreddy/LCC-Readme/pull/)
@@ -59,12 +56,7 @@
 <img src="https://img.shields.io/badge/made%20with-python-blue.svg" alt="made with python">
 
 
-![GitHub help wanted](https://img.shields.io/badge/%20-help--wanted-%23159818)
-
 ![Profile views](https://gpvc.arturio.dev/GwendolyneFreddy)
-
-![GitHub issues](https://github/open-issues/GwendolyneFreddy/LCC-Readme) ![GitHub closed issues](https://badgen.net/github/closed-issues/GwendolyneFreddy/LCC-Readme)
-
 
 [![YourActionName Actions Status](https://github.com/GwendolyneFreddy/LCC-Readme/workflows/InfinityAutoPackager/badge.svg)](https://github.com/GwendolyneFreddy/LCC-Readme/actions)
 [![Actions Status](https://github.com/GwendolyneFreddy/LCC-Readme/workflows/InfinityAutoPackager/badge.svg)](https://github.com/GwendolyneFreddy/LCC-Readme/actions)
