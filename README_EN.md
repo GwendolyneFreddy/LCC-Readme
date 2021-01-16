@@ -10,16 +10,16 @@
 *Repository*  
 [![Created Badge](https://badges.pufler.dev/created/GwendolyneFreddy/LCC-Readme?style=plastic)](https://badges.pufler.dev)
 ![GitHub repo size](https://img.shields.io/github/repo-size/GwendolyneFreddy/LCC-Readme?style=plastic)
-[![Updated Badge](https://badges.pufler.dev/updated/GwendolyneFreddy/LCC-Readme?style=plastic)](https://badges.pufler.dev)
 [![Visits Badge](https://badges.pufler.dev/visits/GwendolyneFreddy/LCC-Readme?style=plastic)](https://badges.pufler.dev)
-![GitHub release (latest by date)](https://img.shields.io/github/downloads/gwendolynefreddy/lcc-readme/latest/total?color=gold&style=plastic) / ![GitHub all releases](https://img.shields.io/github/downloads/gwendolynefreddy/lcc-readme/total?color=yellow&style=plastic)
-[![Github all releases](https://img.shields.io/github/downloads/GwendolyneFreddy/LCC-Readme/total.svg?color=yellow&style=plastic)](https://GitHub.com/GwendolyneFreddy/LCC-Readme/releases/)
+[![Updated Badge](https://badges.pufler.dev/updated/GwendolyneFreddy/LCC-Readme?style=plastic)](https://badges.pufler.dev)
+![GitHub release (latest by date)](https://img.shields.io/github/downloads/gwendolynefreddy/lcc-readme/latest/total?color=gold&style=plastic)
+![GitHub all releases](https://img.shields.io/github/downloads/gwendolynefreddy/lcc-readme/total?label=out%20%ofcolor=yellow&style=plastic)
 
 ![GitHub help wanted](https://img.shields.io/badge/%20-help--wanted-%23159818&style=plastic)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/GwendolyneFreddy/LCC-Readme/graphs/commit-activity)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=plastic))](https://GitHub.com/GwendolyneFreddy/LCC-Readme/graphs/commit-activity)
 ![Maintenance](https://img.shields.io/maintenance/yes/2019?style=plastic)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-no-red.svg)](https://GitHub.com/GwendolyneFreddy/LCC-Readme/graphs/commit-activity)
-[![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-no-red.svg?style=plastic))](https://GitHub.com/GwendolyneFreddy/LCC-Readme/graphs/commit-activity)
+[![No Maintenance Intended](http://unmaintained.tech/badge.svg?style=plastic))](http://unmaintained.tech/)
 
 
 <div align="center"><h1>Mymod</h1>
