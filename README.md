@@ -9,7 +9,7 @@
 
 ## 
 
-**Dépôt** 
+**Dépôt**  
 [![Created Badge](https://badges.pufler.dev/created/GwendolyneFreddy/LCC-Readme?style=plastic)](https://badges.pufler.dev)
 ![GitHub repo size](https://img.shields.io/github/repo-size/GwendolyneFreddy/LCC-Readme?style=plastic)
 [![Updated Badge](https://badges.pufler.dev/updated/GwendolyneFreddy/LCC-Readme?style=plastic)](https://badges.pufler.dev)
@@ -20,14 +20,16 @@
 
 [![Github all releases](https://img.shields.io/github/downloads/GwendolyneFreddy/LCC-Readme/total.svg)](https://GitHub.com/GwendolyneFreddy/LCC-Readme/releases/)
 
-** Activité**
+** Activité**  
 [![Commits Badge](https://badges.pufler.dev/commits/monthly/GwendolyneFreddy?style=plastic)](https://badges.pufler.dev)
 ![GitHub commits since latest release (by date including pre-releases)](https://img.shields.io/github/commits-since/GwendolyneFreddy/LCC-Readme/latest/master?color=greenlight&include_prereleases&style=plastic)
 ![GitHub last commit](https://img.shields.io/github/last-commit/GwendolyneFreddy/LCC-Readme?color=red&style=plastic)
+[![GitHub last commit](https://img.shields.io/github/last-commit/GwendolyneFreddy/LCC-Readme.svg?style=flat)]
 
-![GitHub commits](https://img.shields.io/github/commits-since/GwendolyneFreddy/LCC-Readme/v5.0.0.svg)(https://GitHub.com/GwendolyneFreddy/LCC-Readme/commit/)
+![GitHub commits](https://img.shields.io/github/commits-since/GwendolyneFreddy/LCC-Readme/v5.0.0.svg)
 
-[![GitHub last commit](https://img.shields.io/github/last-commit/GwendolyneFreddy/LCC-Readme.svg?style=flat)]() [![GitHub commit activity the past week, 4 weeks](https://img.shields.io/github/commit-activity/y/GwendolyneFreddy/LCC-Readme.svg?style=flat)]() [![GitHub commits since](https://img.shields.io/github/commits-since/GwendolyneFreddy/LCC-Readme/v5.0.0.svg)]() 
+[![GitHub commit activity the past week, 4 weeks](https://img.shields.io/github/commit-activity/y/GwendolyneFreddy/LCC-Readme.svg?style=flat)]()
+[![GitHub commits since](https://img.shields.io/github/commits-since/GwendolyneFreddy/LCC-Readme/v5.0.0.svg)]() 
 
 ![GitHub contributors](https://img.shields.io/github/contributors/GwendolyneFreddy/LCC-Readme?color=blueviolet&style=plastic)
 ![GitHub contributors](https://img.shields.io/github/contributors/GwendolyneFreddy/LCC-Readme?color=cyan&label=contributeurs&style=plastic)
