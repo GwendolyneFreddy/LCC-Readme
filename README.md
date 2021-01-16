@@ -10,34 +10,37 @@
 
 **Maintenance** 
 
-[![Visits Badge](https://badges.pufler.dev/visits/puf17640/git-badges)](https://badges.pufler.dev)
-[![Updated Badge](https://badges.pufler.dev/updated/puf17640/git-badges)](https://badges.pufler.dev)
-[![Created Badge](https://badges.pufler.dev/created/puf17640/git-badges)](https://badges.pufler.dev)
-[![Commits Badge](https://badges.pufler.dev/commits/monthly/puf17640)](https://badges.pufler.dev)
-[![Contributors Display](https://badges.pufler.dev/contributors/puf17640/git-badges?size=50&padding=5&bots=true)](https://badges.pufler.dev)
+[![Visits Badge](https://badges.pufler.dev/visits/GwendolyneFreddy/LCC-Readme?style=plastic)](https://badges.pufler.dev)
+[![Updated Badge](https://badges.pufler.dev/updated/GwendolyneFreddy/LCC-Readme?style=plastic)](https://badges.pufler.dev)
+[![Created Badge](https://badges.pufler.dev/created/GwendolyneFreddy/LCC-Readme?style=plastic)](https://badges.pufler.dev)
+[![Commits Badge](https://badges.pufler.dev/commits/monthly/GwendolyneFreddy?style=plastic)](https://badges.pufler.dev)
+[![Contributors Display](https://badges.pufler.dev/contributors/GwendolyneFreddy/LCC-Readme?size=50&padding=5&bots=true)](https://badges.pufler.dev)
 
-![GitHub repo size](https://img.shields.io/github/repo-size/USER/REPOSITORY?style=plastic)
-![GitHub language count](https://img.shields.io/github/languages/count/USER/REPOSITORY?style=plastic)
-![GitHub top language](https://img.shields.io/github/languages/top/USER/REPOSITORY?style=plastic)
-![GitHub last commit](https://img.shields.io/github/last-commit/USER/REPOSITORY?color=red&style=plastic)
+![GitHub repo size](https://img.shields.io/github/repo-size/GwendolyneFreddy/LCC-Readme?style=plastic)
+![GitHub language count](https://img.shields.io/github/languages/count/GwendolyneFreddy/LCC-Readme?style=plastic)
+![GitHub top language](https://img.shields.io/github/languages/top/GwendolyneFreddy/LCC-Readme?style=plastic)
+![GitHub last commit](https://img.shields.io/github/last-commit/GwendolyneFreddy/LCC-Readme?color=red&style=plastic)
 
 <img src="https://img.shields.io/badge/made%20with-python-blue.svg" alt="made with python">
+
+
+[![HitCount](http://hits.dwyl.com/GwendolyneFreddy/LCC-Readme.svg?style=plastic)](http://hits.dwyl.com/GwendolyneFreddy/LCC-Readme)
+[![HitCount](http://hits.dwyl.io/GwendolyneFreddy/LCC-Readme.svg?style=plastic)](http://hits.dwyl.io/GwendolyneFreddy/LCC-Readme)
+
 
 ?link=http://left&link=http://right
 ?colorA=abcdef : Set background of the left part (hex color only)
 ?colorB=fedcba : Set background of the right part (hex color only)
 
-[![HitCount](http://hits.dwyl.com/GwendolyneFreddy/LCC-Readme.svg)](http://hits.dwyl.com/GwendolyneFreddy/LCC-Readme)
-[![HitCount](http://hits.dwyl.io/GwendolyneFreddy/LCC-Readme.svg)](http://hits.dwyl.io/GwendolyneFreddy/LCC-Readme)
 
 
 ![GitHub release (latest by date)](https://img.shields.io/github/downloads/gwendolynefreddy/lcc-readme/latest/total?color=gold&label=téléchargements) / ![GitHub all releases](https://img.shields.io/github/downloads/gwendolynefreddy/lcc-readme/total?label=total&color=yellow)
 
-[![GitHub commits](https://img.shields.io/github/commits-since/GwendolyneFreddy/LCC-Readme/v5.0.0.svg)(https://GitHub.com/GwendolyneFreddy/LCC-Readme/commit/)
+![GitHub commits](https://img.shields.io/github/commits-since/GwendolyneFreddy/LCC-Readme/v5.0.0.svg)(https://GitHub.com/GwendolyneFreddy/LCC-Readme/commit/)
 
 GwendolyneFreddy/LCC-Readme
 
-[![Github all releases](https://img.shields.io/github/downloads/GwendolyneFreddy/LCC-Readme/total.svg)](https://GitHub.com/GwendolyneFreddy/LCC-Readme/releases/
+![Github all releases](https://img.shields.io/github/downloads/GwendolyneFreddy/LCC-Readme/total.svg)](https://GitHub.com/GwendolyneFreddy/LCC-Readme/releases/
 
 ![Profile views](https://gpvc.arturio.dev/GwendolyneFreddy)
 
@@ -74,12 +77,12 @@ https://badgen.net/github/closed-issues/micromatch/micromatch
 
 ![GitHub contributors](https://img.shields.io/github/contributors/GwendolyneFreddy/LCC-Readme?color=cyan&label=contributeurs&style=plastic)
 
-[![Actions Status](https://github.com/{user}/{repo}/workflows/{action}/badge.svg)](https://github.com/{user}/{repo}/actions)
+[![Actions Status](https://github.com/{GwendolyneFreddy}/{repo}/workflows/{action}/badge.svg)](https://github.com/{GwendolyneFreddy}/{repo}/actions)
 [![Actions Status](https://github.com/RobDWaller/csp-generator/workflows/Build%20and%20Test/badge.svg)](https://github.com/RobDWaller/csp-generator/actions)
 
 ## Commits
-[![GitHub last commit](https://img.shields.io/github/last-commit/google/skia.svg?style=flat)]()
-[![GitHub commit activity the past week, 4 weeks](https://img.shields.io/github/commit-activity/y/eslint/eslint.svg?style=flat)]() [![GitHub commits since](https://img.shields.io/github/commits-since/tterb/playmusic/v1.2.0.svg)]() 
+[![GitHub last commit](https://img.shields.io/github/last-commit/GwendolyneFreddy/LCC-Readme.svg?style=flat)]()
+[![GitHub commit activity the past week, 4 weeks](https://img.shields.io/github/commit-activity/y/GwendolyneFreddy/LCC-Readme.svg?style=flat)]() [![GitHub commits since](https://img.shields.io/github/commits-since/GwendolyneFreddy/LCC-Readme/v5.0.0.svg)]() 
 
 
 <p><img src="https://img.shields.io/github/tag/expressjs/express.svg" alt="Current GitHub tag" style="margin-bottom: -5px; display: inline-block;">  will become  <img src="https://img.shields.io/github/tag/expressjs/express.svg?logo=visual-studio-code" alt="Current GitHub tag" style="margin-bottom: -5px; display: inline-block;"></p>
@@ -87,7 +90,7 @@ https://badgen.net/github/closed-issues/micromatch/micromatch
 ?logo=visual-studio-code : Insert a logo from simple-icons (make any spaces '-')
 ?logo=data:image/png;base64,… : Insert custom logo image (= 14px high)
 
-[![YourActionName Actions Status](https://github.com/{userName}/{repoName}/workflows/{workflowName}/badge.svg)](https://github.com/{userName}/{repoName}/actions)
+[![YourActionName Actions Status](https://github.com/{GwendolyneFreddy}/{repoName}/workflows/{workflowName}/badge.svg)](https://github.com/{GwendolyneFreddy}/{repoName}/actions)
 
 [![Android-master Actions Status](https://github.com/AndreSand/BornInApp/workflows/android-master/badge.svg)](https://github.com/AndreSand/BornInApp/actions)
 
