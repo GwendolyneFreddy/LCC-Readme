@@ -3,8 +3,35 @@
 ![Latest Release](https://img.shields.io/static/v1?label=version&message=v4.0.0&color=gold)
 ![Platform](https://img.shields.io/static/v1?label=platform&message=windows%20%7C%20Mac%20%7C%20linux&color=informational)
 ![Language](https://img.shields.io/static/v1?label=langues&message=Anglais%20%7C%20Français&color=limegreen)
-![GitHub release (latest by date)](https://img.shields.io/github/downloads/gwendolynefreddy/lcc-readme/latest/total?color=gold&label=téléchargements) / ![GitHub all releases](https://img.shields.io/github/downloads/gwendolynefreddy/lcc-readme/total?label=total&color=yellow)
 <a href="README_EN.md"><img align="right" src="mymod/readme/images/uk-flag-32.png" title="English Readme"></a>
+
+
+## 
+
+**Maintenance** 
+
+[![HitCount](http://hits.dwyl.com/GwendolyneFreddy/LCC_Readme.svg)](http://hits.dwyl.com/GwendolyneFreddy/LCC_Readme)
+[![HitCount](http://hits.dwyl.io/GwendolyneFreddy/LCC_Readme.svg)](http://hits.dwyl.io/GwendolyneFreddy/LCC_Readme)
+
+
+![GitHub release (latest by date)](https://img.shields.io/github/downloads/gwendolynefreddy/lcc-readme/latest/total?color=gold&label=téléchargements) / ![GitHub all releases](https://img.shields.io/github/downloads/gwendolynefreddy/lcc-readme/total?label=total&color=yellow)
+
+[![GitHub commits](https://img.shields.io/github/commits-since/GwendolyneFreddy/LCC_Readme/v1.0.0.svg)](https://GitHub.com/GwendolyneFreddy/LCC_Readme/commit/)
+
+GwendolyneFreddy/LCC_Readme
+
+[![Github all releases](https://img.shields.io/github/downloads/GwendolyneFreddy/LCC_Readme/total.svg)](https://GitHub.com/GwendolyneFreddy/LCC_Readme/releases/
+
+[![Github releases (by asset)](https://img.shields.io/github/downloads/GwendolyneFreddy/LCC_Readme/latest/strapdown.min.js)](https://GitHub.com/GwendolyneFreddy/LCC_Readme/releases/)
+
+![Profile views](https://gpvc.arturio.dev/GwendolyneFreddy)
+
+[![GitHub issues](https://img.shields.io/github/issues/GwendolyneFreddy/LCC_Readme.svg)](https://GitHub.com/GwendolyneFreddy/LCC_Readme/issues/)
+[![GitHub issues-closed](https://img.shields.io/github/issues-closed/GwendolyneFreddy/LCC_Readme.svg)](https://GitHub.com/GwendolyneFreddy/LCC_Readme/issues?q=is%3Aissue+is%3Aclosed)
+
+[![GitHub pull-requests](https://img.shields.io/github/issues-pr/GwendolyneFreddy/LCC_Readme.svg)](https://GitHub.com/GwendolyneFreddy/LCC_Readme/pull/)
+[![GitHub pull-requests closed](https://img.shields.io/github/issues-pr-closed/GwendolyneFreddy/LCC_Readme.svg)](https://GitHub.com/GwendolyneFreddy/LCC_Readme/pull/)
+
 
 
 <div align="center"><h1>Mymod</h1>
