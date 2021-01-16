@@ -11,12 +11,15 @@
 ![GitHub help wanted](https://img.shields.io/badge/%20-help--wanted-%23159818?style=plastic)
 ![Maintenance](https://img.shields.io/static/v1?label=maintained%3F&message=yes&color=greenlight&style=plastic)
 ![Maintenance](https://img.shields.io/static/v1?label=maintained%3F&message=no&color=red&style=plastic)
-![Maintenance](https://img.shields.io/static/v1?label=maintenance&message=no%20%21%20%28as%20%of202020%29&color=red&style=plastic)
-![GitHub contributors](https://img.shields.io/github/contributors/GwendolyneFreddy/LCC-Readme?color=blueviolet&style=plastic)
-[![Contributors Display](https://badges.pufler.dev/contributors/GwendolyneFreddy/LCC-Readme?size=30&padding=5&bots=true)](https://badges.pufler.dev)
+![Maintenance](https://img.shields.io/static/v1?label=maintenance&message=no%20%21%20%28as%20of%202020%29&color=red&style=plastic)
 
 ###### Activity  ![GitHub contributors](https://img.shields.io/github/contributors/GwendolyneFreddy/LCC-Readme?color=blueviolet&style=plastic) [![Contributors Display](https://badges.pufler.dev/contributors/GwendolyneFreddy/LCC-Readme?size=30&padding=5&bots=true)](https://badges.pufler.dev) [![Commits Badge](https://badges.pufler.dev/commits/monthly/GwendolyneFreddy?style=plastic)](https://badges.pufler.dev) ![GitHub commits since latest release (by date including pre-releases)](https://img.shields.io/github/commits-since/GwendolyneFreddy/LCC-Readme/latest/master?include_prereleases&style=plastic) ![GitHub last commit](https://img.shields.io/github/last-commit/GwendolyneFreddy/LCC-Readme?color=cyan&style=plastic) 
 
+![GitHub issues](https://img.shields.io/github/issues/GwendolyneFreddy/LCC-Readme?color=red&style=plastic)
+![GitHub closed issues](https://img.shields.io/github/issues-closed/GwendolyneFreddy/LCC-Readme?color=blue&style=plastic)
+![GitHub open issues](https://badgen.net/github/open-issues/GwendolyneFreddy/LCC-Readme?color=red&style=plastic) ![GitHub closed issues](https://badgen.net/github/closed-issues/GwendolyneFreddy/LCC-Readme?style=plastic)
+
+<hr>
 
 
 <div align="center"><h1>Mymod</h1>
