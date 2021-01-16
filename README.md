@@ -10,27 +10,27 @@
 
 **Maintenance** 
 
-[![HitCount](http://hits.dwyl.com/GwendolyneFreddy/LCC_Readme.svg)](http://hits.dwyl.com/GwendolyneFreddy/LCC_Readme)
-[![HitCount](http://hits.dwyl.io/GwendolyneFreddy/LCC_Readme.svg)](http://hits.dwyl.io/GwendolyneFreddy/LCC_Readme)
+[![HitCount](http://hits.dwyl.com/GwendolyneFreddy/LCC-Readme.svg)](http://hits.dwyl.com/GwendolyneFreddy/LCC-Readme)
+[![HitCount](http://hits.dwyl.io/GwendolyneFreddy/LCC-Readme.svg)](http://hits.dwyl.io/GwendolyneFreddy/LCC-Readme)
 
 
 ![GitHub release (latest by date)](https://img.shields.io/github/downloads/gwendolynefreddy/lcc-readme/latest/total?color=gold&label=téléchargements) / ![GitHub all releases](https://img.shields.io/github/downloads/gwendolynefreddy/lcc-readme/total?label=total&color=yellow)
 
-[![GitHub commits](https://img.shields.io/github/commits-since/GwendolyneFreddy/LCC_Readme/v1.0.0.svg)](https://GitHub.com/GwendolyneFreddy/LCC_Readme/commit/)
+[![GitHub commits](https://img.shields.io/github/commits-since/GwendolyneFreddy/LCC-Readme/v1.0.0.svg)](https://GitHub.com/GwendolyneFreddy/LCC-Readme/commit/)
 
-GwendolyneFreddy/LCC_Readme
+GwendolyneFreddy/LCC-Readme
 
-[![Github all releases](https://img.shields.io/github/downloads/GwendolyneFreddy/LCC_Readme/total.svg)](https://GitHub.com/GwendolyneFreddy/LCC_Readme/releases/
+[![Github all releases](https://img.shields.io/github/downloads/GwendolyneFreddy/LCC-Readme/total.svg)](https://GitHub.com/GwendolyneFreddy/LCC-Readme/releases/
 
-[![Github releases (by asset)](https://img.shields.io/github/downloads/GwendolyneFreddy/LCC_Readme/latest/strapdown.min.js)](https://GitHub.com/GwendolyneFreddy/LCC_Readme/releases/)
+[![Github releases (by asset)](https://img.shields.io/github/downloads/GwendolyneFreddy/LCC-Readme/latest/strapdown.min.js)](https://GitHub.com/GwendolyneFreddy/LCC-Readme/releases/)
 
 ![Profile views](https://gpvc.arturio.dev/GwendolyneFreddy)
 
-[![GitHub issues](https://img.shields.io/github/issues/GwendolyneFreddy/LCC_Readme.svg)](https://GitHub.com/GwendolyneFreddy/LCC_Readme/issues/)
-[![GitHub issues-closed](https://img.shields.io/github/issues-closed/GwendolyneFreddy/LCC_Readme.svg)](https://GitHub.com/GwendolyneFreddy/LCC_Readme/issues?q=is%3Aissue+is%3Aclosed)
+[![GitHub issues](https://img.shields.io/github/issues/GwendolyneFreddy/LCC-Readme.svg)](https://GitHub.com/GwendolyneFreddy/LCC-Readme/issues/)
+[![GitHub issues-closed](https://img.shields.io/github/issues-closed/GwendolyneFreddy/LCC-Readme.svg)](https://GitHub.com/GwendolyneFreddy/LCC-Readme/issues?q=is%3Aissue+is%3Aclosed)
 
-[![GitHub pull-requests](https://img.shields.io/github/issues-pr/GwendolyneFreddy/LCC_Readme.svg)](https://GitHub.com/GwendolyneFreddy/LCC_Readme/pull/)
-[![GitHub pull-requests closed](https://img.shields.io/github/issues-pr-closed/GwendolyneFreddy/LCC_Readme.svg)](https://GitHub.com/GwendolyneFreddy/LCC_Readme/pull/)
+[![GitHub pull-requests](https://img.shields.io/github/issues-pr/GwendolyneFreddy/LCC-Readme.svg)](https://GitHub.com/GwendolyneFreddy/LCC-Readme/pull/)
+[![GitHub pull-requests closed](https://img.shields.io/github/issues-pr-closed/GwendolyneFreddy/LCC-Readme.svg)](https://GitHub.com/GwendolyneFreddy/LCC-Readme/pull/)
 
 
 
