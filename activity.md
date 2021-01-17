@@ -1,11 +1,11 @@
 <div align="center"><h1>Mymod</h1>
 </div>
 
-![Latest Release](https://img.shields.io/github/v/release/gwendolynefreddy/lcc-readme?include_prereleases&color=gold&label=version) ![GitHub (Pre-)Release Date](https://img.shields.io/github/release-date-pre/GwendolyneFreddy/LCC-Readme?color=gold&label=publi&C3&A9%20lle)
+![Latest Release](https://img.shields.io/github/v/release/gwendolynefreddy/lcc-readme?include_prereleases&color=gold&label=version) ![GitHub (Pre-)Release Date](https://img.shields.io/github/release-date-pre/GwendolyneFreddy/LCC-Readme?color=gold&label=publi%C3%A9%20lle)
 
 ![Maintenance](https://img.shields.io/static/v1?label=maintenu%20%3F&message=oui&color=greenlight&style=plastic) ![Maintenance](https://img.shields.io/static/v1?label=maintenu%20%3F&message=non&color=red&style=plastic) ![Maintenance](https://img.shields.io/static/v1?label=maintenance&message=non%20%21%20%28%C3%A0%20partir%20de%202020%29&color=red&style=plastic)
 
-![Latest Release](https://img.shields.io/static/v1?label=version&message=v4.0.0&color=gold) ![GitHub (Pre-)Release Date](https://img.shields.io/github/release-date-pre/GwendolyneFreddy/LCC-Readme?color=gold)
+![Latest Release](https://img.shields.io/github/v/release/gwendolynefreddy/lcc-readme?include_prereleases&color=gold) ![Latest Release](https://img.shields.io/static/v1?label=version&message=v4.0.0&color=gold) ![GitHub (Pre-)Release Date](https://img.shields.io/github/release-date-pre/GwendolyneFreddy/LCC-Readme?color=gold)
 ![Maintenance](https://img.shields.io/static/v1?label=maintained%3F&message=yes&color=greenlight&style=plastic) ![Maintenance](https://img.shields.io/static/v1?label=maintained%3F&message=no&color=red&style=plastic) ![Maintenance](https://img.shields.io/static/v1?label=maintenance&message=no%20%21%20%28as%20of%202020%29&color=red&style=plastic)
 
 ![GitHub help wanted](https://img.shields.io/badge/%20-help--wanted-%23159818?style=plastic)
