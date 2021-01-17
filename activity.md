@@ -1,7 +1,5 @@
 <div align="center"><h1>Mymod</h1>
-<div align="center">
-
-<hr>
+</div>
 
 ![Latest Release](https://img.shields.io/github/v/release/gwendolynefreddy/lcc-readme?include_prereleases&color=gold&label=version) ![GitHub (Pre-)Release Date](https://img.shields.io/github/release-date-pre/GwendolyneFreddy/LCC-Readme?color=gold&label=publi&C3&A9%20lle)
 

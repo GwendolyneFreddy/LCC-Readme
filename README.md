@@ -43,7 +43,7 @@
 
 ## 
 
-[Read the mod's readme](https://gwendolynefreddy.github.io/docs/lcc/readme-lcc-fr.html)
+[Read the mod's readme](https://gwendolynefreddy.github.io/docs/lcc/mymod/readme/readme-lcc-fr.html)
 
 [Download the mod at La Couronne de Cuivre]()<br>
 
