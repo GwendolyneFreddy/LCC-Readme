@@ -8,7 +8,7 @@
 ## 
 
 ###### Repository
-[![Created Badge](https://badges.pufler.dev/created/GwendolyneFreddy/LCC-Readme?style=plastic)](https://badges.pufler.dev) ![GitHub repo size](https://img.shields.io/github/repo-size/GwendolyneFreddy/LCC-Readme?style=plastic) [![Visits Badge](https://badges.pufler.dev/visits/GwendolyneFreddy/LCC-Readme?style=plastic)](https://badges.pufler.dev) [![Updated Badge](https://badges.pufler.dev/updated/GwendolyneFreddy/LCC-Readme?style=plastic)](https://badges.pufler.dev) ![GitHub release (latest by date)](https://img.shields.io/github/downloads/gwendolynefreddy/lcc-readme/latest/total?color=gold&style=plastic) ![GitHub all releases](https://img.shields.io/github/downloads/gwendolynefreddy/lcc-readme/total?label=out%20of&color=yellow&style=plastic)
+[![Created Badge](https://badges.pufler.dev/created/GwendolyneFreddy/LCC-Readme?style=plastic)](https://badges.pufler.dev) ![GitHub repo size](https://img.shields.io/github/repo-size/GwendolyneFreddy/LCC-Readme?style=plastic) [![Updated Badge](https://badges.pufler.dev/updated/GwendolyneFreddy/LCC-Readme?style=plastic)](https://badges.pufler.dev) [![Visits Badge](https://badges.pufler.dev/visits/GwendolyneFreddy/LCC-Readme?color=cyan&style=plastic)](https://badges.pufler.dev) ![GitHub release (latest by date)](https://img.shields.io/github/downloads/gwendolynefreddy/lcc-readme/latest/total?color=gold&style=plastic) ![GitHub all releases](https://img.shields.io/github/downloads/gwendolynefreddy/lcc-readme/total?label=out%20of&color=yellow&style=plastic)
 ![GitHub help wanted](https://img.shields.io/badge/%20-help--wanted-%23159818?style=plastic)
 ![Maintenance](https://img.shields.io/static/v1?label=maintained%3F&message=yes&color=greenlight&style=plastic)
 ![Maintenance](https://img.shields.io/static/v1?label=maintained%3F&message=no&color=red&style=plastic)
@@ -25,6 +25,7 @@
 ![GitHub open pull requests](https://img.shields.io/github/issues-pr-raw/GwendolyneFreddy/LCC-Readme?style=plastic)
 ![GitHub closed pull requests](https://img.shields.io/github/issues-pr-raw/GwendolyneFreddy/LCC-Readme?color=blue&style=plastic)
 
+
 <hr>
 
 
@@ -36,7 +37,6 @@
 
 
 **Author:** <a href="https://www.baldursgateworld.fr/lacouronne/Auteur.html">bibi</a>  
-**Languages:** <a href="README.md">French</a>, English  
 **Mod Website and Forum:** <a href="https://www.baldursgateworld.fr/lacouronne/mymod/">Mymod</a>  
 
 ## 
@@ -397,7 +397,7 @@ Libre à vous de choisir la formule qui vous convient :
 
 ## <a name="versions" id="versions"></a>Version History
 
->&#9755; If your mod is hosted at GitHub, you can save yourself trouble of creating mod packages manually by using this <a href="https://github.com/InfinityTools/InfinityAutoPackager">tool</a>. It produces zip and <a href="https://github.com/ALIENQuake/ProjectInfinity/wiki/Specification-of-the-IEMOD-file-format">IEMod</a> packages for you when you create mod release. It is very easy to use and most SHS mods are released with it. For further documentation, please read <a href="https://forums.beamdog.com/discussion/78364/infinity-auto-packager-automatically-generate-and-adds-mod-packages-to-release-when-you-publish-it">this</a>.<br>
+>&#9755; If your mod is hosted at GitHub, you can save yourself the trouble of creating mod packages manually by using this <a href="https://github.com/InfinityTools/InfinityAutoPackager">tool</a>. It produces zip and <a href="https://github.com/ALIENQuake/ProjectInfinity/wiki/Specification-of-the-IEMOD-file-format">IEMod</a> packages for you when you create mod release. It is very easy to use and most SHS mods are released with it. For further documentation, please read <a href="https://forums.beamdog.com/discussion/78364/infinity-auto-packager-automatically-generate-and-adds-mod-packages-to-release-when-you-publish-it">this</a>.<br>
 
 <p>Note du traducteur : l'historique n'est volontairement pas traduit afin de faciliter la mise à jour par l'auteur.</p>
 

@@ -77,12 +77,6 @@
 		<p>
 			Courte description du mod : Ce mod... ou L'objet de ce mod...
 		</p><br>
-		<p>
-			Il s'agit d'un modèle de fichier readme destiné aux mods développés et/ou publiés sur la Couronne de Cuivre. Je me suis efforcé de conserver les codes couleurs utilisés par le forum, même si ce n'est pas toujours évident.
-		</p>
-		<p>
-			Pour chaque section, j'ai repris, chaque fois que c'était possible, des éléments de traductions déjà publiées (par les d'Oghms ou par bibi) afin de conserver un semblant d'homogénéité dans les termes employés. Il suffit alors de conserver celles dont on a besoin (liste des jeux compatibles, procédures d'installation selon la plateforme, liste des outils utilisés...) et, pour le reste, de remplacer Mymod et Auteur par le nom du mod et de son auteur, de modifier les liens et de remplir les textes adéquats. Pour certaines sections, j'ai été le plus exhaustif possible : il vous suffit de choisir les paragraphes qui vous intéressent et de supprimer les autres. &#128521;
-		</p><br>
 
 		<p>
 			<strong>Contenu</strong>
@@ -94,6 +88,58 @@
 			<li>principal contenu #4</li>
 			<li>...</li>
 		</ul><br>
+
+		<hr><br>
+
+		<h3>
+			Comment utiliser ce canevas ?
+		</h3>
+
+		<p style="margin-top:1%;">
+			Il s'agit d'un modèle de fichier readme destiné aux mods développés et/ou publiés sur la Couronne de Cuivre. Je me suis efforcé de conserver les codes couleurs utilisés par le forum, même si ce n'est pas toujours évident.
+		</p><br>
+
+		<p>
+			Ouvrez l'archive et glissez-déposez les fichiers dans le répertoire de votre mod. Supposons ce dernier s'appelle &#x1F4C1; <strong>easy_rider</strong>. Vous devez donc :
+		</p>
+		<ul style="margin-left: 6%";>
+			<li>Glisser-déposer le répertoire &#x1F4C1; mymod/readme dans &#x1F4C1; easy_rider.</li>
+			<li>Glisser-déposer les fichiers README.md et README_EN à la racine de votre dépôt GitHub (<em>le répertoire qui contient le dossier .git</em>) si vous vous hébergez votre mod sur GitHub.</li>
+		</ul><br>
+
+		<p>
+			Pour afficher le readme lors de l'installation de votre mod, renommez les fichiers .html selon le format suivant : <em>readme-easy_rider-french.html</em> et <em>readme-easy_rider-english.html</em>. Puis ajoutez la ligne <span class="tp2">README</span> suivante dans votre fichier d'installation <em>easy_rider.tp2</em> :
+		</p>
+
+		<div class="important_tuto">
+			<p><pre>
+BACKUP ~eay_rider/backup~
+AUTHOR ~bibi~
+
+VERSION ~vn.n.0~
+
+README ~easy_rider/readme/readme-easy_rider-%LANGUAGE%.html~ ~easy_rider/readme/readme-easy_rider-english.html~</pre>
+			</p>
+		</div><br>
+
+		<p>
+			Cerise sur le gâteau, j'ai ajouté un script qui permet de mettre automatiquement à jour le numéro de version dans la section en-tête à partir de la dernière version saisi dans la partie Historique des versions. Pour cela, il suffit de saisir les lignes suivantes en haut de la section Historique des versions juste après le paragraphe sur l'utilitaire Infinity Auto Packager :
+
+		<div class="important_tuto">
+			<p><pre>
+&lt;p class="version"&gt;
+	Version n.n.n &nbsp;(date)
+&lt;/p&gt;</pre>
+			</p>
+		</div>
+
+		<p>
+			Le script extraira alors la chaîne de caractères " <em>n.n.n &nbsp;(date)</em> " pour l'insérer dans le champ " <em>versionnb1</em> " de l'en-tête.
+		</p><br>
+
+		<p>
+			Pour chaque section, j'ai repris, chaque fois que c'était possible, des éléments de traductions déjà publiées (par les d'Oghms ou par bibi) afin de conserver un semblant d'homogénéité dans les termes employés. Il suffit alors de conserver celles dont on a besoin (liste des jeux compatibles, procédures d'installation selon la plateforme, liste des outils utilisés...) et, pour le reste, de remplacer Mymod et Auteur par le nom du mod et de son auteur, de modifier les liens et de remplir les textes adéquats. Pour certaines sections, j'ai été le plus exhaustif possible : il vous suffit de choisir les paragraphes qui vous intéressent et de supprimer les autres. &#128521;
+		</p><br>
 
 		<p>
 			<span style="color: Goldenrod;">&#9755;</span> <strong>Note :</strong> Si vous souhaitez utiliser des modèles de page plus complexes, veuillez consulter <a href="https://gwendolynefreddy.github.io/docs/spellholdstudios/readme-infinityanimations-french.html">celle-ci</a> et <a href="https://spellholdstudios.github.io/readmes/1pp/documentation/1pp-readme-french.html">celle-là</a>.
@@ -1056,11 +1102,11 @@ After = bg2fixpack, EET, divine_remix</pre>
 		</h2><br>
 
 		  <div class="important">
-			<p><span style="color: #Goldenrod;">&#9755;</span> Si vous hébergez votre mod sur GitHub, vous pouvez vous gagner du temps en publiant vos archives à l'aide cet <a href="https://github.com/InfinityTools/InfinityAutoPackager">utilitaire</a>. Ce dernier crée automatiquement des archives aux formats zip et <a href="https://github.com/ALIENQuake/ProjectInfinity/wiki/Specification-of-the-IEMOD-file-format">IEMod</a> lorsque vous publiez une nouvelle version. Son utilisation est un jeu d'enfant et la plupart des mods hébergés par Spellhold Studios l'utilisent. Pour de plus amples informations, veuillez consulter <a href="https://forums.beamdog.com/discussion/78364/infinity-auto-packager-automatically-generate-and-adds-mod-packages-to-release-when-you-publish-it">ce lien</a>.</p>
+			<p><span style="color: #Goldenrod;">&#9755;</span> Si vous hébergez votre mod sur GitHub, vous pouvez gagner du temps en publiant vos archives à l'aide cet <a href="https://github.com/InfinityTools/InfinityAutoPackager">utilitaire</a>. Ce dernier crée automatiquement des archives aux formats zip et <a href="https://github.com/ALIENQuake/ProjectInfinity/wiki/Specification-of-the-IEMOD-file-format">IEMod</a> lorsque vous publiez une nouvelle version. Son utilisation est un jeu d'enfant et la plupart des mods hébergés par Spellhold Studios l'utilisent. Pour de plus amples informations, veuillez consulter <a href="https://forums.beamdog.com/discussion/78364/infinity-auto-packager-automatically-generate-and-adds-mod-packages-to-release-when-you-publish-it">ce lien</a>.</p>
 		  </div><br>
 			
 		<p class="version">
-			Version 6.0.0 &nbsp;(14 janvier 2021)
+			Version 6.0.0 &nbsp;(17 janvier 2021)
 		</p>
 
 		<h5><span style="color: Goldenrod;">&#9755;</span> Modifications générales (fichiers .html et .md) :</h5>
@@ -1068,6 +1114,8 @@ After = bg2fixpack, EET, divine_remix</pre>
 		<ul style="text-align:justify;">
 			<li>Création du dossier &#x1F4C1; mymod.</li>
 			<li>Modification du nom des fichiers .ini et ajout de modèles dans le dossier &#x1F4C1; /mymod.</li>
+			<li>Ajout du fichier <em>activity.md</em> regroupant de nombreux badges GitHub permettant de gérer le dépôt, en anglais et en français.</li>
+			<li>Ajout du fichier <em>MAINTENANCE-NOTICE.md</em>.</li>
 			<li>Correction de typos.</li>
 			<li>Ajouts de lignes de séparations manquantes.</li>
 			<li>Mise à jour des liens obsolètes.</li>
@@ -1126,11 +1174,12 @@ After = bg2fixpack, EET, divine_remix</pre>
 			</li>
 		</ul><br>
 
-		<h5><span style="color: Goldenrod;">&#9755;</span> Fichiers readme.md :</h5>
+		<h5><span style="color: Goldenrod;">&#9755;</span> Fichiers .md :</h5>
 
 		<ul style="text-align:justify;">
 			<li>Ajout des badges d'en-tête de plateforme Mac et Linux.</li>
 			<li>Ajout des badges d'en-tête personnalisés de statistiques de téléchargement.</li>
+			<li>Ajout des badges d'en-tête personnalisés de statistiques sur le dépôt et sur son activité.</li>
 			<li>Traduction en français des badges d'en-tête.</li>
 			<li>Ajout du lien permettant d'afficher les readme Markdown français et anglais.</li>
 		</ul><br>

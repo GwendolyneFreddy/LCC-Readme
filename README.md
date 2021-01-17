@@ -8,7 +8,7 @@
 ## 
 
 ###### Dépôt
-[![Created Badge](https://badges.pufler.dev/created/GwendolyneFreddy/LCC-Readme?style=plastic&label=cr%C3%A9ation)](https://badges.pufler.dev) ![GitHub repo size](https://img.shields.io/github/repo-size/GwendolyneFreddy/LCC-Readme?style=plastic&label=taille) [![Visits Badge](https://badges.pufler.dev/visits/GwendolyneFreddy/LCC-Readme?style=plastic&label=visites)](https://badges.pufler.dev) [![Updated Badge](https://badges.pufler.dev/updated/GwendolyneFreddy/LCC-Readme?style=plastic&label=mise%20%C3%A0%20jour)](https://badges.pufler.dev) ![GitHub release (latest by date)](https://img.shields.io/github/downloads/gwendolynefreddy/lcc-readme/latest/total?color=gold&label=t%C3%A9l%C3%A9chargements%20latest&style=plastic) ![GitHub all releases](https://img.shields.io/github/downloads/gwendolynefreddy/lcc-readme/total?label=sur%20un%20total%20de&color=yellow&style=plastic)
+[![Created Badge](https://badges.pufler.dev/created/GwendolyneFreddy/LCC-Readme?style=plastic&label=cr%C3%A9ation)](https://badges.pufler.dev) ![GitHub repo size](https://img.shields.io/github/repo-size/GwendolyneFreddy/LCC-Readme?style=plastic&label=taille) [![Updated Badge](https://badges.pufler.dev/updated/GwendolyneFreddy/LCC-Readme?style=plastic&label=mise%20%C3%A0%20jour)](https://badges.pufler.dev) [![Visits Badge](https://badges.pufler.dev/visits/GwendolyneFreddy/LCC-Readme?color=cyan&style=plastic&label=visites)](https://badges.pufler.dev) ![GitHub release (latest by date)](https://img.shields.io/github/downloads/gwendolynefreddy/lcc-readme/latest/total?color=gold&label=t%C3%A9l%C3%A9chargements%20latest&style=plastic) ![GitHub all releases](https://img.shields.io/github/downloads/gwendolynefreddy/lcc-readme/total?label=sur%20un%20total%20de&color=yellow&style=plastic)
 ![GitHub help wanted](https://img.shields.io/badge/%20-help--wanted-%23159818?style=plastic)
 ![Maintenance](https://img.shields.io/static/v1?label=maintenu%20%3F&message=oui&color=greenlight&style=plastic)
 ![Maintenance](https://img.shields.io/static/v1?label=maintenu%20%3F&message=non&color=red&style=plastic)
@@ -26,6 +26,7 @@
 ![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed/GwendolyneFreddy/LCC-Readme?color=blue&style=plastic)
 ![GitHub open pull requests](https://img.shields.io/github/issues-pr-raw/GwendolyneFreddy/LCC-Readme?label=pull%20requests%20ouvertes&style=plastic)
 ![GitHub closed pull requests](https://img.shields.io/github/issues-pr-raw/GwendolyneFreddy/LCC-Readme?color=blue&label=pull%20requests%20ferm%C3%A9es&style=plastic)
+
 
 <hr>
 
@@ -63,7 +64,7 @@ Courte description du mod : Ce mod... ou L'objet de ce mod...
 
 Il s'agit d'un modèle de fichier readme pour GitHub destiné aux mods développés et/ou publiés sur la Couronne de Cuivre. Il est écrit en langage Markdown. Bien qu'il soit assez proche du langage HTML, certains formatages ne sont pas pris en compte par GitHub, comme l'affichage des couleurs.
 
-Pour chaque section, j'ai repris, chaque fois que c'était possible, des éléments de traductions déjà publiées (par les d'Oghms ou par bibi) afin de conserver un semblant d'homogénéité dans les termes employés. Il suffit alors de conserver celles dont on a besoin (liste des jeux compatibles, procédures d'installation selon la plateforme, liste des outils utilisés...) et, pour le reste, de remplacer MYMOD et Auteur par le nom du mod et de son auteur, de modifier les liens et de remplir les textes adéquats. Pour certaines sections, j'ai été le plus exhaustif possible : il vous suffit de choisir les paragraphes qui vous intéressent et de supprimer les autres. &#128521;
+Pour chaque section, j'ai repris, chaque fois que c'était possible, des éléments de traduction déjà publiées (par les d'Oghms ou par bibi) afin de conserver un semblant d'homogénéité dans les termes employés. Il suffit alors de conserver celles dont on a besoin (liste des jeux compatibles, procédures d'installation selon la plateforme, liste des outils utilisés...) et, pour le reste, de remplacer MYMOD et Auteur par le nom du mod et de son auteur, de modifier les liens et de remplir les textes adéquats. Pour certaines sections, j'ai été le plus exhaustif possible : il vous suffit de choisir les paragraphes qui vous intéressent et de supprimer les autres. &#128521;
 
 
 Malheureusement, le rendu d'un fichier .md n'est véritablement effectif que dans GitHub, ce qui ne vous permet pas de visualiser votre mise en page dans Notepad++. Il existe cependant plusieurs utilitaires vous permettant de les éditer et de visualiser partiellement vos modifications. Partiellement parce que certaines balises comme [br (break line)] apparaissent à l'écran MÊME si elles resteront invisibles dans GitHub. Personnellement, j'ai opté pour <a href="https://typora.io/">Typora</a>, mais il en existe d'autres.<br>
@@ -400,7 +401,7 @@ Libre à vous de choisir la formule qui vous convient :
 
 ## <a name="versions" id="versions"></a>Historique des versions
 
->&#9755; Si vous hébergez votre mod sur GitHub, vous pouvez vous gagner du temps en publiant vos archives à l'aide cet <a href="https://github.com/InfinityTools/InfinityAutoPackager">utilitaire</a>. Ce dernier crée automatiquement des archives aux formats zip et <a href="https://github.com/ALIENQuake/ProjectInfinity/wiki/Specification-of-the-IEMOD-file-format">IEMod</a> lorsque vous publiez une nouvelle version. Son utilisation est un jeu d'enfant et la plupart des mods hébergés par Spellhold Studios l'utilisent. Pour de plus amples informations, veuillez consulter <a href="https://forums.beamdog.com/discussion/78364/infinity-auto-packager-automatically-generate-and-adds-mod-packages-to-release-when-you-publish-it">ce lien</a>.<br>
+>&#9755; Si vous hébergez votre mod sur GitHub, vous pouvez gagner du temps en publiant vos archives à l'aide cet <a href="https://github.com/InfinityTools/InfinityAutoPackager">utilitaire</a>. Ce dernier crée automatiquement des archives aux formats zip et <a href="https://github.com/ALIENQuake/ProjectInfinity/wiki/Specification-of-the-IEMOD-file-format">IEMod</a> lorsque vous publiez une nouvelle version. Son utilisation est un jeu d'enfant et la plupart des mods hébergés par Spellhold Studios l'utilisent. Pour de plus amples informations, veuillez consulter <a href="https://forums.beamdog.com/discussion/78364/infinity-auto-packager-automatically-generate-and-adds-mod-packages-to-release-when-you-publish-it">ce lien</a>.<br>
 
 &nbsp;
 
@@ -409,6 +410,8 @@ Libre à vous de choisir la formule qui vous convient :
 &#9755; <ins>Modifications générales (fichiers .html et .md) :</ins>
   - Création du dossier :file_folder: mymod.
   - Modification du nom des fichiers .ini et ajout de modèles dans le dossier :file_folder: /mymod.
+  - Ajout du fichier *activity.md* regroupant de nombreux badges GitHub permettant de gérer le dépôt, en anglais et en français.
+  - Ajout du fichier *MAINTENANCE-NOTICE.md*.
   - Correction de typos.
   - Ajouts de lignes de séparations manquantes.
   - Mise à jour des liens obsolètes.
@@ -446,6 +449,7 @@ Libre à vous de choisir la formule qui vous convient :
 &#9755; <ins>Fichiers readme.md :</ins>
   - Ajout des badges d'en-tête de plateforme Mac et Linux.
   - Ajout des badges d'en-tête personnalisés de statistiques de téléchargement.
+  - Ajout des badges d'en-tête personnalisés de statistiques sur le dépôt et sur son activité.
   - Traduction en français des badges d'en-tête.
   - Ajout du lien permettant d'afficher les readme Markdown français et anglais.
 
