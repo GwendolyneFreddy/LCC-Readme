@@ -22,15 +22,10 @@
 ![GitHub closed issues](https://img.shields.io/github/issues-closed/GwendolyneFreddy/LCC-Readme?color=blue&label=probl%C3%A8mes&style=plastic)
 ![GitHub open issues](https://img.shields.io/github/issues-raw/GwendolyneFreddy/LCC-Readme?color=red&label=probl%C3%A8mes%20ouverts&style=plastic)
 ![GitHub closed issues](https://img.shields.io/github/issues-closed-raw/GwendolyneFreddy/LCC-Readme?color=blue&label=probl%C3%A8mes%20ferm%C3%A9s&style=plastic)
-
 ![GitHub pull requests](https://img.shields.io/github/issues-pr/GwendolyneFreddy/LCC-Readme?style=plastic)
 ![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed/GwendolyneFreddy/LCC-Readme?color=blue&style=plastic)
-
-![GitHub open pull requests](https://img.shields.io/github/issues-pr-raw/GwendolyneFreddy/LCC-Readme?style=plastic)
-![GitHub closed pull requests](https://img.shields.io/github/issues-pr/GwendolyneFreddy/LCC-Readme?color=blue&style=plastic)
-
-![GitHub pull requests](https://img.shields.io/github/issues-pr-raw/GwendolyneFreddy/LCC-Readme?label=pull%20requests%20ouvertes&style=plastic)
-![GitHub pull requests](https://img.shields.io/github/issues-pr-raw/GwendolyneFreddy/LCC-Readme?color=blue&label=pull%20requests%20ferm%C3%A9es&style=plastic)
+![GitHub open pull requests](https://img.shields.io/github/issues-pr-raw/GwendolyneFreddy/LCC-Readme?label=pull%20requests%20ouvertes&style=plastic)
+![GitHub closed pull requests](https://img.shields.io/github/issues-pr-raw/GwendolyneFreddy/LCC-Readme?color=blue&label=pull%20requests%20ferm%C3%A9es&style=plastic)
 
 <hr>
 
