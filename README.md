@@ -20,8 +20,6 @@
 
 ![GitHub issues](https://img.shields.io/github/issues/GwendolyneFreddy/LCC-Readme?color=red&label=probl%C3%A8mes&style=plastic)
 ![GitHub closed issues](https://img.shields.io/github/issues-closed/GwendolyneFreddy/LCC-Readme?color=blue&label=probl%C3%A8mes&style=plastic)
-![GitHub open issues](https://badgen.net/github/open-issues/GwendolyneFreddy/LCC-Readme?color=red&probl%C3%A8mes%20ouverts&style=plastic) ![GitHub closed issues](https://badgen.net/github/closed-issues/GwendolyneFreddy/LCC-Readme?probl%C3%A8mes%20ferm%C3%A9s&style=plastic)
-
 ![GitHub open issues](https://img.shields.io/github/issues-raw/GwendolyneFreddy/LCC-Readme?color=red&label=probl%C3%A8mes%20ouverts&style=plastic)
 ![GitHub closed issues](https://img.shields.io/github/issues-closed-raw/GwendolyneFreddy/LCC-Readme?color=blue&label=probl%C3%A8mes%20ferm%C3%A9s&style=plastic)
 
