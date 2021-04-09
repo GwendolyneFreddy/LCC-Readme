@@ -131,7 +131,7 @@ If you encounter any bugs, please report them on the forum!
 
 #### Installation Order
 
->Although it is not required for the mymod to function properly, BG2 and TOB players are strongly recommended to download and install the latest version of the <a href="http://www.gibberlings3.net/bg2fixpack/">BG2 Fixpack</a> before proceeding with the installation of this mod.<br>
+>Although it is not required for the mymod to function properly, BG2 and TOB players are strongly recommended to download and install the latest version of the <a href="https://www.gibberlings3.net/mods/fixes/bg2fixpack/">BG2 Fixpack</a> before proceeding with the installation of this mod.<br>
 
 - Please install mymod before mod A.
 - Please install mymod after mod B.
@@ -386,7 +386,7 @@ Libre à vous de choisir la formule qui vous convient :
 
 ###### <a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/deed.en_US"><img align="left" alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png" /></a> Mymod is not developed, supported, or endorsed by BioWare&trade; or Interplay/BlackIsle, Overhaul, Beamdog or the Wizards of the Coast. It was developed by Auteur, based on material from the game Baldur's Gate II and its expansion, and is licensed under a <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.en_US">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>.
 
-###### The modding community for the Infinity Engine has been going strong for more than 10 years now, and is the culmination of thousands of unpaid modding hours by fellow fans of the game. Modders produce their best work and players get the best, well-supported mods when we all work together.
+###### The modding community for the Infinity Engine has been going strong for more than 15 years now, and is the culmination of thousands of unpaid modding hours by fellow fans of the game. Modders produce their best work and players get the best, well-supported mods when we all work together.
 ###### There are two big ways to upset this harmony. One is to claim someone else's work as your own. The second is to host and redistribute a mod without permission from the author(s).
 ###### Be kind to your fellow players and modders. Don't do either.<br>
 <div align="right"><a href="#top">Back to top</a></div>

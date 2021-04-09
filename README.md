@@ -2,7 +2,7 @@
 ![Latest Release](https://img.shields.io/static/v1?label=version&message=v4.0.0&color=gold)
 ![GitHub (Pre-)Release Date](https://img.shields.io/github/release-date-pre/GwendolyneFreddy/LCC-Readme?color=gold&label=date)
 ![Platform](https://img.shields.io/static/v1?label=platform&message=windows%20%7C%20Mac%20%7C%20linux&color=informational)
-![Language](https://img.shields.io/static/v1?label=langues&message=Anglais%20%7C%20Français&color=limegreen)
+![Language](https://img.shields.io/static/v1?label=langues&message=Anglais%20%7C%20Fran%C3%A7ais&color=limegreen)
 <a href="README_EN.md"><img align="right" src="mymod/readme/images/uk-flag-32.png" title="English Readme"></a>
 
 ## 
@@ -43,9 +43,9 @@
 
 ## 
 
-[Read the mod's readme](https://gwendolynefreddy.github.io/docs/lcc/mymod/readme/readme-lcc-fr.html)
+[Consulter le lisez-moi du mod]](https://gwendolynefreddy.github.io/docs/lcc/mymod/readme/readme-lcc-fr.html)
 
-[Download the mod at La Couronne de Cuivre]()<br>
+[Télécharger le mod sur le site de La Couronne de Cuivre]()<br>
 
 ## 
 
@@ -120,7 +120,7 @@ Ce mod est conçu pour fonctionner sur les jeux Infinity Engine suivants :
 
 #### Compatibilité avec les autres mods
 
-Mymod est un mod  WeiDU et devrait par conséquent être compatible avec n'importe quel mod WeiDU. [Choisir une formule parmi les suivantes : ]Bien qu'il ne soit pas requis pour faire correctement tourner MYMOD, il est toujours utile d'avoir installé la dernière version du <a href="http://www.gibberlings3.net/bg2fixpack/">BG2 Fixpack</a>. Je vous recommande fortement d'installer la dernière version du <a href="http://www.gibberlings3.net/bg2fixpack/">BG2 Fixpack</a> avant d'installer ce mod.
+Mymod est un mod  WeiDU et devrait par conséquent être compatible avec n'importe quel mod WeiDU. [Choisir une formule parmi les suivantes : ]Bien qu'il ne soit pas requis pour faire correctement tourner MYMOD, il est toujours utile d'avoir installé la dernière version du <a href="https://www.gibberlings3.net/mods/fixes/bg2fixpack/">BG2 Fixpack</a>. Je vous recommande fortement d'installer la dernière version du <a href=https://www.gibberlings3.net/mods/fixes/bg2fixpack/">BG2 Fixpack</a> avant d'installer ce mod.
 
 Bien que je m'efforce de rendre Mymod compatible avec le plus grand nombre possible de mods, des incompatibilités risquent toujours de se produire. Voici la liste de celles recensées jusqu'à présent :
 - mod 1
@@ -167,7 +167,7 @@ Good Old Games (GOG) et Steam fournissent le contenu de Siege of Dragonspear dan
 
 Les Éditions améliorées sont des jeux que le développeur fait encore évoluer, notamment par l'ajout de capacités supplémentaires destinées à la création de mods et par l'ajout de contenus. N'oubliez pas que chaque patch de mise à jour effacera les mods que vous avez installés ! Ce mod ne fera pas exception à la règle.
 
-Si vous pouvez retarder la mise à jour du patch en plein milieu d'un partie moddée (si vous en avez la possibilité, notamment chez Beamdog et Good Old Games), n'oubliez pas que même après avoir réinstallé les mods sur un nouveau patch, vous ne pourrez peut-être pas continuer le jeu avec vos anciennes sauvegardes, en particulier à cause de noms de personnages, de lieux, etc, qui pourraient être incorrects. Pour y remédier, copiez tout le dossier du jeu dans un nouveau dossier dans lequel vous installerez vos mods, et qui ne sera pas modifié par les patches de mise à jour. Il est important que vous installiez le mod dans la version linguistique dans laquelle vous jouez. Sinon, les dialogues du mod ne s'afficheront pas et provoqueront des messages d'erreur.</br>
+Si vous pouvez retarder la mise à jour du patch en plein milieu d'un partie moddée (si vous en avez la possibilité, notamment chez Beamdog et Good Old Games), n'oubliez pas que même après avoir réinstallé les mods sur un nouveau patch, vous ne pourrez peut-être pas continuer le jeu avec vos anciennes sauvegardes, en particulier à cause de noms de personnages, de lieux, etc, qui pourraient être incorrects. Pour y remédier, copiez tout le dossier du jeu dans un nouveau dossier dans lequel vous installerez vos mods, et qui ne sera pas modifié par les patches de mise à jour. Il est important que vous installiez le mod dans la version linguistique dans laquelle vous jouez. Sinon, les dialogues du mod ne s'afficheront pas et provoqueront des messages d'erreur.
 
 ## 
 
@@ -244,7 +244,7 @@ Le programme d'installation comprend les composants suivants. Chacun possède un 
 
 ## 
 
-#### [10] Component blabla (main component)
+#### [10] Composant blabla (composant principal)
 
 Description du composant principal.
 
@@ -254,13 +254,13 @@ ou bien
 
 ## 
 
-#### [20] Component blublu
+#### [20] Composant blublu
 
 Description du composant blublu.
 
 ## 
 
-#### [30] Component bloblo
+#### [30] Composant bloblo
 
 Exemple de composant présentant des tableaux.
 
