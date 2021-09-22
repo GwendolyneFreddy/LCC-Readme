@@ -80,8 +80,6 @@ Deux listes de codes de smileys et d'emoji utilisables par markdown :
 </p><br>
 </details>
 
-&nbsp;
-
 &#9755; **Note:** If you want to use more complex formating, please have a look <a href="https://github.com/GwendolyneFreddy/Infinity-Animations">here</a> and <a href="https://github.com/SpellholdStudios/1pp">there</a>.<br>
 <div align="right"><a href="#top">Back to top</a></div>
 
@@ -106,15 +104,13 @@ This mod is designed to work on the following Infinity Engine games:
 
 #### Other Mods Compatibility
 
-Mymod is a WeiDU mod, and therefore should be compatible with all WeiDU mods. [facultatif : It has been tested on several different installations, and has so far worked perfectly.] However, we cannot test every single one. [Choisir une formule parmi les suivantes :] If you do encounter any bugs, please contact <a href="https://www.baldursgateworld.fr/lacouronne/Auteur.html">AUTHOR</a> or alternatively post on the forums. If you encounter any bugs, please report them on the forum!
+Mymod is a WeiDU mod, and therefore should be compatible with all WeiDU mods. [facultatif : It has been tested on several different installations, and has so far worked perfectly.] Though I am striving to make it compatible with as many other mods as possible, there is always a chance that incompatibilities will arise. Below are the ones discovered thus far:
 
-Though I am striving to make it compatible with as many other mods as possible, there is always a chance that incompatibilities will arise. Below are the ones discovered thus far:
 - mod 1
 - mod 2
 - ...
 
-
-If you encounter any bugs, please report them on the forum! 
+[Choisir une formule parmi les suivantes :] If you do encounter any bugs, please contact <a href="https://www.baldursgateworld.fr/lacouronne/Auteur.html">AUTHOR</a> or alternatively post on the forums. If you encounter any bugs, please report them on the forum!
 
 ## 
 
@@ -122,6 +118,7 @@ If you encounter any bugs, please report them on the forum!
 
 >Although it is not required for the mymod to function properly, BG2 and TOB players are strongly recommended to download and install the latest version of the <a href="https://www.gibberlings3.net/mods/fixes/bg2fixpack/">BG2 Fixpack</a> before proceeding with the installation of this mod.<br>
 
+Here is the recommended installation order:
 - Please install mymod before mod A.
 - Please install mymod after mod B.
 - ...
@@ -135,7 +132,7 @@ If you encounter any bugs, please report them on the forum!
 
 #### Notes
 
-*If you've previously installed the mod, remove it before extracting the new version. To do this, run __`setup-mymod.exe`__ (or .command with OS X), un-install all previously installed components and delete both :file_folder: __mymod__ folder and __setup-mymod.exe__ file.*
+*If you've previously installed the mod, remove it before extracting the new version. To do this, run __`setup-mymod.exe`__ (or .command with Mac OS), un-install all previously installed components and delete both :file_folder: __mymod__ folder and __setup-mymod.exe__ file.*
 
 *When installing or un-installing, __do not close the DOS window__ by clicking on the __X__ button! Instead, press the __Enter__ key whenever instructed to do so.*
 
@@ -181,7 +178,7 @@ Mymod for Linux is distributed in the same compressed archive and does not inclu
 
 Extract the contents of the mod to the folder of the game you wish to modify.
 
-Download the latest version of WeiDU for Linux from <a href="https://github.com/WeiDUorg/weidu/releases">WeiDU.org</a> and copy weidu, weinstall and tolower to `/usr/local/bin` (create it if needed). Following that, open a terminal, **`cd`** to your game installation directory, run **`/usr/local/bin/tolower`** and answer 'Y' to both queries. You can avoid running the second option (linux.ini) if you've already ran it once in the same directory. To save time, the archive is already tolowered, so there's no need to run the first option (lowercasing file names) either if you've extracted only this mod since the last time you lowercased file names. If you're unsure, running tolower and choosing both options is the safe bet.
+Download the latest version of WeiDU for Linux from <a href="https://github.com/WeiDUorg/weidu/releases">WeiDU.org</a> and copy weidu and weinstall to `/usr/local/bin` (create it if needed). Following that, open a terminal, **`cd`** to your game installation directory, run **`/usr/local/bin/tolower`** and answer 'Y' to both queries. You can avoid running the second option (linux.ini) if you've already ran it once in the same directory. To save time, the archive is already tolowered, so there's no need to run the first option (lowercasing file names) either if you've extracted only this mod since the last time you lowercased file names. If you're unsure, running tolower and choosing both options is the safe bet.
 
 To install, type **`export PATH=$PATH:/usr/local/bin`**, then run **`weinstall setup-mymod`** (or **`wine baldur.exe`** for EE games) in your game folder. Then run **`wine bgmain.exe`** and start playing.
 
@@ -220,6 +217,79 @@ Here is a chart listing options related to the installation process:<br><br>
 <hr>
 
 
+## <a name="details" id="details"></a>Details
+
+Exemple de section Détails tiré su mod <a href="http://spellholdstudios.net/ie/luxleys">The Lxley Family</a>, utile pour les mods NPC.
+
+Sebastian and Andrei can be found in the Bridge District of Athkatla.
+
+#### PNJs characteristics
+
+<table cellpadding=0 cellspacing=0 style="margin-top: 1%; margin-left: 80px">
+	<tr style= "line-height: 170%;">
+		<th>Portrait</th>
+		<th>Strength</th>
+		<th>Dexterity</th>
+		<th>Constitution</th>
+		<th>Intelligence</th>
+		<th>Wisdom</th>
+		<th>Charisma</th>
+	</tr>
+	<tr>
+		<td><img src="mymod/readme/images/fhsebm.png" title="Sebastian"></td>
+		<td><div align="center">10</div></td>
+		<td><div align="center">12</div></td>
+		<td><div align="center">15</div></td>
+		<td><div align="center">16</div></td>
+		<td><div align="center">15</div></td>
+		<td><div align="center">17</div></td>
+	</tr>
+	<tr>
+		<td colspan="7">
+		<strong>Biography:</strong><br>
+		It is fair to say that whenever you question Sebastian about himself he is maddeningly elusive. He is a playwright by trade - or so he says, though he is secretive about his work and claims that a great deal of what he writes would go over your head. He has a keen sense of frivolity and seems to take little in life with any seriousness. Nevertheless, on occasion it appears that there is something else going on with him, and it would be unwise to underestimate his intelligence.</td>
+	</tr>
+	<tr>
+		<td><img src="mymod/readme/images/fhandrem.png" title="Andrei"></td>
+		<td><div align="center">15</div></td>
+		<td><div align="center">17</div></td>
+		<td><div align="center">16</div></td>
+		<td><div align="center">12</div></td>
+		<td><div align="center">9</div></td>
+		<td><div align="center">11</div></td>
+	</tr>
+		<td colspan="7">
+		<strong>Biography:</strong><br>
+		Andrei smiles when you ask him about himself. Though he is willing to talk about his relatives and is forthright about his beliefs, he is politely evasive on some subjects. He is skilled in hand-to-hand combat, a skill he developed at a young age, and was trained by an older member of his family. Despite his combat expertise, Andrei has only just left the family estate and seems a little naive about certain aspects of everyday life that you, perhaps, take for granted. Nevertheless, he comes across as quietly confident and it is rare to see him stray from a path he has chosen.</td>
+	</tr>
+</table>
+
+## 
+
+#### Player-initiated dialogues
+
+You have the opportunity to initiate dialogue with Sebastian and Andrei if you click the *Talk* icon and click on their portraits or avatars. This option is available once they have had their first talk while in the party. Their reactions will depend on your behaviour during both scripted and player-initiated talks.
+
+&#10173; If you want to write your own NPC talking about or with Sebastian or Andrei, or commenting about their quest, you don't have to ask our permission. However, if you'd like to get in contact and get some ideas going, we're more than willing to put the work in.
+
+&nbsp;
+
+<ins>Notes on flirting with Andrei:</ins>
+
+You can choose the option "*flirt with*" irrespective of race or gender. If the number of flirts he has accepted gets high enough, he will start a dialogue with you commenting on your behaviour and you can decide whether to try to take things further or remain friends.
+
+<ins>Notes on flirting with Sebastian:</ins>
+
+You can choose "*flirt with*" irrespective of race or gender. If the number of flirts he has accepted gets high enough, your Bioware loved one will object. Under certain circumstances, you can choose to try to take your relationship with Sebastian further.
+
+With both, you can choose the option "*I'd like us to just be friends*" at any time, and "*flirt with*" will disappear from the response menu.
+
+<div align="right"><a href="#top">Back to top</a></div>
+
+
+<hr>
+
+
 ## <a name="components" id="components"></a>Components
 
 The installer includes the following components. The number of each is the component *`DESIGNATED`* number which gives it a fixed install position and allows automated installers to specify component choices.
@@ -228,23 +298,23 @@ The installer includes the following components. The number of each is the compo
 
 ## 
 
-#### [10] Component blabla (main component)
+**[10] Component blabla** *(main component)*
 
 Description du composant principal.
 
 ou bien
 
-&#10173; Description du composant principal.
+&#10173; This is the main component required before installing all other components.
 
 ## 
 
-#### [20] Component blublu
+**[20] Component blublu**
 
-Description du composant blublu.
+&#10173; Description du composant blublu.
 
 ## 
 
-#### [30] Component bloblo
+**[30] Component bloblo**
 
 Exemple de composant présentant des tableaux.
 
@@ -263,7 +333,7 @@ Exemple de composant présentant des tableaux.
 
 The installer includes the following components. The number of each is the component *`DESIGNATED`* number which gives it a fixed install position and allows automated installers to specify component choices.
 
-><span style="margin-left: 50px;"><a href="#10">[10] Component blabla</a>&nbsp;&nbsp;&nbsp;*[main component]*</span><br>
+><span style="margin-left: 50px;"><a href="#10">[10] Component blabla</a></a> <em>&nbsp;[main component]</em></span><br>
 ><span style="margin-left: 50px;"><a href="#20">[20] Component blublu</a></span><br>
 ><span style="margin-left: 50px;"><a href="#30">[30] Component bloblo</a></span><br>
 ><span style="margin-left: 50px;"><a href="#40">[40] ...</a></span><br>
@@ -271,34 +341,89 @@ The installer includes the following components. The number of each is the compo
 
 ------------------------
 
-<a name="10" id="10"></a>&#10173; **[10] Component blabla (main component)**<br><br>
+<a name="10" id="10"></a>&#10173; **[10] Component blabla** *(main component)*
+###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em>Original game: requires ToB v26498</em><br><br>
 
-Main component description.
+&#9755; Main component description.<br>
+&#9755; This is the main component required before installing all other components.
 <div align="right"><a href="#componentslist">Back to components list</a></div>
 
 ## 
 
 <a name="20" id="20"></a>&#10173; **[20] Component blublu**<br><br>
+###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em>Requires component <a href="#10">[10] Component blabla</a>&nbsp;&nbsp;-&nbsp;&nbsp;install after Stratagems</em><br><br>
 
-Component blublu description.
+&#9755; Component blublu description.
 <div align="right"><a href="#componentslist">Back to components list</a></div>
 
 ## 
 
 <a name="30" id="30"></a>&#10173; **[30] Component bloblo**<br><br>
 
-Component bloblo description.
+&#9755; Component bloblo description.
 <div align="right"><a href="#componentslist">Back to components list</a></div>
 
 
 <hr>
 
 
-## <a name="images" id="images"></a>Screenshots
+## <a name="images" id="images"></a>Screenshots and videos
 
-#### Exemples basiques de fichiers images que l'on peut afficher (tirés du mod LCC-Readme).
+Exemples basiques de fichiers images que l'on peut afficher (tirés du mod BuTcHeRy).
 <img src="mymod/readme/images/baldr000.jpg">
 <img src="mymod/readme/images/baldr001.jpg"><br>
+
+&#9755;</span> <a href="https://drive.google.com/drive/folders/1EVZWZKG49dUambKGScVvDqwSrgi-S-To?usp=sharing">More screenshots</a>
+
+## 
+
+#### Videos
+
+<details><summary>DrAzTiK's revisited fight against Tazok and DigDag (BG2:EE)</summary>
+<div align="center">
+&nbsp;
+
+[![DrAzTiK's revisited fight against Tazok and DigDag video](butchery/readme/images/revisited_tazok.jpg)](https://www.youtube.com/watch?v=TVSPrh0ShmY "DrAzTiK's revisited fight against Tazok and DigDag (BG2:EE)")
+</div>
+</p>
+</details><br>
+
+<details><summary>Revisited fight against Wraith Sarevok in the Abyss (BG2:EE)</summary>
+<div align="center">
+&nbsp;
+
+[![Revisited fight against Wraith Sarevok in the Abyss video](butchery/readme/images/sarevok_necrophage.jpg)](https://www.youtube.com/watch?v=_mGCk_MEb4o "Revisited fight against Wraith Sarevok in the Abyss (BG2:EE)")
+</div>
+</details><br>
+
+<details><summary>Butchery of animals in Trademeet (BG2:EE)</summary>
+<div align="center">
+&nbsp;
+
+[![Butchery of animals in Trademeet video](butchery/readme/images/animaux.png)](https://www.youtube.com/watch?v=TrDc9rJQjdQ "Butchery of animals in Trademeet (BG2:EE)")
+</div>
+</p>
+</details><br>
+
+<details><summary>Revisited Yaga-Shura fight (BG2:EE)</summary>
+<div align="center">
+&nbsp;
+
+[![Revisited Yaga-Shura fight video](butchery/readme/images/yaga_shura_fight.jpg)](https://www.youtube.com/watch?v=rcpWwagKjkk "Revisited Yaga-Shura fight (BG2:EE)")
+</div>
+</p>
+</details><br>
+
+<details><summary>Kangaax fight (BG2:EE)</summary>
+<div align="center">
+&nbsp;
+
+[![Kangaax fight video](butchery/readme/images/kangaax.jpg)](https://www.youtube.com/watch?v=tJ7AACLLaeI "Kangaax fight (BG2:EE)")
+</div>
+</details><br>
+
+&#9755;</span> <a href="https://www.youtube.com/playlist?list=PL7q-07v2VkmHTjJdTlaHkA2EHpmSi6rf9">More videos</a>
+
 <div align="right"><a href="#top">Back to top</a></div>
 
 
@@ -311,7 +436,7 @@ Component bloblo description.
 
 ## 
 
-#### Author: <a href="https://www.baldursgateworld.fr/lacouronne/members/freddy_gwendo.html">Gwendolyne</a>
+**Author: <a href="https://www.baldursgateworld.fr/lacouronne/members/freddy_gwendo.html">Gwendolyne</a>**
 
 ## 
 
@@ -336,7 +461,7 @@ Component bloblo description.
 - <a href="https://github.com/WeiDUorg/weidu/releases"><acronym title="Weimer Dialogue Utility">WeiDU</acronym></a>, by Wes Weimer, Valerio Bigiani (the bigg) and Wisp.
 - <a href="https://github.com/Argent77/NearInfinity/releases">Near Infinity</a>, by Jon Olav Hauglid, FredSRichardson, and Argent77.
 - <a href="http://www.shsforums.net/topic/31285-infinity-explorer-v085/">Infinity Explorer</a>, by Dmitry Jemerov / bigmoshi.
-- <a href="http://www.gibberlings3.net/tools/dltcep.php"><acronym title="Dragonlance Total Conversion Editor Pro">DLTCEP</acronym></a>, by Avenger.
+- <a href="https://www.gibberlings3.net/mods/tools/dltcep/"><acronym title="Dragonlance Total Conversion Editor Pro">DLTCEP</acronym></a>, by Avenger.
 - <a href="http://www.baldursgatemods.com/forums/index.php?action=downloads;sa=view;down=85">CreMaker_v3.1.9</a>
 - <a href="https://gibberlings3.github.io/iesdp/"><acronym title="Infinity Engine Structures Description Project">IESDP</acronym></a>, maintained by igi and lynx.
 - <a href="https://www.gibberlings3.net/mods/tools/debug/">G3 Debugging Suite</a>, by CamDawg.

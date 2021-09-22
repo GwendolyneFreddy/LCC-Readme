@@ -29,7 +29,7 @@
 
 ## 
 
-:page_facing_up: [Consulter le lisez-moi du mod]](https://gwendolynefreddy.github.io/docs/lcc/mymod/readme/readme-lcc-fr.html)
+:page_facing_up: [Consulter le lisez-moi du mod](https://gwendolynefreddy.github.io/docs/lcc/mymod/readme/readme-lcc-fr.html)
 
 :inbox_tray: [Télécharger le mod sur le site de La Couronne de Cuivre]()<br>
 
@@ -80,8 +80,6 @@ Deux listes de codes de smileys et d'emoji utilisables par markdown :
 </p><br>
 </details>
 
-&nbsp;
-
 &#9755; **Note :** Si vous souhaitez utiliser des modèles de page plus complexes, veuillez consulter <a href="https://github.com/GwendolyneFreddy/Infinity-Animations">celle-ci</a> et <a href="https://github.com/SpellholdStudios/1pp">celle-là</a>.<br>
 <div align="right"><a href="#top">Retour en haut de page</a></div>
 
@@ -106,15 +104,14 @@ Ce mod est conçu pour fonctionner sur les jeux Infinity Engine suivants :
 
 #### Compatibilité avec les autres mods
 
-Mymod est un mod  WeiDU et devrait par conséquent être compatible avec n'importe quel mod WeiDU. [Choisir une formule parmi les suivantes : ]Bien qu'il ne soit pas requis pour faire correctement tourner MYMOD, il est toujours utile d'avoir installé la dernière version du <a href="https://www.gibberlings3.net/mods/fixes/bg2fixpack/">BG2 Fixpack</a>. Je vous recommande fortement d'installer la dernière version du <a href=https://www.gibberlings3.net/mods/fixes/bg2fixpack/">BG2 Fixpack</a> avant d'installer ce mod.
+Mymod est un mod  WeiDU et devrait par conséquent être compatible avec n'importe quel mod WeiDU. Bien que je m'efforce de rendre Mymod compatible avec le plus grand nombre possible de mods, des incompatibilités risquent toujours de se produire. Voici la liste de celles recensées jusqu'à présent :
 
-Bien que je m'efforce de rendre Mymod compatible avec le plus grand nombre possible de mods, des incompatibilités risquent toujours de se produire. Voici la liste de celles recensées jusqu'à présent :
 - mod 1
 - mod 2
 - ...
 
+[Choisir une formule parmi les suivantes :] Si vous rencontrez des bugs, veuillez contactez <a href="https://www.baldursgateworld.fr/lacouronne/Auteur.html">AUTEUR</a> ou bien poster dans les forums. Si vous rencontrez des bugs, veuillez les signaler dans le forum, s'il vous plaît.
 
-Si vous rencontrez des bugs, veuillez les signaler dans le forum, s'il vous plaît
 
 ## 
 
@@ -122,6 +119,7 @@ Si vous rencontrez des bugs, veuillez les signaler dans le forum, s'il vous plaî
 
 >Bien qu'il ne soit pas requis pour faire correctement tourner Mymod, je recommande fortement aux joueurs de BG2 et ToB classiques d'installer la dernière version du <a href="http://www.gibberlings3.net/bg2fixpack/">BG2 Fixpack</a> avant d'installer ce mod.<br>
 
+Voici l'ordre d'installation conseillé :
 - Veuillez installer Mymod avant le mod A.
 - Veuillez installer Mymod après le mod B.
 - ...
@@ -135,7 +133,7 @@ Si vous rencontrez des bugs, veuillez les signaler dans le forum, s'il vous plaî
 
 #### Mise en garde
 
-*Si une ancienne version de ce mod est déjà installée, il est nécessaire de la désinstaller d'abord. Pour cela, lancez __`setup-mymod.exe`__ (ou .command si vous êtes sous OS X) et désinstallez tous les composants précédemment installés. Une fois la désinstallation achevée, supprimez le répertoire :file_folder: __mymod__ et le fichier __setup-mymod.exe__ (version Windows) avant d'extraire la nouvelle version du mod.*
+*Si une ancienne version de ce mod est déjà installée, il est nécessaire de la désinstaller d'abord. Pour cela, lancez __`setup-mymod.exe`__ (ou .command si vous êtes sous Mac OS) et désinstallez tous les composants précédemment installés. Une fois la désinstallation achevée, supprimez le répertoire :file_folder: __mymod__ et le fichier __setup-mymod.exe__ (version Windows) avant d'extraire la nouvelle version du mod.*
 
 *Lorsque vous installez ou désinstallez, __ne fermez pas la fenêtre DOS__ en cliquant sur le bouton __X__ ! Au lieu de cela, appuyez sur la touche __Entrée__ lorsque l'invite de commandes vous le demande.*
 
@@ -183,7 +181,7 @@ Mymod pour Linux est diffusé dans la même archive compressée, mais sans l'instal
 
 Extrayez le contenu du mod dans le répertoire du jeu que vous voulez moder.
 
-Téléchargez la version la plus récente de WeiDU pour Linux sur <a href="https://github.com/WeiDUorg/weidu/releases">WeiDU.org</a> et copiez weidu, weinstall et tolower dans `/usr/local/bin` (créez-le s'il n'existe pas). Ouvrez ensuite un terminal et allez (**`cd`**) dans le répertoire d'installation de votre jeu, lancez **`/usr/local/bin/tolower`** et répondez « Y » aux deux questions. Vous pouvez éviter d'exécuter la seconde option (Linux.ini) si vous l'avez déjà lancée une fois dans le même dossier. Pour gagner du temps, l'archive est déjà passée en minuscules, aussi il n'est pas non plus nécessaire d'exécuter la première option (passer les noms de fichiers en minuscules) si vous n'avez extrait que ce mod depuis la dernière fois que vous avez passé les noms de fichiers en minuscules. Si vous avez un doute, il vaut mieux exécuter tolower et accepter les deux options.
+Téléchargez la version la plus récente de WeiDU pour Linux sur <a href="https://github.com/WeiDUorg/weidu/releases">WeiDU.org</a> et copiez weidu et weinstall dans `/usr/local/bin` (créez-le s'il n'existe pas). Ouvrez ensuite un terminal et allez (**`cd`**) dans le répertoire d'installation de votre jeu, lancez **`/usr/local/bin/tolower`** et répondez « Y » aux deux questions. Vous pouvez éviter d'exécuter la seconde option (Linux.ini) si vous l'avez déjà lancée une fois dans le même dossier. Pour gagner du temps, l'archive est déjà passée en minuscules, aussi il n'est pas non plus nécessaire d'exécuter la première option (passer les noms de fichiers en minuscules) si vous n'avez extrait que ce mod depuis la dernière fois que vous avez passé les noms de fichiers en minuscules. Si vous avez un doute, il vaut mieux exécuter tolower et accepter les deux options.
 
 Tapez la commande **`export PATH=$PATH:/usr/local/bin`**, puis lancez **`weinstall setup-mymod`** depuis le dossier de votre jeu pour installer le mod. Puis, lancez **`wine bgmain.exe`** (ou **`wine baldur.exe`** pour les versions EE) et commencez à jouer.
 
@@ -222,6 +220,79 @@ Voici le tableau des options concernées :<br>
 <hr>
 
 
+## <a name="details" id="details"></a>Details
+
+Exemple de section Détails tiré su mod <a href="http://spellholdstudios.net/ie/luxleys">The Lxley Family</a>, utile pour les mods NPC.
+
+Sebastian and Andrei can be found in the Bridge District of Athkatla.
+
+#### PNJs characteristics
+
+<table cellpadding=0 cellspacing=0 style="margin-top: 1%; margin-left: 80px">
+	<tr style= "line-height: 170%;">
+		<th>Portrait</th>
+		<th>Strength</th>
+		<th>Dexterity</th>
+		<th>Constitution</th>
+		<th>Intelligence</th>
+		<th>Wisdom</th>
+		<th>Charisma</th>
+	</tr>
+	<tr>
+		<td><img src="mymod/readme/images/fhsebm.png" title="Sebastian"></td>
+		<td><div align="center">10</div></td>
+		<td><div align="center">12</div></td>
+		<td><div align="center">15</div></td>
+		<td><div align="center">16</div></td>
+		<td><div align="center">15</div></td>
+		<td><div align="center">17</div></td>
+	</tr>
+	<tr>
+		<td colspan="7">
+		<strong>Biography:</strong><br>
+		It is fair to say that whenever you question Sebastian about himself he is maddeningly elusive. He is a playwright by trade - or so he says, though he is secretive about his work and claims that a great deal of what he writes would go over your head. He has a keen sense of frivolity and seems to take little in life with any seriousness. Nevertheless, on occasion it appears that there is something else going on with him, and it would be unwise to underestimate his intelligence.</td>
+	</tr>
+	<tr>
+		<td><img src="mymod/readme/images/fhandrem.png" title="Andrei"></td>
+		<td><div align="center">15</div></td>
+		<td><div align="center">17</div></td>
+		<td><div align="center">16</div></td>
+		<td><div align="center">12</div></td>
+		<td><div align="center">9</div></td>
+		<td><div align="center">11</div></td>
+	</tr>
+		<td colspan="7">
+		<strong>Biography:</strong><br>
+		Andrei smiles when you ask him about himself. Though he is willing to talk about his relatives and is forthright about his beliefs, he is politely evasive on some subjects. He is skilled in hand-to-hand combat, a skill he developed at a young age, and was trained by an older member of his family. Despite his combat expertise, Andrei has only just left the family estate and seems a little naive about certain aspects of everyday life that you, perhaps, take for granted. Nevertheless, he comes across as quietly confident and it is rare to see him stray from a path he has chosen.</td>
+	</tr>
+</table>
+
+## 
+
+#### Player-initiated dialogues
+
+You have the opportunity to initiate dialogue with Sebastian and Andrei if you click the *Talk* icon and click on their portraits or avatars. This option is available once they have had their first talk while in the party. Their reactions will depend on your behaviour during both scripted and player-initiated talks.
+
+&#10173; If you want to write your own NPC talking about or with Sebastian or Andrei, or commenting about their quest, you don't have to ask our permission. However, if you'd like to get in contact and get some ideas going, we're more than willing to put the work in.
+
+&nbsp;
+
+<ins>Notes on flirting with Andrei:</ins>
+
+You can choose the option "*flirt with*" irrespective of race or gender. If the number of flirts he has accepted gets high enough, he will start a dialogue with you commenting on your behaviour and you can decide whether to try to take things further or remain friends.
+
+<ins>Notes on flirting with Sebastian:</ins>
+
+You can choose "*flirt with*" irrespective of race or gender. If the number of flirts he has accepted gets high enough, your Bioware loved one will object. Under certain circumstances, you can choose to try to take your relationship with Sebastian further.
+
+With both, you can choose the option "*I'd like us to just be friends*" at any time, and "*flirt with*" will disappear from the response menu.
+
+<div align="right"><a href="#top">Back to top</a></div>
+
+
+<hr>
+
+
 ## <a name="components" id="components"></a>Composants
 
 Le programme d'installation comprend les composants suivants. Chacun possède un numéro distinct et pré-défini qui lui attribue une position déterminée (mot-clé *`DESIGNATED`* en langage WeiDU) ; ce qui permet aux autres composants et aux autres mods de le détecter et aux utilitaires d'installation automatique de préciser quels composants installer.
@@ -230,23 +301,23 @@ Le programme d'installation comprend les composants suivants. Chacun possède un 
 
 ## 
 
-#### [10] Composant blabla (composant principal)
+**[10] Composant blabla** *(composant principal)*
 
 Description du composant principal.
 
 ou bien
 
-&#10173; Description du composant principal.
+&#10173; Il s'agit du composant principal, nécessaire pour installer tous les autres composants.
 
 ## 
 
-#### [20] Composant blublu
+**[20] Composant blublu**
 
-Description du composant blublu.
+&#10173; Description du composant blublu.
 
 ## 
 
-#### [30] Composant bloblo
+**[30] Composant bloblo**
 
 Exemple de composant présentant des tableaux.
 
@@ -265,41 +336,97 @@ Exemple de composant présentant des tableaux.
 
 Le programme d'installation comprend les composants suivants. Chacun possède un numéro distinct et pré-défini qui lui attribue une position déterminée (mot-clé *`DESIGNATED`* en langage WeiDU) ; ce qui permet aux autres composants et aux autres mods de le détecter et aux utilitaires d'installation automatique de préciser quels composants installer.
 
-><span style="margin-left: 50px;"><a href="#10">[10] Composant blabla</a>&nbsp;&nbsp;&nbsp;*[composant principal]*</span><br>
+><span style="margin-left: 50px;"><a href="#10">[10] Composant blabla</a> <em>&nbsp;[composant principal]</em></span><br>
 ><span style="margin-left: 50px;"><a href="#20">[20] Composant blublu</a></span><br>
 ><span style="margin-left: 50px;"><a href="#50">[30] Composant bloblo</a></span><br>
 ><span style="margin-left: 50px;"><a href="#40">[40] ...</a></span><br>
 
 ------------------------
 
-<a name="10" id="10"></a>**[10] Composant blabla (composant principal)**<br><br>
+<a name="10" id="10"></a>&#10173; **[10] Composant blabla** *(composant principal)*
+###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em>Jeu original : Nécessite le patch v26498</em><br><br>
 
-Description du composant principal.
+&#9755; Description du composant principal.<br>
+&#9755; Il s'agit du composant principal, nécessaire pour installer tous les autres composants.
 <div align="right"><a href="#componentslist">Back to components list</a></div>
 
 ## 
 
-<a name="20" id="20"></a>**[20] Component blublu**<br><br>
+<a name="20" id="20"></a>&#10173; **[20] Component blublu**
+###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em>Composant pré-requis : <a href="#10">[10] Composant blabla</a>&nbsp;&nbsp;-&nbsp;&nbsp;à installer après Stratagems</em><br><br>
 
-Description du composant blublu.<br>
+&#9755; Description du composant blublu.<br>
 <div align="right"><a href="#componentslist">Back to components list</a></div>
 
 ## 
 
-<a name="30" id="30"></a>**[30] Component bloblo**<br><br>
+<a name="30" id="30"></a>&#10173; **[30] Component bloblo**<br><br>
 
-Description du composant bloblo.<br>
+&#9755; Description du composant bloblo.<br>
 <div align="right"><a href="#componentslist">Back to components list</a></div>
 
 
 <hr>
 
 
-## <a name="images" id="images"></a>Captures d'écran
+## <a name="images" id="images"></a>Captures d'écran et vidéos
 
-#### Exemples basiques de fichiers images que l'on peut afficher (tirés du mod LCC-Readme).
+#### Screenshots
+
+Exemples basiques de fichiers images que l'on peut afficher (tirés du mod BuTcHeRy).
 <img src="mymod/readme/images/baldr000.jpg">
 <img src="mymod/readme/images/baldr001.jpg"><br>
+
+&#9755; <a href="https://drive.google.com/drive/folders/1EVZWZKG49dUambKGScVvDqwSrgi-S-To?usp=sharing">Plus de captures d'écran</a>
+
+## 
+
+#### Vidéos
+
+<details><summary>Combat contre Tazok et DigDag révisé par DrAzTiK (BG2:EE)</summary>
+<div align="center">
+&nbsp;
+
+[![Vidéo du combat contre Tazok et DigDag révisé par DrAzTiK](butchery/readme/images/revisited_tazok.jpg)](https://www.youtube.com/watch?v=TVSPrh0ShmY "Combat contre Tazok et DigDag révisé par DrAzTiK (BG2:EE)")
+</div>
+</p>
+</details><br>
+
+<details><summary>Combat revisité de Sarevok nécrophage dans les Abysses (BG2:EE)</summary>
+<div align="center">
+&nbsp;
+
+[![Vidéo du Combat revisité de Sarevok nécrophage dans les Abysses](butchery/readme/images/sarevok_necrophage.jpg)](https://www.youtube.com/watch?v=_mGCk_MEb4o "Combat revisité de Sarevok nécrophage dans les Abysses (BG2:EE)")
+</div>
+</details><br>
+
+<details><summary>Boucherie d'animaux sauvages à Franc-Marché (BG2:EE)</summary>
+<div align="center">
+&nbsp;
+
+[![Vidéo de la Boucherie d'animaux sauvages à Franc-Marché](butchery/readme/images/animaux.png)](https://www.youtube.com/watch?v=TrDc9rJQjdQ "Boucherie d'animaux sauvages à Franc-Marché (BG2:EE)")
+</div>
+</p>
+</details><br>
+
+<details><summary>Boucherie de Yaga Shura améliorée (BG2:EE)</summary>
+<div align="center">
+&nbsp;
+
+[![Vidéo de la Boucherie de Yaga Shura améliorée](butchery/readme/images/yaga_shura_fight.jpg)](https://www.youtube.com/watch?v=rcpWwagKjkk "Boucherie de Yaga Shura améliorée (BG2:EE)")
+</div>
+</p>
+</details><br>
+
+<details><summary>Combat contre Kangaax (BG2:EE)</summary>
+<div align="center">
+&nbsp;
+
+[![Vidéo du combat contre Kangaax](butchery/readme/images/kangaax.jpg)](https://www.youtube.com/watch?v=tJ7AACLLaeI "Combat contre Kangaax (BG2:EE)")
+</div>
+</details><br>
+
+&#9755;</span> <a href="https://www.youtube.com/playlist?list=PL7q-07v2VkmHTjJdTlaHkA2EHpmSi6rf9">Plus de vidéos</a>
 <div align="right"><a href="#top">Retour en haut de page</a></div>
 
 
@@ -312,7 +439,7 @@ Description du composant bloblo.<br>
 
 ## 
 
-#### Auteur(e) : <a href="https://www.baldursgateworld.fr/lacouronne/members/auteur.html">Auteur</a>
+**Auteur(e) : <a href="https://www.baldursgateworld.fr/lacouronne/members/auteur.html">Auteur</a>
 
 ## 
 
@@ -334,10 +461,10 @@ Description du composant bloblo.<br>
 
 #### Logiciels et outils utilisés pour la réalisation de ce mod :
 
-- <a href="https://github.com/WeiDUorg/weidu/releases"><acronym title="Weimer Dialogue Utility">WeiDU</acronym></a> de Wes Weimer, the bigg et Wisp.
+- <a href="https://github.com/WeiDUorg/weidu/releases">WeiDU</a> de Wes Weimer, the bigg et Wisp.
 - <a href="https://github.com/Argent77/NearInfinity/releases">Near Infinity</a> de Jon Olav Hauglid, FredSRichardson et Argent77.
 - <a href="http://www.shsforums.net/topic/31285-infinity-explorer-v085/">Infinity Explorer</a> de Dmitry Jemerov / bigmoshi.
-- <a href="http://www.gibberlings3.net/tools/dltcep.php"><acronym title="Dragonlance Total Conversion Editor Pro">DLTCEP</acronym></a> de Avenger.
+- <a href="https://www.gibberlings3.net/mods/tools/dltcep/">DLTCEP</a> de Avenger.
 - <a href="http://www.baldursgatemods.com/forums/index.php?action=downloads;sa=view;down=85">CreMaker_v3.1.9</a>
 - <a href="https://gibberlings3.github.io/iesdp/"><acronym title="Infinity Engine Structures Description Project">IESDP</acronym></a> maintenu par igi et lynx.
 - <a href="https://www.gibberlings3.net/mods/tools/debug/">G3 Debugging Suite</a> de CamDawg.
@@ -390,6 +517,33 @@ Libre à vous de choisir la formule qui vous convient :
 >&#9755; Si vous hébergez votre mod sur GitHub, vous pouvez gagner du temps en publiant vos archives à l'aide cet <a href="https://github.com/InfinityTools/InfinityAutoPackager">utilitaire</a>. Ce dernier crée automatiquement des archives aux formats zip et <a href="https://github.com/ALIENQuake/ProjectInfinity/wiki/Specification-of-the-IEMOD-file-format">IEMod</a> lorsque vous publiez une nouvelle version. Son utilisation est un jeu d'enfant et la plupart des mods hébergés par Spellhold Studios l'utilisent. Pour de plus amples informations, veuillez consulter <a href="https://forums.beamdog.com/discussion/78364/infinity-auto-packager-automatically-generate-and-adds-mod-packages-to-release-when-you-publish-it">ce lien</a>.<br>
 
 &nbsp;
+
+#### Version 7.0.0 &nbsp;(22 septembre 2021)
+
+&#9755; <ins>Modifications générales (fichiers .html et .md) :</ins>
+  - Correction de typos.
+  - Ajout des sections Détails (pour les mods de PNJ) et FAQ.
+  - Ajout de la présentation de vidéos dans la section Images.
+  - Section Compatibilité : mise à jour du lien de téléchargement de EET (dépôt GitHub de G3).
+  - Sections Composants : ajout de la mention de pré-requis pour certains composants.
+
+&#9755; <ins>Fichiers .html :</ins>
+  - Ajout de nouveaux codes de smileys et de caractères spéciaux.
+  - Ajout des balises `acronym` et des info-bulles manquantes.
+  - Section Présentation :
+    - Ajout d'une nouvelle présentation du contenu du mod avec la classe "important".
+    - Ajout des highlighters de code WeiDU dans la classe "important_tuto".
+  - Section Compatibilité : ajout du mot-clé LabelType dans le fichier mymod.ini.
+  - Sections Composants : amélioration de la mise en forme (purement cosmétique).
+  - Section Dépannage : formatage plus lisible des résolutions de problème.
+
+&#9755; <ins>Fichiers readme.md :</ins>
+  - Ajout de Project Infinity dans le badge d'en-tête des plateformes.
+  - Ajout des badges d'en-tête des Jeux supportés par le mod.
+  - Ajout d'icônes pour lire le readme et télécharger le mod.
+  - Suppression des badges d'en-tête de statistiques sur le dépôt et sur son activité (redondant car présents dans le fichier *activity.md*.
+
+## 
 
 #### Version 6.0.0 &nbsp;(14 janvier 2021)
 
