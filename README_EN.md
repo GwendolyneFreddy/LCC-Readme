@@ -1,9 +1,24 @@
-![Latest Release](https://img.shields.io/github/v/release/gwendolynefreddy/lcc-readme?include_prereleases&color=gold)<a name="top" id="top">
-![Latest Release](https://img.shields.io/static/v1?label=version&message=v4.0.0&color=gold)
+
+![Latest Release](https://img.shields.io/github/v/release/gwendolynefreddy/lcc-readme?include_prereleases&color=gold)<a name="top" id="top"> </a>
 ![GitHub (Pre-)Release Date](https://img.shields.io/github/release-date-pre/GwendolyneFreddy/LCC-Readme?color=gold)
-![Platform](https://img.shields.io/static/v1?label=platform&message=windows%20%7C%20Mac%20%7C%20linux&color=informational)
+![Platform](https://img.shields.io/static/v1?label=platformes&message=windows%20%7C%20macOS%20%7C%20linux%20%7C%20Project%20Infinity&color=informational)
 ![Language](https://img.shields.io/static/v1?label=language&message=English%20%7C%20French&color=limegreen)
+
+![Supported games](https://img.shields.io/static/v1?label=supported%20games&message=BGII%3AToB%20%7C%20BGT%20%7C%20Tutu%20%7C%20BG%3AEE%20%7C%20SoD%20%7C%20BG2%3AEE%20%7C%20EET%20%7C%20IWD%20%7C%20IWD%3AEE&color=dodgerblue)
 <a href="README.md"><img align="right" src="mymod/readme/images/fr-flag-32.png" title="Readme français"></a>
+<hr>
+
+
+<div align="center"><h1>Mymod</h1>
+
+<h3>A <a href="https://www.baldursgateworld.fr">La Couronne de Cuivre</a> mod for Baldur's Gate II:ToB, Baldur's Gate Trilogy, BG2:EE and EET<h3>
+
+</div><br>
+
+
+**Author:** <a href="https://www.baldursgateworld.fr/lacouronne/Auteur.html">bibi</a>  
+**Mod Website and Forum:** <a href="https://www.baldursgateworld.fr/lacouronne/mymod/">Mymod</a>  
+
 
 ## 
 
@@ -26,29 +41,16 @@
 ![GitHub closed pull requests](https://img.shields.io/github/issues-pr-raw/GwendolyneFreddy/LCC-Readme?color=blue&style=plastic)
 
 
-<hr>
-
-
-<div align="center"><h1>Mymod</h1>
-
-<h3>A <a href="https://www.baldursgateworld.fr">La Couronne de Cuivre</a> mod for Baldur's Gate II:ToB, Baldur's Gate Trilogy, BG2:EE and EET<h3>
-
-</div><br>
-
-
-**Author:** <a href="https://www.baldursgateworld.fr/lacouronne/Auteur.html">bibi</a>  
-**Mod Website and Forum:** <a href="https://www.baldursgateworld.fr/lacouronne/mymod/">Mymod</a>  
-
 ## 
 
-[Read the mod's readme](https://gwendolynefreddy.github.io/docs/lcc/mymod/readme/readme-lcc-en.html)
+:page_facing_up:[Read the mod's readme](https://gwendolynefreddy.github.io/docs/lcc/mymod/readme/readme-lcc-en.html)
 
-[Download the mod at La Couronne de Cuivre]()<br>
+:inbox_tray: [Download the mod at La Couronne de Cuivre]()<br>
 
 ## 
 
 <div align="center">
-<a href="#intro">Overview</a> &#8226; <a href="#compat">Compatibility</a> &#8226; <a href="#installation">Installation</a> &#8226; <a href="#components">Components</a> &#8226; <a href="#images">Screenshots</a> &#8226; <a href="#credits">Credits and Acknowledgements</a> &#8226; <a href="#versions">Version History</a></br>
+<a href="#intro">Overview</a> &#8226; <a href="#compat">Compatibility</a> &#8226; <a href="#installation">Installation</a> &#8226; <a href="#components">Components</a> &#8226; <a href="#images">Screenshots</a> &#8226; <a href="#credits">Credits and Acknowledgements</a> &#8226; <a href="#versions">Version History</a><br>
 </div>
 
 
@@ -108,7 +110,7 @@ This mod is designed to work on the following Infinity Engine games:
 - The series of Enhanced Editions published by Beamdog, which at present includes Baldur's Gate: Enhanced Edition (BGEE), Baldur's Gate II: Enhanced Edition (BG2EE), Icewind Dale: Enhanced Edition (IWDEE), and Planescape: Torment: Enhanced Edition (PsTEE). The BGEE Siege of Dragonspear expansion (SoD) is supported as well. All of the Enhanced Edition games include the original expansion packs, e.g. IWDEE includes Heart of Winter and Trials of the Luremaster.
 - The original Baldur's Gate (BG), with or without the Tales of the Sword Coast (TotSC) expansion.
 - The original Baldur's Gate II (BG2, or just SoA), with or without the Throne of Bhaal (ToB) expansion. *Make sure you have Throne of Bhaal patched to version 26498. Check the ReadMe files related to your patch in your game folder and the <a href="http://www.bioware.com/games/throne_bhaal/support/patches/">BioWare</a> website if necessary.*
-- The conversion projects <a href="http://www.shsforums.net/forum/261-bgt-weidu/">Baldur's Gate Trilogy</a> (BGT), <a href="https://www.pocketplane.net/bg1tutu/">Baldur's Gate Tutu</a> (Tutu), Icewind Dale-in-Baldur's Gate II (IWD-in-BG2), and <a href="https://github.com/K4thos/EET/releases">Enhanced Edition Trilogy</a> (EET).
+- The conversion projects <a href="http://www.shsforums.net/forum/261-bgt-weidu/">Baldur's Gate Trilogy</a> (BGT), <a href="https://www.pocketplane.net/bg1tutu/">Baldur's Gate Tutu</a> (Tutu), Icewind Dale-in-Baldur's Gate II (IWD-in-BG2), and <a href="https://github.com/Gibberlings3/EET/releases">Enhanced Edition Trilogy</a> (EET).
 - The original Icewind Dale (IWD) with or without either of its expansions, Heart of Winter (HoW) and Trials of the Luremaster (TotLM).
 - Icewind Dale II (IWD2).
 - Planescape: Torment (PsT).
@@ -176,9 +178,9 @@ Run **`setup-mymod.exe`** in your game folder to reinstall, un-install or otherw
 
 ## 
 
-#### Mac OS X
+#### Mac OS
 
-Mymod for Mac OS X is distributed in the same compressed archive and includes a WeiDU installer.
+Mymod for Mac OS is distributed in the same compressed archive and includes a WeiDU installer.
 
 First, extract the files from the archive into your game directory. On successful extraction, there should be a :file_folder: mymod folder, setup-mymod and setup-mymod.command files in your game folder. To install, simply double-click **`setup-mymod.command`** and follow the instructions on screen.
 
@@ -214,7 +216,7 @@ If you want to define your own customized installation, you have to edit the **_
 
 Each line consists of a configuration option, then '=', then a number or an alphanumeric character string. The only thing you should edit is the number or the string.
 
-The installation process will read both .ini files and prioritize user's options values. If a value is not set or mismatched in mymod-config-user.ini, any installation failure will be prevented by reverting it back to its default value.</br>
+The installation process will read both .ini files and prioritize user's options values. If a value is not set or mismatched in mymod-config-user.ini, any installation failure will be prevented by reverting it back to its default value.<br>
 
 Here is a chart listing options related to the installation process:<br><br>
 
@@ -274,10 +276,10 @@ Exemple de composant présentant des tableaux.
 
 The installer includes the following components. The number of each is the component *`DESIGNATED`* number which gives it a fixed install position and allows automated installers to specify component choices.
 
-><span style="margin-left: 50px;"><a href="#10">[10] Component blabla</a>&nbsp;&nbsp;&nbsp;*[main component]*</span></br>
-><span style="margin-left: 50px;"><a href="#20">[20] Component blublu</a></span></br>
-><span style="margin-left: 50px;"><a href="#30">[30] Component bloblo</a></span></br>
-><span style="margin-left: 50px;"><a href="#40">[40] ...</a></span></br>
+><span style="margin-left: 50px;"><a href="#10">[10] Component blabla</a>&nbsp;&nbsp;&nbsp;*[main component]*</span><br>
+><span style="margin-left: 50px;"><a href="#20">[20] Component blublu</a></span><br>
+><span style="margin-left: 50px;"><a href="#30">[30] Component bloblo</a></span><br>
+><span style="margin-left: 50px;"><a href="#40">[40] ...</a></span><br>
 <div align="right"><a href="#top">Back to top</a></div>
 
 ------------------------
@@ -309,7 +311,7 @@ Component bloblo description.
 
 #### Exemples basiques de fichiers images que l'on peut afficher (tirés du mod BuTcHeRy).
 <img src="mymod/readme/images/baldr000.jpg">
-<img src="mymod/readme/images/baldr001.jpg"></br>
+<img src="mymod/readme/images/baldr001.jpg"><br>
 <div align="right"><a href="#top">Back to top</a></div>
 
 

@@ -1,11 +1,29 @@
-![Latest Release](https://img.shields.io/github/v/release/gwendolynefreddy/lcc-readme?include_prereleases&color=gold&label=version)<a name="top" id="top">
-![Latest Release](https://img.shields.io/static/v1?label=version&message=v4.0.0&color=gold)
+
+![Latest Release](https://img.shields.io/github/v/release/gwendolynefreddy/lcc-readme?include_prereleases&color=gold&label=version)<a name="top" id="top"> </a>
 ![GitHub (Pre-)Release Date](https://img.shields.io/github/release-date-pre/GwendolyneFreddy/LCC-Readme?color=gold&label=date)
-![Platform](https://img.shields.io/static/v1?label=platform&message=windows%20%7C%20Mac%20%7C%20linux&color=informational)
+![Platform](https://img.shields.io/static/v1?label=plateformes&message=windows%20%7C%20macOS%20%7C%20linux%20%7C%20Project%20Infinity&color=informational)
 ![Language](https://img.shields.io/static/v1?label=langues&message=Anglais%20%7C%20Fran%C3%A7ais&color=limegreen)
+
+![Supported games](https://img.shields.io/static/v1?label=jeux%20support%C3%A9s&message=BGII%3AToB%20%7C%20BGT%20%7C%20Tutu%20%7C%20BG%3AEE%20%7C%20SoD%20%7C%20BG2%3AEE%20%7C%20EET%20%7C%20IWD%20%7C%20IWD%3AEE&color=dodgerblue)
 <a href="README_EN.md"><img align="right" src="mymod/readme/images/uk-flag-32.png" title="English Readme"></a>
 
+
+<div align="center"><h1>Mymod</h1>
+
+<h3>Un mod développé sur <a href="https://www.baldursgateworld.fr">La Couronne de Cuivre</a> pour Baldur's Gate II: ToB, BGT, BG2:EE et EET<h3>
+
+</div><br>
+
+
+
 ## 
+
+[![Created Badge](https://badges.pufler.dev/created/GwendolyneFreddy/butchery?style=plastic&label=cr%C3%A9ation)](https://badges.pufler.dev)
+![GitHub repo size](https://img.shields.io/github/repo-size/GwendolyneFreddy/butchery?style=plastic&label=taille)
+[![Visits Badge](https://badges.pufler.dev/visits/GwendolyneFreddy/butchery?color=cyan&style=plastic&label=visites)](https://badges.pufler.dev) 
+![Maintenance](https://img.shields.io/static/v1?label=maintenu%20%3F&message=oui&color=greenlight&style=plastic)
+![GitHub contributors](https://img.shields.io/github/contributors/GwendolyneFreddy/butchery?color=blueviolet&label=contributeurs&style=plastic) [![Contributors Display](https://badges.pufler.dev/contributors/GwendolyneFreddy/butchery?size=30&padding=5&bots=true)](https://badges.pufler.dev)
+
 
 ###### Dépôt
 [![Created Badge](https://badges.pufler.dev/created/GwendolyneFreddy/LCC-Readme?style=plastic&label=cr%C3%A9ation)](https://badges.pufler.dev) ![GitHub repo size](https://img.shields.io/github/repo-size/GwendolyneFreddy/LCC-Readme?style=plastic&label=taille) [![Updated Badge](https://badges.pufler.dev/updated/GwendolyneFreddy/LCC-Readme?style=plastic&label=mise%20%C3%A0%20jour)](https://badges.pufler.dev) [![Visits Badge](https://badges.pufler.dev/visits/GwendolyneFreddy/LCC-Readme?color=cyan&style=plastic&label=visites)](https://badges.pufler.dev) ![GitHub release (latest by date)](https://img.shields.io/github/downloads/gwendolynefreddy/lcc-readme/latest/total?color=gold&label=t%C3%A9l%C3%A9chargements%20latest&style=plastic) ![GitHub all releases](https://img.shields.io/github/downloads/gwendolynefreddy/lcc-readme/total?label=sur%20un%20total%20de&color=yellow&style=plastic)
@@ -29,28 +47,19 @@
 
 
 <hr>
-
-
-<div align="center"><h1>Mymod</h1>
-
-<h3>Un mod développé sur <a href="https://www.baldursgateworld.fr">La Couronne de Cuivre</a> pour Baldur's Gate II: ToB, BGT, BG2:EE et EET<h3>
-
-</div><br>
-
-
 **Auteur(e) :** <a href="https://www.baldursgateworld.fr/lacouronne/Auteur.html">bibi</a>  
 **Forum du mod :** <a href="https://www.baldursgateworld.fr/lacouronne/mymod/">Mymod</a>  
 
 ## 
 
-[Consulter le lisez-moi du mod]](https://gwendolynefreddy.github.io/docs/lcc/mymod/readme/readme-lcc-fr.html)
+:page_facing_up: [Consulter le lisez-moi du mod]](https://gwendolynefreddy.github.io/docs/lcc/mymod/readme/readme-lcc-fr.html)
 
-[Télécharger le mod sur le site de La Couronne de Cuivre]()<br>
+:inbox_tray: [Télécharger le mod sur le site de La Couronne de Cuivre]()<br>
 
 ## 
 
 <div align="center">
-<a href="#intro">Présentation</a> &#8226; <a href="#compat">Compatibilité</a> &#8226; <a href="#installation">Installation</a> &#8226; <a href="#components">Composants</a> &#8226; <a href="#componentslist">Composants (présentation alternative</a> &#8226; <a href="#images">Captures d'écran</a> &#8226; <a href="#credits">Crédits et remerciements</a> &#8226; <a href="#versions">Historique des versions</a></br>
+<a href="#intro">Présentation</a> &#8226; <a href="#compat">Compatibilité</a> &#8226; <a href="#installation">Installation</a> &#8226; <a href="#components">Composants</a> &#8226; <a href="#componentslist">Composants (présentation alternative</a> &#8226; <a href="#images">Captures d'écran</a> &#8226; <a href="#credits">Crédits et remerciements</a> &#8226; <a href="#versions">Historique des versions</a><br>
 </div>
 
 
@@ -111,7 +120,7 @@ Ce mod est conçu pour fonctionner sur les jeux Infinity Engine suivants :
 - La série des Éditions Améliorées (Enhanced Editions) publiées par Beamdog, soient Baldur's Gate: Enhanced Edition (BGEE), Baldur's Gate II: Enhanced Edition (BG2EE), Icewind Dale: Enhanced Edition (IWDEE), Planescape: Torment: Enhanced Edition (PsTEE), ainsi que l'extension de BGEE, Siege of Dragonspear (SoD). Toutes les Éditions Améliorées comprennent leurs extensions originales (ainsi, IWDEE comprend Heart of Winter et Trials of the Luremaster).
 - Le jeu original Baldur's Gate (BG), avec ou sans son extension La légende de l'île perdue (Tales of the Sword Coast : TotSC).
 - Le jeu original Baldur's Gate II (Les Ombres d'Amn : BG2-SoA), avec ou sans son extension Trône de Bhaal (Throne of Bhaal : ToB). *Assurez-vous que l'extension Trône de Bhaal dispose bien du patch 26498. Vérifiez le numéro de cette version dans le fichier readme de votre répertoire de jeu, et consultez éventuellement <a href="http://www.bioware.com/games/throne_bhaal/support/patches/">le site de BioWare</a>.*
-- Les mods de conversion basés sur le moteur ToB : <a href="http://www.shsforums.net/forum/261-bgt-weidu/">Baldur's Gate Trilogy</a> (BGT), <a href="https://www.pocketplane.net/bg1tutu/">Baldur's Gate Tutu</a> (Tutu), Icewind Dale-in-Baldur's Gate II (IWD-in-BG2) et <a href="https://github.com/K4thos/EET/releases">Enhanced Edition Trilogy</a> (EET).
+- Les mods de conversion basés sur le moteur ToB : <a href="http://www.shsforums.net/forum/261-bgt-weidu/">Baldur's Gate Trilogy</a> (BGT), <a href="https://www.pocketplane.net/bg1tutu/">Baldur's Gate Tutu</a> (Tutu), Icewind Dale-in-Baldur's Gate II (IWD-in-BG2) et <a href="https://github.com/Gibberlings3/EET/releases">Enhanced Edition Trilogy</a> (EET).
 - Le jeu original Icewind Dale (IWD), avec ou sans ses extensions Heart of Winter (HoW) et Trials of the Luremaster (TotLM).
 - Icewind Dale II (IWD2).
 - Le jeu original Planescape: Torment (PsT).
@@ -159,7 +168,7 @@ Si vous rencontrez des bugs, veuillez les signaler dans le forum, s'il vous plaî
 
 #### Note spéciale pour Siege of Dragonspear fourni par Steam/GOG
 
-Good Old Games (GOG) et Steam fournissent le contenu de Siege of Dragonspear dans un format que WeiDU, l'outil utilisé pour installer ce mod, ne peut pas reconnaitre. Vous devez donc lancer le programme <a href="https://github.com/Argent77/A7-DlcMerger/releases/latest">DLC Merger</a> dans votre répertoire de SoD avant d'installer ce mod, ou tout autre mod utilisant WeiDU.</br>
+Good Old Games (GOG) et Steam fournissent le contenu de Siege of Dragonspear dans un format que WeiDU, l'outil utilisé pour installer ce mod, ne peut pas reconnaitre. Vous devez donc lancer le programme <a href="https://github.com/Argent77/A7-DlcMerger/releases/latest">DLC Merger</a> dans votre répertoire de SoD avant d'installer ce mod, ou tout autre mod utilisant WeiDU.<br>
 
 ## 
 
@@ -181,9 +190,9 @@ Vous pouvez lancer **`setup-mymod.exe`** dans votre répertoire de jeu pour réins
 
 ## 
 
-#### Mac OS X
+#### Mac OS
 
-Mymod pour Mac OS X est livré et installé avec WeiDU, et est diffusé dans la même archive compressée.
+Mymod pour Mac OS est livré et installé avec WeiDU, et est diffusé dans la même archive compressée.
 
 Extrayez le contenu de l'archive dans votre répertoire de jeu. Après une extraction réussie, ce dernier contiendra les fichiers setup-mymod, setup-mymod.command, et le répertoire :file_folder: mymod. Pour installer, il suffit de double-cliquer sur **`setup-mymod.command`** et de suivre les instructions affichées à l'écran.
 
@@ -205,7 +214,7 @@ Tapez la commande **`export PATH=$PATH:/usr/local/bin`**, puis lancez **`weinsta
 
 #### Note pour effectuer une désinstallation complète
 
-En plus des méthodes détaillées plus haut pour supprimer des composants, il est possible de désinstaller complètement le mod en tapant **`setup-mymod --uninstall`** dans une ligne de commandes, ce qui supprimera tous les composants sans devoir ingurgiter tous les messages.</br>
+En plus des méthodes détaillées plus haut pour supprimer des composants, il est possible de désinstaller complètement le mod en tapant **`setup-mymod --uninstall`** dans une ligne de commandes, ce qui supprimera tous les composants sans devoir ingurgiter tous les messages.<br>
 
 ## 
 
@@ -219,7 +228,7 @@ Si vous souhaitez choisir d'autres options d'installation, il vous suffit de mod
 
 Chaque ligne de ce fichier comprend une option de configuration, suivie de « = », puis d'un chiffre ou d'une chaîne de caractères. Tout ce que vous avez à faire, c'est modifier la valeur du chiffre ou de la chaîne.
 
-Le programme d'installation lira les valeurs des variables dans les deux fichiers .ini et donnera la priorité aux vôtres. Si le fichier mymod-config-user.ini contient une variable non conforme, ou si une variable est manquante, il la remplacera par sa valeur par défaut (celle correspondant à l'installation « *standard* »).</br>
+Le programme d'installation lira les valeurs des variables dans les deux fichiers .ini et donnera la priorité aux vôtres. Si le fichier mymod-config-user.ini contient une variable non conforme, ou si une variable est manquante, il la remplacera par sa valeur par défaut (celle correspondant à l'installation « *standard* »).<br>
 
 Voici le tableau des options concernées :<br>
 
@@ -279,10 +288,10 @@ Exemple de composant présentant des tableaux.
 
 Le programme d'installation comprend les composants suivants. Chacun possède un numéro distinct et pré-défini qui lui attribue une position déterminée (mot-clé *`DESIGNATED`* en langage WeiDU) ; ce qui permet aux autres composants et aux autres mods de le détecter et aux utilitaires d'installation automatique de préciser quels composants installer.
 
-><span style="margin-left: 50px;"><a href="#10">[10] Composant blabla</a>&nbsp;&nbsp;&nbsp;*[composant principal]*</span></br>
-><span style="margin-left: 50px;"><a href="#20">[20] Composant blublu</a></span></br>
-><span style="margin-left: 50px;"><a href="#50">[30] Composant bloblo</a></span></br>
-><span style="margin-left: 50px;"><a href="#40">[40] ...</a></span></br>
+><span style="margin-left: 50px;"><a href="#10">[10] Composant blabla</a>&nbsp;&nbsp;&nbsp;*[composant principal]*</span><br>
+><span style="margin-left: 50px;"><a href="#20">[20] Composant blublu</a></span><br>
+><span style="margin-left: 50px;"><a href="#50">[30] Composant bloblo</a></span><br>
+><span style="margin-left: 50px;"><a href="#40">[40] ...</a></span><br>
 
 ------------------------
 
@@ -295,14 +304,14 @@ Description du composant principal.
 
 <a name="20" id="20"></a>**[20] Component blublu**<br><br>
 
-Description du composant blublu.</br>
+Description du composant blublu.<br>
 <div align="right"><a href="#componentslist">Back to components list</a></div>
 
 ## 
 
 <a name="30" id="30"></a>**[30] Component bloblo**<br><br>
 
-Description du composant bloblo.</br>
+Description du composant bloblo.<br>
 <div align="right"><a href="#componentslist">Back to components list</a></div>
 
 
@@ -313,7 +322,7 @@ Description du composant bloblo.</br>
 
 #### Exemples basiques de fichiers images que l'on peut afficher (tirés du mod BuTcHeRy).
 <img src="mymod/readme/images/baldr000.jpg">
-<img src="mymod/readme/images/baldr001.jpg"></br>
+<img src="mymod/readme/images/baldr001.jpg"><br>
 <div align="right"><a href="#top">Retour en haut de page</a></div>
 
 
@@ -392,7 +401,7 @@ Libre à vous de choisir la formule qui vous convient :
 
 ###### La communauté de modding sur le moteur Infinity Engine a été très active depuis plus de quinze ans maintenant, et a produit des milliers d'heures de travail non rémunérées effectuées par des fans du jeu. Les moddeurs s'efforcent de publier le meilleur de leur travail, et les joueurs bénéficient des mods les plus performants et les mieux maintenus, à condition que nous travaillions tous dans le même sens.
 ###### Mais cette harmonie peut malheureusement être perturbée, principalement par deux comportements. Le premier, c'est de revendiquer le travail de quelqu'un d'autre. Le second consiste à héberger et à redistribuer un mod sans la permission de son(es) auteur(s).
-###### Soyez assez sympa avec vos collègues joueurs et moddeurs. Ne le faites pas.</br>
+###### Soyez assez sympa avec vos collègues joueurs et moddeurs. Ne le faites pas.<br>
 <div align="right"><a href="#top">Retour en haut de page</a></div>
 
 
