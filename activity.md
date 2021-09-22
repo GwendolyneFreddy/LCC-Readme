@@ -12,7 +12,7 @@
 ## 
 
 #### Dépôt
-[![Created Badge](https://badges.pufler.dev/created/GwendolyneFreddy/LCC-Readme?style=plastic&label=cr%C3%A9ation)](https://badges.pufler.dev) ![GitHub repo size](https://img.shields.io/github/repo-size/GwendolyneFreddy/LCC-Readme?style=plastic&label=taille) [![Updated Badge](https://badges.pufler.dev/updated/GwendolyneFreddy/LCC-Readme?style=plastic&label=mise%20%C3%A0%20jour)](https://badges.pufler.dev) [![Visits Badge](https://badges.pufler.dev/visits/GwendolyneFreddy/LCC-Readme?color=cyan&style=plastic&label=visites)](https://badges.pufler.dev) ![GitHub release (latest by date)](https://img.shields.io/github/downloads/gwendolynefreddy/lcc-readme/latest/total?color=gold&label=t%C3%A9l%C3%A9chargements%20latest&style=plastic) ![GitHub all releases](https://img.shields.io/github/downloads/gwendolynefreddy/lcc-readme/total?label=sur%20un%20total%20de&color=yellow&style=plastic)
+[![Created Badge](https://badges.pufler.dev/created/GwendolyneFreddy/LCC-Readme?style=plastic&label=cr%C3%A9ation)](https://badges.pufler.dev) ![GitHub repo size](https://img.shields.io/github/repo-size/GwendolyneFreddy/LCC-Readme?style=plastic&label=taille) [![Updated Badge](https://badges.pufler.dev/updated/GwendolyneFreddy/LCC-Readme?style=plastic&label=mise%20%C3%A0%20jour)](https://badges.pufler.dev) [![Visits Badge](https://badges.pufler.dev/visits/GwendolyneFreddy/LCC-Readme?color=cyan&style=plastic&label=visites)](https://badges.pufler.dev) ![GitHub release (latest by date)](https://img.shields.io/github/downloads/gwendolynefreddy/lcc-readme/latest/total?color=gold&label=t%C3%A9l%C3%A9chargements%20derni%C3%A8re%20version&style=plastic) ![GitHub all releases](https://img.shields.io/github/downloads/gwendolynefreddy/lcc-readme/total?label=sur%20un%20total%20de&color=yellow&style=plastic)
 
 ![GitHub contributors](https://img.shields.io/github/contributors/GwendolyneFreddy/LCC-Readme?color=blueviolet&label=contributeurs&style=plastic) [![Contributors Display](https://badges.pufler.dev/contributors/GwendolyneFreddy/LCC-Readme?size=30&padding=5&bots=true)](https://badges.pufler.dev)
 
@@ -48,4 +48,4 @@
 ![GitHub pull requests](https://img.shields.io/github/issues-pr/GwendolyneFreddy/LCC-Readme?style=plastic)
 ![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed/GwendolyneFreddy/LCC-Readme?color=blue&style=plastic)
 ![GitHub open pull requests](https://img.shields.io/github/issues-pr-raw/GwendolyneFreddy/LCC-Readme?style=plastic)
-![GitHub closed pull requests](https://img.shields.io/github/issues-pr-raw/GwendolyneFreddy/LCC-Readme?color=blue&style=plastic)
+![GitHub closed pull requests](https://img.shields.io/github/issues-pr-raw/GwendolyneFreddy/LCC-Readme?color=blue&label=closed&20pull%20requests&style=plastic)

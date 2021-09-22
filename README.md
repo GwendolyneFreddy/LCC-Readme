@@ -14,41 +14,18 @@
 
 </div><br>
 
-
+**Auteur(e) :** <a href="https://www.baldursgateworld.fr/lacouronne/Auteur.html">bibi</a>  
+**Forum du mod :** <a href="https://www.baldursgateworld.fr/lacouronne/mymod/">Mymod</a>  
 
 ## 
 
-[![Created Badge](https://badges.pufler.dev/created/GwendolyneFreddy/butchery?style=plastic&label=cr%C3%A9ation)](https://badges.pufler.dev)
-![GitHub repo size](https://img.shields.io/github/repo-size/GwendolyneFreddy/butchery?style=plastic&label=taille)
-[![Visits Badge](https://badges.pufler.dev/visits/GwendolyneFreddy/butchery?color=cyan&style=plastic&label=visites)](https://badges.pufler.dev) 
+[![Created Badge](https://badges.pufler.dev/created/GwendolyneFreddy/LCC-Readme?style=plastic&label=cr%C3%A9ation)](https://badges.pufler.dev)
+![GitHub repo size](https://img.shields.io/github/repo-size/GwendolyneFreddy/LCC-Readme?style=plastic&label=taille)
+[![Visits Badge](https://badges.pufler.dev/visits/GwendolyneFreddy/LCC-Readme?color=cyan&style=plastic&label=visites)](https://badges.pufler.dev) 
 ![Maintenance](https://img.shields.io/static/v1?label=maintenu%20%3F&message=oui&color=greenlight&style=plastic)
-![GitHub contributors](https://img.shields.io/github/contributors/GwendolyneFreddy/butchery?color=blueviolet&label=contributeurs&style=plastic) [![Contributors Display](https://badges.pufler.dev/contributors/GwendolyneFreddy/butchery?size=30&padding=5&bots=true)](https://badges.pufler.dev)
+![GitHub contributors](https://img.shields.io/github/contributors/GwendolyneFreddy/LCC-Readme?color=blueviolet&label=contributeurs&style=plastic) [![Contributors Display](https://badges.pufler.dev/contributors/GwendolyneFreddy/LCC-Readme?size=30&padding=5&bots=true)](https://badges.pufler.dev)
 
-
-###### Dépôt
-[![Created Badge](https://badges.pufler.dev/created/GwendolyneFreddy/LCC-Readme?style=plastic&label=cr%C3%A9ation)](https://badges.pufler.dev) ![GitHub repo size](https://img.shields.io/github/repo-size/GwendolyneFreddy/LCC-Readme?style=plastic&label=taille) [![Updated Badge](https://badges.pufler.dev/updated/GwendolyneFreddy/LCC-Readme?style=plastic&label=mise%20%C3%A0%20jour)](https://badges.pufler.dev) [![Visits Badge](https://badges.pufler.dev/visits/GwendolyneFreddy/LCC-Readme?color=cyan&style=plastic&label=visites)](https://badges.pufler.dev) ![GitHub release (latest by date)](https://img.shields.io/github/downloads/gwendolynefreddy/lcc-readme/latest/total?color=gold&label=t%C3%A9l%C3%A9chargements%20latest&style=plastic) ![GitHub all releases](https://img.shields.io/github/downloads/gwendolynefreddy/lcc-readme/total?label=sur%20un%20total%20de&color=yellow&style=plastic)
-![GitHub help wanted](https://img.shields.io/badge/%20-help--wanted-%23159818?style=plastic)
-![Maintenance](https://img.shields.io/static/v1?label=maintenu%20%3F&message=oui&color=greenlight&style=plastic)
-![Maintenance](https://img.shields.io/static/v1?label=maintenu%20%3F&message=non&color=red&style=plastic)
-![Maintenance](https://img.shields.io/static/v1?label=maintenance&message=non%20%21%20%28%C3%A0%20partir%20de%202020%29&color=red&style=plastic)
-![GitHub contributors](https://img.shields.io/github/contributors/GwendolyneFreddy/LCC-Readme?color=blueviolet&label=contributeurs&style=plastic)
-[![Contributors Display](https://badges.pufler.dev/contributors/GwendolyneFreddy/LCC-Readme?size=30&padding=5&bots=true)](https://badges.pufler.dev)
-
-###### Activité
-![GitHub contributors](https://img.shields.io/github/contributors/GwendolyneFreddy/LCC-Readme?color=blueviolet&label=contributeurs&style=plastic) [![Contributors Display](https://badges.pufler.dev/contributors/GwendolyneFreddy/LCC-Readme?size=30&padding=5&bots=true)](https://badges.pufler.dev) [![Commits Badge](https://badges.pufler.dev/commits/monthly/GwendolyneFreddy?style=plastic&label=commits%20du%20mois)](https://badges.pufler.dev) ![GitHub commits since latest release (by date including pre-releases)](https://img.shields.io/github/commits-since/GwendolyneFreddy/LCC-Readme/latest/master?include_prereleases&style=plastic) ![GitHub last commit](https://img.shields.io/github/last-commit/GwendolyneFreddy/LCC-Readme?color=cyan&style=plastic&label=dernier%20commit)
-![GitHub issues](https://img.shields.io/github/issues/GwendolyneFreddy/LCC-Readme?color=red&label=probl%C3%A8mes&style=plastic)
-![GitHub closed issues](https://img.shields.io/github/issues-closed/GwendolyneFreddy/LCC-Readme?color=blue&label=probl%C3%A8mes&style=plastic)
-![GitHub open issues](https://img.shields.io/github/issues-raw/GwendolyneFreddy/LCC-Readme?color=red&label=probl%C3%A8mes%20ouverts&style=plastic)
-![GitHub closed issues](https://img.shields.io/github/issues-closed-raw/GwendolyneFreddy/LCC-Readme?color=blue&label=probl%C3%A8mes%20ferm%C3%A9s&style=plastic)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/GwendolyneFreddy/LCC-Readme?style=plastic)
-![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed/GwendolyneFreddy/LCC-Readme?color=blue&style=plastic)
-![GitHub open pull requests](https://img.shields.io/github/issues-pr-raw/GwendolyneFreddy/LCC-Readme?label=pull%20requests%20ouvertes&style=plastic)
-![GitHub closed pull requests](https://img.shields.io/github/issues-pr-raw/GwendolyneFreddy/LCC-Readme?color=blue&label=pull%20requests%20ferm%C3%A9es&style=plastic)
-
-
-<hr>
-**Auteur(e) :** <a href="https://www.baldursgateworld.fr/lacouronne/Auteur.html">bibi</a>  
-**Forum du mod :** <a href="https://www.baldursgateworld.fr/lacouronne/mymod/">Mymod</a>  
+![GitHub release (latest by date)](https://img.shields.io/github/downloads/gwendolynefreddy/lcc-readme/latest/total?color=gold&label=t%C3%A9l%C3%A9chargements%20derni%C3%A8re%20version&style=plastic) ![GitHub all releases](https://img.shields.io/github/downloads/gwendolynefreddy/lcc-readme/total?label=sur%20un%20total%20de&color=yellow&style=plastic)
 
 ## 
 
@@ -73,7 +50,7 @@ Courte description du mod : Ce mod... ou L'objet de ce mod...
 
 Il s'agit d'un modèle de fichier readme pour GitHub destiné aux mods développés et/ou publiés sur la Couronne de Cuivre. Il est écrit en langage Markdown. Bien qu'il soit assez proche du langage HTML, certains formatages ne sont pas pris en compte par GitHub, comme l'affichage des couleurs.
 
-Pour chaque section, j'ai repris, chaque fois que c'était possible, des éléments de traduction déjà publiées (par les d'Oghms ou par bibi) afin de conserver un semblant d'homogénéité dans les termes employés. Il suffit alors de conserver celles dont on a besoin (liste des jeux compatibles, procédures d'installation selon la plateforme, liste des outils utilisés...) et, pour le reste, de remplacer MYMOD et Auteur par le nom du mod et de son auteur, de modifier les liens et de remplir les textes adéquats. Pour certaines sections, j'ai été le plus exhaustif possible : il vous suffit de choisir les paragraphes qui vous intéressent et de supprimer les autres. &#128521;
+Pour chaque section, j'ai repris, chaque fois que c'était possible, des éléments de traduction déjà publiées (par les d'Oghms ou par bibi) afin de conserver un semblant d'homogénéité dans les termes employés. Il suffit donc de conserver celles dont on a besoin (liste des jeux compatibles, procédures d'installation selon la plateforme, liste des outils utilisés...) et, pour le reste, de remplacer MYMOD et Auteur par le nom du mod et de son auteur, de modifier les liens et de remplir les textes adéquats. Pour certaines sections, j'ai été le plus exhaustif possible : il vous suffit de choisir les paragraphes qui vous intéressent et de supprimer les autres. &#128521;
 
 
 Malheureusement, le rendu d'un fichier .md n'est véritablement effectif que dans GitHub, ce qui ne vous permet pas de visualiser votre mise en page dans Notepad++. Il existe cependant plusieurs utilitaires vous permettant de les éditer et de visualiser partiellement vos modifications. Partiellement parce que certaines balises comme [br (break line)] apparaissent à l'écran MÊME si elles resteront invisibles dans GitHub. Personnellement, j'ai opté pour <a href="https://typora.io/">Typora</a>, mais il en existe d'autres.<br>
@@ -320,7 +297,7 @@ Description du composant bloblo.<br>
 
 ## <a name="images" id="images"></a>Captures d'écran
 
-#### Exemples basiques de fichiers images que l'on peut afficher (tirés du mod BuTcHeRy).
+#### Exemples basiques de fichiers images que l'on peut afficher (tirés du mod LCC-Readme).
 <img src="mymod/readme/images/baldr000.jpg">
 <img src="mymod/readme/images/baldr001.jpg"><br>
 <div align="right"><a href="#top">Retour en haut de page</a></div>

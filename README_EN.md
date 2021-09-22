@@ -15,31 +15,18 @@
 
 </div><br>
 
-
 **Author:** <a href="https://www.baldursgateworld.fr/lacouronne/Auteur.html">bibi</a>  
 **Mod Website and Forum:** <a href="https://www.baldursgateworld.fr/lacouronne/mymod/">Mymod</a>  
 
-
 ## 
 
-###### Repository
-[![Created Badge](https://badges.pufler.dev/created/GwendolyneFreddy/LCC-Readme?style=plastic)](https://badges.pufler.dev) ![GitHub repo size](https://img.shields.io/github/repo-size/GwendolyneFreddy/LCC-Readme?style=plastic) [![Updated Badge](https://badges.pufler.dev/updated/GwendolyneFreddy/LCC-Readme?style=plastic)](https://badges.pufler.dev) [![Visits Badge](https://badges.pufler.dev/visits/GwendolyneFreddy/LCC-Readme?color=cyan&style=plastic)](https://badges.pufler.dev) ![GitHub release (latest by date)](https://img.shields.io/github/downloads/gwendolynefreddy/lcc-readme/latest/total?color=gold&style=plastic) ![GitHub all releases](https://img.shields.io/github/downloads/gwendolynefreddy/lcc-readme/total?label=out%20of&color=yellow&style=plastic)
-![GitHub help wanted](https://img.shields.io/badge/%20-help--wanted-%23159818?style=plastic)
+[![Created Badge](https://badges.pufler.dev/created/GwendolyneFreddy/LCC-Readme?style=plastic)](https://badges.pufler.dev)
+![GitHub repo size](https://img.shields.io/github/repo-size/GwendolyneFreddy/LCC-Readme?style=plastic)
+[![Visits Badge](https://badges.pufler.dev/visits/GwendolyneFreddy/LCC-Readme?color=cyan&style=plastic)](https://badges.pufler.dev) 
 ![Maintenance](https://img.shields.io/static/v1?label=maintained%3F&message=yes&color=greenlight&style=plastic)
-![Maintenance](https://img.shields.io/static/v1?label=maintained%3F&message=no&color=red&style=plastic)
-![Maintenance](https://img.shields.io/static/v1?label=maintenance&message=no%20%21%20%28as%20of%202020%29&color=red&style=plastic)
+![GitHub contributors](https://img.shields.io/github/contributors/GwendolyneFreddy/LCC-Readme?color=blueviolet&style=plastic) [![Contributors Display](https://badges.pufler.dev/contributors/GwendolyneFreddy/LCC-Readme?size=30&padding=5&bots=true)](https://badges.pufler.dev)
 
-###### Activity
-![GitHub contributors](https://img.shields.io/github/contributors/GwendolyneFreddy/LCC-Readme?color=blueviolet&style=plastic) [![Contributors Display](https://badges.pufler.dev/contributors/GwendolyneFreddy/LCC-Readme?size=30&padding=5&bots=true)](https://badges.pufler.dev) [![Commits Badge](https://badges.pufler.dev/commits/monthly/GwendolyneFreddy?style=plastic)](https://badges.pufler.dev) ![GitHub commits since latest release (by date including pre-releases)](https://img.shields.io/github/commits-since/GwendolyneFreddy/LCC-Readme/latest/master?include_prereleases&style=plastic) ![GitHub last commit](https://img.shields.io/github/last-commit/GwendolyneFreddy/LCC-Readme?color=cyan&style=plastic) 
-![GitHub issues](https://img.shields.io/github/issues/GwendolyneFreddy/LCC-Readme?color=red&style=plastic)
-![GitHub closed issues](https://img.shields.io/github/issues-closed/GwendolyneFreddy/LCC-Readme?color=blue&style=plastic)
-![GitHub open issues](https://img.shields.io/github/issues-raw/GwendolyneFreddy/LCC-Readme?color=red&style=plastic)
-![GitHub closed issues](https://img.shields.io/github/issues-closed-raw/GwendolyneFreddy/LCC-Readme?color=blue&style=plastic)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/GwendolyneFreddy/LCC-Readme?style=plastic)
-![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed/GwendolyneFreddy/LCC-Readme?color=blue&style=plastic)
-![GitHub open pull requests](https://img.shields.io/github/issues-pr-raw/GwendolyneFreddy/LCC-Readme?style=plastic)
-![GitHub closed pull requests](https://img.shields.io/github/issues-pr-raw/GwendolyneFreddy/LCC-Readme?color=blue&style=plastic)
-
+![GitHub release (latest by date)](https://img.shields.io/github/downloads/gwendolynefreddy/lcc-readme/latest/total?color=gold&style=plastic) ![GitHub all releases](https://img.shields.io/github/downloads/gwendolynefreddy/lcc-readme/total?label=out%20of&color=yellow&style=plastic)
 
 ## 
 
@@ -50,7 +37,7 @@
 ## 
 
 <div align="center">
-<a href="#intro">Overview</a> &#8226; <a href="#compat">Compatibility</a> &#8226; <a href="#installation">Installation</a> &#8226; <a href="#components">Components</a> &#8226; <a href="#images">Screenshots</a> &#8226; <a href="#credits">Credits and Acknowledgements</a> &#8226; <a href="#versions">Version History</a><br>
+<a href="#intro">Overview</a> &#8226; <a href="#compat">Compatibility</a> &#8226; <a href="#installation">Installation</a> &#8226; <a href="#components">Components</a> &#8226; <a href="#componentslist">Components (présentation alternative</a> &#8226; <a href="#images">Screenshots</a> &#8226; <a href="#credits">Credits and Acknowledgements</a> &#8226; <a href="#versions">Version History</a><br>
 </div>
 
 
@@ -63,7 +50,7 @@ Courte description du mod : Ce mod... ou L'objet de ce mod...
 
 Il s'agit d'un modèle de fichier readme pour GitHub destiné aux mods développés et/ou publiés sur la Couronne de Cuivre. Il est écrit en langage Markdown. Bien qu'il soit assez proche du langage HTML, certains formatages ne sont pas pris en compte par GitHub, comme l'affichage des couleurs.
 
-Pour chaque section, j'ai repris, chaque fois que c'était possible, des éléments de traductions déjà publiées (par les d'Oghms ou par bibi) afin de conserver un semblant d'homogénéité dans les termes employés. Il suffit alors de conserver celles dont on a besoin (liste des jeux compatibles, procédures d'installation selon la plateforme, liste des outils utilisés...) et, pour le reste, de remplacer MYMOD et Auteur par le nom du mod et de son auteur, de modifier les liens et de remplir les textes adéquats. Pour certaines sections, j'ai été le plus exhaustif possible : il vous suffit de choisir les paragraphes qui vous intéressent et de supprimer les autres. &#128521;
+Pour chaque section, j'ai repris, chaque fois que c'était possible, des éléments de traductions déjà publiées (par les d'Oghms ou par bibi) afin de conserver un semblant d'homogénéité dans les termes employés. Il suffit donc de conserver celles dont on a besoin (liste des jeux compatibles, procédures d'installation selon la plateforme, liste des outils utilisés...) et, pour le reste, de remplacer MYMOD et Auteur par le nom du mod et de son auteur, de modifier les liens et de remplir les textes adéquats. Pour certaines sections, j'ai été le plus exhaustif possible : il vous suffit de choisir les paragraphes qui vous intéressent et de supprimer les autres. &#128521;
 
 
 Malheureusement, le rendu d'un fichier .md n'est véritablement effectif que dans GitHub, ce qui ne vous permet pas de visualiser votre mise en page dans Notepad++. Il existe cependant plusieurs utilitaires vous permettant de les éditer et de visualiser partiellement vos modifications. Partiellement parce que certaines balises comme [br (break line)] apparaissent à l'écran MÊME si elles resteront invisibles dans GitHub. Personnellement, j'ai opté pour <a href="https://typora.io/">Typora</a>, mais il en existe d'autres.<br>
@@ -309,7 +296,7 @@ Component bloblo description.
 
 ## <a name="images" id="images"></a>Screenshots
 
-#### Exemples basiques de fichiers images que l'on peut afficher (tirés du mod BuTcHeRy).
+#### Exemples basiques de fichiers images que l'on peut afficher (tirés du mod LCC-Readme).
 <img src="mymod/readme/images/baldr000.jpg">
 <img src="mymod/readme/images/baldr001.jpg"><br>
 <div align="right"><a href="#top">Back to top</a></div>
