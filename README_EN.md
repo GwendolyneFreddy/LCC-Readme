@@ -383,7 +383,7 @@ Exemples basiques de fichiers images que l'on peut afficher (tirés du mod BuTcHe
 <div align="center">
 &nbsp;
 
-[![DrAzTiK's revisited fight against Tazok and DigDag video](butchery/readme/images/revisited_tazok.jpg)](https://www.youtube.com/watch?v=TVSPrh0ShmY "DrAzTiK's revisited fight against Tazok and DigDag (BG2:EE)")
+[![DrAzTiK's revisited fight against Tazok and DigDag video](mymod/readme/images/revisited_tazok.jpg)](https://www.youtube.com/watch?v=TVSPrh0ShmY "DrAzTiK's revisited fight against Tazok and DigDag (BG2:EE)")
 </div>
 </p>
 </details><br>
@@ -392,7 +392,7 @@ Exemples basiques de fichiers images que l'on peut afficher (tirés du mod BuTcHe
 <div align="center">
 &nbsp;
 
-[![Revisited fight against Wraith Sarevok in the Abyss video](butchery/readme/images/sarevok_necrophage.jpg)](https://www.youtube.com/watch?v=_mGCk_MEb4o "Revisited fight against Wraith Sarevok in the Abyss (BG2:EE)")
+[![Revisited fight against Wraith Sarevok in the Abyss video](mymod/readme/images/sarevok_necrophage.jpg)](https://www.youtube.com/watch?v=_mGCk_MEb4o "Revisited fight against Wraith Sarevok in the Abyss (BG2:EE)")
 </div>
 </details><br>
 
@@ -400,7 +400,7 @@ Exemples basiques de fichiers images que l'on peut afficher (tirés du mod BuTcHe
 <div align="center">
 &nbsp;
 
-[![Butchery of animals in Trademeet video](butchery/readme/images/animaux.png)](https://www.youtube.com/watch?v=TrDc9rJQjdQ "Butchery of animals in Trademeet (BG2:EE)")
+[![Butchery of animals in Trademeet video](mymod/readme/images/animaux.png)](https://www.youtube.com/watch?v=TrDc9rJQjdQ "Butchery of animals in Trademeet (BG2:EE)")
 </div>
 </p>
 </details><br>
@@ -409,7 +409,7 @@ Exemples basiques de fichiers images que l'on peut afficher (tirés du mod BuTcHe
 <div align="center">
 &nbsp;
 
-[![Revisited Yaga-Shura fight video](butchery/readme/images/yaga_shura_fight.jpg)](https://www.youtube.com/watch?v=rcpWwagKjkk "Revisited Yaga-Shura fight (BG2:EE)")
+[![Revisited Yaga-Shura fight video](mymod/readme/images/yaga_shura_fight.jpg)](https://www.youtube.com/watch?v=rcpWwagKjkk "Revisited Yaga-Shura fight (BG2:EE)")
 </div>
 </p>
 </details><br>
@@ -418,7 +418,7 @@ Exemples basiques de fichiers images que l'on peut afficher (tirés du mod BuTcHe
 <div align="center">
 &nbsp;
 
-[![Kangaax fight video](butchery/readme/images/kangaax.jpg)](https://www.youtube.com/watch?v=tJ7AACLLaeI "Kangaax fight (BG2:EE)")
+[![Kangaax fight video](mymod/readme/images/kangaax.jpg)](https://www.youtube.com/watch?v=tJ7AACLLaeI "Kangaax fight (BG2:EE)")
 </div>
 </details><br>
 

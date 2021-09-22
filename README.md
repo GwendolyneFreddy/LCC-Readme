@@ -387,7 +387,7 @@ Exemples basiques de fichiers images que l'on peut afficher (tirés du mod BuTcHe
 <div align="center">
 &nbsp;
 
-[![Vidéo du combat contre Tazok et DigDag révisé par DrAzTiK](butchery/readme/images/revisited_tazok.jpg)](https://www.youtube.com/watch?v=TVSPrh0ShmY "Combat contre Tazok et DigDag révisé par DrAzTiK (BG2:EE)")
+[![Vidéo du combat contre Tazok et DigDag révisé par DrAzTiK](mymod/readme/images/revisited_tazok.jpg)](https://www.youtube.com/watch?v=TVSPrh0ShmY "Combat contre Tazok et DigDag révisé par DrAzTiK (BG2:EE)")
 </div>
 </p>
 </details><br>
@@ -396,7 +396,7 @@ Exemples basiques de fichiers images que l'on peut afficher (tirés du mod BuTcHe
 <div align="center">
 &nbsp;
 
-[![Vidéo du Combat revisité de Sarevok nécrophage dans les Abysses](butchery/readme/images/sarevok_necrophage.jpg)](https://www.youtube.com/watch?v=_mGCk_MEb4o "Combat revisité de Sarevok nécrophage dans les Abysses (BG2:EE)")
+[![Vidéo du Combat revisité de Sarevok nécrophage dans les Abysses](mymod/readme/images/sarevok_necrophage.jpg)](https://www.youtube.com/watch?v=_mGCk_MEb4o "Combat revisité de Sarevok nécrophage dans les Abysses (BG2:EE)")
 </div>
 </details><br>
 
@@ -404,7 +404,7 @@ Exemples basiques de fichiers images que l'on peut afficher (tirés du mod BuTcHe
 <div align="center">
 &nbsp;
 
-[![Vidéo de la Boucherie d'animaux sauvages à Franc-Marché](butchery/readme/images/animaux.png)](https://www.youtube.com/watch?v=TrDc9rJQjdQ "Boucherie d'animaux sauvages à Franc-Marché (BG2:EE)")
+[![Vidéo de la Boucherie d'animaux sauvages à Franc-Marché](mymod/readme/images/animaux.png)](https://www.youtube.com/watch?v=TrDc9rJQjdQ "Boucherie d'animaux sauvages à Franc-Marché (BG2:EE)")
 </div>
 </p>
 </details><br>
@@ -413,7 +413,7 @@ Exemples basiques de fichiers images que l'on peut afficher (tirés du mod BuTcHe
 <div align="center">
 &nbsp;
 
-[![Vidéo de la Boucherie de Yaga Shura améliorée](butchery/readme/images/yaga_shura_fight.jpg)](https://www.youtube.com/watch?v=rcpWwagKjkk "Boucherie de Yaga Shura améliorée (BG2:EE)")
+[![Vidéo de la Boucherie de Yaga Shura améliorée](mymod/readme/images/yaga_shura_fight.jpg)](https://www.youtube.com/watch?v=rcpWwagKjkk "Boucherie de Yaga Shura améliorée (BG2:EE)")
 </div>
 </p>
 </details><br>
@@ -422,7 +422,7 @@ Exemples basiques de fichiers images que l'on peut afficher (tirés du mod BuTcHe
 <div align="center">
 &nbsp;
 
-[![Vidéo du combat contre Kangaax](butchery/readme/images/kangaax.jpg)](https://www.youtube.com/watch?v=tJ7AACLLaeI "Combat contre Kangaax (BG2:EE)")
+[![Vidéo du combat contre Kangaax](mymod/readme/images/kangaax.jpg)](https://www.youtube.com/watch?v=tJ7AACLLaeI "Combat contre Kangaax (BG2:EE)")
 </div>
 </details><br>
 
