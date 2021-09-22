@@ -439,7 +439,7 @@ Exemples basiques de fichiers images que l'on peut afficher (tirés du mod BuTcHe
 
 ## 
 
-**Auteur(e) : <a href="https://www.baldursgateworld.fr/lacouronne/members/auteur.html">Auteur</a>
+**Auteur(e)** : <a href="https://www.baldursgateworld.fr/lacouronne/members/auteur.html">Auteur</a>
 
 ## 
 

@@ -436,7 +436,7 @@ Exemples basiques de fichiers images que l'on peut afficher (tirés du mod BuTcHe
 
 ## 
 
-**Author: <a href="https://www.baldursgateworld.fr/lacouronne/members/freddy_gwendo.html">Gwendolyne</a>**
+**Author:** <a href="https://www.baldursgateworld.fr/lacouronne/members/freddy_gwendo.html">Gwendolyne</a>
 
 ## 
 
