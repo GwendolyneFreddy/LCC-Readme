@@ -36,7 +36,7 @@
 ## 
 
 <div align="center">
-<a href="#intro">Présentation</a> &#8226; <a href="#compat">Compatibilité</a> &#8226; <a href="#installation">Installation</a> &#8226; <a href="#components">Composants</a> &#8226; <a href="#componentslist">Composants (présentation alternative</a> &#8226; <a href="#images">Captures d'écran</a> &#8226; <a href="#credits">Crédits et remerciements</a> &#8226; <a href="#versions">Historique des versions</a><br>
+<a href="#intro">Présentation</a> &#8226; <a href="#compat">Compatibilité</a> &#8226; <a href="#installation">Installation</a> &#8226; &#8226; <a href="#details">Contenu du mod</a> <a href="#components">Composants</a> &#8226; <a href="#componentslist">Composants (présentation alternative</a> &#8226; <a href="#images">Captures d'écran</a> &#8226; <a href="#credits">Crédits et remerciements</a> &#8226; <a href="#versions">Historique des versions</a><br>
 </div>
 
 
@@ -220,7 +220,7 @@ Voici le tableau des options concernées :<br>
 <hr>
 
 
-## <a name="details" id="details"></a>Details
+## <a name="details" id="details"></a>Contenu du mod
 
 Exemple de section Détails tiré su mod <a href="http://spellholdstudios.net/ie/luxleys">The Lxley Family</a>, utile pour les mods NPC.
 
@@ -287,7 +287,7 @@ You can choose "*flirt with*" irrespective of race or gender. If the number of f
 
 With both, you can choose the option "*I'd like us to just be friends*" at any time, and "*flirt with*" will disappear from the response menu.
 
-<div align="right"><a href="#top">Back to top</a></div>
+<div align="right"><a href="#top">Retour en haut de page</a></div>
 
 
 <hr>
@@ -517,6 +517,13 @@ Libre à vous de choisir la formule qui vous convient :
 >&#9755; Si vous hébergez votre mod sur GitHub, vous pouvez gagner du temps en publiant vos archives à l'aide cet <a href="https://github.com/InfinityTools/InfinityAutoPackager">utilitaire</a>. Ce dernier crée automatiquement des archives aux formats zip et <a href="https://github.com/ALIENQuake/ProjectInfinity/wiki/Specification-of-the-IEMOD-file-format">IEMod</a> lorsque vous publiez une nouvelle version. Son utilisation est un jeu d'enfant et la plupart des mods hébergés par Spellhold Studios l'utilisent. Pour de plus amples informations, veuillez consulter <a href="https://forums.beamdog.com/discussion/78364/infinity-auto-packager-automatically-generate-and-adds-mod-packages-to-release-when-you-publish-it">ce lien</a>.<br>
 
 &nbsp;
+
+#### Version 7.0.1 &nbsp;(23 septembre 2021)
+
+&#9755; <ins>Modifications générales (fichiers .html et .md) :</ins>
+  - jout de l'onglet manquant "Contenu du mod / Mod Detail" dans le menu.
+
+## 
 
 #### Version 7.0.0 &nbsp;(22 septembre 2021)
 

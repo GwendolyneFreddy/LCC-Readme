@@ -37,7 +37,7 @@
 ## 
 
 <div align="center">
-<a href="#intro">Overview</a> &#8226; <a href="#compat">Compatibility</a> &#8226; <a href="#installation">Installation</a> &#8226; <a href="#components">Components</a> &#8226; <a href="#componentslist">Components (présentation alternative</a> &#8226; <a href="#images">Screenshots</a> &#8226; <a href="#credits">Credits and Acknowledgements</a> &#8226; <a href="#versions">Version History</a><br>
+<a href="#intro">Overview</a> &#8226; <a href="#compat">Compatibility</a> &#8226; <a href="#installation">Installation</a> &#8226; <a href="#details">Mod Details</a> &#8226; <a href="#components">Components</a> &#8226; <a href="#componentslist">Components (présentation alternative</a> &#8226; <a href="#images">Screenshots</a> &#8226; <a href="#credits">Credits and Acknowledgements</a> &#8226; <a href="#versions">Version History</a><br>
 </div>
 
 
@@ -217,7 +217,7 @@ Here is a chart listing options related to the installation process:<br><br>
 <hr>
 
 
-## <a name="details" id="details"></a>Details
+## <a name="details" id="details"></a>Mod Details
 
 Exemple de section Détails tiré su mod <a href="http://spellholdstudios.net/ie/luxleys">The Lxley Family</a>, utile pour les mods NPC.
 
